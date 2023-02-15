@@ -6,6 +6,9 @@ A <mark class="hltr-cyan">low mass, evolved star</mark>, hot enough to produce H
 - $\log g$ = 5.5 − 6
 - $L$ = 20 − 100 $L_\odot$
 
+**Example**s:
+- [[Catalogs#Henry Draper catalogue|HD]] 128220
+
 ## Blue Straggler
 
 
