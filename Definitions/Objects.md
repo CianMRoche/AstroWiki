@@ -1,24 +1,8 @@
-## Subdwarf O star
-A <mark class="hltr-cyan">low mass, evolved star</mark>, hot enough to produce HeII lines
+## Perseus cluster
+A [[Object Types#Galaxy cluster|galaxy cluster]] in the Perseus constellation. Also known as [[Catalogs#Abell catalogue|Abell]] 246. Populated by ~thousands of galaxies
 
-**Typical parameter**s: 
-- $T_{eff}$ = 37000 − 55000 K
-- $\log g$ = 5.5 − 6
-- $L$ = 20 − 100 $L_\odot$
-
-**Examples**:
-- [[Catalogs#Henry Draper catalogue|HD]] 128220
-
-## Blue Straggler
-
-
-## Quasar
-A highly luminous [[#AGN]] 
-
-
-## AGN
-A compact region in a galactic center with high luminosity not produced by stars. This luminosity is theorized to arise from accretion onto a supermassive [[#Black Hole|black hole]] at the center of the galaxy.
-
-
-## Black Hole
-A region of spacetime where gravity is so strong that nothing, including light or other electromagnetic waves, has enough energy to escape its event horizon
+**Parameters**:
+- Recession speed: ~5000 $\mathrm{km}\,\mathrm{s}^{-1}$ 
+- Size: $15'$ $\simeq$ $300$ kpc (relatively small?)
+- Distance: 74 Mpc 
+- Redshift: 0.018
