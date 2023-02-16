@@ -3,4 +3,4 @@ A stellar <mark class="hltr-yellow">spectroscopic</mark> catalogue published 191
 
 **Size**: 225,300 objects, Extensions published afterwards yield ~360,000 objects total
 **Coverage**: Whole-sky
-**Depth**: Apparent [[Magnitudes#Photographic magnitude|photographic magnitude]] of ~9
+**Depth**: Apparent [[Light#Photographic magnitude|photographic magnitude]] of ~9
