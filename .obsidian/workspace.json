@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Solar System.md",
+                "file": "Lightning round.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Solar System.md",
+                "file": "Lightning round.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Solar System.md",
+                "file": "Lightning round.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Solar System.md"
+                "file": "Lightning round.md"
               }
             }
           }
@@ -197,13 +197,13 @@
   },
   "active": "6bfaf954bf005492",
   "lastOpenFiles": [
+    "The Solar System.md",
     "Definitions/Instrumentation.md",
     "Lightning round.md",
     "README.md",
     "Definitions/Light.md",
     "Definitions/Objects.md",
     "Definitions/Catalogs.md",
-    "The Solar System.md",
     "Untitled.canvas",
     "Definitions.md"
   ]

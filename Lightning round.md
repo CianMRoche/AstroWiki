@@ -7,5 +7,5 @@
 
 
 # Bonus
-#### Why is a void spherical?
+#### Why is a void <mark class="hltr-pink">spherical</mark>?
 - It isnt
