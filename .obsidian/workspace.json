@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0993edd0f8c76343",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Definitions/Objects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions/Objects.md",
+                "file": "Definitions/Object Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Definitions/Objects.md",
+                "file": "Definitions/Object Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Definitions/Objects.md"
+                "file": "Definitions/Object Types.md"
               }
             }
           }
@@ -159,12 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0993edd0f8c76343",
+  "active": "15e7539a4c89ac3f",
   "lastOpenFiles": [
     "Lightning round.md",
-    "The Solar System.md",
     "Definitions/Object Types.md",
     "Definitions/Objects.md",
+    "The Solar System.md",
     "Definitions/Units.md",
     "Definitions/Light.md",
     "Definitions/Instrumentation.md",
