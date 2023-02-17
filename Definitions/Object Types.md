@@ -69,10 +69,15 @@ A region of spacetime where gravity is so strong that nothing, including li
 	**Advantages**: does not depend on host galaxy's luminosity or redshift
 	**Disadvantages**: Must have quasar behind
   
-2. "Down the barrell spectroscopy" Observing the host galaxy's spectrum through the CGM 
+2. "Down the barrel spectroscopy" Observing the host galaxy's spectrum through the CGM 
 	**Advantages**: Probes innermost radii 
 	**Disadvantages**: depends on galaxy's flux though, lose radial position information
 
 3. Spectroscopic cube around the host galaxy 
 	**Advantages**: great spatial info
 	**Disadvantages**: highly eroded by redshift, and requires dense, hot gas
+
+
+## Planetary Nebula
+An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\odot \lesssim M \lesssim 8 M_\odot$) star as the outer envelope expands away after the AGB phase
+- envelope lost from strong stellar winds in AGB phase
