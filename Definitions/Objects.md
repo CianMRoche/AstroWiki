@@ -3,6 +3,10 @@ A [[Object Types#Galaxy cluster|galaxy cluster]] in the Perseus constellation. A
 
 **Parameters**:
 - Recession speed: ~5000 $\mathrm{km}\,\mathrm{s}^{-1}$ 
-- Size: $15'$ $\simeq$ $300$ kpc (relatively small?)
+- Size: $15'$ $\simeq$ $300$ kpc (relatively small? Mike: probably just the size of the core)
 - Distance: 74 Mpc 
 - Redshift: 0.018
+
+
+## Bullet Cluster
+merging clusetr?

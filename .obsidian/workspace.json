@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Definitions/Spectra.md",
+                "file": "Definitions/Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions/Spectra.md",
+                "file": "Definitions/Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Definitions/Spectra.md",
+                "file": "Definitions/Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Definitions/Spectra.md"
+                "file": "Definitions/Objects.md"
               }
             }
           }
@@ -172,15 +172,15 @@
   },
   "active": "15e7539a4c89ac3f",
   "lastOpenFiles": [
+    "Definitions/Observatories.md",
+    "Definitions/Spectra.md",
     "Questions to ask.md",
     "Images/PCygniLineProfile.png",
-    "Definitions/Spectra.md",
     "Definitions/Magnitudes.md",
     "Definitions/Instrumentation.md",
     "Definitions/Object Types.md",
     "Definitions/Units.md",
     "Definitions/Catalogs.md",
-    "Definitions/Objects.md",
-    "Definitions/Observatories.md"
+    "Definitions/Objects.md"
   ]
 }
