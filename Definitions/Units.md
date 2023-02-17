@@ -11,3 +11,14 @@ $4'$ = 4 arcmin
 ## Arcsecond
 Unit of <mark class="hltr-pink">angle</mark>: 1/60 of an arcminute, $1/3600$ of a degree
 $12''$ = 12 arcsec
+
+
+## Proper distance
+<mark class="hltr-blue">Distance</mark> between objects including expansion of universe; changes in time, in contrast to [[#Comoving distance]].
+
+**Examples**:
+- pkpc = proper kiloparsec
+- ply = proper light year
+
+## Comoving distance
+<mark class="hltr-blue">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow

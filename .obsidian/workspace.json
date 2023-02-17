@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Definitions/Magnitudes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08a494a47238a963",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Definitions/Object Types.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e377891586b177f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definitions/Instrumentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43d9a5b5aa8fd499",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definitions/Object Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4123a22f59ad7423",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions to ask.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions/Object Types.md",
+                "file": "Questions to ask.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Definitions/Object Types.md",
+                "file": "Questions to ask.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Definitions/Object Types.md"
+                "file": "Questions to ask.md"
               }
             }
           }
@@ -146,17 +195,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15e7539a4c89ac3f",
+  "active": "4123a22f59ad7423",
   "lastOpenFiles": [
-    "Lightning round.md",
     "Definitions/Object Types.md",
-    "Definitions/Objects.md",
-    "The Solar System.md",
-    "Definitions/Units.md",
-    "Definitions/Light.md",
+    "Lightning round.md",
+    "Definitions/Observatories.md",
     "Definitions/Instrumentation.md",
     "Definitions/Catalogs.md",
-    "Definitions/Constellations.md",
-    "README.md"
+    "Definitions/Units.md",
+    "Definitions/Processes.md",
+    "Definitions/Spectra.md",
+    "Definitions/Magnitudes.md",
+    "Definitions/Objects.md"
   ]
 }

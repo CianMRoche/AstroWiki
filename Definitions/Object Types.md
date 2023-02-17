@@ -16,6 +16,7 @@ A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousa
 - Noma cluster
 - Pheonix cluster
 - Bullet cluster
+- [[Objects#Perseus cluster|Perseus cluster]]
 
 
 ## Galaxy group
@@ -46,7 +47,11 @@ Michael told me to look this one up. Havent done that yet.
 
 
 ## Quasar
-A highly luminous [[#AGN]] 
+A highly luminous [[#AGN]]. AKA "QSO" (quasi-stellar object)
+
+
+## Blazar
+A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight
 
 
 ## AGN
@@ -56,3 +61,18 @@ A compact region in a galactic center with high luminosity not produced by stars
 ## Black hole
 A region of spacetime where gravity is so strong that nothing, including light or other electromagnetic waves, has enough energy to escape its event horizon
 
+
+## CGM
+"Circumgalactic medium". 
+**Observation strategies**:
+1. Observing a [[#Quasar|quasar]] behind the CGM and analysing the CGM's impact on the spectrum of the quasar.
+	**Advantages**: does not depend on host galaxy's luminosity or redshift
+	**Disadvantages**: Must have quasar behind
+  
+2. "Down the barrell spectroscopy" Observing the host galaxy's spectrum through the CGM 
+	**Advantages**: Probes innermost radii 
+	**Disadvantages**: depends on galaxy's flux though, lose radial position information
+
+3. Spectroscopic cube around the host galaxy 
+	**Advantages**: great spatial info
+	**Disadvantages**: highly eroded by redshift, and requires dense, hot gas
