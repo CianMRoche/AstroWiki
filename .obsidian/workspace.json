@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions to ask.md",
+                "file": "Definitions/Observatories.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Questions to ask.md",
+                "file": "Definitions/Observatories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Questions to ask.md",
+                "file": "Definitions/Observatories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Questions to ask.md"
+                "file": "Definitions/Observatories.md"
               }
             }
           }
@@ -197,15 +197,15 @@
   },
   "active": "4123a22f59ad7423",
   "lastOpenFiles": [
-    "Definitions/Object Types.md",
-    "Lightning round.md",
-    "Definitions/Observatories.md",
     "Definitions/Instrumentation.md",
-    "Definitions/Catalogs.md",
-    "Definitions/Units.md",
-    "Definitions/Processes.md",
+    "The Solar System.md",
+    "Lightning round.md",
+    "Questions to ask.md",
+    "Definitions/Object Types.md",
     "Definitions/Spectra.md",
-    "Definitions/Magnitudes.md",
-    "Definitions/Objects.md"
+    "Definitions/Observatories.md",
+    "Definitions/Objects.md",
+    "Definitions/Catalogs.md",
+    "Definitions/Units.md"
   ]
 }

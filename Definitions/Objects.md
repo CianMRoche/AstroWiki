@@ -1,5 +1,5 @@
 ## Perseus cluster
-A [[Object Types#Galaxy cluster|galaxy cluster]] in the Perseus constellation. Also known as [[Catalogs#Abell catalogue|Abell]] 246. Populated by ~thousands of galaxies
+A [[Object Types#Galaxy cluster|galaxy cluster]] in the Perseus constellation. Also known as [[Catalogs#Abell|Abell]] 246. Populated by ~thousands of galaxies. Brightest X-ray cluster
 
 **Parameters**:
 - Recession speed: ~5000 $\mathrm{km}\,\mathrm{s}^{-1}$ 
