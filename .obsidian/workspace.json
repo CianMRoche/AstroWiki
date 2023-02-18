@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Definitions/Magnitudes.md",
+                "file": "Definitions/Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +194,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4123a22f59ad7423",
+  "active": "15e7539a4c89ac3f",
   "lastOpenFiles": [
     "Definitions/Instrumentation.md",
     "The Solar System.md",
