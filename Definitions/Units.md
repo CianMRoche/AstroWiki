@@ -14,11 +14,11 @@ $12''$ = 12 arcsec
 
 
 ## Proper distance
-<mark class="hltr-blue">Distance</mark> between objects including expansion of universe; changes in time, in contrast to [[#Comoving distance]].
+<mark class="hltr-pink">Distance</mark> between objects including expansion of universe; changes in time, in contrast to [[#Comoving distance]].
 
 **Examples**:
 - pkpc = proper kiloparsec
 - ply = proper light year
 
 ## Comoving distance
-<mark class="hltr-blue">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow
+<mark class="hltr-pink">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow

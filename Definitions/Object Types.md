@@ -54,6 +54,9 @@ A highly luminous [[#AGN]]. AKA "QSO" (quasi-stellar object)
 A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight
 
 
+## Collapsar
+
+
 ## AGN
 A compact region in a galactic center with high luminosity not produced by stars. This luminosity is theorized to arise from accretion onto a supermassive [[#Black Hole|black hole]] at the center of the galaxy.
 

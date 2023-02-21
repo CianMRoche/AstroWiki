@@ -10,3 +10,9 @@ A [[Object Types#Galaxy cluster|galaxy cluster]] in the Perseus constellation. A
 
 ## Bullet Cluster
 merging clusetr?
+
+
+## The Sun
+
+
+## Fornax
