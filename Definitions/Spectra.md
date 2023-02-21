@@ -9,3 +9,18 @@ Emmitted only by molecular Hydrogen. H doesnt have a rotational dipole, only a v
 ## P Cygni Line Profile
 Spectroscopic feature with both a blueshifted absorption line and a broadened rest wavelength emission line arising from an expanding envelope around an ionized source
 ![[PCygniLineProfile.png|400]]
+
+## Harvard Spectral Classification
+- Classifies stars into spectral type based on temperature 
+- Originally classes A-Q based on strength of hydrogen lines in spectra, but found that there was lots of overlap amongst categories (and also they were in the wrong order for other properties)
+- Cannot distinguish between same color, same apparent magnitude, but different luminosity stars (need [[Spectra#Morgan-Keenan (MK or MKK) Luminosity Class|MK Luminosity Classification]])
+![[HarvardSpectralClassification.png]]
+- Oh Be A Fine Goat Kick Me (OBAFGKM)
+ ![[OBAFGKM.jpeg|250]]
+
+
+## Morgan-Keenan (MK or MKK) Luminosity Class
+Stellar classification based on spectral line widths to distinguish between stars with the same color/temperature and apparent magnitude, but different luminosities/distances
+- denser objects have broader spectral lines due to increased pressure/collisional broadening and higher surface gravity
+- complementary to [[Spectra#Harvard Spectral Classification|Harvard Spectral Classification]]
+![[MK.png]]
