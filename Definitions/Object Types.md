@@ -84,3 +84,9 @@ A region of spacetime where gravity is so strong that nothing, including li
 ## Planetary Nebula
 An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\odot \lesssim M \lesssim 8 M_\odot$) star as the outer envelope expands away after the AGB phase
 - envelope lost from strong stellar winds in AGB phase
+
+
+## <mark class="hltr-orange">Pulsar</mark>
+- PULSAting Radio source
+- highly magnetized rotating neutron star that emits EM radiation out of its magnetic poles
+- [[Spectra#RadioSource|Radio source]] (galactic and extragalactic)
