@@ -34,3 +34,12 @@ Stellar classification based on spectral line widths to distinguish between star
 - denser objects have broader spectral lines due to increased pressure/collisional broadening and higher surface gravity
 - complementary to [[Spectra#Harvard Spectral Classification|Harvard Spectral Classification]]
 ![[MK.png]]
+
+
+## Radio source
+**Solar system**:
+- The [[Objects#The Sun|Sun]] 
+- Jupiter 
+
+**Galactic**:
+- Galactic center

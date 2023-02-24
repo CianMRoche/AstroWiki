@@ -5,7 +5,6 @@ A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousa
 - Galaxies 1%
 - [[#Intracluster medium]] 9%
 - Dark matter 90%
-
 **Typical parameters**:
 - $10^2$ to $10^3$ member galaxies
 - Mass: $10^{14}-10^{15}$ $M_\odot$ 
@@ -48,6 +47,8 @@ Michael told me to look this one up. Havent done that yet.
 
 ## Quasar
 A highly luminous [[#AGN]]. AKA "QSO" (quasi-stellar object)
+
+**Catalogs**: [[Catalogs#SDSS|SDSS]] and [[Catalogs#LAMOST|LAMOST]] 
 
 
 ## Blazar
