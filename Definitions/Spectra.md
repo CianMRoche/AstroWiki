@@ -7,6 +7,32 @@
  - ROY G. BIV to remember in order of increasing energy
 ![[opticalSpectrum.jpeg|350]]
 
+
+## Redshift
+$$1 + z = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{\nu_{emit}}{\nu_{obs}}$$
+
+
+## Blackbody radiation
+Black body spectral power density [interactive](https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_en.html) with units power/(surface area of "emitter" $\cdot$ solid angle of "detector" $\cdot$ frequency) $\pu{J s^{-1}Hz^{-1}m^{-2}}$
+$$B_\nu(\nu\,;T) = \frac{2h\nu^3}{c^2}\frac{1}{e^{\frac{h\nu}{kT}} - 1}$$
+But can also reforumulate in terms of wavelength. To do the conversion, need to remember that this is a density and perform a change of variables under the integral sign. 
+$$\int d\nu B_\nu(\nu;T) = \int d\lambda \underbrace{\frac{d\nu}{d\lambda}}_{= \frac{d}{d\lambda}\frac{c}{\lambda} = -\frac{c}{\lambda^2}}B_\nu(\nu;T) \implies B_\lambda(\lambda;T) = \frac{c}{\lambda^2}B_\nu\left(\frac{c}{\lambda};T\right)$$
+where we drop the minus sign because we integrate in the opposite direction for $\lambda$ so the definition of $B_\lambda$ is nice. 
+
+**When redshifted**:
+Effective temperature gets redshifted as $$T_{obs} = \frac{T_{emit}}{1+z}$$Why? When you redshift the blackbody spectrum in a constantly proportional way $\nu_{emit} \rightarrow \nu_{obs} = c\nu_{emit}$ for all $\nu$ (here $c = (1+z)^{-1}$, see [[Spectra#Redshift|redshift]]) it has the effect of introducing an effective temperature $T_{eff} = T_{emit}/(1+z)$ so redshifts maintain the BB spectrum form with a different temperature $$\mathrm{BB}\sim\exp\left(\frac{h\nu}{kT}\right) \longrightarrow \exp\left(\frac{h\nu}{k(1+z)T}\right)$$ where the RHS is what we observe. $$\implies (1+z) T_{obs} = T_{emit}$$
+**Wien's displacement law**:
+The wavelength at which the spectrum has its peak is inversely proportional to temperature
+$$\lambda_{peak} \propto \frac{1}{T}$$
+but the constant of proportionality depends on the solution of an implicit equation. A good reference point is $$\lambda_{peak} \simeq \frac{3}{T\,[K]}\,\pu{mm}$$
+such that at room temp, peak is at ~10 microns. 
+
+**Stefan-Boltzmann Law**:
+Obtained by integrating over solid angle, area and frequency, $L$ in units of $\pu{W} = \pu{J s^{-1}}$
+$$L = \underbrace{\frac{2\pi^5 k^4}{15 h^3 c^2}}_{\colon = \sigma} A T^4$$
+where we have defined the Stefan-Boltzmann constant $\sigma$
+
+
 ## Hertzsprung-Russel diagram
 This diagram demonstrates the clustering between the [[HarvardSpectralClassification.png|color]] (temperature) of stars to their intrinsic luminosity ([[Magnitudes#Absolute magnitude|absolute magnitude]])
 ![[HRDiagram.png|]]
