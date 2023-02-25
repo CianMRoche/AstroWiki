@@ -1,3 +1,12 @@
+
+## The electromagnetic spectrum
+- Quick conversion: $hc = 1240\,eV\,nm$ so roughly 1keV ~ 1nm since $E=hc/\lambda$
+- Could also think of it as $hc \simeq 10^{-6}\,eV\,m$
+ ![[EMSpectrum.png]]
+ - Visible light [380,750] nm. 
+ - ROY G. BIV to remember in order of increasing energy
+![[opticalSpectrum.jpeg|350]]
+
 ## Hertzsprung-Russel diagram
 This diagram demonstrates the clustering between the [[HarvardSpectralClassification.png|color]] (temperature) of stars to their intrinsic luminosity ([[Magnitudes#Absolute magnitude|absolute magnitude]])
 ![[HRDiagram.png|]]
@@ -12,7 +21,15 @@ Traces cool, ionized gas. Has been used to trace [[Object Types#CGM|CGM]]. Ratio
 
 
 ## H$\alpha$
-Emmitted only by molecular Hydrogen. H doesnt have a rotational dipole, only a vibrational. Finding H2 was usually done by measuring CO with millimeter telescopes and then constraining the CO H2 correllation. Now with JWST this can be done better, since we have a mid IR IFU in space. 
+Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 2eV
+
+Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere
+
+
+## Molecular hydrogen
+H doesnt have a rotational dipole, only a vibrational. Finding H2 was usually done by measuring CO with millimeter telescopes and then constraining the CO H2 correllation. Now with JWST this can be done better, since we have a mid IR IFU in space.
+
+Doesnt have a Balmer series equivalent because the binding energy of molecular hydrogen is about 4eV, so those energies would just unbind the molecule.
 
 
 ## P Cygni Line Profile
@@ -37,9 +54,20 @@ Stellar classification based on spectral line widths to distinguish between star
 
 
 ## Radio source
+Atmosphere not too problematic, can perform radio observations even on cloudy days
+
 **Solar system**:
 - The [[Objects#The Sun|Sun]] 
 - Jupiter 
 
 **Galactic**:
 - Galactic center
+
+
+## X-ray background
+**Sources**:
+- Focused onto detector - Diffuse hot gas from Milky Way + unresolved point sources. Below 1-2keV, XRB dominates signal
+- Particle BG - cosmic rays
+- Unfocused cosmic hard X-ray background, constant in time
+
+Eric Miller(?MIT?) - Model your Xray BG, dont subtract it.

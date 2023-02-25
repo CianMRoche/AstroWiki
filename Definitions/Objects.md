@@ -24,3 +24,7 @@ A complex [[Spectra#Radio source|radio source]] at the center of the [[Objects#M
 Image taken using the [[Observatories#VLA|VLA]] and contains several SNR
 
 ## Sagittarius A*
+
+
+## Milky Way
+X-ray background from hot gas

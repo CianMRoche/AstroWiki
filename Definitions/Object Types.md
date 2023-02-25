@@ -38,7 +38,7 @@ A <mark class="hltr-cyan">low mass, evolved star</mark>, hot enough to produce H
 - $L$ = 20 − 100 $L_\odot$
 
 **Examples**:
-- [[Catalogs#Henry Draper catalogue|HD]] 128220
+- [[Catalogs#Henry Draper|HD]] 128220
 
 
 ## Blue straggler
@@ -66,6 +66,10 @@ A compact region in a galactic center with high luminosity not produced by stars
 A region of spacetime where gravity is so strong that nothing, including light or other electromagnetic waves, has enough energy to escape its event horizon
 
 
+## Interstellar medium
+
+
+
 ## CGM
 "Circumgalactic medium". 
 **Observation strategies**:
@@ -82,6 +86,10 @@ A region of spacetime where gravity is so strong that nothing, including li
 	**Disadvantages**: highly eroded by redshift, and requires dense, hot gas
 
 
+## Nebula
+A distinct luminescent part of the [[Object Types#Interstellar medium|interstellar medium]], which can consist of ionized, neutral or molecular hydrogen and also cosmic dust. Often star-forming regions
+
+
 ## Planetary Nebula
 An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\odot \lesssim M \lesssim 8 M_\odot$) star as the outer envelope expands away after the AGB phase
 - envelope lost from strong stellar winds in AGB phase
@@ -91,3 +99,9 @@ An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\o
 - PULSAting Radio source
 - highly magnetized rotating neutron star that emits EM radiation out of its magnetic poles
 - [[Spectra#RadioSource|Radio source]] (galactic and extragalactic)
+
+
+## Neutron stars
+
+- Do we have a good idea for what the mass evolution looks like? Maybe no?
+- We dont see lots of neutron star merger/collisions? Neutron stars dont have enough mass to dynamically "sink" to the center as black holes do. We expect BHs to merge in centers of galaxies but NSs to stay "out" and therefore have a lower chance of intercating
