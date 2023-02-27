@@ -5,6 +5,7 @@ A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousa
 - Galaxies 1%
 - [[#Intracluster medium]] 9%
 - Dark matter 90%
+
 **Typical parameters**:
 - $10^2$ to $10^3$ member galaxies
 - Mass: $10^{14}-10^{15}$ $M_\odot$ 
@@ -87,12 +88,27 @@ A region of spacetime where gravity is so strong that nothing, including li
 
 
 ## Nebula
-A distinct luminescent part of the [[Object Types#Interstellar medium|interstellar medium]], which can consist of ionized, neutral or molecular hydrogen and also cosmic dust. Often star-forming regions
+A luminescent, diffuse part of the [[Object Types#Interstellar medium|interstellar medium]], often star-forming regions. 
+
+**Consist of**: 
+- ionized, neutral or [[Spectra#Molecular hydrogen|molecular hydrogen]] 
+- cosmic [[#Dust|dust]]
+- Particle density ~$10^{4}\,\pu{cm^{-3}}$ ([[Objects#Earth|Earth]] has ~$10^{19}\,\pu{cm^{-3}}$)
+
+**Examples**:
+- Eagle nebula (star-forming Pillars of Creation within)
+- Crab nebula
+- Orion nebula (brightest nebula)
+- Carina nebula
 
 
-## Planetary Nebula
+## Planetary nebula
 An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\odot \lesssim M \lesssim 8 M_\odot$) star as the outer envelope expands away after the AGB phase
 - envelope lost from strong stellar winds in AGB phase
+
+
+## Emission nebula
+A [[#Nebula|nebula]] formed of ionized gas emitting in various wavelengths 
 
 
 ## <mark class="hltr-orange">Pulsar</mark>
@@ -105,3 +121,16 @@ An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\o
 
 - Do we have a good idea for what the mass evolution looks like? Maybe no?
 - We dont see lots of neutron star merger/collisions? Neutron stars dont have enough mass to dynamically "sink" to the center as black holes do. We expect BHs to merge in centers of galaxies but NSs to stay "out" and therefore have a lower chance of intercating
+
+
+## Dust
+
+
+## Open cluster
+A group of 10s to 1000s of stars formed from the same giant [[#Molecular cloud|cloud of molecular gas]] and thus have similar metallic properties, which is weakly gravitationally bound enough that they can be disrupted by close encounters with other clusters or clouds of gas. Less tightly bound than [[#Globular cluster|globular clusters]]. 
+
+
+## Molecular cloud
+AKA "stellar nursery" if stars are forming. A cloud of mostly [[Spectra#Molecular hydrogen|molecular hydrogen]] and dust, called a "dark nebula" if enough dust and dense enough to block visible light from background sources like stars, emission nebulae or reflection nebulae. Very filamentary and chaotic-looking structure
+
+These comprise less than 1% of the [[#Interstellar medium]] 
