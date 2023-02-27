@@ -134,3 +134,8 @@ A group of 10s to 1000s of stars formed from the same giant [[#Molecular cloud|c
 AKA "stellar nursery" if stars are forming. A cloud of mostly [[Spectra#Molecular hydrogen|molecular hydrogen]] and dust, called a "dark nebula" if enough dust and dense enough to block visible light from background sources like stars, emission nebulae or reflection nebulae. Very filamentary and chaotic-looking structure
 
 These comprise less than 1% of the [[#Interstellar medium]] 
+
+
+## Globular Cluster
+- gravitationally bound spheroidal conglomeration of (10,000-few million) stars 
+- higher concentration of stars toward center
