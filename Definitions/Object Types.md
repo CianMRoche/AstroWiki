@@ -19,6 +19,15 @@ A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousa
 - [[Objects#Perseus cluster|Perseus cluster]]
 
 
+## Brightest cluster galaxy
+Largest/brightest galaxy in a [[#Galaxy cluster]]
+Large amount of X-ray emission
+
+**Observation strategies**:
+- Can observe molecular gas emission, but need ~$10^8\,M_\odot$ of stellar mass to observe this confidently (can do with [[Observatories#ALMA|ALMA]])
+- Molecular absorption of AGN backlight in radio to probe mass scales of ~10s to 100s of $M_\odot$ since very strong absorption lines from CO, HCO$^+$, HNC, H$_2$CO and SiO. Width of absorption feature increases with velocity dispersion -> proximity to [[#AGN]]'s supermassive black hole. Does require presence and alignment of BCG disk with AGN
+
+
 ## Galaxy group
 A gravitationally bound collection of <mark class="hltr-grey">50 or fewer</mark> galaxies, each at least as luminous as the Milky Way (~$10^{10}\, L_\odot$). Smaller than a [[#Galaxy cluster|galaxy cluster]] at about $10^{13}\, M_\odot$. The [[Objects#Milky way|Milky Way]] is part of a galaxy group called the [[Objects#Local group|local group]].
 
@@ -61,6 +70,12 @@ A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight
 
 ## AGN
 A compact region in a galactic center with high luminosity not produced by stars. This luminosity is theorized to arise from accretion onto a supermassive [[#Black Hole|black hole]] at the center of the galaxy.
+
+Cold [[#Molecular cloud|molecular gas]] falls onto the AGN (from [[#Brightest cluster galaxy|BCG]] usually) and fuels jets, lobes and feedback
+
+**Feedback**: 
+- Accretion onto BH -> Jets -> Bubbles -> ICM.
+- Early stage is supersonic expansion until the movement of the bubble itself becomes faster than the expansion, then detachment of bubble. Enough energy in bubbles to balance radiative cooling
 
 
 ## Black hole
@@ -111,6 +126,9 @@ An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\o
 A [[#Nebula|nebula]] formed of ionized gas emitting in various wavelengths 
 
 
+## Reflection nebula
+
+
 ## <mark class="hltr-orange">Pulsar</mark>
 - PULSAting Radio source
 - highly magnetized rotating neutron star that emits EM radiation out of its magnetic poles
@@ -131,7 +149,7 @@ A group of 10s to 1000s of stars formed from the same giant [[#Molecular cloud|c
 
 
 ## Molecular cloud
-AKA "stellar nursery" if stars are forming. A cloud of mostly [[Spectra#Molecular hydrogen|molecular hydrogen]] and dust, called a "dark nebula" if enough dust and dense enough to block visible light from background sources like stars, emission nebulae or reflection nebulae. Very filamentary and chaotic-looking structure
+AKA "stellar nursery" if stars are forming. A cloud of mostly [[Spectra#Molecular hydrogen|molecular hydrogen]] (since hot gas cools to molecular gas, can then form stars) and dust, called a "dark nebula" if enough dust and dense enough to block visible light from background sources like stars, emission nebulae or reflection nebulae. Very filamentary and chaotic-looking structure, which arises from a combination of gravitational collapse and [[Processes#Turbulence|turbulence]] (large scale).
 
 These comprise less than 1% of the [[#Interstellar medium]] 
 
