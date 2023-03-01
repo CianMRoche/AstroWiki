@@ -22,3 +22,8 @@
 
 
 ## Cooling flow
+The hot [[#ICM]] in the cores of [[Galaxy clusters#Galaxy cluster|galaxy clusters]] should be cooling at ~10s to 1000s of $M_\odot\,\pu{yr^{-1}}$ by emission of X-rays (and forming into stars) where
+$$L \propto \rho^2 \,T^{-1/2}$$
+since $L$ ~ $\int dV\,$(rate of interactions/volume) and rate/vol ~ $\rho^2 \sigma v$ (weird assumptions going into why the integral doesnt matter, maybe we're assuming V remains constant when increasing $\rho\,$?). And the scattering cross section for [[Bremsstrahlung#Bremsstrahlung|bremsstrahlung]] goes as $T^{-1/2}$
+
+The cooling flow is the ICM flowing in to that cooled region

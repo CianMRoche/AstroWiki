@@ -1,0 +1,1 @@
+AKA "magnetobremsstrahlung", the magnetic counterpart to [[Bremsstrahlung#Bremsstrahlung|bremsstrahlung]]. 

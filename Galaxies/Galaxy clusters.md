@@ -1,9 +1,9 @@
 ## Galaxy cluster
-A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousands</mark> of galaxies. 2nd largest gravitationally-bound structure in the universe after cosmic filaments. Bigger than a [[#Galaxy group|galaxy group]].
+A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousands</mark> of galaxies. 2nd largest gravitationally-bound structure in the universe after cosmic filaments. Bigger than a [[Galaxy groups#Galaxy group|galaxy group]].
 
 **Composition**: (percentages of mass)
 - Galaxies 1%
-- [[#Intracluster medium]] 9%
+- [[Cluster media#Intracluster medium|ICM]] 9%
 - Dark matter 90%
 
 **Typical parameters**:
@@ -16,7 +16,7 @@ A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousa
 - Noma cluster
 - Pheonix cluster
 - Bullet cluster
-- [[Objects#Perseus cluster|Perseus cluster]]
+- [[Galaxy cluster examples#Perseus cluster|Perseus cluster]]
 
 
 ## Brightest cluster galaxy
