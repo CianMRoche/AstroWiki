@@ -22,6 +22,7 @@ Note: Good name is hard, some of these are telescopes. Surveys will go into "cat
 
 
 ## LIGO
+Why are GW sensitivity curves V-shaped?
 
 
 ## VIRGO
@@ -106,3 +107,10 @@ X-ray
 
 ## Deep space network
 NASA facility for the retrieval of signals from deep space telescopes. Consists of three facilities spaced equidistant from each other – approximately 120 degrees apart in longitude – around the world. These sites are near Goldstone, California; Madrid, Spain; and Canberra, Australia.
+
+
+## Green bank telescope
+
+
+## NANOGrav
+Collaboration to measure low-frequency gravitational wave universe through radio pulsar timing. USe [[#Green bank telescope]].  

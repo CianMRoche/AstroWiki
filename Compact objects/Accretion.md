@@ -1,5 +1,5 @@
 ## Accretion disk
-Loosely, when mass is transferring from one place to another, spinning. 
+Loosely, when mass is transferring from one place to another, spinning. Mass falling onto a compact object almost always involved.
 
 **Examples**:
 - [[AGN]]

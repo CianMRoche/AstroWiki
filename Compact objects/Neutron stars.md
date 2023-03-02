@@ -8,10 +8,12 @@ Mass: 1-2 $M_{\odot}$
 Radius: ~10$\pu{km}$ (inner 9km behaves as one giant nucleus, since density ~ nucleus density)
 Density: $10^{15} \pu{g cm^{-3}}$ (nuclear saturation density of an atom ~ $2\times 10^{14}\,\pu{g cm^{-3}}$)
 
+
 ## <mark class="hltr-orange">Pulsar</mark>
 - PULSAting Radio source
 - highly magnetized rotating neutron star that emits EM radiation out of its magnetic poles
 - [[Spectra#RadioSource|Radio source]] (galactic and extragalactic)
+- Brightest at low-frequencies
 
 
 ## Neutron star equation of state
