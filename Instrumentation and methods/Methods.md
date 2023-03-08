@@ -17,3 +17,7 @@ Using multiple detectors, one can increase the effective resolution to an instru
 
 The image below shows that detectors aligned colinearly improve the resolution along that axis (variation in that dimension of the image happens more quickly than orthogonal direction). Need to use at least a triangle if you want details in both dimensions
 ![[interferometry.png|650]]
+
+
+## Strell ratio
+ratio of power in wings of psf versus in sharp bit in middle

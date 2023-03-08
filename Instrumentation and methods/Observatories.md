@@ -22,7 +22,9 @@ Note: Good name is hard, some of these are telescopes. Surveys will go into "cat
 
 
 ## LIGO
-Why are GW sensitivity curves V-shaped?
+Why are GW sensitivity curves V-shaped? 
+
+Rate goes with range cubed -> rate ~ volume we can probe. 2x more instrument sensitivity means can detect same events from a volume 8x bigger in the universe.
 
 
 ## VIRGO
@@ -42,6 +44,7 @@ Why are GW sensitivity curves V-shaped?
 
 
 ## CHANDRA
+**ACIS**: Camera on CHANDRA, PI Mark Bautz here at MKI
 
 
 ## XRISM
@@ -114,3 +117,19 @@ NASA facility for the retrieval of signals from deep space telescopes. Consists 
 
 ## NANOGrav
 Collaboration to measure low-frequency gravitational wave universe through radio pulsar timing. USe [[#Green bank telescope]].  
+
+
+## Cosmic explorer
+
+
+## XMM
+"XMM-Newton", "X-ray multi-mirror"
+
+
+## eRosita
+
+
+## BOSS
+when you generate mocks, do you model the contaminants in the same way that you deal with them in the real analysis? How reliable is this for contaminants not being properly modelled? Maybe related to your robustness testing.
+
+red line is problematic, 120 Mpc/h in a certain wedge is concerning.

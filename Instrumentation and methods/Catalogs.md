@@ -30,3 +30,11 @@ Texas Survey of Radio Sources at 365 MHz, published 1974-1983
 
 A catalogue of [[Galaxy clusters#Galaxy cluster|galaxy clusters]], [[Nebulae|nebulae]] and [[Clustering|star clusters]]. 
 **Size**: ~5000 objects
+
+
+## KIC
+"Kepler Input Catalog". 
+
+**Size**: 13.2 million objects
+**Coverage**: Whole-sky
+**Depth**: Apparent [[Magnitudes#Photographic magnitude|photographic magnitude]] of ~9

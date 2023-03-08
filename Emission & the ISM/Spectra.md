@@ -30,6 +30,14 @@ Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 
 Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere
 
 
+## Lyman-$\alpha$ forest
+- Lyman series is transitions of atomic hydrogen to $n=1$ 
+- Lyman-$\alpha$ is the first one ($n=2$ to $n=1$) and is $120\,\pu{nm}$
+- Strong absorbtion in air, so usually done in space. Highly-redshifted sources can penetrate though
+
+The **Lyman-$\mathbf{\alpha}$ forest** is a series of absorbtion lines corresponding to the absorbtion of distant background light by gas clouds at different redshifts, each absorbing at the Lyman-$\alpha$ transition. In principle, the absorbtion spectrum in this case is a map of the gas between the observer and the source, including redshift information.
+
+
 ## Molecular hydrogen
 H doesnt have a rotational dipole, only a vibrational. Finding H2 was usually done by measuring CO with millimeter telescopes and then constraining the CO H2 correllation. Now with JWST this can be done better, since we have a mid IR IFU in space.
 
