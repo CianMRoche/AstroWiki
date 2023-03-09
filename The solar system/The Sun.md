@@ -1,0 +1,1 @@
+Rotation period ~ 1 month

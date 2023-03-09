@@ -18,3 +18,12 @@ Michael told me to look this one up. Havent done that yet.
 An early star which is not yet hot enough to start nuclear fusion, and is still gathering mass from parent [[Nebulae#Nebula|nebula]]. 
 - Exists for ~ half a million years
 - Temperature 2000-3000 K
+
+
+## T-tauri star
+Variable stars on [[Tracks#Hayashi track|Hayashi track]], variablility in optical comes from obscuration by protoplanetary disk and winds, jets and starspots.
+
+Central temperatures are too low for hydrogen fusion. Instead, they are powered by gravitational energy released as the stars contract, while moving towards the [[main sequence]], which they reach after about 100 million years
+
+**Age**: ~10 million years
+**Period**: ~1-10 days
