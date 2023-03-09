@@ -12,3 +12,9 @@ A <mark class="hltr-cyan">low mass, evolved star</mark>, hot enough to produce H
 
 ## Blue straggler
 Michael told me to look this one up. Havent done that yet.
+
+
+## Protostar
+An early star which is not yet hot enough to start nuclear fusion, and is still gathering mass from parent [[Nebulae#Nebula|nebula]]. 
+- Exists for ~ half a million years
+- Temperature 2000-3000 K
