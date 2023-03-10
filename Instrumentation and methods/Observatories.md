@@ -133,3 +133,9 @@ Collaboration to measure low-frequency gravitational wave universe through radio
 when you generate mocks, do you model the contaminants in the same way that you deal with them in the real analysis? How reliable is this for contaminants not being properly modelled? Maybe related to your robustness testing.
 
 red line is problematic, 120 Mpc/h in a certain wedge is concerning.
+
+
+## WISE
+"Wide-field infrared survey explorer". Launched in 2009, later renamed to "NEOWISE" for "near-Earth orbit WISE". All-sky survey.
+
+**Band**: IR at $3-20\,\pu{\mu m}$ 
