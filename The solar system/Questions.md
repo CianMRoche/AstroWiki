@@ -49,4 +49,26 @@ We make the observation that this answer is the same as the result youd get by a
 
 Virial theorem is $E = \frac{1}{2}\langle U\rangle$ where$$\langle U\rangle = \frac{1}{P} \int_{\rm{period}} dt\, U(t) = -\frac{1}{P} \int_{\rm{period}} dt\,\frac{G M_1 M_2}{r(t)} = -\frac{GM_1M_2}{\langle r \rangle}$$Nope that last step is totally wrong. There's a nice argument here but I dont have it. Using the angular variable called the "[eccentric anomaly](https://en.wikipedia.org/wiki/Eccentric_anomaly)" which we label $\epsilon$ we can express the radial coordinate as$$r = a(1 - e\cos\epsilon)$$ Then use that over a period, the cosine of $\epsilon$ will average to zero? Then you get result. But argument is wrong so I dont know.
 
-**Orbital period**: $$dA = \int dr\, rd\varphi = \frac{1}{2}r^2 d\varphi$$Then via $l = \mu r^2 \dot{\varphi}$ $$\frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\varphi}{dt} = \frac{l}{2\mu}$$Integrating over a period one gets $A = \frac{l}{2\mu} P$. Looing at the area of an ellipse one sees $A = \pi a b = \pi a^2\sqrt{1-e^2}$. and fill in etc to get P= not a function of e
+**Orbital period indep of e**: 
+Start with the area of an arc $$dA = \int dr\, rd\varphi = \frac{1}{2}r^2 d\varphi$$Then via $l = \mu r^2 \dot{\varphi}$ $$\frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\varphi}{dt} = \frac{l}{2\mu}$$Integrating over a period one gets $A = \frac{l}{2\mu} P$. Looking at the area of an ellipse one sees $A = \pi a b = \pi a^2\sqrt{1-e^2}$. Equating the two expressions for $A$ and making explicit the dependence of $l$ on $a$ and $e$ via the equation $\frac{l^2}{a(1-e^2)\mu} = GM_1M_2$ as in the previous part we have (with a little algebra)$$ \frac{a^3}{P^2} =\frac{G(M_1 + M_2)}{4\pi^2} $$which is independent of $e$.
+
+
+## 3
+**Calculate the approximate distance to the heliopause**:
+The scale of the Solar system and heliopause is as follows:
+![[solarsystemscale.jpg]]
+Note that the [[The Sun#Heliosphere|heliosphere]] is **not spherical** and so the question requires some heavy approximating
+
+We need to balance the pressure from the solar wind with the thermal pressure of the ISM. 
+1. The solar wind in the heliosphere can be viewed as exerting a [[Definitions - The Solar System#Ram pressure|ram pressure]] on the [[Interstellar medium|ISM]] as $$P_{\rm{ram}} = \rho_{sw}(R) v^2$$ where $R$ labels the distance from [[The Sun#The Sun|the Sun]] to heliopause, $v$ is the relative velocity of the two bodies and we use the subscript $sw$ for the solar wind. 
+	- We can approximate $v$ by assuming the speed of the solar wind is about the escape velocity from the surface of the Sun, and that it maintains a constant speed until reaching the Heliopause. We also treat the ISM as at rest. The escape velocity from the surface of the Sun is$$v\sim v_{\rm{esc},\odot} = \sqrt{\frac{2GM_\odot}{R_\odot}} \simeq 600\,\pu{km s^{-1}}$$
+	- We can estimate $\rho_{sw}(r)$ using $\rho_{sw}(R_{\bigoplus}) \simeq n(R_{\bigoplus})\, \mu \, m_H \simeq (6\times10^6 \pu{m^{-3}})\, \frac{1}{2} \, (1.6\times 10^{-27}\,\pu{kg}) \simeq 10^{-21}$ (in SI units) where the number density at 1AU is determined by ground-based measurements, $\mu$ is the [[Definitions - Plasma#Mean molecular weight|mean molecular weight ]] (here for an ionized hydrogen gas, so $\mu = \frac{1}{2}$) and the hydrogen mass is about 1 [[Units#amu|amu]]. We extend this value to any $r$ by mass continuity for a spherically symmetric density $\rho$, namely: $\frac{dM}{dr} = 4\pi r^2 \rho(r) = \text{const}$ because the mass integrated over a sphere at any radius should be equal for this simple flow. As a result, we have$$\rho_{sw}(R) = \left(\frac{R_\bigoplus}{R}\right)^2 \rho_{sw}(R_{\bigoplus})$$
+2. The thermal pressure of the ISM can be modelled as an ideal gas with pressure $$P_{ism} = n_{ism} k T_{ism}$$ 
+	- $n_{ism} \simeq 0.1\,\pu{cm^{-3}}$ as an average of the most abundant [[Interstellar medium|ISM]] components
+	- $T_{ism} \simeq 7000\,\pu{K}$ in the same way
+	- $k = 1.38\times 10^{-23}\,\pu{m^2 kg s^{-2} K^{-1}}$ is the Boltzmann constant
+
+3. Equating the pressure equations we have$$R = R_{\bigoplus}\sqrt{\frac{\rho_{sw}(R_{\bigoplus})\,v^2}{n_{ism} k T_{ism}}} \sim (7\times 10^8\,\pu{m})\, 10^{\frac{1}{2}(-21+11-5+23-4)} \sim 10^{11}\,\pu{m} \sim 1\,\pu{AU}$$but thats **wrong** and we shouldve gotten ~100 AU. Blame the 3 random numbers I guess. 
+
+**Does the local interstellar medium begin at this boundary? Explain.**
+The heliopause is the location where pressure balances betweem the solar wind and the ISM thermal pressure. Thus, this location is by definition at some distance within the ISM, meaning that the ISM begins closer to the Sun than the heliopause, where it is understood that no clear boundary between the species exists.

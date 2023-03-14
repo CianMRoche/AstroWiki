@@ -26,3 +26,4 @@ Large amount of X-ray emission
 **Observation strategies**:
 - Can observe molecular gas emission, but need ~$10^8\,M_\odot$ of stellar mass to observe this confidently (can do with [[Observatories#ALMA|ALMA]])
 - Molecular absorption of AGN backlight in radio to probe mass scales of ~10s to 100s of $M_\odot$ since very strong absorption lines from CO, HCO$^+$, HNC, H$_2$CO and SiO. Width of absorption feature increases with velocity dispersion -> proximity to [[#AGN]]'s supermassive black hole. Does require presence and alignment of BCG disk with AGN
+
