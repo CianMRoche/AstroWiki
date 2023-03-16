@@ -12,7 +12,7 @@ Formed ~$4.5\,\pu{Gyr}$ ago, obtained by radioactive dating of heavy elements in
 	- People also talk about a **soot line** relating to the sublimation of carbon but resources arent great.
 4. Once large enough, rocky cores accumulate a gas envelope, becoming a **gas giant**. **Solar wind** prevents inner planets from maintaining gas envelopes early in their development.
 5. Moons form via each planetesimal forming its own accretion disk 
-6. Asteroid belt (between Mars and Jupiter) forms via perturbtions from Jupiter preventing the gravitational collapse into planets. Even now we see the "**Kirkwood gap**" in asteroid belt orbits, which are gaps in the distribution of semi-major axes of asteroids in the belt due to orbital resonance with Jupiter, occurring at integer ratios of the Jupiter:asteroid semimajor axis.
+6. [[Definitions - The Solar System#Asteroid|Asteroid]] belt (between Mars and Jupiter) forms via perturbtions from Jupiter preventing the gravitational collapse into planets. Even now we see the "**Kirkwood gap**" in asteroid belt orbits, which are gaps in the distribution of semi-major axes of asteroids in the belt due to [[Orbital resonance]] with Jupiter, occurring at integer ratios of the Jupiter:asteroid semimajor axis.
 7. Remnant material craters planets and moons
 8. Disk is not exactly Keplerian due to pressure gradient, so things drift toward star 
 	- Problem: timescale is short relative to formation and growth times. How do they survive? Pressure fluctuates and local pressure maxima allow for more growth
@@ -23,11 +23,11 @@ Sarah: People think that planets cant get large enough fast enough to maintain g
 - Locations of rocky planets, gas giants and ice giants within solar system
 - Heavy cratering
 - All planets roughly in ecliptic plane (formed from same disk)
-- Asteroid belt
+- [[Definitions - The Solar System#Asteroid|Asteroid]] belt
 
 
 ## 1 (b)
-**Describe observations of exoplanets that have challenged this simple picture as a universal explanation for planet formation**
+**Describe observations of exoplanets that have challenged this simple picture as a universal explanation for planet formation.**
 
 Existence of hot Jupiters: We've seen Jupiter-like planets near their host stars ($<0.1\,\pu{AU}$). How did they migrate all the way in? A potential resolution is a perturbation of their orbit to a high-eccentricity one, then they tidally migrate the orbit down to a much closer one. 
 
@@ -72,3 +72,61 @@ We need to balance the pressure from the solar wind with the thermal pressure of
 
 **Does the local interstellar medium begin at this boundary? Explain.**
 The heliopause is the location where pressure balances betweem the solar wind and the ISM thermal pressure. Thus, this location is by definition at some distance within the ISM, meaning that the ISM begins closer to the Sun than the heliopause, where it is understood that no clear boundary between the species exists.
+
+
+## 4
+**Describe the physics involved in the Earth-Moon interaction whereby the Earth's rotation rate is  
+slowing and the orbital separation is increasing.**
+Essentially the inverse of [[Binaries#Tidal migration|tidal migration]]; since the Earth is rotating in the same direction as the Moon's orbit, the tidal bulge actually leads the Earth-Moon line, slowing the Earths rotation and giving orbital energy to the Moon.
+
+Moon is receding at $~\sim 3-4\,\pu{cm yr^{-1}}$ 
+Earth's rotation period is slowing at $\sim 1\,\pu{ms century^{-1}}$ 
+
+Eventually Earth-Moon orbit will be synchronous and the orbital period will be the same as Earth's rotation period. See also [[Exoplanets/Questions#11]] 
+
+From Megan's notes:
+![[Earth_Moon_tidal_interaction.png]]
+
+
+## 5
+**Describe the Oort cloud and the Kuiper belt, and theories of their origins.**
+1. Kuiper Belt
+   Like the [[Definitions - The Solar System#Asteroid|asteroid]] belt but further out (starts at Neptune $\sim30\,\pu{AU}$ out to {debated} but either 50 or up to 1000 $\pu{AU}$) and thus, more icy (contains volatiles like water, methane and ammonia). Has a similar relationship to Neptune that the asteroid belt has to Jupiter, in terms of the planet preventing the formation of further bodies in that orbital region.
+   
+   - Contains Pluto and other dwarf planets
+   - Disk-shaped
+   - First Kuiper belt object (AKA "trans-Neptunian object") discovered by MIT professor+grad student (Jewitt+Luu?)
+   - Source of short period comets in the solar system ($P<200\,\pu{yr}$)
+   ![[Kuiper_Belt.jpeg]]
+
+2. Oort cloud
+   See [[#3]] for diagram. Spherical cloud of [[Definitions - The Solar System#Comet|comets]] from 1000 to 100,000 $\pu{AU}$. 
+   Thought to be source of long-period ($P>200\,\pu{yr}$) comets
+
+**Formation/Origins**: the so-called "Nice" model
+- Giant planets (like Neptune and Uranus) and Kuiper belt form closer to the Sun 
+- Gravitational encounters between planets scatter Neptune to more eccentric orbit that scatters planetesimals outward to form Kuiper belt
+- Dynamical friction decreases eccentricity of Neptune's orbit
+- [[Definitions - The Solar System#Kozai mechanism|Kozai mechanism]] pushes some objects to higher-inclination orbits
+- Does not seem to produce enough low-eccentricity opbects in Kuiper belt, other problems
+- Oort cloud objects scattered ut to larger radii
+- Even in other models, key feature is outward migration of giant planets
+
+
+## 6
+**Explain why solar system bodies are often found with integer ratios of orbital periods.**
+Integers in physics where we dont expect them come from
+- Quantum effects
+- Symmetries
+- Resonances
+
+There are several types of **resonance** at play in the solar system, the two primary being:
+1. **Mean-motion resonance**: (see [[Orbital resonance]])
+   Essentially creates a stable equilibrium of integer orbit ratios that appears naturally in many types of "multiple objects orbiting a common larger object" systems.
+   
+   Examples: Kuiper belt resonances with Neptune, asteroid belt resonance gaps with Jupiter, gaps in rings of Saturn due to resonances with moons, Pluto-Neptune at 2:3 ratio.
+   
+1. **Laplace resonance**:
+   1:2:4 period ratio in 3-body orbiting systems. Other 3-body resonances are called "Laplace-like"
+   
+   Example: Io, Europa and Ganymede moons of Jupiter
