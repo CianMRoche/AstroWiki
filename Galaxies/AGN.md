@@ -22,6 +22,8 @@ A highly luminous [[#AGN]]. AKA "QSO" (quasi-stellar object). Outshines the rest
 
 **Catalogs**: [[Catalogs#SDSS|SDSS]] and [[Catalogs#LAMOST|LAMOST]] 
 
+**Observation strategies**: To observe the enviroment of a quasar you can use objects in the background (eg galaxies) and examine their light as absorbed by the environment of the quasar (ref: Christina Eilers talk)
+
 
 ## Blazar
 A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight

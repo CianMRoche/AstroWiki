@@ -126,7 +126,7 @@ There are several types of **resonance** at play in the solar system, the two pr
    
    Examples: Kuiper belt resonances with Neptune, asteroid belt resonance gaps with Jupiter, gaps in rings of Saturn due to resonances with moons, Pluto-Neptune at 2:3 ratio.
    
-1. **Laplace resonance**:
+2. **Laplace resonance**:
    1:2:4 period ratio in 3-body orbiting systems. Other 3-body resonances are called "Laplace-like"
    
    Example: Io, Europa and Ganymede moons of Jupiter
