@@ -1,4 +1,5 @@
 ## Neutron stars
+- Born spinning very fast and with massive $B$ fields (~$10^{11}\,\pu{T}$)
 - born in core-collapse supernovae
 - Do we have a good idea for what the mass evolution looks like? Maybe no?
 - We dont see lots of neutron star merger/collisions? Neutron stars dont have enough mass to dynamically "sink" to the center as black holes do. We expect BHs to merge in centers of galaxies but NSs to stay "out" and therefore have a lower chance of intercating
@@ -7,6 +8,7 @@
 Mass: 1-2 $M_{\odot}$
 Radius: ~10$\pu{km}$ (inner 9km behaves as one giant nucleus, since density ~ nucleus density)
 Density: $10^{15} \pu{g cm^{-3}}$ (nuclear saturation density of an atom ~ $2\times 10^{14}\,\pu{g cm^{-3}}$)
+Magnetic field: 
 
 
 ## <mark class="hltr-orange">Pulsar</mark>
@@ -14,6 +16,7 @@ Density: $10^{15} \pu{g cm^{-3}}$ (nuclear saturation density of an atom ~ $2\ti
 - highly magnetized rotating neutron star that emits EM radiation out of its magnetic poles
 - [[Spectra#RadioSource|Radio source]] (galactic and extragalactic)
 - Brightest at low-frequencies
+- Look up "black widow pulsar"
 
 
 ## Neutron star equation of state

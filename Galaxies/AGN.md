@@ -30,3 +30,11 @@ A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight
 
 
 ## Collapsar
+
+
+## Fanaroff–Riley classification
+Classification of radio galaxies with active nuclei based on their radio luminosity or brightness of their radio emissions in relation to their hosting environment 
+
+- FR1 arms can look bent due to [[Definitions - The Solar System#Ram pressure|ram pressure]] as galaxy moves through [[Cluster media#ICM|ICM]] 
+- FR2 often looks one-sided due to relativistic boosting
+![[fanaroff_riley.png]]

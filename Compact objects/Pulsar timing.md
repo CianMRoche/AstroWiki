@@ -1,3 +1,4 @@
+## Pulsar timing
 [[Observatories#NANOGrav|NANOGrav]] does it. Use [[Neutron stars#<mark class="hltr-orange">Pulsar</mark>|pulsars]] to construct a galactic-scale interferometer, with test masses bigger than the mass of the Sun. 
 
 Millisecond pular: 
