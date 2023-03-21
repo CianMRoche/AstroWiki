@@ -1,6 +1,12 @@
 ## 8
 **TESS finds an exoplanet. What can one directly determine from this measurement?** 
+TESS is a transiting survey (see [[#13]]) so one can determine the period simply enough, but also the radius in the following way:
+- Without an atmosphere: $\delta = R_p^2 / R_*^2$ 
+- With an atmospere of constant [[Optical depth#Optical depth|optical depth]] $\tau_\nu$:  $$\delta = \frac{R_p^2 + 2R_p H(1 - e^{-\tau_\nu})}{R_*^2}$$ 
+From Megan's notes:
+![[transit.png|300]]
 
+One can also in some cases determine the temperature of the planet
 
 **What additional observations are needed to determine the mass of this planet?**
 
@@ -61,3 +67,6 @@ detected using each?**
    
 5. **Pulsar timing** 
    The first exoplanet was discovered in 1992 by Aleksander Wolszczan and Dale Frail using [[Pulsar timing]] methods. These exoplanets orbit a [[Neutron stars#<mark class="hltr-orange">Pulsar</mark>|pulsar]], and small periodic changes in the pulsar period indicate the gravitational influence of a companion. Stars discovered by this method are poor cadidates for life because they live next to a terrifying pulsar.  
+
+**In summary**:
+![[exoplanet_methods.png|450]]
