@@ -1,6 +1,6 @@
 ## 8
 **TESS finds an exoplanet. What can one directly determine from this measurement?** 
-TESS is a transiting exoplanet survey (see [[#13]]) so one can determine the period simply enough, but also the radius in the following way:
+TESS is a transiting exoplanet survey (see [[#13]]) so one can determine the period simply enough, but also the radius in the following way, since TESS also measures spectral type and therefore also an estimate of the size and mass of the host star.
 - Without an atmosphere: $\delta =\frac{\text{area of planet}}{\text{area of star}} = R_p^2 / R_*^2$ if we assume the emission is the same over the disk of the star. 
 - With an atmospere of constant [[Optical depth#Optical depth|optical depth]] $\tau_\nu$ and atmospheric scale height $H$:  $$\delta = \frac{R_p^2 + 2R_p H(1 - e^{-\tau_\nu})}{R_*^2}$$though I dont understand why its $\tau_\nu$ here and not $\tau$ unless the $\delta$ is defined for some thin frequency band. 
 
@@ -10,10 +10,28 @@ From Megan's notes: Note that this would have to be normalized so that the lat b
 One can also in some cases determine the temperature of the planet by measuring a much smaller dip when the planet passes behind the star. Need to assume both are blackbodies.
 
 **What additional observations are needed to determine the mass of this planet?**
-Need a radial velocity (ie spectroscopic follow-up). Why does this give you the mass? Start with [[Binaries#Kepler's laws|Kepler's third law]] $$\frac{P^2}{a^3} = \frac{4\pi^2}{GM_{tot}}$$Then replace $a$ with velocity by assuming circular orbit via $v = a\omega = a\,2\pi/P$ where $v$ is the **true** velocity in the orbit when the planet is moving along the line of sight (directly away from or towards us) and the fact that the radial velocity we measure depends on the inclination of the orbit as $v_r = v/\sin(i)$ where $i$ is the inclination angle of the orbit to get $$a = a_* + a_p =\frac{P}{2\pi\sin(i)}(v_{*,r}+v_{p,r})$$From Megan's notes (where line of sight is along the $v_r$ axis)
+Need a radial velocity (ie spectroscopic follow-up). Why does this give you the mass? Start with [[Binaries#Kepler's laws|Kepler's third law]] $$\frac{P^2}{a^3} = \frac{4\pi^2}{GM_{tot}}$$Then replace $a$ with velocity by assuming circular orbit (most eccentricities in the solar system are below $e=0.1$) via $v = a\omega = a\,2\pi/P$ where $v$ is the **true** velocity in the orbit when the planet is moving along the line of sight (directly away from or towards us) and the fact that the radial velocity we measure depends on the inclination of the orbit as $v_r = v/\sin(i)$ where $i$ is the inclination angle of the orbit to get $$a = a_* + a_p =\frac{P}{2\pi\sin(i)}(v_{*,r}+v_{p,r})$$From Megan's notes (where line of sight is along the $v_r$ axis)
 ![[inclination.png|300]]
 
-Since we only measure $v_{*,r}$ in practice, we use the mass ratio to express $v_{p,r}$ in terms of the other parameters. Since we measure the semi-major axes from the center of mass (focus of ellipse)
+Since we only measure $v_{*,r}$ in practice, we use the mass ratio to express $v_{p,r}$ in terms of the other parameters. Since we measure the semi-major axes from the center of mass (focus of ellipse) it holds that $M_* a_* = M_p a_p$ and thus (again using circular orbits criteria above in the first step) $$\frac{a_p}{a_*} = \frac{v_p}{v_*} = \frac{M_*}{M_p}$$Then by using  Kepler' third law above we have $$ \frac{2\pi G}{P} = \left(\frac{v_{*,r}}{\sin(i)}\right)^3 \frac{M_{tot}^2}{M_p^3} \implies v_{*,r} = \left(\frac{2\pi G}{P}\right)^{1/3}\frac{M_p\sin(i)}{M_{tot}^{2/3}}$$can be solved impllicitly for $M_p$ or just approximate $M_{tot} = M_*$ for a simpler relation. There is a version one can derive without assuming circular orbits that results in $$v_{*,r} = \left(\frac{2\pi G}{P}\right)^{1/3}\frac{M_p\sin(i)}{M_{tot}^{2/3}} \frac{1}{\sqrt{1-e^2}}$$
+
+## 9
+**With what velocity precision must one measure the reflex motion of a sun-like star to detect an  
+Earth-mass planet in a 1-year orbit about it?**
+Based on the formula at the end of [[#8]], using a [[The Sun|solar]] mass star $M_* = 1\,\pu{M_\odot}$, $P = 1\,\pu{yr}$ , inclination $i = \pi/2$, and $M_p = 1 M_\bigoplus \simeq 6\times 10^{24}\,\pu{kg}$ we find a radial velocity amplitude of $v_{*,r }\sim\pu{cm\,s^{-1}}$  
+
+So we would need centimeter per second velocity resolution or we wouldnt see any significant change over an orbit.
+
+**What astrophysical processes complicate the measurement of radial velocities with this precision?**
+Measured via spectrum.
+- The material within the star is moving, causing noise in the spectra to appear
+- Atmospheric seeing, turbulence in the atmosphere leads to additional noise in spectrum
+- Need high-resolution spectrometer
+
+
+## 10
+**What is meant by the “obliquity” of an exoplanet orbit about its host star?**
+Angular offset between spin axis of star and normal to plane of orbit
 
 
 

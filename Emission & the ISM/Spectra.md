@@ -30,6 +30,12 @@ Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 
 Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere
 
 
+## 21cm line
+Sping flip of neutral hydrogen. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$
+
+Maps neutral hydrogen in radio wavelengths, [[Observatories#CHIME|CHIME]] can observe it.
+
+
 ## Lyman-$\alpha$ forest
 - Lyman series is transitions of atomic hydrogen to $n=1$ 
 - Lyman-$\alpha$ is the first one ($n=2$ to $n=1$) and is $120\,\pu{nm}$
