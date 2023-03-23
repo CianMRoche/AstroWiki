@@ -6,7 +6,7 @@
 
 
 ## Heliopause
-The theoretical boundary where the Sun's solar wind is stopped by the [[Interstellar medium|ISM]]. Bounds the [[#Heliosphere]]. Location defined by pressure balance
+The theoretical boundary where the Sun's solar wind is stopped by the [[Interstellar medium|ISM]]. Bounds the [[#Heliosphere]]. Location defined by pressure balance, at about $120\,\pu{AU}$ as measured by voyager.
 
 
 ## Heliosphere

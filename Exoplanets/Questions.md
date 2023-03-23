@@ -20,19 +20,67 @@ Since we only measure $v_{*,r}$ in practice, we use the mass ratio to express $v
 Earth-mass planet in a 1-year orbit about it?**
 Based on the formula at the end of [[#8]], using a [[The Sun|solar]] mass star $M_* = 1\,\pu{M_\odot}$, $P = 1\,\pu{yr}$ , inclination $i = \pi/2$, and $M_p = 1 M_\bigoplus \simeq 6\times 10^{24}\,\pu{kg}$ we find a radial velocity amplitude of $v_{*,r }\sim\pu{cm\,s^{-1}}$  
 
-So we would need centimeter per second velocity resolution or we wouldnt see any significant change over an orbit.
+So we would need centimeter per second velocity resolution or we wouldnt see any significant change over an orbit. No instrument does this, best is about $0.3\,\pu{m s^{-1}}$ of ESPRESSO on the [[Observatories#VLT|VLT]] with the goal to push to $0.1\,\pu{m s^{-1}}$ 
 
 **What astrophysical processes complicate the measurement of radial velocities with this precision?**
 Measured via spectrum.
 - The material within the star is moving, causing noise in the spectra to appear
 - Atmospheric seeing, turbulence in the atmosphere leads to additional noise in spectrum
 - Need high-resolution spectrometer
+- very hot stars (O,B,A) may not have enough narrow lines in their spectra for precise Doppler shift measurements.
+- Need to understand the relative motion of Earth in the Solar system to the star down to $\pu{cm\,s^{-1}}$ precision.
 
 
 ## 10
-**What is meant by the “obliquity” of an exoplanet orbit about its host star?**
-Angular offset between spin axis of star and normal to plane of orbit
+**What is meant by the “obliquity” of an exoplanet orbit about its host star? How can obliquity be measured, and what are typical values?**
+Angular offset between spin axis of star and normal to plane of orbit, or equivalently the angle between the planets spin axis and the ecliptic plane (orbital plane of planets around star). 
 
+Can measure by the **Rossiter-Mclaughlin effect**, which is basically the fact that during a transit for which we have spectra, the planet will first block red or blue-shifted light, then block the other, causing a rise and fall in the measured radial velocity. ![[Rossiter-McLaughlin_effect.png|600]]
+This can also be used to infer an obliquity based on how the inferred radial velocity varies over a transit. If the shape of the velocity anomaly (ie radial velocity relative to "mean") is asymmetric, the planet covers the approaching side more or less than the receding side, meaning the orbit is oblique
+![[Rossiter-McLaughlin_velocity_anomaly.png|400]]
+
+Values of obliquity in the Solar system: Variable, often small
+![[obliquity.jpg|500]]
+
+Other methods that have been used:
+- Transit of planet over star spots (I guess if it passes two of them?) eg. Deming+11, Desert+11
+- Gravity darkening from rapid stellar rotation, eg. Barnes +09,11
+- Asteroseismology, eg. Chaplin+13
+
+
+## 11
+**What is meant by tidal locking between an exoplanet and its host star?**
+When there is no change in the planets rotation rate over an orbit. Arises by similar mechanism to [[The solar system/Questions#4|4]] whereby todal bulges result in a torque that exchanges angular momentum between the stars spin (slows down) and planets orbit (gets angular momentum so goes further away), until a point where net torque is zero.
+
+Can lead to **synchronous rotation** as for the Earth-Moon system, wherein the orbital period = rotation period of planet, causing the same side of the planet to always face the star (or same side of moon to always face planet)
+
+Can also lead to **asynchronous locking** such as the 3:2 spin:orbit resonance of Mercury around the Sun. (does Mercury also have an orbit:orbit resonance with other planets?)
+
+**What are the circumstances where planets are likely to be tidally locked?**
+Closer to host star $\implies$ higher torque, becomes locked more quickly / influence is larger. 
+
+See C+O 2nd edition pg 722
+
+## 12
+**Describe qualitatively one of the theories explaining the presence of hot Jupiters -- Jupiter mass
+planets orbiting at separations of less than 0.05 AU from the star**
+
+**Hot jupiter** 
+A ~Jupiter sized planet very close to host star. [[Exoplanet examples#51 Pegasi b|51 Peg b]] is an example.
+- $a \lesssim 0.05\,\pu{AU}$
+- $P \lesssim 10\,\pu{days}$
+
+One possible explanation for existence is formation of planets far out and then [[Binaries#Tidal migration|tidal migration]]. Another possible explanation is **disk migration**, and finally **in-situ formation**. Disk migration is a migration which happens when the hot protoplanetary disk still exists, and in-situ is the direct formation near stars, however this has been shown to be very hard (see below).
+
+Many detected hot Jupiters (see [[#11]]) have high obliquity, suggesting their orbit may be due to dynamical interaction rather than simple orbit migration.
+
+The proposed steps for the tidal migration scenario are:
+1. Large planet formed far out 
+2. Orbit becomes eccentric via scattering from other planets, secular chaos in many-body systems or Lidov-Kozai oscillations in binary star systems
+3. Tidal forces during pericentric passage shrink and circularize the orbit of the planet 
+
+**Why was the discovery of these planets such a surprise?**
+Astronomers did not expect giant gas planets to form at a radius that close to the host star. Giant planets are thought to form either by core accretion, in which a rocky proto-planet core accretes many times its mass in gas from the proto-planetary disk, or gravitational instability, in which part of the proto-planetary disk fragments into bound clumps. Close to the star, gas conditions prevent formation by gravitational instability. Core accretion can operate close to the star, but building a sufficiently large core (∼10M⊕) is challenging. Feeding zones are small so the local available solids are insufficient, mergers of multiple smaller cores are prevented by the disk, and accretion of radially transported pebbles stalls at a much lower mass. It is almost certain that these hot Jupiters could not have formed where they are observed today, but rather have formed further out and migrated to their current location. While there are theories, the exact mechanisms are still unclear and more than one formation pathway is needed
 
 
 ## 13

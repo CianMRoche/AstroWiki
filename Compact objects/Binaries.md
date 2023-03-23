@@ -20,7 +20,7 @@ For one object in a binary:
 When the tidal force on the planet creates a bulge and a torque that serves to reduce the semi-major axis of the orbit, especially near perihelion of highly-eccentric orbits.
 
 **Why?**
-The tidal bulges are not aligned between the two bodies (ie not along the same axis). This is because if the rotation period of the star is longer than the orbital period of the planet, 
+The tidal bulges are not aligned between the two bodies (ie not along the same axis). This is because if the rotation period of the star is longer than the orbital period of the planet, the location of the bulge lags behind a line between the planet and the center of the star creating a torque between the planet and the star. As a result, the planet loses angular momentum and its semi-major axis decreases with time.
 
 
 (See C+O ed. 2 pg 721)
