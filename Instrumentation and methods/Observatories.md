@@ -144,3 +144,7 @@ Half of the data unavilable due to Russian invasion of Ukraine.
 
 
 ## CHORD
+
+
+## MEERKAT
+Array of 64 13-meter radio dish telescopes. Karoo desert, South Africa.

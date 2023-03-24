@@ -50,7 +50,7 @@ Other methods that have been used:
 
 ## 11
 **What is meant by tidal locking between an exoplanet and its host star?**
-When there is no change in the planets rotation rate over an orbit. Arises by similar mechanism to [[The solar system/Questions#4|4]] whereby todal bulges result in a torque that exchanges angular momentum between the stars spin (slows down) and planets orbit (gets angular momentum so goes further away), until a point where net torque is zero.
+When there is no change in the planets rotation rate over an orbit. Arises by similar mechanism to [[The Solar System - Questions#4|4]] whereby todal bulges result in a torque that exchanges angular momentum between the stars spin (slows down) and planets orbit (gets angular momentum so goes further away), until a point where net torque is zero.
 
 Can lead to **synchronous rotation** as for the Earth-Moon system, wherein the orbital period = rotation period of planet, causing the same side of the planet to always face the star (or same side of moon to always face planet)
 
@@ -130,10 +130,28 @@ detected using each?**
    - Semi-amplitude of velocity shift $\implies$ lower bound on mass (see [[#8]])
 
    Problems:
-   - Measuring shift of spectral lines $\implies$ biased toward large masses to have large enough spectral line shifts. 
+   - Measuring shift of spectral lines $\implies$ biased toward large masses to have large enough spectral line shifts. Dont measure Earth-mass planets yet (see [[#9]]).
    
 5. **Pulsar timing** 
    The first exoplanet was discovered in 1992 by Aleksander Wolszczan and Dale Frail using [[Pulsar timing]] methods. These exoplanets orbit a [[Neutron stars#<mark class="hltr-orange">Pulsar</mark>|pulsar]], and small periodic changes in the pulsar period indicate the gravitational influence of a companion. Stars discovered by this method are poor cadidates for life because they live next to a terrifying pulsar.  
 
 **In summary**:
 ![[exoplanet_methods.png|450]]
+
+
+## 14
+**Describe a sequence of observations to identify an exoplanet, to determine that it has a rocky
+composition, and to measure the chemical constituents of its atmosphere.**
+1. Discovery likely to be by transits or radial velocity. Transit gives you $R_p$ (see [[#8]]), and this may or may not include the atmosphere, depending on wavelength of observation and atmospheric composition.
+2. Radial velocity measurement can constrain $M_p$ (if planet $\gtrsim 10\,\pu{M_\odot}$, see [[#8]], [[#13]]) 
+3. $M_p$ and $R_p$ gives an estimate of the density. Higher density (lower radius for a given mass) means rockier planet. There exist some mass-radius relationships for planets of different composition to do the actual constraining.
+4. For the atmosphere, look for absorption features in the spectrum during a transit.
+
+**What have we learned about exoplanet interiors and atmospheres from these observations?**
+- High level of diversity in exoplanet composition and properties
+- Have seen hot Jupiters with opaque clouds and inflated planets with larger radii than expected (how would we know this? Not with the method described above anyway)
+
+
+## 15
+**Why are M Dwarfs thought to be promising candidates for identifying Earth-sized, temperate (but
+not necessarily habitable) planets?**

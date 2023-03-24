@@ -82,7 +82,7 @@ Essentially the inverse of [[Binaries#Tidal migration|tidal migration]]; since t
 Moon is receding at $~\sim 3-4\,\pu{cm yr^{-1}}$ 
 Earth's rotation period is slowing at $\sim 1\,\pu{ms century^{-1}}$ 
 
-Eventually Earth-Moon orbit will be synchronous and the orbital period will be the same as Earth's rotation period. See also [[Exoplanets/Questions#11]] 
+Eventually Earth-Moon orbit will be synchronous and the orbital period will be the same as Earth's rotation period. See also [[Exoplanets - Questions#11]] 
 
 From Megan's notes:
 ![[Earth_Moon_tidal_interaction.png]]

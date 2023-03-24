@@ -1,7 +1,7 @@
 ## Subdwarf O star
 A <mark class="hltr-cyan">low mass, evolved star</mark>, hot enough to produce HeII lines
 
-**Typical parameter**s: 
+**Typical parameters**: 
 - $T_{eff}$ = 37000 − 55000 K
 - $\log g$ = 5.5 − 6
 - $L$ = 20 − 100 $L_\odot$
@@ -27,3 +27,12 @@ Central temperatures are too low for hydrogen fusion. Instead, they are powered 
 
 **Age**: ~10 million years
 **Period**: ~1-10 days
+
+
+## M-dwarf
+AKA "red dwarf" (with some caveats, see [wiki page](https://en.wikipedia.org/wiki/Red_dwarf)). M Dwarfs are low-mass and low-luminosity stars, and are the most common type of stars in the Milky Way. 
+
+**Typical parameters**: 
+- $T_{eff}$ = 37000 − 55000 K
+- $\log g$ = 5.5 − 6
+- $L$ = 20 − 100 $L_\odot$

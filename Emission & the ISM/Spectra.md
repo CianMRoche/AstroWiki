@@ -33,7 +33,10 @@ Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be use
 ## 21cm line
 Sping flip of neutral hydrogen. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$
 
-Maps neutral hydrogen in radio wavelengths, [[Observatories#CHIME|CHIME]] can observe it.
+Maps neutral hydrogen in radio wavelengths, [[Observatories#CHIME|CHIME]] can observe it. [[Observatories#MEERKAT|MEERKAT]] also did this recently.
+
+**Halo model of H1 power spectrum**
+A model for the H1 power spectrum with 2halo, 1halo and shot noise terms, dpeending also on some temperature? Need to look into.
 
 
 ## Lyman-$\alpha$ forest
