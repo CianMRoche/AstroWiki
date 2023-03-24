@@ -33,6 +33,9 @@ Central temperatures are too low for hydrogen fusion. Instead, they are powered 
 AKA "red dwarf" (with some caveats, see [wiki page](https://en.wikipedia.org/wiki/Red_dwarf)). M Dwarfs are low-mass and low-luminosity stars, and are the most common type of stars in the Milky Way. 
 
 **Typical parameters**: 
-- $T_{eff}$ = 37000 − 55000 K
-- $\log g$ = 5.5 − 6
-- $L$ = 20 − 100 $L_\odot$
+- $T_{eff} \sim 2000-4000\,\pu{K}$ 
+- $L \lesssim 0.08 L_\odot$
+- $M \sim 0.08-0.45\,\pu{M_\odot}$  
+
+(also see HR diagram below and [[Spectra#Hertzsprung-Russel diagram|here]])
+![[HR_names.png|450]]

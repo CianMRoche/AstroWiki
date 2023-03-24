@@ -38,3 +38,7 @@ A catalogue of [[Galaxy clusters#Galaxy cluster|galaxy clusters]], [[Nebulae|neb
 **Size**: 13.2 million objects
 **Coverage**: Whole-sky
 **Depth**: Apparent [[Magnitudes#Photographic magnitude|photographic magnitude]] of ~9
+
+
+## M
+"Messier", a catalogue of messy (lol) [[Nebulae|nebula]]-looking things. Eg M31.

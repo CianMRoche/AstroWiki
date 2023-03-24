@@ -155,3 +155,11 @@ composition, and to measure the chemical constituents of its atmosphere.**
 ## 15
 **Why are M Dwarfs thought to be promising candidates for identifying Earth-sized, temperate (but
 not necessarily habitable) planets?**
+[[Stellar classes#M-dwarf|M-dwarfs]] are low mass and luminosity, so detection of low-mass and temperate planets is easier because:
+
+1. From [[#8]], half-amplitude of the radial velocity anomaly is $v_{*,r} \propto M_*^{-2/3}$ so if the star is smaller, radial velocity anomaly is larger.
+2. The "habitable zone" is closer to the star than for Sun-Like stars (Sun is G2V star), since the luminosity is lower. For M-dwarfs this zone is at about $0.1\,\pu{AU}$. Since both radial velocity and transit methods are biased toward stars in close orbits, we expect M-dwarfs to be promising candidates to find habitable-zone planets.
+3. They are the most common type of star in the Milky Way.
+
+**Why arent they likely to be habitable?**
+M-dwarfs have a lot of stellar activity -- flares and strong magnetic fields, so nearby planets can lose atmospheres and can be dangerous to life.

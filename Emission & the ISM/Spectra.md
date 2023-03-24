@@ -17,7 +17,7 @@ This diagram demonstrates the clustering between the [[HarvardSpectralClassifica
 
 
 ## Main sequence
-A line (and thus, evolutionary track) that can be identified on the [[#Hertzsprung-Russel diagram]] which comprises ~90% of known stars, including the [[Objects#The Sun|Sun]]. 
+A line (and thus, evolutionary track) that can be identified on the [[#Hertzsprung-Russel diagram]] which comprises ~90% of known stars, including the Sun. 
 
 
 ## OII doublet
@@ -69,6 +69,7 @@ Spectroscopic feature with both a blueshifted absorption line and a broadened re
 ![[HarvardSpectralClassification.png]]
 - Oh Be A Fine Goat Kick Me (OBAFGKM). Note the hydrogen line strength is a gaussian at "A", mass, radius and lunimosity all decrease, and fraction of [[#Main sequence]] stars increases. 
  ![[OBAFGKM.jpeg|250]]
+ - Each spectral type which is further divided into 10 sub-classes depending on the absorption features present in the spectrum. For example, the Sun has a temperature of about 5,700 Kelvin and is classified as a G2 star.
 
 
 ## Morgan-Keenan (MK or MKK) Luminosity Class
@@ -76,13 +77,14 @@ Stellar classification based on spectral line widths to distinguish between star
 - denser objects have broader spectral lines due to increased pressure/collisional broadening and higher surface gravity
 - complementary to [[Spectra#Harvard Spectral Classification|Harvard Spectral Classification]]
 ![[MK.png]]
+So the Sun is a **G2V** star
 
 
 ## Radio source
 Atmosphere not too problematic, can perform radio observations even on cloudy days
 
 **Solar system**:
-- The [[Objects#The Sun|Sun]] 
+- The Sun
 - Jupiter 
 
 **Galactic**:
