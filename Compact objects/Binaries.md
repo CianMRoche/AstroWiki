@@ -29,3 +29,6 @@ The tidal bulges are not aligned between the two bodies (ie not along the same a
 ## Tidal disruption event
 high-eccentricity orbit near a [[Black holes|SMBH]] disrupts object and shoots some of the material off
 
+
+## X-ray binary
+A [[Neutron stars#Neutron stars|neutron star]] or [[Black holes#Black hole|black hole]] accreting from a companion (often a [[Spectra#Main sequence|main sequence]] star) and emitting strongly in the x-ray. Neutron stars are invisible in the optical so the x-ray lines are how we typically identify the accreting binary. 

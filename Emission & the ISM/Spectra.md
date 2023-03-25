@@ -63,13 +63,14 @@ Spectroscopic feature with both a blueshifted absorption line and a broadened re
 
 
 ## Harvard Spectral Classification
+- See [this page](http://astro.vaporia.com/start/spectraltype.html) for even more detail on letters that people add to spectral classes.
 - Classifies stars into spectral type based on temperature 
 - Originally classes A-Q based on strength of hydrogen lines in spectra, but found that there was lots of overlap amongst categories (and also they were in the wrong order for other properties)
 - Cannot distinguish between same color, same apparent magnitude, but different luminosity stars (need [[Spectra#Morgan-Keenan (MK or MKK) Luminosity Class|MK Luminosity Classification]])
 ![[HarvardSpectralClassification.png]]
 - Oh Be A Fine Goat Kick Me (OBAFGKM). Note the hydrogen line strength is a gaussian at "A", mass, radius and lunimosity all decrease, and fraction of [[#Main sequence]] stars increases. 
  ![[OBAFGKM.jpeg|250]]
- - Each spectral type which is further divided into 10 sub-classes depending on the absorption features present in the spectrum. For example, the Sun has a temperature of about 5,700 Kelvin and is classified as a G2 star.
+ - Each spectral type which is further divided into 10 sub-classes depending on the absorption features present in the spectrum with 0 (hottest) through 9 (coolest). For example, the Sun has a temperature of about 5,700 Kelvin and is classified as a G2 star.
 
 
 ## Morgan-Keenan (MK or MKK) Luminosity Class

@@ -39,3 +39,6 @@ AKA "red dwarf" (with some caveats, see [wiki page](https://en.wikipedia.org/wik
 
 (also see HR diagram below and [[Spectra#Hertzsprung-Russel diagram|here]])
 ![[HR_names.png|450]]
+
+
+## White dwarf

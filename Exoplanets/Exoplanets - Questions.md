@@ -4,7 +4,7 @@ TESS is a transiting exoplanet survey (see [[#13]]) so one can determine the per
 - Without an atmosphere: $\delta =\frac{\text{area of planet}}{\text{area of star}} = R_p^2 / R_*^2$ if we assume the emission is the same over the disk of the star. 
 - With an atmospere of constant [[Optical depth#Optical depth|optical depth]] $\tau_\nu$ and atmospheric scale height $H$:  $$\delta = \frac{R_p^2 + 2R_p H(1 - e^{-\tau_\nu})}{R_*^2}$$though I dont understand why its $\tau_\nu$ here and not $\tau$ unless the $\delta$ is defined for some thin frequency band. 
 
-From Megan's notes: Note that this would have to be normalized so that the lat bit on top is at 1 for the $\delta$ label to be correct. Otherwise $\delta$ is a ratio such that $F_{dip} = (1-\delta) F_{top}$
+From Megan's notes: Note that this would have to be normalized so that the flat bit on top is at 1 for the $\delta$ label to be correct. Otherwise $\delta$ is a ratio such that $F_{dip} = (1-\delta) F_{top}$
 ![[transit.png|300]]
 
 One can also in some cases determine the temperature of the planet by measuring a much smaller dip when the planet passes behind the star. Need to assume both are blackbodies.
