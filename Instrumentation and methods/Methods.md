@@ -21,3 +21,21 @@ The image below shows that detectors aligned colinearly improve the resolution a
 
 ## Strell ratio
 ratio of power in wings of psf versus in sharp bit in middle
+
+
+## Reverberation mapping
+Uses the time lags between correlated observed signals to infer information about the environment very close to a black hole. See [this page](https://ned.ipac.caltech.edu/level5/March10/Peterson/frames.html) for a reverberation mapping overview.
+
+**Optical/broad line region:** 
+Measure the delay between optical broad lines wrt continuum; light travel time induces a delay $\tau_{LT} \sim R_{BLR}/c$ to estimate location of the broad line region.
+
+Can relate the mass of the black hole to the location of the BLR and velocity dispersion of lines via $$M_{BH} = \frac{f(\Delta\,v)^2\,R_{BLR}}{G}$$where $f$ is a scale factor related to geometry and kinematics of the broad line region. Usually about 5.
+
+Requirements:
+- High time resolution ($\lesssim 1$ day)
+- Long duration monitoring (~ months)
+- Moderate spectral resolution ($\sim 600\,\pu{km\,s^{-1}}$)
+- High signal to noise
+
+**X-ray**
+Probe time delays between corona and disk in reflection features ($\tau_{LT, Xray} \ll \tau_{LT,opt}$). Can fit lag enegry spectrum to measure the mass, as the lag depends on the mass since we are probing $R_{\rm{ISCO}}$ 
