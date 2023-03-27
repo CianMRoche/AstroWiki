@@ -41,6 +41,7 @@ black holes, and how do we know these things?**
 
 ## 40
 **It is believed that most stars leave a collapsed remnant at the end of their evolution. What stars leave (i) white dwarfs? (ii) neutron stars? (iii) black holes?**
+Exact numbers of below are not known. Can find sources with $\pm$ 25%  on each number
 $$M_{*, initial} = \cases{\lesssim0.08 \\0.08 - 0.8M_\odot \\0.8 - 8M_\odot \\ 8-20 M_\odot \\ \gtrsim 20 M_\odot} \implies \cases{\text{brown dwarf} \\ \text{MS ``forever"} \\ \text{white dwarf} \\ \text{neutron star} \\ \text{black hole}} \implies \cases{\text{same} \\\text{same} \\0.4 - 1M_\odot \\ 1.5-2 M_\odot \\ \gtrsim 3 M_\odot} = M_{*,final}$$
 Why?
 - In massive stars, strong winds drive major mass loss
@@ -54,14 +55,46 @@ Why?
 	- Anything larger than this will collapse into a BH. (see RHS of cases above for final masses) 
 
 
+## 41
+**What is a neutron star?**
+See [[Neutron stars#Neutron stars|neutron stars]].
+
+**What assumptions and inputs go into determining the upper mass limit for a neutron star?**
+Analogous to the Chandrasekhar limit for white dwarf stars, the mass limit for neutron stars is called the *Tolman-Oppenheimer-Volko limit* (or TOV limit), but the accurate value is not known because the equations of state for extremely dense matter are not well known (for deriving the degeneracy pressure due to electrons, we use the Fermi-Dirac statistics, which tacitly assumes that the particles are non-interacting; this is not bad an assumption for the electron gas inside a white dwarf, but when neutrons are packed to densities close to the density inside atomic nucleus, the neighbouring neutrons interact with each other through nuclear forces and it is no longer justified to treat them as non-interacting particles). The limit is generally held to be around $2.1\,M_\odot$, but a recent estimate puts the upper limit at $2.16\,M_\odot$. The maximum observed mass of neutron stars is about $2.14\,M_\odot$ for PSR J0740+6620 discovered in September, 2019.
+
+**What is the approximate ratio of neutrons to protons (and electrons) in the interior
+of a neutron star?**
+Dictated by $\beta$ decay versus electron capture rates:
+
+- $\beta$ decay: $n \rightarrow p + e^- + \bar{\nu}_e$
+- $e^-$ capture: $p + e^- \rightarrow n + \bar{\nu}_e$
+
+Then ratio is roughly given by ratio of Boltzmann factors for the neutron and the (proton + electron) systems $$\frac{n}{p} \sim \exp\left(-\frac{(m_n - m_p - m_e)c^2}{kT}\right) \sim \exp\left(-\frac{0.8\,\pu{MeV}}{kT}\right) \sim \exp\left(-\frac{10^{10}}{T [K]}\right)$$so at temperatures ~ $10^{10}\,\pu{K}$ we have 3 times more $p$ than $n$ but above this the exponent becomes closer to 0 and the best we can do is go to 1?? I think maybe that is flawed and should include a term for the fermi level so that the exponent can become positive(?)
 
 
+## 42
+**Why can we not have monopole and dipole terms in gravitational radiation (within Einstein's
+GR)?**
+We’ll start with electromagnetic radiation, and expand in moments. 
+- For a charge density $ρ_e(r)$, the monopole moment is $∫ρ_e(r)d^3r$. This is simply the total charge Q, which cannot vary, hence there is no electromagnetic monopolar radiation. 
+- The next static moment is the dipole moment, $∫ρ_e(r) r d^3r$. There is no applicable conservation law, so electric dipole radiation is possible. 
+- One can also look at the variation of currents. The lowest order such variation (the “magnetic dipole”) is $∫ρ_e(r) r × v(r)d^3r$. Once again this can vary, so magnetic dipole radiation is possible. The lower order moments will typically dominate the field unless their variation is reduced or eliminated by some special symmetry.
+
+Now consider gravitational radiation. 
+- Let the mass-energy density be ρ(r). The monopole moment is $∫ρ(r)d^3r$, which is simply the total mass-energy. This is constant, so there cannot be monopolar gravitational radiation. 
+- The static dipole moment is $∫ρ(r) r d^3r$. This, however, is just the center of mass-energy of the system. In the center of mass frame, therefore, this moment does not change, so there cannot be electric dipolar radiation in this frame (or any other, since the existence of radiation is frame-independent). 
+- The equivalent of the magnetic dipolar moment is $∫ρ(r) r × v(r)d^3r$. This, however, is simply the total angular momentum of the system, so its conservation means that there is no magnetic dipolar gravitational radiation either. 
+- The next static moment is quadrupolar: $I_{ij} =∫ρ(r)r_i r_j d^3r$. This is not conserved, therefore there can be quadrupolar gravitational radiation
+
+As a result spherically symmetric variations cannot produce GWs and axisymmetric rotation does not produce GWs.
+
+[Source](https://www.astro.umd.edu/~miller/teaching/astr498/lecture24.pdf )
 
 
-
-
-
-
+## 43 
+**Give a qualitative description of the frequency and amplitude evolution of the gravitational wave
+signal from a binary compact star system**
+Since energy and angular momentum are continuously carried away by gravitational radiation, the two masses in orbit spiral towards each other, thus increasing their orbital frequency $Ω$. The GW frequency $f = Ω/π$ and the GW amplitude $h$ are also increasing functions of time.
 
 
 

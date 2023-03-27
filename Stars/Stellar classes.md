@@ -42,3 +42,4 @@ AKA "red dwarf" (with some caveats, see [wiki page](https://en.wikipedia.org/wik
 
 
 ## White dwarf
+Supported by electron degeneracy pressure (in contrast to the neutron degeneracy pressure of [[Neutron stars#Neutron stars|neutron stars]])

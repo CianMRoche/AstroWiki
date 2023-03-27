@@ -1,17 +1,20 @@
 ## Neutron stars
-- Born spinning very fast and with massive $B$ fields (~$10^{11}\,\pu{T}$)
-- born in core-collapse supernovae
-- Do we have a good idea for what the mass evolution looks like? Maybe no?
-- We dont see lots of neutron star merger/collisions? Neutron stars dont have enough mass to dynamically "sink" to the center as black holes do. We expect BHs to merge in centers of galaxies but NSs to stay "out" and therefore have a lower chance of intercating
+Dense cores of closely packed neutrons supported in part by neutron degeneracy pressure that are remnants of $8-20\,M_\odot$ stars that have undergone core collapse supernova. Degeneracy pressure arises because neutrons (and electrons, protons) are fermions, and by the Pauli exclusion principle they cant occupy the same quantum state. Lots of neutrons in a highly-dense region means Fermi level (next "available" energy state) is actuyally very high, leading to an additional "pressure" that prevents the core from collapsing further. Neutron degeneracy pressure is not by itself sufficient to maintain an object beyond $0.7\,M_\odot$ and repulsive nuclear forces play a larger role in supporting more massive neutron stars.
 
 **Typical parameters**:
 Mass: 1-2 $M_{\odot}$
 Radius: ~10$\pu{km}$ (inner 9km behaves as one giant nucleus, since density ~ nucleus density)
-Density: $10^{15} \pu{g cm^{-3}}$ (nuclear saturation density of an atom ~ $2\times 10^{14}\,\pu{g cm^{-3}}$)
+Density: up to $3\times10^{14} \pu{g cm^{-3}}$ in core (nuclear saturation density of an atom ~ $2\times 10^{14}\,\pu{g cm^{-3}}$)
 Magnetic field: 
 
+- Born spinning very fast and with massive $B$ fields (~$10^{11}\,\pu{T}$)
+- Do we have a good idea for what the mass evolution looks like? Maybe no?
+- Why dont we see lots of neutron star merger/collisions? Neutron stars dont have enough mass to dynamically "sink" to the center of galaxies as black holes do. We expect BHs to merge in centers of galaxies but NSs to stay "out" and therefore have a lower chance of interacting.
 
-## <mark class="hltr-orange">Pulsar</mark>
+Most of the basic models for these objects imply that neutron stars are composed almost entirely of neutrons; the electrons and protons present in normal matter combine to produce neutrons at the conditions in a neutron star through neutronization. Because electrons are fermions, unless an energy $E_F − m_e c^2$ is added to an electron, it is not possible to put the electron in the region of high density, since all the lower energy states are filled. If this energy becomes larger than $(m_n−m_p−m_e)c^2$, it becomes energetically favorable for the electron to combine with a proton to produce a neutron, rather than to exist as a free electron (assuming that neutrons are non-degenerate and a neutron can be created at the lowest energy state). Since $E_F$ increases with density, there is a critical density above which the electrons start combining with protons to give neutrons. At density well above the critical density, matter would mainly consist of neutrons. See [[Compact objects - Questions#41|41]].
+
+
+## Pulsar
 - PULSAting Radio source
 - highly magnetized rotating neutron star that emits EM radiation out of its magnetic poles
 - [[Spectra#RadioSource|Radio source]] (galactic and extragalactic)
@@ -22,6 +25,9 @@ Magnetic field:
 ## Neutron star equation of state
 Want $P(\rho)$, but that assumes that the matter is at $T=0$ and at $\beta$-equilibrium (?). Apparently fine pre-binary merger, but not in the merging and post-merger phases. 
 
-What global properties of a NS can constrain the microphysics of their dense-matter interactions?
-
-Why is T reported in MeV? depend on # of d.o.f.?
+[[Observatories#NICER|NICER]] has helped to inform the EoS of NSs by 
+1. Using pulse profile modelling to contrain the radius and mass of NSs
+   - Mass measurement can be easier if star is in binary
+   - Strong gravity leads to detectable changes in the pulse profiles which depend on both radius and mass
+   - Low radii solutions are not preferred (meaning? Not sure)
+2. Found magnetic field is not dipolar in many of the NSs studied
