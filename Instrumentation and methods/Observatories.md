@@ -33,6 +33,9 @@ Rate goes with range cubed -> rate ~ volume we can probe. 2x more instrument sen
 ## KAGRA
 
 
+## LISA
+
+
 ## LBT
 
 

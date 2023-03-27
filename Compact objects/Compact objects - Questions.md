@@ -118,7 +118,36 @@ This is well within the [[Observatories#LIGO|LIGO]] sensitivity at a frequency o
 ## 45
 **Besides the merger of two compact objects, what other sources of gravitational waves are
 expected (though maybe not yet detected)?**
+Any accelerating mass with a quadrupole moment. 
 
+Detected binary sources:
+- Binary stellar-mass [[Black holes#Black hole|black holes]]
+- Binary [[Neutron stars#Neutron stars|neutron stars]]
+- Neutron star - BH mergers
+
+Not yet detected binaries:
+- [[Stellar classes#White dwarf|WD]] - WD binary, WD - NS, WD - BH
+- Supermassive black hole binaries ([[Observatories#LISA|LISA]] or [[Pulsar timing]], see [[Gravitational waves#Spectrum|GW spectrum]])
+- Extreme mass-ratio inspiral (EMRI; [[Observatories#LISA|LISA]])
+
+**Other potential sources**:
+- Isolated [[Neutron stars#Neutron stars|NS]] with asymetry and rotation (eg. "mountains" on the surface)
+	- Why no detection yet? Very weak signal
+	- Will be continuous signal of roughly constant frequency
+- [[Supernovae#Supernova|Supernovae]] or long [[GRBs#GRB|GRBs]]. 
+	- Cant be spherically symmetric
+	- GW signal from such sources currently unclear, but probably bursty
+- Primordial GWs (fluctuations near big bang)
+	- Analogous to CMB in that it is stochastic background on whole sky
+	- More likely to detect via [[Pulsar timing#Pulsar timing|PTAs]]. GW signal will be correlated across pulsar signals, but noise will not be.
+
+
+## 46
+**How does the orbital frequency of the innermost stable circular orbit around a black hole scale
+with its (i) mass? (ii) spin?**
+For BH of mass $M$, orbital frequency (via [[Binaries#Circular motion|circular motion]]) is $$\Omega_{\rm{ISCO}}^2 = \frac{GM}{R_{\rm{ISCO}}^3}$$And the radius goes as (See [[Black holes#ISCO|ISCO]] for helpful plot at a particular mass)$$R_{\rm{ISCO}} = \alpha \frac{GM}{c^2}$$where $\alpha$ is a spin-dependent factor that has the following limiting cases: $$a = \cases{-1\quad\text{(retrograde, maximal)} \\ 0\quad\text{(Schwarzschild)} \\ +1\quad\text{(prograde, maximal)}} \implies \alpha = \cases{9 \\ 6 \\ 1}$$so $\alpha$ and thus $R_{\rm{ISCO}}$ decreases as relative spin (so retrograde is considered "less spin") is increased. Since $$\Omega_{\rm{ISCO}} \sim \frac{1}{\alpha^{3/2}M}$$ we have that:
+- Relative spin $\uparrow$ $\implies$ $\Omega_{\rm{ISCO}}$ $\uparrow$ 
+- Mass $\uparrow$ $\implies$ $\Omega_{\rm{ISCO}}$ $\downarrow$ 
 
 
 
