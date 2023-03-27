@@ -7,3 +7,6 @@ The first discovered galaxy group was [[Objects#Stephan's quintet|Stephan's quin
 - $<50$ member galaxies
 - Mass: ~$10^{13}$ $M_\odot$ 
 - Diameter: 1-2 Mpc
+
+
+## Local Group

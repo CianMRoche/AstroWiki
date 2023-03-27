@@ -1,3 +1,11 @@
+## Circular motion
+Summary: For an object moving in a circle we have $$v = r\omega\quad,\quad a = \frac{v^2}{r}$$**Reason**:
+The first follows from $$v = \frac{\text{distance}}{time} = \frac{2\pi r}{P} = r\omega$$The second from the fact that we can view the velocity vector as rotating with period $P$ on a circle of radius $v$ since the magnitude of $v$ never changes. Then the arc length traced in $dt$ is $a\,dt$ where $a$ is the acceleration required to change the direction of $v$ and simultaneously the arc length is $v\,d\theta$ with $\theta$ in radians. put those together and we get $a = v\omega = r\omega^2 = v^2/r$
+
+**For gravity**
+For a small thing of mass $m$ orbiting in a circle around an unmoving big thing of mass $M$ we have $$a_{cent} = \frac{v^2}{r} = a_{grav} = \frac{GM}{r^2}$$which leads to $$w^2 = \frac{GM}{r^3}$$
+
+
 ## Kepler's laws
 For one object in a binary:
 1. The orbit is ellipse with center of mass at one focus

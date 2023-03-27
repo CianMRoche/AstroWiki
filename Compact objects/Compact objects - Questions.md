@@ -92,9 +92,38 @@ As a result spherically symmetric variations cannot produce GWs and axisymmetric
 
 
 ## 43 
-**Give a qualitative description of the frequency and amplitude evolution of the gravitational wave
-signal from a binary compact star system**
-Since energy and angular momentum are continuously carried away by gravitational radiation, the two masses in orbit spiral towards each other, thus increasing their orbital frequency $Ω$. The GW frequency $f = Ω/π$ and the GW amplitude $h$ are also increasing functions of time.
+**Give a qualitative description of the frequency and amplitude evolution of the gravitational wave signal from a binary compact star system**
+Since energy and angular momentum are continuously carried away by gravitational radiation, the two masses in orbit spiral towards each other, thus increasing their orbital frequency $Ω$. The GW frequency $f = Ω/π$ and the GW amplitude $h$ are also increasing functions of time. We know the waves carry energy because of [[Gravitational waves#Sticky bead argument|sticky bead argument]]. 
+
+Skipping the derivation ([source](https://link.springer.com/article/10.12942/lrr-2006-6#Sec3)), the frequency of the gravitational waves (assuming a Newtonian approximation for the orbit) are governed by the equation$$\frac{df}{dt} = \frac{96}{5}\pi^{8/3}\left(\frac{GM_c}{c^3}\right)^{5/3}f^{11/3} \simeq 2\times 10^{-57} M_c^{5/3}f^{11/3}$$ for the [[Gravitational waves#Chirp mass|chirp mass]] and frequency in SI units. We can integrate this to obtain $$f(t) = \frac{1}{2\pi} \left(\frac{256G^{5/3}M_c^{5/3}}{5c^5}\right)^{-3/8}(t_{coal} - t)^{-3/8}$$where $t_{coal}$ is the coalescence time and the expression diverges at coalescence. This may be a factor of 2 off, Meghans notes says $\omega = \pi f$ and not $2\pi f$ since radiation is quadrupolar Maybe thats just for identical sources. The average amplitude of a GW at a distance $r$ from the source over a period involves an average of the two polarization states ($+$ and $\times$) as $$h(f,M_c,r) = \left(\langle h_+^2\rangle + \langle h_\times^2\rangle\right)^{1/2} = \left(\frac{32}{5}\right)^{1/2} \frac{G^{5/3}}{c^4}\frac{M_c^{5/3}}{r}(\pi f)^{2/3}$$Putting this together we get something llike (from Meghans notes, $\tau_c = t_{coal}$) ![[GW_profiles.png|400]]
+
+**Compute actual numbers for a 30-30$M_\odot$ binary black hole system**
+[[Gravitational waves#Chirp mass|Chirp mass]] here is 26.12 $M_\odot$ but in order to calculate the frequency/amplitude evolution we would need to know the distance to the system.  Since its an equal mass system, the period is actually half of what one would infer from the above because we have to identical things making a half rotation brings us back to the intial configuration. We can work out the frequency at coalescence by assuming coalescence happens at a separation of the Schwarz schild radius $R_S = 2GM_c/c^2$ and thus via [[Binaries#Circular motion|circular motion]] approximation we have $$\omega_{coal} = \sqrt{\frac{GM_c}{R_S^3}} = \frac{c^3}{2^{3/2}GM_c}\simeq{1200\,\pu{rad\,s^{-1}}}$$for the chirp mass in question. Corresponds to a minimum linear frequency of $\sim 400\,\pu{Hz}$ since system is identical after a half rotation(?). We cant work out the amplitude without a distance, but for the closest plausible objects we would have $h\sim 10^{-21}$ strain, so for a $4\,\pu{km}$ arm length (as [[Observatories#LIGO|LIGO]] has) the distance change would be $0.04\,\pu{fm}$ and for comparison, a proton has a root mean square charge radius of $\sim 1\,\pu{fm}$
+
+
+## 44
+**A double neutron star system in M31 is about to merge. What is the approximate energy emitted
+in gravitational radiation and what is the corresponding amplitude (strain) h observed here on
+Earth?**
+Im not sure how they realistically can ask this. Approximate as a common mass [[Neutron stars#Neutron stars|neutron star]] binary of $1.4 M_\odot$ each ($\implies M_c \simeq 1.2\,M_\odot$) and $\sim10\,\pu{km}$ radius each, so coalescence happens at a $\sim20\,\pu{km}$ separation. Thus as in [[#43]] the frequency is $$\omega_{coal}\simeq 4000\,\pu{rad\,s^{-1}} \implies f \sim 1\,\pu{kHz}$$and the gravitational energy emitted (a [[Units#Luminosity|luminosity]]) goes as $$L_{GW} = \frac{G}{5c^2}\left\langle\dddot{Q} \dddot{Q}\right\rangle = \dots = \frac{32}{5}\frac{G}{c^2}\mu^2R^4\omega^6 = \frac{32}{5}\frac{G^{7/3}}{c^5}\frac{(M_1 M_2)^2}{M_{tot}^{2/3}}\omega^{10/3}$$where $Q$ is the traceless moment of intertai tensor, $\mu$ is the reduced mass and $R$ is the separation and the last step comes from Keplers 3rd law + equating the energy lost in a virialized orbit as the radius decreases to the GW luminosity. Here $L_{GW}\sim 10^{46}\,\pu{W}$. Dont need to know that derivation. End up with total energy $\sim L_{GW} T_{merge}$ where $T_{merge}\sim 10\,\pu{ms}$ which comes to $E\sim10^{44}\,\pu{J}$ which is on the order of a supernova.
+
+To calculate strain, distance to [[Galaxy examples#M31|M31]] is $\sim 800\,\pu{kpc}$ and so end up with $h\sim 10^{-20}$. 
+
+**Would LIGO be able to detect it?**
+This is well within the [[Observatories#LIGO|LIGO]] sensitivity at a frequency of $1\,\pu{kHz}$ 
+
+![[GW_strain_sensitivity_curves.png|600]]
+
+
+## 45
+**Besides the merger of two compact objects, what other sources of gravitational waves are
+expected (though maybe not yet detected)?**
+
+
+
+
+
+
 
 
 
