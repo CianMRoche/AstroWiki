@@ -3,6 +3,7 @@
 - $M_\odot \simeq 2\times 10^{30} \,\pu{kg}$
 - $R_\odot \simeq 7\times 10^8 \,\pu{m}$
 - $P_\odot$ ~ 1 month
+- $L_\odot \simeq 3.8\times10^{26}\,\pu{W}$
 
 
 ## Heliopause

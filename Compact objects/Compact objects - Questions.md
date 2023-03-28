@@ -150,6 +150,24 @@ For BH of mass $M$, orbital frequency (via [[Binaries#Circular motion|circular m
 - Mass $\uparrow$ $\implies$ $\Omega_{\rm{ISCO}}$ $\downarrow$ 
 
 
+## 47
+**What is the Eddington limit and how is it manifested in (i) ordinary stars? (ii) accreting X-ray
+sources?**
+Eddington limit is the maximum [[Units#Luminosity|luminosity]] a body of mass $M$ can have when gravity and radiation pressure are balanced. To derive the limit, assume all the matter is ionized Hydrogen but for now write the density as $\rho$, and consider the Euler equation in hydrostatic equilibrium: $$\frac{dP_g}{dr} = -\frac{GM}{r^2}\rho$$Then consider the radiation pressure $$\frac{dP_{rad}}{dr} = -\frac{\kappa\rho}{c}F = -\frac{\sigma_T\rho}{m_p c} \frac{L}{4\pi r^2}$$where $F$ is the [[Units#Flux|flux]], $\kappa$ is the [[Optical depth#Opacity|opacity]] (dimensions cross section per mass) and we have approximated that for pure ionized Hydrogen, the opacity comes entirely from [[Scattering#Thomson scattering|Thomson scattering]] so that $\kappa = \sigma_T / m_p$ which we assume to be constant. Equating the two, we find in terms of [[The Sun#The Sun|solar]] parameters $$L_{Edd} = \frac{4\pi G M c}{\kappa} = \frac{4\pi G M m_p c}{\sigma_T} = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot$$**In ordinary stars**:
+When a star exceeds Eddington limit, radiation pressure drives significant stellar winds in the outer layers, leading to significant mass loss.
+- Only happens in most massive stars, since $L\sim M^{3.5}$ (for [[Spectra#Main sequence|MS]] stars) and $L_{Edd} \sim M$ eventually as mass increases the luminosity overtakes the Eddington limit and the star begins to blow out mass.
+- Increased opacity increases radiation's effect on the star (via more interactions, perhaps via [[Dust]]) and thus lowers the Eddington luminosity
+- Massive stars are Eddington-limited in post-[[Spectra#Main sequence|MS]] evolution, and thus travel *horizontally* on the [[Spectra#Hertzsprung-Russel diagram|HR diagram]].
+- Derivation assumes spherical symmetry, and thus limit can be exceeded in asymmetric systems
+
+**In X-ray sources**:
+Source is via accretion onto a compact object like a [[Black holes#Black hole|black hole]]
+- Accretion liberates gravitational potential energy as gas loses angular momentum + falls onto the compact object $L = \eta \dot{M} c^2$ (energy radiated per time = efficiency $\times$ mass-energy gained per time). The accretion efficiency $\eta$ is about 6% for Schwarzschild and 40% for a maximally spinning BH. Estimating as 0.1 is fine.
+- Accreting sources can also be Eddington-limited like stars, in that:
+	- For $L/L_{Edd} \lesssim 0.5$ have standard thin, radiatively efficient accretion disk
+	- For $L/L_{Edd} \gtrsim 0.5$ have a puffed-up disk since the radiation pressure increases the height to radius ratio, which leads to radiatively inefficient accretion flow
+- Lack of spherical symmetry here even moreso allows for super-Eddington luminosity.
+
 
 
 

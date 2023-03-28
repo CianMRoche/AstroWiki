@@ -1,5 +1,5 @@
 # AstroWiki
-Notes to supplement study for the MIT astrophysics division oral qualification exam
+Notes to supplement study for the MIT astrophysics division oral qualification exam. Press the "control" key (or maybe command on mac) when hovering over an internal link in the notes to display the linked note without switching to it.
 
 ### Requirements
 Install the markdown note-taking application [Obsidian](https://obsidian.md/) and you can open the AstroWiki folder as a "vault" with complementary connected graph view.

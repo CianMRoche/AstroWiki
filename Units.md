@@ -41,7 +41,7 @@ Units of power ($\pu{W}$). The energy per time leaving a (usually astrophysical)
 
 
 ## Flux
-Loosely used, generally refers to some power per area ($\pu{W\,m^{-2}}$). Not intrinsic property of source, depends on observation parameters.
+Loosely used, generally refers to some power per area ($\pu{W\,m^{-2}}$). Not intrinsic property of source, depends on "observation"/"location" parameters such as distance from source.
 
 *Specific* flux refers to the flux density in frequency space, such that $F_\nu(\nu)\,d\nu$ is the flux in the frequency band from $[\nu,\nu + d\nu]$ 
 
