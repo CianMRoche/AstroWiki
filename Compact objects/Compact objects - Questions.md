@@ -153,7 +153,7 @@ For BH of mass $M$, orbital frequency (via [[Binaries#Circular motion|circular m
 ## 47
 **What is the Eddington limit and how is it manifested in (i) ordinary stars? (ii) accreting X-ray
 sources?**
-Eddington limit is the maximum [[Units#Luminosity|luminosity]] a body of mass $M$ can have when gravity and radiation pressure are balanced. To derive the limit, assume all the matter is ionized Hydrogen but for now write the density as $\rho$, and consider the Euler equation in hydrostatic equilibrium: $$\frac{dP_g}{dr} = -\frac{GM}{r^2}\rho$$Then consider the radiation pressure $$\frac{dP_{rad}}{dr} = -\frac{\kappa\rho}{c}F = -\frac{\sigma_T\rho}{m_p c} \frac{L}{4\pi r^2}$$where $F$ is the [[Units#Flux|flux]], $\kappa$ is the [[Optical depth#Opacity|opacity]] (dimensions cross section per mass) and we have approximated that for pure ionized Hydrogen, the opacity comes entirely from [[Scattering#Thomson scattering|Thomson scattering]] so that $\kappa = \sigma_T / m_p$ which we assume to be constant. Equating the two, we find in terms of [[The Sun#The Sun|solar]] parameters $$L_{Edd} = \frac{4\pi G M c}{\kappa} = \frac{4\pi G M m_p c}{\sigma_T} = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot$$**In ordinary stars**:
+Eddington limit is the maximum [[Units#Luminosity|luminosity]] a body of mass $M$ can have when gravity and radiation pressure are balanced. To derive the limit, assume all the matter is ionized Hydrogen but for now write the density as $\rho$, and consider the Euler equation in hydrostatic equilibrium: $$\frac{dP_g}{dr} = -\frac{GM}{r^2}\rho$$Then consider the radiation pressure (the derivation seems fairly involved, skipping)$$\frac{dP_{rad}}{dr} = -\frac{\kappa\rho}{c}F = -\frac{\sigma_T\rho}{m_p c} \frac{L}{4\pi r^2}$$where $F$ is the [[Units#Flux|flux]], $\kappa$ is the [[Optical depth#Opacity|opacity]] (dimensions cross section per mass) and we have approximated that for pure ionized Hydrogen, the opacity comes entirely from [[Scattering#Thomson scattering|Thomson scattering]] so that $\kappa = \sigma_T / m_p$ which we assume to be constant. Equating the two, we find in terms of [[The Sun#The Sun|solar]] parameters $$L_{Edd} = \frac{4\pi G M c}{\kappa} = \frac{4\pi G M m_p c}{\sigma_T} = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot$$**In ordinary stars**:
 When a star exceeds Eddington limit, radiation pressure drives significant stellar winds in the outer layers, leading to significant mass loss.
 - Only happens in most massive stars, since $L\sim M^{3.5}$ (for [[Spectra#Main sequence|MS]] stars) and $L_{Edd} \sim M$ eventually as mass increases the luminosity overtakes the Eddington limit and the star begins to blow out mass.
 - Increased opacity increases radiation's effect on the star (via more interactions, perhaps via [[Dust]]) and thus lowers the Eddington luminosity
@@ -168,6 +168,32 @@ Source is via accretion onto a compact object like a [[Black holes#Black hole|bl
 	- For $L/L_{Edd} \gtrsim 0.5$ have a puffed-up disk since the radiation pressure increases the height to radius ratio, which leads to radiatively inefficient accretion flow
 - Lack of spherical symmetry here even moreso allows for super-Eddington luminosity.
 
+
+## 48
+**What is the Roche potential in a binary system?**
+In a binary system with a circular orbit, it is often useful to describe the system in a coordinate system that rotates along with the objects. In this non-inertial frame, one must consider centrifugal force in addition to gravity. The two together can be described by a potential (the Roche potential), so that, for example, the stellar surfaces lie along equipotential surfaces. Close to each star, surfaces of equal gravitational potential are approximately spherical and concentric with the nearer star. Far from the stellar system, the equipotentials are approximately ellipsoidal and elongated parallel to the axis joining the stellar centers. A critical equipotential intersects itself at the L1 [[Methods#Space-based detector orbits|Lagrange point]] of the system, forming a two-lobed figure-of-eight with one of the two stars at the center of each lobe. This critical equipotential defines the Roche lobes. For the situation when an object has a radius equal to or greater than the size of its hosting lobe, see [[Binaries#Roche-lobe overflow|Roche-lobe overflow]].
+![[roche_potential.png]]
+Above is the derived potential (skipping the derivation, though not too long, see Megans notes) and its corresponding stationary points called the [[Methods#Space-based detector orbits|Lagrange points]]. 
+
+**Describe carefully the assumptions that go into deriving it.**
+1. Nonrelativistic
+2. Where matter moves relative to the co-rotating frame it will seem to be acted upon by a Coriolis force. This is not derivable from the Roche lobe model as the Coriolis force is a non-conservative force (i.e. not representable by a scalar potential)
+3. Synchronous orbits (same rotation period of each individual orbit)
+4. Objects are point sources
+
+**Define the Roche limit**
+The Roche limit, sometimes referred to as the Roche radius, is the distance within which a celestial body, held together only by its own gravity, will disintegrate due to a second celestial body’s tidal forces exceeding the first body’s gravitational self-attraction. A property of a two-body system, any smaller separation than the Roche limit leads to disruption of smaller body. Essentially, L1 moves to within the radius of the second body.
+
+Inside the Roche limit, orbiting material will tend to disperse and form rings, while outside the limit, material will tend to coalesce.
+
+Derivation: find the distance from a larger body of mass $M$ at which, for a smaller body of mass $m$ and radius $R$, the tidal forces due to the larger body exceed the self-gravity of the smaller body that holds it together (equivalent to the "L1 moving inside radius of smaller body" idea). End up with $$d_{Roche} = \alpha \left(\frac{m}{M}\right)^{1/3}R$$where $\alpha = 2^{1/3} \simeq 1.3$ in the simple derivation but accounting for fluid mechanics we have $\alpha \simeq1.4$ which is larger because disruption of a fluid body rather than a rigid body is "easier" and can take place at greater distances.
+
+
+## 49
+**What is the Shakura-Sunyaev (alpha-disk) model for accretion disks?**
+
+
+**What are the assumptions that go into its derivation?**
 
 
 
