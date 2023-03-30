@@ -187,20 +187,102 @@ The Roche limit, sometimes referred to as the Roche radius, is the distance with
 Inside the Roche limit, orbiting material will tend to disperse and form rings, while outside the limit, material will tend to coalesce.
 
 Derivation: find the distance from a larger body of mass $M$ at which, for a smaller body of mass $m$ and radius $R$, the tidal forces due to the larger body exceed the self-gravity of the smaller body that holds it together (equivalent to the "L1 moving inside radius of smaller body" idea). End up with $$d_{Roche} = \alpha \left(\frac{m}{M}\right)^{1/3}R$$where $\alpha = 2^{1/3} \simeq 1.3$ in the simple derivation but accounting for fluid mechanics we have $\alpha \simeq1.4$ which is larger because disruption of a fluid body rather than a rigid body is "easier" and can take place at greater distances.
+![[roche_limit_deform.jpg|500]]
 
 
 ## 49
 **What is the Shakura-Sunyaev (alpha-disk) model for accretion disks?**
+This is a relatively simple model for an accretion disk that is essentially parameterized by one parameter $\alpha$  which encodes our ignorance of the details of viscosity physics. Typically $0 < \alpha < 1$
+
+Based on the concept that the net angular momentum of the disk itself should be conserved (see [[Accretion#Accretion disk|accretion disk]]) and when matter close to the center falls onto the body (losing angular momentum) there should be a comensurate gain in angular momentum out in the disk. That is, <mark class="hltr-pink">angular momentum is tranfserred from inner to outer parts of the disk if accretion is to occur</mark>. (Why doesnt the material just speed up and conserve angular momentum that way? I dont know). The mechanism for this transport is the viscosity, but phenomenologically we need turbulence-enhanced viscosity to explain what we see, though the microphysics is not understood.
+
+Disk viscosity $\nu = \alpha c_s H$
+
+The **$\mathbf{\alpha}$-disk model** is a steady-state model with fixed mass using a geometrically thin accretion disk. This results in at least 6 equations which can be solved to yield a model of the accretion disks <mark class="hltr-pink">temperature, pressure and density profiles</mark>. These are:
+- Conservation of mass
+- $3\times$ conservation of momentum equations (force balance)
+- Conservation of energy (power generation)
+- Radiative transport
+
+Can infer more about the disk with the 2 additional equations:
+- Equation of state (pressure or radiation dominated, see [[Equations of state]])
+- Opacity law
+
+Accretion assumes infalling objects start at rest and <mark class="hltr-pink">convert gravitational potential energy into luminosity</mark>. Explicitly, the change in potential energy and corresponding luminosity for an infalling mass $m$ at a distance $R$ from a central mass $M$ is $$\Delta E = \frac{GMm}{R}\quad\implies\quad L = \frac{GM\dot{M}}{R} $$**What are the assumptions that go into its derivation?**
+1. Subsonic turbulence
+2. Geometrically thin
+3. Optically thick
+4. Local thermodynamic equilibrium
+5. Efficiently radiates its heat
+6. Steady state (constant $\dot{M}$)
+7. Self-gravity of disk neglected
+
+where 4 and 5 relate to treating the disk as many local [[Blackbody radiation#Blackbody radiation|blackbodies]].
 
 
-**What are the assumptions that go into its derivation?**
+## 50
+**Write down the fluid equations for conservation of mass and momentum that would describe a
+spherically symmetric, expanding supernova remnant**
+
+Fluid equations:
+- Continuity of mass: $\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho\vec{v}) = 0$
+- Momentum conservation,  $\frac{\partial \vec{v}}{\partial t} + (\vec{v}\cdot\nabla)\vec{v} + \frac{1}{\rho}\nabla P = \frac{1}{\rho}\vec{f}$  where $P$ is the pressure, $\vec{f}$ is any external force, such that for gravity we have $\vec{f}_{grav} = -\nabla\Phi$ for $\Phi$ the gravitational potential
+- (Not asked for) There is also energy conservation which amounts to $\frac{\partial \epsilon}{\partial t} + \nabla \cdot \left[(\epsilon + P)\vec{v}\right] = 0$ where $\epsilon = \frac{1}{2}\rho |v|^2 + \frac{3}{2}nk_BT + \rho \Phi_g$ 
+
+Apply spherical symmetry to these equations, that is $\vec{v} = v\,\hat{r}$ and $\vec{f} = f\,\hat{r}$ to get:
+- Mass: $\frac{\partial \rho}{\partial t} + \frac{1}{r^2} \frac{\partial}{\partial r}(r^2\rho v) = 0$
+- Momentum $\frac{\partial v}{\partial t} + v\frac{\partial v}{\partial r} + \frac{1}{\rho}\frac{\partial P}{\partial r} = \frac{1}{\rho}f$
+- Energy similar to mass
+  
+**How would you derive the "jump conditions" for a strong adiabatic shock?**
+
+Basically by making simplifying assumptions and treating the problem in the frame of the moving shock discontinuity. A simplified picture of a shock is as follows, ie a rise in density up to a particular point and a discontinuity, due to the fact that the shock overdensity is moving more quickly than the medium can respond.
+![[shock.png|400]]
+
+In a frame moving with the shock front (ie moving at a speed $v_{shock} =: v_s$) we assume
+- The dynamics are steady-state in this frame: $\partial/\partial t = 0$
+- The radial derivativessimplify to 1D Cartesian derivatives: $\frac{1}{r}\frac{\partial}{\partial r}(r^2\,\cdot) \rightarrow \frac{d}{d x}(\cdot)$ 
+- Ignore gravity and external forces: $f = 0$
+- Approximate the medium past the shock front as being at rest, so in the shock front frame is moves with speed $v_{s}$ 
+
+With this, we obtain the "Rankine–Hugoniot jump conditions":
+1. From mass conservation, obtain $\frac{d}{d x}(\rho v) = 0 \implies \rho v = \text{const}$
+2. From momentum conservation, obtain $\rho v \frac{d v}{d x} + \frac{d P}{d x} = 0 = \frac{d}{d x}(\rho v^2 + P) \implies \rho v^2 + P = \text{const}$
+3. From energy conservation, obtain $(\epsilon + P)v = \text{const}$ 
+
+We can do more with these but thats enough for now (see Megan and Xiaowei's notes).
 
 
+## 51
+**Describe the various stages of evolution of a supernova remnant. What are the relevant physical  
+processes during each phase? Explain why in the Sedov-Taylor phase of a supernova remnant, the  
+radius expands at $t^{2/5}$**
 
+Basic picture is below, where the y-axis scale is from about $0.01\,\pu{pc}$ to $100\,\pu{pc}$ (logarithmic), from Megans notes
+![[sne_expansion_phases.png]]
 
+**(1) Free expansion phase**:  |  $R\propto t$  |  lasts $\sim 100-200$ years   
+- When [[Supernovae#Supernova|SN]] first explodes, material ejected at supersonic speeds
+- [[Interstellar medium#ISM|ISM]] pressure is negligible, no deceleration $\implies v=\text{const} \implies R = vt \propto t$ 
+- Shock waves sweeps up and collects material from the ISM, eventually slowing down
+- Expansion continues until the mass collected from ISM is about equal to the initial mass of the ejecta
+- Ejected gas is [[Optical depth#Optical thickness|optically thick]] and kept hot by radioactive decay of isotopes created by the supernova.
 
+**(2) Sedov-Taylor phase**:  |  $R\propto t^{2/5}$  |  lasts $\sim 10^4$ years   
+- Ejecta is "out of steam" kinetically, expansion now an adiabatic expansion driven by thermal pressure of the hot gas
+- Ejecta itself is heated by the [reverse shock](https://ned.ipac.caltech.edu/level5/March05/Dwek/Dwek3_3.html)
+- Very hot ionized gas cannot efficiently radiate away energy since cooling time $\gg$ dynamical time (such that radiated heat gets absorbed and equilibriated into the system before it escapes) and therefore the expansion is at roughly constant energy (<mark class="hltr-pink">adiabatic</mark>)
+- Lets derive the time-dependence of the radius in terms of the parameters $E \,(const), \rho, R,t$. 
+- We could start with energy conservation, looking at the swept up ISM energy (for an ISM of constant density $\rho$) $$E_{kin} = \frac{1}{2} M v^2 = \frac{1}{2} \frac{4}{3}\pi R^3 \rho v^2$$ and the thermal energy (assuming ideal monatomic gas) where we will need the momentum conservation equation of the [[#50|Rankine–Hugoniot jump conditions]] $P\propto \rho v^2$ to obtain $$E_{th} = \frac{3}{2}Nk_B T = \frac{3}{2}PV \propto R^3 \rho v^2$$We can already see the time-dependence in both of these equations. If $R^3 v^2 \propto E/\rho = \text{const}$ then since $R^3 v^2 = R^3 \dot{R}^2 = \text{const}$ then assuming $R = t^q$ we must have that $3q + 2(q-1) = 0 \implies q=2/5$ 
+- We could also note that by dimensional analysis, by using an ansatz of a "self-similar" solution (see Geoffrey's notes).
 
+**(3) Snowplow phase**:  |  $R\propto t^{1/4}$  |  lasts $\sim 10^5$ years   
+- Ejecta and swept up mass expands and cools until [[Recombination#Recombination|recombination]] can occur between the electrons and protons to form Hydrogen ($10^6\,\pu{K}$)
+- Since now more transparent to light, energy is lost to radiation and the thermal pressure decreases, slowing the expansion
+- Momentum conserved (since no thermal expansion) as shock wave collects more material from ISM $p = Mv = \frac{4}{3}\pi R^3 \rho \dot{R} = \text{const} \implies R\propto t^{1/4}$ (calculation as in last part of (2) above)
 
+**(4) Merger phase**:  |  $R\propto \text{const}$  |  End-state   
+- Eventually enough ISM mass is swept up and instabilities in the gas lead to the ejecta breaking up and dissipating into the ISM. This is the stage of becoming indistinguishable from ISM material
 
 
 

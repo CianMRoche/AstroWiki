@@ -19,3 +19,10 @@ $$F = F_0 e^{-x/l}$$
 AKA "absorption coefficient", labelled $\kappa$, dimensions of "cross section per mass". Expresses the efficiency with which this particular sort of material (hydrogen, or helium, or electrons, etc) absorbs and scatters light. Defined via $$\rho\kappa = \frac{1}{l} = n\sigma = \alpha$$where $\rho$ is the mass density, $l$ is the [[#Mean free path]] and $\alpha$ is the [[#Extinction coefficient]]. In principle $\kappa$, $\sigma$ and $\alpha$ are frequency-dependent.
 
 Since the opacity is frequency-dependent, really the **Rosseland mean opacity** that we are speaking about here. We define the Rosseland mean opacity in terms of the frequency dependent opacity $\kappa_\nu$ as$$\frac{1}{\kappa} = \frac{\int_0^\infty \frac{1}{\kappa_\nu} \frac{\partial B_\nu}{\partial T} d\nu }{\int_0^\infty \frac{\partial B_\nu}{\partial T} d\nu }$$where $B_\nu$ is the [[Blackbody radiation|blackbody]] spectral density. 
+
+
+## Optical thickness
+Loosely defined notion of "how difficult it is for light to get through a unit length of this material". Thickness is an appropriate word because when thinking about distance in terms of [[#Optical depth|optical depth]], a "thick" material is one which has a very short mean free path, and thus a large optical depth. the converse is true for a "thin" material.
+
+**Optically thick**: Many [[#Mean free path|mean free paths]] per unit length
+**Optically thin**: Few [[#Mean free path|mean free paths]] per unit length
