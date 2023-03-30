@@ -145,7 +145,9 @@ Not yet detected binaries:
 ## 46
 **How does the orbital frequency of the innermost stable circular orbit around a black hole scale
 with its (i) mass? (ii) spin?**
-For BH of mass $M$, orbital frequency (via [[Binaries#Circular motion|circular motion]]) is $$\Omega_{\rm{ISCO}}^2 = \frac{GM}{R_{\rm{ISCO}}^3}$$And the radius goes as (See [[Black holes#ISCO|ISCO]] for helpful plot at a particular mass)$$R_{\rm{ISCO}} = \alpha \frac{GM}{c^2}$$where $\alpha$ is a spin-dependent factor that has the following limiting cases: $$a = \cases{-1\quad\text{(retrograde, maximal)} \\ 0\quad\text{(Schwarzschild)} \\ +1\quad\text{(prograde, maximal)}} \implies \alpha = \cases{9 \\ 6 \\ 1}$$so $\alpha$ and thus $R_{\rm{ISCO}}$ decreases as relative spin (so retrograde is considered "less spin") is increased. Since $$\Omega_{\rm{ISCO}} \sim \frac{1}{\alpha^{3/2}M}$$ we have that:
+For BH of mass $M$, orbital frequency (via [[Binaries#Circular motion|circular motion]]) is $$\Omega_{\rm{ISCO}}^2 = \frac{GM}{R_{\rm{ISCO}}^3}$$And the radius goes as (See [[Black holes#ISCO|ISCO]] for helpful plot at a particular mass)$$R_{\rm{ISCO}} = \alpha \frac{GM}{c^2}$$where $\alpha$ is a spin-dependent factor that has the following limiting cases: $$a = \cases{-1&\text{(retrograde, maximal)} \\ 
+~0&\text{(Schwarzschild)} \\ 
++1&\text{(prograde, maximal)}} \implies \alpha = \cases{9 \\ 6 \\ 1}$$so $\alpha$ and thus $R_{\rm{ISCO}}$ decreases as relative spin (so retrograde is considered "less spin") is increased. Since $$\Omega_{\rm{ISCO}} \sim \frac{1}{\alpha^{3/2}M}$$ we have that:
 - Relative spin $\uparrow$ $\implies$ $\Omega_{\rm{ISCO}}$ $\uparrow$ 
 - Mass $\uparrow$ $\implies$ $\Omega_{\rm{ISCO}}$ $\downarrow$ 
 
@@ -258,17 +260,17 @@ We can do more with these but thats enough for now (see Megan and Xiaowei's note
 processes during each phase? Explain why in the Sedov-Taylor phase of a supernova remnant, the  
 radius expands at $t^{2/5}$**
 
-Basic picture is below, where the y-axis scale is from about $0.01\,\pu{pc}$ to $100\,\pu{pc}$ (logarithmic), from Megans notes
+Basic picture is below, from Geoffrey's notes
 ![[sne_expansion_phases.png]]
 
-**(1) Free expansion phase**:  |  $R\propto t$  |  lasts $\sim 100-200$ years   
+**(1) Free expansion phase**:  |  $R\propto t$  |  lasts $\sim 100-200$ years  |  $v$ constant 
 - When [[Supernovae#Supernova|SN]] first explodes, material ejected at supersonic speeds
 - [[Interstellar medium#ISM|ISM]] pressure is negligible, no deceleration $\implies v=\text{const} \implies R = vt \propto t$ 
 - Shock waves sweeps up and collects material from the ISM, eventually slowing down
 - Expansion continues until the mass collected from ISM is about equal to the initial mass of the ejecta
 - Ejected gas is [[Optical depth#Optical thickness|optically thick]] and kept hot by radioactive decay of isotopes created by the supernova.
 
-**(2) Sedov-Taylor phase**:  |  $R\propto t^{2/5}$  |  lasts $\sim 10^4$ years   
+**(2) Sedov-Taylor phase**:  |  $R\propto t^{2/5}$  |  lasts $\sim 10^4$ years  |  $E$ constant
 - Ejecta is "out of steam" kinetically, expansion now an adiabatic expansion driven by thermal pressure of the hot gas
 - Ejecta itself is heated by the [reverse shock](https://ned.ipac.caltech.edu/level5/March05/Dwek/Dwek3_3.html)
 - Very hot ionized gas cannot efficiently radiate away energy since cooling time $\gg$ dynamical time (such that radiated heat gets absorbed and equilibriated into the system before it escapes) and therefore the expansion is at roughly constant energy (<mark class="hltr-pink">adiabatic</mark>)
@@ -276,17 +278,49 @@ Basic picture is below, where the y-axis scale is from about $0.01\,\pu{pc}$ to 
 - We could start with energy conservation, looking at the swept up ISM energy (for an ISM of constant density $\rho$) $$E_{kin} = \frac{1}{2} M v^2 = \frac{1}{2} \frac{4}{3}\pi R^3 \rho v^2$$ and the thermal energy (assuming ideal monatomic gas) where we will need the momentum conservation equation of the [[#50|Rankine–Hugoniot jump conditions]] $P\propto \rho v^2$ to obtain $$E_{th} = \frac{3}{2}Nk_B T = \frac{3}{2}PV \propto R^3 \rho v^2$$We can already see the time-dependence in both of these equations. If $R^3 v^2 \propto E/\rho = \text{const}$ then since $R^3 v^2 = R^3 \dot{R}^2 = \text{const}$ then assuming $R = t^q$ we must have that $3q + 2(q-1) = 0 \implies q=2/5$ 
 - We could also note that by dimensional analysis, by using an ansatz of a "self-similar" solution (see Geoffrey's notes).
 
-**(3) Snowplow phase**:  |  $R\propto t^{1/4}$  |  lasts $\sim 10^5$ years   
+**(3) Snowplow phase**:  |  $R\propto t^{1/4}$  |  lasts $\sim 10^5$ years  |  $P$ constant 
 - Ejecta and swept up mass expands and cools until [[Recombination#Recombination|recombination]] can occur between the electrons and protons to form Hydrogen ($10^6\,\pu{K}$)
 - Since now more transparent to light, energy is lost to radiation and the thermal pressure decreases, slowing the expansion
 - Momentum conserved (since no thermal expansion) as shock wave collects more material from ISM $p = Mv = \frac{4}{3}\pi R^3 \rho \dot{R} = \text{const} \implies R\propto t^{1/4}$ (calculation as in last part of (2) above)
 
-**(4) Merger phase**:  |  $R\propto \text{const}$  |  End-state   
+**(4) Merger phase**:  |  $R\propto \text{const}$  |  End-state |  $R$ constant  
 - Eventually enough ISM mass is swept up and instabilities in the gas lead to the ejecta breaking up and dissipating into the ISM. This is the stage of becoming indistinguishable from ISM material
 
 
+## 52
+**What is a white dwarf star?**
+See [[Stellar classes#White dwarf|white dwarf]]. 
+
+**Why is the radius of a white dwarf a decreasing function of its mass?**
+We proceed via an energy minimization argument. Consider a unit mass near the radius of a WD of mass $M$ and radius $R$. Its gravitational potential energy per unit mass will be $$E_g = -\frac{GM}{R}$$and its  *non-relativistic* kinetic energy per unit mass will primarily come from the motion of electrons $$E_k = N_e\frac{p^2}{2m_e}$$where $N_e$ is the number of electrons per unit mass in this matter (there are $N_eM$ electrons in total in the WD, related to the [[Definitions - Plasma#Mean molecular weight|mean weight]] per electron via $N_e \simeq 1/(\mu_e m_H)$ where $m_H$ stands in for 1 [[Units#amu|amu]]). Since the matter is degenerate, we can take the momentum $p$ to be roughly given by the uncertainty in the momentum $\Delta p = \hbar / \Delta x$ (via Heisenberg's uncertainty principle). The quantity $\Delta x$ will be on the order of the separation between electrons, which is $n_e^{-1/3}$ for $n_e$ the number density of electrons. Since there are $N_eM$ electrons in the WD and the volume $V\propto R^3$ we have that $n_e = N_e M / V \sim N_e M/R^3$ and thus $$E_k \simeq N_e \frac{\hbar^2 n_e^{2/3}}{2m_e} \simeq M^{2/3}N_e^{5/3}\frac{\hbar^2}{2m_e R^2}$$The total energy is zero when $E_k + E_g = 0$ which yields $R \propto M^{-1/3}$, that is larger masses yield smaller radii. A rough interpretation of this is that since there is no mechanism such as fusion which can support the WD more as the mass grows, larger masses simply "push more" against the electron degeneracy pressure which is eventually overcome at the Chandrasekhar mass ($\sim 1.4\,M_\odot$) we will describe now.
+
+<mark class="hltr-pink">The Chandrasekhar limit</mark>
+As the mass of a model white dwarf increases, the typical energies to which degeneracy pressure forces the electrons (ie how far up the Fermi level is pushed) are no longer negligible relative to their rest masses. The velocities of the electrons approach the speed of light, and special relativity must be taken into account. The *relativistic* limit of the kinetic energy per unit mass is $E_{k,rel} = N_e pc$ such that via the same procedure as before one finds$$E_{k,rel} = M_{rel}^{1/3}N_e^{4/3}\frac{\hbar c}{R}$$and equating as before with the gravitational energy we find $R$ drops out completely and the relativistic limit mass, $M_{rel}$ is forced to be $$M_{rel} \simeq N_e^2\left(\frac{\hbar c}{G}\right)^{3/2} = \left(\frac{1}{\mu_e m_H}\right)^2\left(\frac{\hbar c}{G}\right)^{3/2} \simeq 1.8\, M_\odot$$To interpret this result, observe that as we add mass to a white dwarf, its radius will decrease, so, by the uncertainty principle, the momentum, and hence the velocity, of its electrons will increase. As this velocity approaches $c$, the extreme relativistic analysis becomes more exact, meaning that the mass $M$ of the white dwarf must approach this limiting mass $M_{rel}$ above. Therefore, no white dwarf can be heavier than this limiting mass, which can be evaluated via more rigorous means to be slightly lower at about $1.4\,M_\odot$, known as the Chandrasekhar limit.
+
+| Dominant elements | Progenitor mass| Resulting WD mass | 
+|:------------: | :------------: | :------------: |
+|$\ce{He}$ | $0.05-1.5\,M_\odot$ | $0.1-0.4\,M_\odot$ |
+|$\ce{CO}$ | $1.5-8\,M_\odot$ | $0.5-1.3\,M_\odot$ |
+|$\ce{ONeMg}$ | $6-8\,M_\odot$ | $1-1.3\,M_\odot$ |
 
 
-## 71
-**Sketch the frequency distribution of the emission of a typical QSO from radio to X-ray frequencies.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
