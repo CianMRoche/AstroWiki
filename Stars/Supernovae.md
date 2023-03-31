@@ -1,1 +1,15 @@
 ## Supernova
+A powerful and luminous explosion of a star. A supernova occurs during the last evolutionary stages of a massive star or when a [[Stellar classes#White dwarf|white dwarf]] is triggered into runaway nuclear fusion. The original object, called the progenitor, either collapses to a [[Neutron stars#Neutron stars|neutron star]] or [[Black holes#Black hole|black hole]], or is completely destroyed to form a [[Nebulae|diffuse nebula]]. The peak optical luminosity of a supernova can be comparable to that of an entire galaxy before fading over several weeks or months. 
+
+Theoretical studies indicate that most supernovae are triggered by one of two basic mechanisms: 
+1. **The sudden re-ignition of nuclear fusion in a white dwarf** 
+   In the re-ignition of a white dwarf, the object's temperature is raised enough to trigger runaway nuclear fusion, completely disrupting the star. Possible causes are an accumulation of material from a binary companion through accretion, or by a smerger with another white dwarf (called "single-degenerate" and "double-degenerate" progenitors respectively, referring to the number of degenerate objects in each scenario).
+2. **The sudden gravitational collapse of a massive star's core**
+   In the case massive star's sudden implosion, the core of a massive star will undergo sudden collapse once it is unable to produce sufficient energy from fusion to counteract the star's own gravity, which must happen once the star begins fusing iron, but may happen during an earlier stage of metal fusion.
+
+For the final state of stars of different masses, see [[Compact objects - Questions#40|Q40]].
+
+**Classification**:
+Classified based on observational characteristics, not necessarily the exact nature of the progenitor system (which is not completely understood). Note that Type 1a is the only type arising from mechanism 1. above.
+
+![[sne_observational_chars.png]]

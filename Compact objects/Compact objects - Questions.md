@@ -155,7 +155,9 @@ For BH of mass $M$, orbital frequency (via [[Binaries#Circular motion|circular m
 ## 47
 **What is the Eddington limit and how is it manifested in (i) ordinary stars? (ii) accreting X-ray
 sources?**
-Eddington limit is the maximum [[Units#Luminosity|luminosity]] a body of mass $M$ can have when gravity and radiation pressure are balanced. To derive the limit, assume all the matter is ionized Hydrogen but for now write the density as $\rho$, and consider the Euler equation in hydrostatic equilibrium: $$\frac{dP_g}{dr} = -\frac{GM}{r^2}\rho$$Then consider the radiation pressure (the derivation seems fairly involved, skipping)$$\frac{dP_{rad}}{dr} = -\frac{\kappa\rho}{c}F = -\frac{\sigma_T\rho}{m_p c} \frac{L}{4\pi r^2}$$where $F$ is the [[Units#Flux|flux]], $\kappa$ is the [[Optical depth#Opacity|opacity]] (dimensions cross section per mass) and we have approximated that for pure ionized Hydrogen, the opacity comes entirely from [[Scattering#Thomson scattering|Thomson scattering]] so that $\kappa = \sigma_T / m_p$ which we assume to be constant. Equating the two, we find in terms of [[The Sun#The Sun|solar]] parameters $$L_{Edd} = \frac{4\pi G M c}{\kappa} = \frac{4\pi G M m_p c}{\sigma_T} = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot$$**In ordinary stars**:
+Eddington limit is the maximum [[Units#Luminosity|luminosity]] a body of mass $M$ can have when gravity and radiation pressure are balanced. To derive the limit, assume all the matter is ionized Hydrogen but for now write the density as $\rho$, and consider the Euler equation in hydrostatic equilibrium: $$\frac{dP_g}{dr} = -\frac{GM}{r^2}\rho$$Then consider the radiation pressure (the derivation seems fairly involved, skipping)$$\frac{dP_{rad}}{dr} = -\frac{\kappa\rho}{c}F = -\frac{\sigma_T\rho}{m_p c} \frac{L}{4\pi r^2}$$where $F$ is the [[Units#Flux|flux]], $\kappa$ is the [[Optical depth#Opacity|opacity]] (dimensions cross section per mass) and we have approximated that for pure ionized Hydrogen, the opacity comes entirely from [[Scattering#Thomson scattering|Thomson scattering]] so that $\kappa = \sigma_T / m_p$ which we assume to be constant. Equating the two, we find in terms of [[The Sun#The Sun|solar]] parameters $$L_{Edd} = \frac{4\pi G M c}{\kappa} = \frac{4\pi G M m_p c}{\sigma_T} = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot$$Though this assumes opacity of the Sun, no doing so adds a factor of $(\kappa / \kappa_\odot)^{-1}$ to the RHS
+
+**In ordinary stars**:
 When a star exceeds Eddington limit, radiation pressure drives significant stellar winds in the outer layers, leading to significant mass loss.
 - Only happens in most massive stars, since $L\sim M^{3.5}$ (for [[Spectra#Main sequence|MS]] stars) and $L_{Edd} \sim M$ eventually as mass increases the luminosity overtakes the Eddington limit and the star begins to blow out mass.
 - Increased opacity increases radiation's effect on the star (via more interactions, perhaps via [[Dust]]) and thus lowers the Eddington luminosity
@@ -322,13 +324,51 @@ PSR J1748-2446ad in [[Clustering#Globular Cluster|GC]] Terzan 5 (2006) with a pe
 Just need to have dense enough body to not be disrupted by centrifugal forces. Consider a mass $m$ at the edge of the body, the *gravitational* and *centrifugal* forces experienced by the body are: $$F_g = \frac{GMm}{R^2}\quad,\quad F_{c} = mR\Omega^2$$The mimimum density is achieved when these forces are exactly equal at the radius of the body, and doing so we find $$\Omega^2 = G\frac{M}{R^3} = G\frac{4\pi \rho}{3}$$which implies $$\rho_{crit} = \frac{3\Omega^2}{4\pi G}$$
 
 
+## 54
+**Show from a simple dimensional analysis how the effective temperature of an accretion disk
+depends on accretion rate and distance from the central object**
+Assume virialized ($2T + U = 0 \implies T = -\frac{1}{2} U$) and thus any potential energy lost by particles migrating in from the edge of the disk $R$ during accretion goes half into kinetic energy, the remaining half powering radiation (not sure about this 1/2 but doesnt change conclusion later). Therefore $$L = \frac{1}{2}\frac{GM\dot{M}}{R} = \frac{1}{2}\frac{dU}{dt}$$ Also assume disk radiates as a [[Blackbody radiation#Blackbody radiation|blackbody]] of area (top of disk) + (bottom of disk) $$L = 2(\pi R^2)\,\sigma\, T_{eff}^4$$Combining expressions we obtain $$T_{eff} \simeq \left( \frac{GM\dot{M}}{4\pi \sigma R^3} \right)^{1/4} \propto R^{-3/4}$$which has the wrong prefactor but the radial dependence is approximately right, depending on type of disk.
 
 
+## 55
+**What evidence is there for "superluminal" jets from black holes, and how does one explain the
+superluminal motion?**
+Superluminal jets are relativistic jets with apparent faster-than-light motion. Evidence is radio knots in jets from [[AGN#AGN|AGN]] such as 3C 279, M87 and other jetted AGN / quasars. Have observed ~$40\,\pu{ly}$ apparent motion in 10 years, and much smaller-timescale measurements with [[Methods#Long baseline interferometry|VLBI]].
+![[superluminal_jet.jpg|300]]
+
+Explanation is a special relativistic projection effect via relativistic beaming along the line of sight. Using diagram and notation from Megans notes, where S is the source and P is a point reached by a projectile/jet knot moving at speed $v$ in time $t_1$ at an angle $\theta$ to the line of sight:
+![[superluminal_jet_projection.png|500]]
+
+Observed time to travel from S to P:
+- Light emitted from S at time $t_0$ reaches observer at time $t_{0,obs} = D/c$
+- The knot reaches P at time $t_1$. To first order, distance from P to observer is $D_{PO} = D - v t_1\cos\theta$ and so the time at which the knot reaching P is observed is $t_{1,obs} = t_1 + D_{PO}/c$ 
+- $\implies \Delta t_{obs} = t_{1,obs} - t_{0,obs} = \dots = t_1 (1 - \beta \cos\theta)$ where $\beta=v/c$
+
+Observed distance from S to P:
+- On-sky projected distance is $\Delta x_{obs} = v t_1 \sin\theta$
+
+Therefore $$\beta_{obs} = \frac{1}{c}\frac{\Delta x_{obs}}{\Delta t_{obs}} = \frac{\beta\sin\theta}{1 - \beta\cos\theta}$$which in the limit of small $\theta$ yields the following, which diverges as $\beta\rightarrow 1$ $$\beta_{obs} \simeq \frac{\beta\theta}{1 - \beta}$$
+![[superluminal_jet_projection_map.png|500]]
 
 
+## 56
+**What is the historical significance of the Hulse-Taylor binary radio pulsar to physics?**
+- First discovered binary [[Pulsars#Pulsar|pulsar]]-[[Neutron stars#Neutron stars|NS]] system (in fact won Nobel proze in 1993 for being the first discovered binary with a pulsar)
+- Discovered since, due to the [[Binaries|binary]] orbit, the pulses of the pulsar exhibited a periodic effect (timescale $\sim 8$ hours) of arriving "a little early" and then "a little late" implying the existence of the binary.
+- Non-visible companion together with mass estimate from inferred radial velocity of orbit (see [[Exoplanets - Questions#8|Q8]]) $\implies$ neutron star
+
+Also very important as it was used as a test of general relativity and gravitational waves, since two compact objects in a close binary should be losing orbital energy and angular momentum to [[Gravitational waves]], since for a [[Binaries#Kepler's laws|Keplerian orbit]] (ie virialized) the energy of the binary is roughly $E_{binary} \simeq -\frac{GM_1 M_2}{2a}$ and so if energy decreases, so too must $a$. The GR prediction for slowing of orbit (black line) and data were in incredible agreement over 30 years:
+![[hulse_taylor_binary.png|400]]
 
 
+## 57
+**What minimum mass is required for a black hole powering a quasar of luminosity 10$^{12}$ L$_\odot$?**
+This is an example of Eddington-limited accretion (see [[#47]]) onto a [[Black holes#Black hole|BH]] forming a [[AGN#Quasar|quasar]]. The bigger the mass, the bigger this maximum stable luminosity, and so the minimum mass for a given stable luminosity $L = 10^{12}\,L_\odot$ is exactly the mass for which this is the Eddington luminosity. (If the mass were smaller than this derived value, radiation pressure would dominate gravity and would nto be stable, but the mass being larger than this is fine). Via [[#47]] have $$\frac{M_{min}}{M_\odot} = \frac{1}{3.2\times 10^4} \frac{10^{12}\,L_\odot}{L_\odot} \simeq 3\times 10^7$$**What accretion rate is required?**
+Assuming accretion efficiency of $\eta = 0.01$ (see [[#47]]) we have $$\dot{M} = \frac{L}{\eta c^2}\simeq 0.7\,M_\odot\,\pu{yr^{-1}}$$
+
+## 58
+**How much energy is typically released in a type II supernova?**
+Consider a type 2 [[Supernovae#Supernova|supernova]], ie SN showing hydrogen lines arising from core collapse of a single massive ($\gtrsim 8\,M_\odot$) star after core fuses iron and radiation pressure drops off. Consider the collapse of only the iron core of mass $\gtrsim 1.4\,M_\odot$ from a radius of $R_i\simeq 5000\,\pu{km}$ to a radius of $R_f \simeq \,10$s of $\pu{km}$ . Gravitational energy released is based on the difference in [[Star formation#Gravitational binding energy|gravitational binding energy]] $$$$ 
 
 
-
-
+Note that this happens on the [[Timescales#Dynamical timescale|dynamical timescale]] $\tau_{dyn} \sim 1/\sqrt{G\rho} \sim 1\,\pu{s}$ here. 
