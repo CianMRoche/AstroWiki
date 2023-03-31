@@ -3,7 +3,7 @@ Summary: For an object moving in a circle we have $$v = r\omega\quad,\quad a = \
 The first follows from $$v = \frac{\text{distance}}{time} = \frac{2\pi r}{P} = r\omega$$The second from the fact that we can view the velocity vector as rotating with period $P$ on a circle of radius $v$ since the magnitude of $v$ never changes. Then the arc length traced in $dt$ is $a\,dt$ where $a$ is the acceleration required to change the direction of $v$ and simultaneously the arc length is $v\,d\theta$ with $\theta$ in radians. put those together and we get $a = v\omega = r\omega^2 = v^2/r$
 
 **For gravity**
-For a small thing of mass $m$ orbiting in a circle around an unmoving big thing of mass $M$ we have $$a_{cent} = \frac{v^2}{r} = a_{grav} = \frac{GM}{r^2}$$which leads to $$w^2 = \frac{GM}{r^3}$$
+For a small thing of mass $m$ orbiting in a circle around an unmoving big thing of mass $M$ we have $$a_{cent} = \frac{v^2}{r} = a_{grav} = \frac{GM}{r^2}$$which leads to $$ v^2 = \frac{GM}{r}\quad \iff \quad w^2 = \frac{GM}{r^3}$$
 
 
 ## Kepler's laws
@@ -40,6 +40,10 @@ high-eccentricity orbit near a [[Black holes|SMBH]] disrupts object and shoots s
 
 ## X-ray binary
 A [[Neutron stars#Neutron stars|neutron star]] or [[Black holes#Black hole|black hole]] accreting from a companion (often a [[Spectra#Main sequence|main sequence]] star) and emitting strongly in the x-ray. Neutron stars are invisible in the optical so the x-ray lines are how we typically identify the accreting binary. 
+
+
+## Cataclysmic variable
+A [[Stellar classes#White dwarf|white dwarf]] accreting matter from a secondary star which irregularly increases in brightness by a large factor, then drops back down to a quiescent state. They were initially called novae (from Latin 'new'). Not accreting enough mass to go over Chandrasekhar limit and go [[Supernovae#Supernova|supernova]].
 
 
 ## Roche-lobe overflow

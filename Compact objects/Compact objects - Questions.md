@@ -368,7 +368,36 @@ Assuming accretion efficiency of $\eta = 0.01$ (see [[#47]]) we have $$\dot{M} =
 
 ## 58
 **How much energy is typically released in a type II supernova?**
-Consider a type 2 [[Supernovae#Supernova|supernova]], ie SN showing hydrogen lines arising from core collapse of a single massive ($\gtrsim 8\,M_\odot$) star after core fuses iron and radiation pressure drops off. Consider the collapse of only the iron core of mass $\gtrsim 1.4\,M_\odot$ from a radius of $R_i\simeq 5000\,\pu{km}$ to a radius of $R_f \simeq \,10$s of $\pu{km}$ . Gravitational energy released is based on the difference in [[Star formation#Gravitational binding energy|gravitational binding energy]] $$$$ 
+Consider a type 2 [[Supernovae#Supernova|supernova]], ie SN showing hydrogen lines arising from core collapse of a single massive ($\gtrsim 8\,M_\odot$) star after core fuses iron and radiation pressure drops off. Consider the collapse of only the iron core of mass $\gtrsim 1.4\,M_\odot$ from a radius of $R_i\simeq 5000\,\pu{km}$ to a radius of $R_f \simeq \,10$s of $\pu{km}$. Gravitational energy released is based on the difference in [[Star formation#Gravitational binding energy|gravitational binding energy]] $$\Delta E = -\frac{3GM^2}{5R_{f}} + \frac{3GM^2}{5R_i} \simeq - 10^{46}\,\pu{J}$$where the - sign refers to the fact that energy is lost by the system. Note that this happens on the [[Timescales#Dynamical timescale|dynamical timescale]] $\tau_{dyn} \sim 1/\sqrt{G\rho} \sim 1\,\pu{s}$ here. 
+
+**What fractions of that energy are in the forms of neutrinos, visible light, gas kinetic energy and gravitational radiation?**
+Table below, take-home is neutrinos are incredibly efficient at carrying away energy from the system.
+| Source | Energy fraction| Note |
+|:------------: | :------------: | :------------: |
+|Neutrinos| $\sim 90-99$% | |
+|Electromagnetic radiation| $\sim 0.3$% | Energy from shock + decay of elements ($\ce{Ni, Co}$)  | 
+|Gas KE| $\sim 1-5$% |  |
+|Disintegrating $\ce{^{56}Fe}$| $\sim 7$% | |
+|Gravitational radiation| $\sim 0.1$% | not yet observed | 
 
 
-Note that this happens on the [[Timescales#Dynamical timescale|dynamical timescale]] $\tau_{dyn} \sim 1/\sqrt{G\rho} \sim 1\,\pu{s}$ here. 
+## 59
+**Describe a scenario whereby a neutron star can be formed in a binary system and have the system
+remain bound.**
+Note: some disagreement between notes for this question. Subscript 0 here means before explosion, no subscript implies after explosion. Assume binary stars in a circular orbit of radius $a$ such that the initial energy of the orbit is $$E_0 =-\frac{GM_1M_2}{2a}$$If we ignore the center of mass motion and consider the effective one-body problem of mass $\mu_0 = M_1M_2 / M_{tot,0}$ and speed $v_0$ and use the virial theorem to write $E = -T$ (since $E = T+U$ and $U = -2T$) then the initial orbital energy is$$E_0 = -\frac{1}{2}\mu_0 v_0{}^2$$Putting these together we have $v_0{}^{2} = GM_{tot,0}/a$ 
+
+**After explosion:**
+Consider then that star 1 undergoes a spherically-symmetric [[Supernovae#Supernova|supernova]] explosion, reducing its mass from $M_1$ to the remnant mass $M_r = q M_1$ ($q\in[0,1]$), and which gives no net momentum to star 1 (so $|\vec{v}_1|$ remains constant) due to spherical symmetry. 
+
+Assuming this does not impart significant momentum to the other star (most energy in neutrinos anyway)  then the relative speed of the stars will not change ($v = v_0, a = a_0$). Only the mass of star 1 and thus, the reduced mass of the effective one-body problem $\mu_0 \rightarrow \mu$ is changed. With this, the total energy after explosion is simply kinetic plus potential (with no center of mass motion) $$E = \frac{1}{2}\mu v_0{}^2 -\frac{GqM_1M_2}{a}$$System is bound when $E < 0$, such that plugging in the expression for $v_0{}^2$ we get $$
+\begin{align}
+\frac{1}{2}\mu v_0{}^2 &< \frac{GqM_1M_2}{a} \\
+\frac{1}{2}\mu \frac{GM_{tot,0}}{a} &< \frac{GqM_1M_2}{a} \\
+\mu M_{tot,0} &< 2 qM_1M_2 \\
+\frac{qM_1M_2}{M_{tot}} M_{tot,0} &< 2 qM_1M_2
+\end{align}$$which all implies for a bound orbiy after explosion: $$\frac{M_{tot}}{M_{tot,0}} > \frac{1}{2}$$That is, if we dont lose more than half of the total mass of the system, it remains bound (assuming no momentum transfer via SN ejecta). This can be turned into a condition on $q$ but this is sufficient. 
+
+
+## 60
+**What is a "cataclysmic variable"?**
+See [[Binaries#Cataclysmic variable|cataclysmic variable]]. 

@@ -13,3 +13,5 @@ For the final state of stars of different masses, see [[Compact objects - Questi
 Classified based on observational characteristics, not necessarily the exact nature of the progenitor system (which is not completely understood). Note that Type 1a is the only type arising from mechanism 1. above.
 
 ![[sne_observational_chars.png]]
+
+Note that "core collapse" is somewhat reductive and there are many potential causes for collapse which depend on progenitor mass and metallicity. See core collapse table [here](https://en.wikipedia.org/wiki/Supernova).
