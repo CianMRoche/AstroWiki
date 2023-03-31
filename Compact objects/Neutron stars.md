@@ -14,13 +14,6 @@ Magnetic field:
 Most of the basic models for these objects imply that neutron stars are composed almost entirely of neutrons; the electrons and protons present in normal matter combine to produce neutrons at the conditions in a neutron star through neutronization. Because electrons are fermions, unless an energy $E_F − m_e c^2$ is added to an electron, it is not possible to put the electron in the region of high density, since all the lower energy states are filled. If this energy becomes larger than $(m_n−m_p−m_e)c^2$, it becomes energetically favorable for the electron to combine with a proton to produce a neutron, rather than to exist as a free electron (assuming that neutrons are non-degenerate and a neutron can be created at the lowest energy state). Since $E_F$ increases with density, there is a critical density above which the electrons start combining with protons to give neutrons. At density well above the critical density, matter would mainly consist of neutrons. See [[Compact objects - Questions#41|41]].
 
 
-## Pulsar
-- PULSAting Radio source
-- highly magnetized rotating neutron star that emits EM radiation out of its magnetic poles
-- [[Spectra#RadioSource|Radio source]] (galactic and extragalactic)
-- Brightest at low-frequencies
-- Look up "black widow pulsar"
-
 
 ## Neutron star equation of state
 Want $P(\rho)$, but that assumes that the matter is at $T=0$ and at $\beta$-equilibrium (?). Apparently fine pre-binary merger, but not in the merging and post-merger phases. 

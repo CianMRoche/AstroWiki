@@ -133,7 +133,7 @@ detected using each?**
    - Measuring shift of spectral lines $\implies$ biased toward large masses to have large enough spectral line shifts. Dont measure Earth-mass planets yet (see [[#9]]).
    
 5. **Pulsar timing** 
-   The first exoplanet was discovered in 1992 by Aleksander Wolszczan and Dale Frail using [[Pulsar timing]] methods. These exoplanets orbit a [[Neutron stars#<mark class="hltr-orange">Pulsar</mark>|pulsar]], and small periodic changes in the pulsar period indicate the gravitational influence of a companion. Stars discovered by this method are poor cadidates for life because they live next to a terrifying pulsar.  
+   The first exoplanet was discovered in 1992 by Aleksander Wolszczan and Dale Frail using [[Pulsars]] methods. These exoplanets orbit a [[Neutron stars#<mark class="hltr-orange">Pulsar</mark>|pulsar]], and small periodic changes in the pulsar period indicate the gravitational influence of a companion. Stars discovered by this method are poor cadidates for life because they live next to a terrifying pulsar.  
 
 **In summary**:
 ![[exoplanet_methods.png|450]]

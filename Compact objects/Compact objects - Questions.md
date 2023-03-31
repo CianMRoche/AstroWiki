@@ -127,7 +127,7 @@ Detected binary sources:
 
 Not yet detected binaries:
 - [[Stellar classes#White dwarf|WD]] - WD binary, WD - NS, WD - BH
-- Supermassive black hole binaries ([[Observatories#LISA|LISA]] or [[Pulsar timing]], see [[Gravitational waves#Spectrum|GW spectrum]])
+- Supermassive black hole binaries ([[Observatories#LISA|LISA]] or [[Pulsars]], see [[Gravitational waves#Spectrum|GW spectrum]])
 - Extreme mass-ratio inspiral (EMRI; [[Observatories#LISA|LISA]])
 
 **Other potential sources**:
@@ -139,7 +139,7 @@ Not yet detected binaries:
 	- GW signal from such sources currently unclear, but probably bursty
 - Primordial GWs (fluctuations near big bang)
 	- Analogous to CMB in that it is stochastic background on whole sky
-	- More likely to detect via [[Pulsar timing#Pulsar timing|PTAs]]. GW signal will be correlated across pulsar signals, but noise will not be.
+	- More likely to detect via [[Pulsars#Pulsar timing|PTAs]]. GW signal will be correlated across pulsar signals, but noise will not be.
 
 
 ## 46
@@ -297,21 +297,29 @@ We proceed via an energy minimization argument. Consider a unit mass near the ra
 <mark class="hltr-pink">The Chandrasekhar limit</mark>
 As the mass of a model white dwarf increases, the typical energies to which degeneracy pressure forces the electrons (ie how far up the Fermi level is pushed) are no longer negligible relative to their rest masses. The velocities of the electrons approach the speed of light, and special relativity must be taken into account. The *relativistic* limit of the kinetic energy per unit mass is $E_{k,rel} = N_e pc$ such that via the same procedure as before one finds$$E_{k,rel} = M_{rel}^{1/3}N_e^{4/3}\frac{\hbar c}{R}$$and equating as before with the gravitational energy we find $R$ drops out completely and the relativistic limit mass, $M_{rel}$ is forced to be $$M_{rel} \simeq N_e^2\left(\frac{\hbar c}{G}\right)^{3/2} = \left(\frac{1}{\mu_e m_H}\right)^2\left(\frac{\hbar c}{G}\right)^{3/2} \simeq 1.8\, M_\odot$$To interpret this result, observe that as we add mass to a white dwarf, its radius will decrease, so, by the uncertainty principle, the momentum, and hence the velocity, of its electrons will increase. As this velocity approaches $c$, the extreme relativistic analysis becomes more exact, meaning that the mass $M$ of the white dwarf must approach this limiting mass $M_{rel}$ above. Therefore, no white dwarf can be heavier than this limiting mass, which can be evaluated via more rigorous means to be slightly lower at about $1.4\,M_\odot$, known as the Chandrasekhar limit.
 
-| Dominant elements | Progenitor mass| Resulting WD mass | 
+Exact final mass depends on initial mass via "how far it can get" by nuclear burning, changing the composition:
+| Dominant elements(?) | Progenitor mass| Resulting WD mass | 
 |:------------: | :------------: | :------------: |
 |$\ce{He}$ | $0.05-1.5\,M_\odot$ | $0.1-0.4\,M_\odot$ |
 |$\ce{CO}$ | $1.5-8\,M_\odot$ | $0.5-1.3\,M_\odot$ |
 |$\ce{ONeMg}$ | $6-8\,M_\odot$ | $1-1.3\,M_\odot$ |
 
+though the final row stars are very rare and seem to be evaded by mass loss.
 
 
+## 53
+**What is a "millisecond pulsar"?**
+A [[Pulsars#Pulsar|pulsar]] with a very short rotation period of $\lesssim 10\,\pu{ms}$. Thought to be formed via "spun up" or "recycled" pulsars via accretion from a companion in a close binary, adding angular momentum and spinning up the [[Neutron stars#Neutron stars|NS]]. This is supported by the fact that many MSPs are found in [[Clustering#Globular Cluster|globular clusters]] (with very old stellar populations).
 
+Here is a schematic of the magnetic field to period relationship for a spinning pulsar, directly from Megans notes.
+![[pulsar_evolution.png]]
+ Note energy density of magnetic field $E_B\propto B^2$ and since the rotational energy (red above) is $\propto P\dot{P}$ we have the vertical axis above $B\propto \sqrt{P\dot{P}}$
 
+**What is the shortest spin period known for such an object?**
+PSR J1748-2446ad in [[Clustering#Globular Cluster|GC]] Terzan 5 (2006) with a period of $P = 1.4\,\pu{ms}$
 
-
-
-
-
+**Estimate a lower bound to its mean density**
+Just need to have dense enough body to not be disrupted by centrifugal forces. Consider a mass $m$ at the edge of the body, the *gravitational* and *centrifugal* forces experienced by the body are: $$F_g = \frac{GMm}{R^2}\quad,\quad F_{c} = mR\Omega^2$$The mimimum density is achieved when these forces are exactly equal at the radius of the body, and doing so we find $$\Omega^2 = G\frac{M}{R^3} = G\frac{4\pi \rho}{3}$$which implies $$\rho_{crit} = \frac{3\Omega^2}{4\pi G}$$
 
 
 
