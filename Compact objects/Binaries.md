@@ -43,7 +43,14 @@ A [[Neutron stars#Neutron stars|neutron star]] or [[Black holes#Black hole|black
 
 
 ## Cataclysmic variable
-A [[Stellar classes#White dwarf|white dwarf]] accreting matter from a secondary star which irregularly increases in brightness by a large factor, then drops back down to a quiescent state. They were initially called novae (from Latin 'new'). Not accreting enough mass to go over Chandrasekhar limit and go [[Supernovae#Supernova|supernova]].
+A [[Stellar classes#White dwarf|white dwarf]] accreting matter from a secondary star which irregularly increases in brightness by a large factor, then drops back down to a quiescent state. Not accreting enough mass to go over Chandrasekhar limit and go [[Supernovae#Supernova|supernova]].
+
+**Typical parameters**
+- Period of binary orbit $P\sim 20\,\pu{mins} - 5\,\pu{days}$ 
+- Average WD mass $\sim 0.9\,M_\odot > 0.6\,M_\odot$ for isolated white dwarfs
+- Companion star typically G [[Spectra#Harvard Spectral Classification|type]]
+
+![[cataclysmic_variable.png|400]]
 
 
 ## Roche-lobe overflow

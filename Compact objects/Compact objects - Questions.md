@@ -389,7 +389,7 @@ Note: some disagreement between notes for this question. Subscript 0 here means 
 **After explosion:**
 Consider then that star 1 undergoes a spherically-symmetric [[Supernovae#Supernova|supernova]] explosion, reducing its mass from $M_1$ to the remnant mass $M_r = q M_1$ ($q\in[0,1]$), and which gives no net momentum to star 1 (so $|\vec{v}_1|$ remains constant) due to spherical symmetry. 
 
-Assuming this does not impart significant momentum to the other star (most energy in neutrinos anyway)  then the relative speed of the stars will not change ($v = v_0, a = a_0$). Only the mass of star 1 and thus, the reduced mass of the effective one-body problem $\mu_0 \rightarrow \mu$ is changed. With this, the total energy after explosion is simply kinetic plus potential (with no center of mass motion) $$E = \frac{1}{2}\mu v_0{}^2 -\frac{GqM_1M_2}{a}$$System is bound when $E < 0$, such that plugging in the expression for $v_0{}^2$ we get $$
+Assuming this does not impart significant momentum to the other star (most energy in neutrinos anyway)  then the relative speed of the stars will not change ($v = v_0, a = a_0$). Only the mass of star 1 and thus, the reduced mass of the effective one-body problem $\mu_0 \rightarrow \mu$ is changed. With this, the total energy after explosionwe write as kinetic plus potential (with no center of mass motion) $$E = \frac{1}{2}\mu v_0{}^2 -\frac{GqM_1M_2}{a}$$System is bound when $E < 0$, such that plugging in the expression for $v_0{}^2$ we get $$
 \begin{align}
 \frac{1}{2}\mu v_0{}^2 &< \frac{GqM_1M_2}{a} \\
 \frac{1}{2}\mu \frac{GM_{tot,0}}{a} &< \frac{GqM_1M_2}{a} \\
@@ -400,4 +400,44 @@ Assuming this does not impart significant momentum to the other star (most energ
 
 ## 60
 **What is a "cataclysmic variable"?**
-See [[Binaries#Cataclysmic variable|cataclysmic variable]]. 
+See [[Binaries#Cataclysmic variable|cataclysmic variable]]. Basically a [[Stellar classes#White dwarf|white dwarf]] which [[Accretion|accretes]] material from a binary companion star.
+
+
+**What are nova explosions, and what is the basic physics underlying these events?**
+1. Classical novae: When the Hydrogen envelope around an accreting white dwarf gets hot enough undergo runaway thermonuclear fusion
+   - Observe [[Units#Flux|flux]] increase of factor of $\sim 10^{5-6}$
+   - Hydrogen fusion proceeds via [[Nuclear processes#CNO cycle|CNO cycle]], fusion increases temperature which increases burning rate, repeat $\implies$ runaway process
+   - Light curve rises on ~hours-days timescale, decays on weeks-months
+   - Rest of shell blown off as **mass outflow** at ~100s to 1000s of $\pu{km\,s^{-1}}$
+   - Commonly found in optical (but Kishalay finds more in transient IR surveys? lol)
+   - 10-20 found in [[Galaxy examples#Milky Way|Milky Way]] each year
+   - Doesnt destroy the WD so this can occur repeatedly (in constrast to a [[Supernovae#Supernova|supernova]])
+
+2. Dwarf novae: Smaller outbursts that occur when accretion disk instabilities lead to sudden increase in $\dot{M}$ and thus gravitational potential energy loss
+   - Observe [[Units#Flux|flux]] increase of factor of $\sim 10-100$
+   - Lasts between 2 and 20 days and can exhibit quasi-periodicity on day to decade scales
+   - **Does not eject material** from binary
+   - Most abundant type of nova
+   - Mechanism is as follows:
+	   - Thermal instability in accretion disk close to ionization temperature of $\ce{H}$
+	   - When $\ce{H}$ ionizes, [[Optical depth#Opacity|opacity]] increases which results in an effective increase in viscosity
+	   - This causes an increase in $\dot{M}$, which also increases the rate of gravitational potential energy loss by material falling into the accretion disk
+	   - Energy loss in form of outburst of flux
+	   - Disk mass drops, so too do opacity and viscosity, back to start of cycle eventually
+
+
+## 61
+**What is the gravitational redshift from the surface of a neutron star?**
+Consider the [[General relativity#Schwarzschild|Schwarzschild metric]] for the [[Neutron stars#Neutron stars|neutron star]] of mass $M$ and radius $R$ (ie we assume that it is not rotating, which isnt a great assumption). Consider a photon starting at $r=R$ moving radially (ie we can ignore the angular parts of the metric)
+
+For an object at a particular radius $r$ the spacing of clock ticks in proper time are determined by (abusing notation a little)$$d\tau^2 = \left( 1 - \frac{R_S}{r} \right)dt^2\quad \implies \quad \frac{d\tau}{dt} = \left( 1 - \frac{R_S}{r} \right)^{1/2}$$Consider an observer at infinity. The [[Spectra#Redshift|redshift]] they measure at infinity is given by $$1 + z = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{\lambda_{\infty}}{\lambda_{r}}$$Since the wavelength observed by a timelike observer $\lambda \sim 1/\nu \sim \text{observers proper time } \tau$, if we compare the proper time observed by a timelike observer in one unit of coordinate time $t$ (that is $d\tau/dt$) at both $r$ and $\infty$ we can also compare their wavelengths $$1 + z = \frac{\lambda_{\infty}}{\lambda_{r}} = \frac{d\tau/dt |_{\infty}}{d\tau/dt |_{r}} = \left( 1 - \frac{R_S}{r} \right)^{-1/2}$$(Note [this stackexchange answer](https://physics.stackexchange.com/questions/593869/derivation-of-redshift-of-photon-emitted-from-edge-of-schwarzschild-black-hole) seems wrong, they say "time between ticks $\propto$ frequency" but in fact that time is inversely proportional to the frequency. Edit suggested so maybe fixed later.)
+
+For a photon emitted at the radius of the neutron star $r=R$ evaluating this (with the typical [[Neutron stars#Neutron stars|NS]] parameters) yields $z\sim 0.3$. We have measured redshifts of the [[Spectra#Fe k-alpha line|Fe k-alpha line]] due to gravitational redshift outside a [[Black holes#Black hole|black hole]].
+
+
+## 62
+**How much rotational kinetic energy can be stored in a neutron star?**
+Rotational kinetic energy is $T_{rot} = \frac{1}{2}I\omega^2$ for rotational frequency $\omega$ and moment of inertia $I$. The moment of inertia for a solid sphere is $I = \frac{2}{5}MR^2$ for a sphere of mass $M$ and radius $R$. Using typical [[Neutron stars#Neutron stars|NS]] parameters and evaluating we get $T_{rot} \sim 10^{43}\,\pu{J}$
+
+**How does this help resolve the "energy budget" for the Crab nebula?**
+Crab nebula has luminosity of $10^{31}\,\pu{W}$, lets check how much of that could come from the spinning NS. $$\frac{dT_{rot}}{dt} = I\omega\dot{\omega} = I\omega \left(-2\pi \frac{\dot{P}}{P^2}\right) = -\frac{2}{5}4\pi^2 M R^2\frac{\dot{P}}{P^3}$$For crab nebula, $P \sim 30\,\pu{ms}$ and $\dot{P} \sim 10^{-13}\,\pu{s}/\pu{s}$  which leads to $$\frac{dT_{rot}}{dt} = - 1.6\times 10^{31}\,\pu{W}$$which means the entire luminosity can come from energy losses of the spinning NS

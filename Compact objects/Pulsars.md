@@ -14,6 +14,7 @@ Same (roughly) as [[Neutron stars#Neutron stars|neutron star]] with the followin
 - Brightest at low-frequencies
 - Look up "black widow pulsar"
 
+
 ## Pulsar timing
 [[Observatories#NANOGrav|NANOGrav]] does it. Use [[Neutron stars#<mark class="hltr-orange">Pulsar</mark>|pulsars]] to construct a galactic-scale interferometer, with test masses bigger than the mass of the Sun. Use many millisecond pulsars to search for nHz GW signals (low freq because they're essentially a giant GW interferometer).
 
