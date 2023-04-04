@@ -1,3 +1,5 @@
+We will be exhibiting an *SI units bias* because standardizing is good. 
+
 ## Degree
 Unit of <mark class="hltr-pink">angle</mark>: $1/360$ of a full rotation
 $6^\circ$ = 6 degrees
@@ -34,6 +36,12 @@ $1\,\pu{AU} \simeq 1.5\times 10^{11}\,\pu{m}$
 Unit of <mark class="hltr-pink">mass</mark>. "atomic mass units". Defined as 1⁄12 of the mass of a free carbon-12 atom at rest in its ground state.
 
 $1\,\pu{amu}\,\simeq\,1.66\times 10^{-27}\,\pu{kg}$  
+
+
+## erg
+Unit of <mark class="hltr-pink">energy</mark>. Just Joules but smaller. The unit of energy in the CGS unit system.
+
+$1\,\pu{erg}\,=\,10^{-7}\,\pu{J} = 100\,\pu{nJ}$  
 
 
 ## Luminosity

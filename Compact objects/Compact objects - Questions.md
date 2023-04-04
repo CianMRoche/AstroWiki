@@ -315,7 +315,7 @@ A [[Pulsars#Pulsar|pulsar]] with a very short rotation period of $\lesssim 10\,\
 
 Here is a schematic of the magnetic field to period relationship for a spinning pulsar, directly from Megans notes.
 ![[pulsar_evolution.png]]
- Note energy density of magnetic field $E_B\propto B^2$ and since the rotational energy (red above) is $\propto P\dot{P}$ we have the vertical axis above $B\propto \sqrt{P\dot{P}}$
+Note $B\propto \sqrt{P\dot{P}}$ via [[#70]]
 
 **What is the shortest spin period known for such an object?**
 PSR J1748-2446ad in [[Clustering#Globular Cluster|GC]] Terzan 5 (2006) with a period of $P = 1.4\,\pu{ms}$
@@ -463,7 +463,7 @@ Formulae to calculate spin-up from accretion: $$\begin{align}
 \end{align}$$wait dont we just do $T_{rot} = -L$ or whatever? Is it just because we dont want an $\Omega$ in the answer?
 
 **How would you calculate the magnetospheric radius of an accreting neutron star?**
-This is the radius $R_m$ at which the magnetic pressure from the [[Neutron stars#Neutron stars|NS]] magnetic field is equal to the [[Definitions - The Solar System#Ram pressure|ram pressure]] of the gas. The magnetic pressure is just the magnetic energy density $$P_{mag} = \frac{B_{m}^2}{2\mu_0} = \frac{\mu_0 m^2}{32\pi^2R_m^6}$$where $B_m := B(R_{m})$ and in the second step we use that the magnetic field of the star is a dipole, whose radial component at the pole as a function of $r$ is $B_{radial}(r;\text{poles}) = \pm \,\mu_0 m / 2\pi r^3$ for $m$ the magnitude of the magnetic dipole moment. The ram pressure is $$P_{ram} = \rho(R_m)\, v_{ff}(R_m)^2 = \frac{\dot{M}\sqrt{GM}}{4\pi R_m^{5/2}}$$where we used that the free-fall velocity is $v_{ff}$ and by mass continuity, $\rho = \dot{M}/4\pi r^2v_{ff}$ 
+This is the radius $R_m$ at which the magnetic pressure from the [[Neutron stars#Neutron stars|NS]] magnetic field is equal to the [[Definitions - The Solar System#Ram pressure|ram pressure]] of the gas. Could also derive from the radius where magnetic and kinetic energy densities are equal (might make more sense). The magnetic pressure is just the magnetic energy density $$P_{mag} = \frac{B_{m}^2}{2\mu_0} = \frac{\mu_0 m^2}{32\pi^2R_m^6}$$where $B_m := B(R_{m})$ and in the second step we use that the magnetic field of the star is a dipole, whose radial component at the pole as a function of $r$ is $B_{radial}(r;\text{poles}) = \pm \,\mu_0 m / 2\pi r^3$ for $m$ the magnitude of the magnetic dipole moment. The ram pressure is $$P_{ram} = \rho(R_m)\, v_{ff}(R_m)^2 = \frac{\dot{M}\sqrt{GM}}{4\pi R_m^{5/2}}$$where we used that the free-fall velocity is $v_{ff}$ and by mass continuity, $\rho = \dot{M}/4\pi r^2v_{ff}$ 
 
 One can then equate these and solve for $R_m$ in terms of other stellar parameters.
 
@@ -484,22 +484,71 @@ See [[Neutron stars#Magnetar|magnetar]].
 **What evidence do we have that they exist?**
 - 1979 [[GRBs#GRB|GRB]]: Strongest extra-solar source of gamma rays that was observed by multiple sattelites, localized to [[Supernovae#Supernova|SN]] remnant in the [[Galaxy examples#Large Magellanic Cloud|LMC]]. 
 - Anomalous X-ray pulsars (AXPs): Isolated (ie not in a binary) [[Neutron stars#Neutron stars|NS]] that emits in the X-ray, which we wuld usually expect to come from accretion in an [[Binaries#X-ray binary|XRB]]. Hypothesized to be from the magnetar field.
-- Since $B\propto \sqrt{P\dot{P}}$ (see [[#53]]), measurements of $P$ and $\dot{P}$ have revealed very high magnetic fields in some sources, eg SGR 1806 in 1998 (a "soft gamma repeater" which magnetars are hypothesized to explain).
+- Since $B\propto \sqrt{P\dot{P}}$ (see [[#70]]), measurements of $P$ and $\dot{P}$ have revealed very high magnetic fields in some sources, eg SGR 1806 in 1998 (a "soft gamma repeater" which magnetars are hypothesized to explain).
 - 24 confirmed magnetars at time of writing, one associated with repeating [[FRBs]]
 
 It turns out that SGRs = AXPs = magnetars (probably)
 
 
 ## 67
-**Describe the basic features of the "fireball" model of gamma-ray burst afterglows.**
+**Describe the basic features of the "fireball" model of gamma-ray burst afterglows. What is the 
+emission mechanism?**
 A [[GRBs#GRB|GRB]] is released from some compact object. The GRB leaves an "afterglow" in the shocked medium over a broad wavelegth range which has been used to better localize GRB sources (since resolution is better in other bands).
 
 **Fireball model**:
 - Jet shocks surrounding medium + sweeps up material as it expands
-- The gamma-ray photons come from shocks within the jet itself, namely by [[Synchrotron|synchrotron]] radiation from shocked and accelerated electrons which is further [[Scattering#Inverse-Compton scattering|inverse-Compton]] scattered to higher energies.
+- The gamma-ray photons come from shocks within the jet itself ("internal shocks"), namely by [[Magnetobremsstrahlung|synchrotron]] radiation from shocked and accelerated electrons which is further [[Scattering#Inverse-Compton scattering|inverse-Compton]] scattered to higher energies. The "fireball" is opaque and ultrarelativistic at early times, but expands and eventually becomes transparent to gamma-rays in the ultra-hot plasma
+- Eventually jet collides with and shocks [[Interstellar medium|ISM]] ("external shocks"). Kinetic energy is dissipated here, producing lower-energy emission at later times, giving the broad spectrum observed in the afterglow.
+- Flux may also decrease if the shocked front spreads to an area larger than the field of view of our observation.
+
+![[fireball.png]]
+
+**What inputs are required?**
+Required input is something which can produce an ultrarelativistic jet
 
 
 ## 68
 **What are the differences between short- and long-duration gamma ray bursts (GRBs)? What do we know about the physical origins of these energetic phenomena?**
 
 See [[GRBs]].
+
+
+## 69
+**How would you go about estimating the number of binary systems in the galaxy that contain a black hole?**
+Any star that has a mass higher than $\sim 20\,M_\odot$ will become a [[Black holes#Black hole|black hole]] (see [[#40]]) so we just need to work out:
+1. How many stars will be above this mass?
+2. How many stars will be in binaries?
+
+
+1. To answer the first, we will need to assume some distribution for the number of stars as a function of mass, that is an initial mass function like the "Salpeter IMF" $$\frac{dN}{dM}\propto M^{-2.3}$$which holds for stars above $0.5\,M_\odot$ (the Kroupa 2001 modification). If we want to find the number of stars above a mass $M_*$ we would simply integrate $$N(M>M_*) \propto \int_{M_*}^\infty dM\, M^{-2.3}$$Thus the fraction of all stars above $0.5\,M_\odot$ which are above $20\,M_\odot$ is given by $$N = \frac{\int_{20\,M_\odot}^\infty dM\, M^{-2.3}}{\int_{0.5\,M_\odot}^\infty dM\, M^{-2.3}} \simeq 10^{-3}$$where we "round down" to reflect the fact we arent covering the whole distribution in mass (there are alternative powers on $M$ for lower masses). This is the statement that about 1 in 1000 stars can become a black hole. Then to get the number in the Milky Way, note that it contains an estimated $10^{11}$ stars and thus $\sim 10^{8}$ black holes
+
+2. To answer the second question, we make the naive assumption that 50% of all stars are in a binary, yielding about $5\times 10^7$ black holes in binaries in the Milky Way. 
+
+If we want to do better, need to do much more detailed stellar population synthesis and/or simulations, which get numbers close to $10^6-10^7$ meaning we probably overestimated.
+
+**What observational constraints do we have on this number?**
+- [[Binaries#X-ray binary|X-ray binary]] population (order 100 observed): 
+  Problematic since to see these would need to have relatively consistent x-ray emission for us to see them, and there are no intermediate-mass XRBs since for such systems stellar winds are not very string but [[Binaries#Roche-lobe overflow|RLOF]] will take place very quickly, meaning this phase is rare to observe.
+- [[Observatories#LIGO|LIGO]] observations of binary [[Black holes#Black hole|BH]] mergers:
+  Problematic since will only detect binaries for which both objects are compact and a merger occurs. 
+
+
+## 70
+**How are the magnetic fields of neutron stars estimated in (i) X-ray binaries?**
+In an [[Binaries#X-ray binary|X-ray binary]] containing a [[Neutron stars#Neutron stars|neutron star]], hot plasma near the surface of the NS produces a continuum with [[Magnetobremsstrahlung#Cyclotron radiation|cyclotron]] spectral features, allowing us to determine the magnetic field from the frequency of the line(s).
+
+**(ii) radio pulsars?**
+In a radio [[Pulsars#Pulsar|pulsar]] the magnetic field can be inferred from the magnetic dipole-rotational energy exchange via $B \sim \sqrt{P\dot{P}}$ 
+
+Why? Might be best just to memorize the result here.
+- Rotational kinetic energy is $T_{rot} = \frac{1}{2} I \Omega^2 \implies \dot{T}_{rot} = I\Omega\dot{\Omega} \propto I\dot{P}P^{-3}$  
+- Power emitted by a magnetic dipole $\dot{E}_{dip} \propto |\ddot{m}|^2$ where $|m|$ is the magnetic dipole moment
+- As in [this](https://www.cv.nrao.edu/~sransom/web/Ch6.html) for a uniformly magnetized sphere with radius R and surface magnetic field strength B, the magnitude of the magnetic dipole moment is $m = BR^3$. 
+- Therefore $\ddot{m} \propto BR^3 P^{-2}$ (i guess?) and matching the dipole energy change in time with the kinetic energy change in time, in very loose terms we get $B\sim\sqrt{P\dot{P}}$   
+
+
+## 71
+**Sketch the frequency distribution of the emission of a typical QSO from radio to X-ray frequencies**
+Taking the typical [[AGN#Quasar|quasar]] spectrum from Megan's notes:
+![[qso_spectrum.png]]
+The line in the reflection spectrum might be the [[Spectra#Fe k-alpha line|Fe k-alpha line]]?
