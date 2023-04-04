@@ -13,12 +13,12 @@ Isnt it actually that (1+z)Temit = Tobs? It cant be that since Tobs must be less
 ## Wien's displacement law
 The wavelength at which the spectrum has its peak is inversely proportional to temperature
 $$\lambda_{peak} \propto \frac{1}{T}$$
-but the constant of proportionality depends on the solution of an implicit equation. A good reference point is $$\lambda_{peak} \simeq \frac{3}{T\,[K]}\,\pu{mm}$$
-such that at room temp, peak is at ~10 microns. 
+but the constant of proportionality depends on the solution of an implicit equation. A good reference point is $$\lambda_{peak} \simeq \frac{3}{T\,[K]}\,\pu{mm} = \frac{3\times 10^{-3}}{T\,[K]}\,\pu{m}$$
+such that at room temp, peak is at ~10 microns. We can also express this in $\pu{eV}$ via the energy-wavelength relation in [[Fun conversions]] $$E_{peak} = \frac{hc}{\lambda_{peak}} \simeq \frac{10^{-6}\,\pu{eV\,m}}{3\times 10^{-3}\,\pu{m}} T\,[\pu{K}] \simeq \left(3\times 10^{-4}\,T\,[\pu{K}]\right)\,\pu{eV}$$
 
 
-## Stefan-Boltzmann Law:
+## Stefan-Boltzmann Law
 Obtained by integrating over solid angle, area and frequency, $L$ in units of $\pu{W} = \pu{J s^{-1}}$
 $$L = \underbrace{\frac{2\pi^5 k^4}{15 h^3 c^2}}_{\colon = \sigma} A T^4$$
-where we have defined the Stefan-Boltzmann constant $\sigma$
+where we have defined the Stefan-Boltzmann constant $\sigma = 5.67\times 10^8 \,\pu{W\,m^{-2}\,K^{-1}}$ 
 

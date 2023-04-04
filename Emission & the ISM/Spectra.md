@@ -99,3 +99,14 @@ Atmosphere not too problematic, can perform radio observations even on cloudy da
 - Unfocused cosmic hard X-ray background, constant in time
 
 Eric Miller(?MIT?) - Model your Xray BG, dont subtract it.
+
+
+## Balmer Jump
+Large jumps in some spectra, caused by the following pair of effects:
+
+- [[Scattering#Bound-bound absorption|Bound-bound absorption]] transitions occur only for photons with exactly the right amount of energy
+- [[Scattering#Bound-free absorption|Bound-free absorption]] transitions can absorb ANY photon with more than a critical amount of energy (ionizing energy).
+
+Therefore, the [[Optical depth#Opacity|opacity]] of a material will increase at wavelengths shorter than one of these critical edges. That is, if we have a source light behind some material, and a particular wavelength can ionize the material, you wont see much of that light on the other side. For bound-bound though, we would just see lines.
+
+Related to (but distinct from) the **Lyman limit**, which occurs at the wavelength which will just ionize a hydrogen atom from its ground state.

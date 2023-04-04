@@ -140,8 +140,7 @@ detected using each?**
 
 
 ## 14
-**Describe a sequence of observations to identify an exoplanet, to determine that it has a rocky
-composition, and to measure the chemical constituents of its atmosphere.**
+**Describe a sequence of observations to identify an exoplanet, to determine that it has a rocky composition, and to measure the chemical constituents of its atmosphere.**
 1. Discovery likely to be by transits or radial velocity. Transit gives you $R_p$ (see [[#8]]), and this may or may not include the atmosphere, depending on wavelength of observation and atmospheric composition.
 2. Radial velocity measurement can constrain $M_p$ (if planet $\gtrsim 10\,\pu{M_\odot}$, see [[#8]], [[#13]]) 
 3. $M_p$ and $R_p$ gives an estimate of the density. Higher density (lower radius for a given mass) means rockier planet. There exist some mass-radius relationships for planets of different composition to do the actual constraining.

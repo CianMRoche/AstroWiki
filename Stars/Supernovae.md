@@ -15,3 +15,9 @@ Classified based on observational characteristics, not necessarily the exact nat
 ![[sne_observational_chars.png]]
 
 Note that "core collapse" is somewhat reductive and there are many potential causes for collapse which depend on progenitor mass and metallicity. See core collapse table [here](https://en.wikipedia.org/wiki/Supernova).
+
+
+## Kilonova
+A transient astronomical event that occurs in a compact [[Binaries|binary]] system when two [[Neutron stars#Neutron stars|neutron stars]] or a neutron star and a [[Black holes#Black hole|black hole]] merge. These mergers are thought to produce short [[GRBs#GRB|GRB]]s and emit bright electromagnetic radiation due to the radioactive decay of heavy [[Nuclear processes#r-process|r-process]] nuclei that are produced and ejected fairly isotropically during the merger process.
+
+Called "kilonovae" since at its peak brightness (within a week of the merger) the explosion is about a thousand times brighter than a classical nova. 

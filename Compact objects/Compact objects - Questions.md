@@ -430,9 +430,7 @@ See [[Binaries#Cataclysmic variable|cataclysmic variable]]. Basically a [[Stella
 **What is the gravitational redshift from the surface of a neutron star?**
 Consider the [[General relativity#Schwarzschild|Schwarzschild metric]] for the [[Neutron stars#Neutron stars|neutron star]] of mass $M$ and radius $R$ (ie we assume that it is not rotating, which isnt a great assumption). Consider a photon starting at $r=R$ moving radially (ie we can ignore the angular parts of the metric)
 
-For an object at a particular radius $r$ the spacing of clock ticks in proper time are determined by (abusing notation a little)$$d\tau^2 = \left( 1 - \frac{R_S}{r} \right)dt^2\quad \implies \quad \frac{d\tau}{dt} = \left( 1 - \frac{R_S}{r} \right)^{1/2}$$Consider an observer at infinity. The [[Spectra#Redshift|redshift]] they measure at infinity is given by $$1 + z = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{\lambda_{\infty}}{\lambda_{r}}$$Since the wavelength observed by a timelike observer $\lambda \sim 1/\nu \sim \text{observers proper time } \tau$, if we compare the proper time observed by a timelike observer in one unit of coordinate time $t$ (that is $d\tau/dt$) at both $r$ and $\infty$ we can also compare their wavelengths $$1 + z = \frac{\lambda_{\infty}}{\lambda_{r}} = \frac{d\tau/dt |_{\infty}}{d\tau/dt |_{r}} = \left( 1 - \frac{R_S}{r} \right)^{-1/2}$$(Note [this stackexchange answer](https://physics.stackexchange.com/questions/593869/derivation-of-redshift-of-photon-emitted-from-edge-of-schwarzschild-black-hole) seems wrong, they say "time between ticks $\propto$ frequency" but in fact that time is inversely proportional to the frequency. Edit suggested so maybe fixed later.)
-
-For a photon emitted at the radius of the neutron star $r=R$ evaluating this (with the typical [[Neutron stars#Neutron stars|NS]] parameters) yields $z\sim 0.3$. We have measured redshifts of the [[Spectra#Fe k-alpha line|Fe k-alpha line]] due to gravitational redshift outside a [[Black holes#Black hole|black hole]].
+For an object at a particular radius $r$ the spacing of clock ticks in proper time are determined by (abusing notation a little)$$d\tau^2 = \left( 1 - \frac{R_S}{r} \right)dt^2\quad \implies \quad \frac{d\tau}{dt} = \left( 1 - \frac{R_S}{r} \right)^{1/2}$$Consider an observer at infinity. The [[Spectra#Redshift|redshift]] they measure at infinity is given by $$1 + z = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{\lambda_{\infty}}{\lambda_{r}}$$Since the wavelength observed by a timelike observer $\lambda \sim 1/\nu \sim \text{observers proper time } \tau$, if we compare the proper time observed by a timelike observer in one unit of coordinate time $t$ (that is $d\tau/dt$) at both $r$ and $\infty$ we can also compare their wavelengths $$1 + z = \frac{\lambda_{\infty}}{\lambda_{r}} = \frac{d\tau/dt |_{\infty}}{d\tau/dt |_{r}} = \left( 1 - \frac{R_S}{r} \right)^{-1/2}$$For a photon emitted at the radius of the neutron star $r=R$ evaluating this (with the typical [[Neutron stars#Neutron stars|NS]] parameters) yields $z\sim 0.3$. We have measured redshifts of the [[Spectra#Fe k-alpha line|Fe k-alpha line]] due to gravitational redshift outside a [[Black holes#Black hole|black hole]].
 
 
 ## 62
@@ -441,3 +439,67 @@ Rotational kinetic energy is $T_{rot} = \frac{1}{2}I\omega^2$ for rotational fre
 
 **How does this help resolve the "energy budget" for the Crab nebula?**
 Crab nebula has luminosity of $10^{31}\,\pu{W}$, lets check how much of that could come from the spinning NS. $$\frac{dT_{rot}}{dt} = I\omega\dot{\omega} = I\omega \left(-2\pi \frac{\dot{P}}{P^2}\right) = -\frac{2}{5}4\pi^2 M R^2\frac{\dot{P}}{P^3}$$For crab nebula, $P \sim 30\,\pu{ms}$ and $\dot{P} \sim 10^{-13}\,\pu{s}/\pu{s}$  which leads to $$\frac{dT_{rot}}{dt} = - 1.6\times 10^{31}\,\pu{W}$$which means the entire luminosity can come from energy losses of the spinning NS
+
+
+## 63
+**Explain why you might expect most of the emission of an accreting neutron star to be in the form of X-rays**
+As with any [[Accretion#Accretion disk|accretion disk]] formation, matter loses angular momentum and loses gravitational potential energy in part by radiating light. We want the temperature of this body. Assume this radiation is in the form of a [[Blackbody radiation#Blackbody radiation|blackbody]], and thus via the [[Blackbody radiation#Stefan-Boltzmann Law|Stefan-Boltzmann law]] we also have $$L = \sigma A T^4 = \sigma 2\pi R^2 T^4$$for a two-sided disk. If we assume this is Eddington-limited accretion (see [[#47]]) then we can calculate $L$ using the typical [[Neutron stars#Neutron stars|neutron star]] mass of $1.4\,M_\odot$ to be $$L = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot \simeq 10^{31}\,\pu{W} $$Then using the typical neutron star radius of $10\,\pu{km}$ we can solve for $T$ to obtain $$T = \left(\frac{L}{2\pi\sigma R^2}\right)^{1/4} \simeq 10^7\,\pu{K} \sim 0.3\,\pu{nm} \sim \pu{keV}$$where the last steps are via [[Blackbody radiation#Wien's displacement law|Wien's law]]. These energies/temperatures are [[Spectra#The electromagnetic spectrum|x-rays]].
+
+**How does an X-ray pulsar pulse?**
+X-ray [[Pulsars]] are accreting from a donor. For very strong mangetic fields $B\sim 10^8\,\pu{T}$ accreted material is directed along field lines to magnetic poles, resulting in magnetic dipole radiation (but for lower magnetic fields the star is spun up, as in a [[#53|millisecond pulsar]]). The pulses are the resulting jets emitted at the magnetospheric radius (see [[#64]]) crossing our line of sight as the pulsar rotates.
+
+A challenge to this picture comes from [[Observatories#NICER|NICER]] however, which ahs observed multiple X-ray pulses coming from hotspots on the same hemisphere. This suggests a much more complicated magnetic field configuration.
+
+
+## 64
+!UNFINISHED
+**Derive a plausible relation between the luminosity of an X-ray pulsar and its spin-up rate**
+- Observations of an isolated pulsar powered by dipole radiation, therefore they lose energy over time and spin down.
+- Accreting pulsars emit primarily in the X-ray via the release of gravitational energy from material falling into the disk/poles.
+
+Formulae to calculate spin-up from accretion: $$\begin{align}
+&\text{Accretion luminosity}\quad &L = \frac{GM\dot{M}}{R}\\
+&\text{Rotational energy} \quad &T_{rot} = \frac{1}{2}I\Omega^2 \implies \dot{T}_{rot} = I\dot{\Omega}\Omega = -\frac{4\pi^2 I \dot{P}}{P^3}\\
+\end{align}$$wait dont we just do $T_{rot} = -L$ or whatever? Is it just because we dont want an $\Omega$ in the answer?
+
+**How would you calculate the magnetospheric radius of an accreting neutron star?**
+This is the radius $R_m$ at which the magnetic pressure from the [[Neutron stars#Neutron stars|NS]] magnetic field is equal to the [[Definitions - The Solar System#Ram pressure|ram pressure]] of the gas. The magnetic pressure is just the magnetic energy density $$P_{mag} = \frac{B_{m}^2}{2\mu_0} = \frac{\mu_0 m^2}{32\pi^2R_m^6}$$where $B_m := B(R_{m})$ and in the second step we use that the magnetic field of the star is a dipole, whose radial component at the pole as a function of $r$ is $B_{radial}(r;\text{poles}) = \pm \,\mu_0 m / 2\pi r^3$ for $m$ the magnitude of the magnetic dipole moment. The ram pressure is $$P_{ram} = \rho(R_m)\, v_{ff}(R_m)^2 = \frac{\dot{M}\sqrt{GM}}{4\pi R_m^{5/2}}$$where we used that the free-fall velocity is $v_{ff}$ and by mass continuity, $\rho = \dot{M}/4\pi r^2v_{ff}$ 
+
+One can then equate these and solve for $R_m$ in terms of other stellar parameters.
+
+
+## 65
+**Why are more X-ray binaries and radio pulsars found (per unit mass) in globular clusters than in
+other parts of the galaxy?**
+[[Clustering#Globular Cluster|Globular clusters]] are old, dense environments. 
+
+1. Old $\implies$ more [[Neutron stars]] $\implies$ more [[Pulsars]]
+2. Dense $\implies$ lots of dynamical enounters $\implies$ more binaries per unit mass (and more of these are [[Neutron stars#Neutron stars|NSs]] and [[Black holes#Black hole|BHs]]) $\implies$ more [[Binaries#X-ray binary|XRBs]]
+
+
+## 66
+**What are "magnetars"**
+See [[Neutron stars#Magnetar|magnetar]]. 
+
+**What evidence do we have that they exist?**
+- 1979 [[GRBs#GRB|GRB]]: Strongest extra-solar source of gamma rays that was observed by multiple sattelites, localized to [[Supernovae#Supernova|SN]] remnant in the [[Galaxy examples#Large Magellanic Cloud|LMC]]. 
+- Anomalous X-ray pulsars (AXPs): Isolated (ie not in a binary) [[Neutron stars#Neutron stars|NS]] that emits in the X-ray, which we wuld usually expect to come from accretion in an [[Binaries#X-ray binary|XRB]]. Hypothesized to be from the magnetar field.
+- Since $B\propto \sqrt{P\dot{P}}$ (see [[#53]]), measurements of $P$ and $\dot{P}$ have revealed very high magnetic fields in some sources, eg SGR 1806 in 1998 (a "soft gamma repeater" which magnetars are hypothesized to explain).
+- 24 confirmed magnetars at time of writing, one associated with repeating [[FRBs]]
+
+It turns out that SGRs = AXPs = magnetars (probably)
+
+
+## 67
+**Describe the basic features of the "fireball" model of gamma-ray burst afterglows.**
+A [[GRBs#GRB|GRB]] is released from some compact object. The GRB leaves an "afterglow" in the shocked medium over a broad wavelegth range which has been used to better localize GRB sources (since resolution is better in other bands).
+
+**Fireball model**:
+- Jet shocks surrounding medium + sweeps up material as it expands
+- The gamma-ray photons come from shocks within the jet itself, namely by [[Synchrotron|synchrotron]] radiation from shocked and accelerated electrons which is further [[Scattering#Inverse-Compton scattering|inverse-Compton]] scattered to higher energies.
+
+
+## 68
+**What are the differences between short- and long-duration gamma ray bursts (GRBs)? What do we know about the physical origins of these energetic phenomena?**
+
+See [[GRBs]].

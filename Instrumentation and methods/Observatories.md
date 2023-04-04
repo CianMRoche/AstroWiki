@@ -151,3 +151,7 @@ Half of the data unavilable due to Russian invasion of Ukraine.
 
 ## MEERKAT
 Array of 64 13-meter radio dish telescopes. Karoo desert, South Africa.
+
+
+## IceCube
+Neutrino obseratory at South Pole. Would see a spike in neutrino detection from a certain direction in the Milky Way disk if there way an otherwise undetected (say, behind galactic center) [[Supernovae#Supernova|supernova]] event.
