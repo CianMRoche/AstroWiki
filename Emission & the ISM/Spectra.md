@@ -24,10 +24,10 @@ A line (and thus, evolutionary track) that can be identified on the [[#Hertzspru
 Traces cool, ionized gas. Has been used to trace [[Object Types#CGM|CGM]]. Ratio of two lines depends on the temperature
 
 
-## H$\alpha$
+## H-alpha
 Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 2eV
 
-Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere
+Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere. Also by HII regions (see [[Emission & the ISM - Questions#73|Q73]]).
 
 
 ## 21cm line
@@ -39,7 +39,7 @@ Maps neutral hydrogen in radio wavelengths, [[Observatories#CHIME|CHIME]] can ob
 A model for the H1 power spectrum with 2halo, 1halo and shot noise terms, dpeending also on some temperature? Need to look into.
 
 
-## Lyman-$\alpha$ forest
+## Lyman-alpha forest
 - Lyman series is transitions of atomic hydrogen to $n=1$ 
 - Lyman-$\alpha$ is the first one ($n=2$ to $n=1$) and is $120\,\pu{nm}$
 - Strong absorbtion in air, so usually done in space. Highly-redshifted sources can penetrate though
