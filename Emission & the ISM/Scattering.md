@@ -1,4 +1,4 @@
-Some good notes [here](http://spiff.rit.edu/classes/phys440/lectures/opacity/opacity.html). "Bound" and "free" refer to being either in an atomic configuration or not, respectively (I think).
+Some good notes [here](http://spiff.rit.edu/classes/phys440/lectures/opacity/opacity.html). "Bound" and "free" refer to being either in an atomic configuration or not, respectively (I think). A highly detailed overview of all this in [this article](https://arxiv.org/pdf/1202.5949.pdf) (radiative processes in high energy astrophysics by Ghisellini)
 
 
 ## Compton scattering
@@ -46,6 +46,8 @@ A free electron can *gain* energy during a collision with an ion by absorbing a 
 - Electron scattering: photons scatter off free electrons. 
   This is called [[#Thomson scattering]] for low energies, and [[#Compton scattering]] at high energies.
 
+Must occur in presence of an ion due to [[#No isolated emission]].
+
 
 ## Bound-free absorption
 "Ionizing absorption". If a photon has enough energy, its absorption can knock an electron free from an atom and send it off with the leftover energy in kinetic form. Partially responsible for the [[Spectra#Balmer jump]].
@@ -58,4 +60,7 @@ An atom absorbs a photon and enters an excited state, but is not ionized as it i
 ## No isolated emission
 An isolated particle with no internal structure cannot spontaneously emit or absorb a photon, as one cannot do so while conserving both energy and momentum.
 
-Not typing the math here yet. The algebra is [here](https://physics.stackexchange.com/questions/225522/free-electron-cant-absorb-a-photon) for example.
+Explanation:
+- A photon has (1D) momentum $p = \hbar k = h/\lambda$
+- A photon has energy $E = h\nu = hc/\lambda = pc$
+- If we start with no photon and an electron of energy $E_e$ and momentum $p_e$ then working in a frame where the electron is initially at rest, using primes to denote "after collision" by energy and momentum conservation: $$\begin{align} E_e = m_ec^2 &= E_e' + |\vec{p}|c \\ \vec{p}_e = 0 &= \vec{p}_e{}' + \vec{p} \end{align}$$ we see the electron and photon after collision have equal and opposite momenta in this frame $\vec{p}_e{}' = -\vec{p}$ and $|p_e{}'| = |p|$. Which implies $$ E_e' = m_ec^2 - |\vec{p}_e{}'|c$$Filling in the relativistic kinetic energy $E_e' = c\sqrt{|\vec{p}_e{}'|^2 + m_e^2c^2}$ we get $$\sqrt{|\vec{p}_e{}'|^2 + m_e^2c^2} = m_ec - |\vec{p}_e{}'|$$This equation is $\sqrt{x^2 + y^2} = y - x$ which cannot be true for $x$ and $y$ positive by the triangle inequality (unless $|\vec{p}_e{}'| = 0$ in which case so too is the photon momentum, and nothing happens). That is, this process cannot occur if both energy and angular momentum are conserved.
