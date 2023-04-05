@@ -28,7 +28,7 @@ A highly luminous [[#AGN]]. AKA "QSO" (quasi-stellar object). Outshines the rest
 
 
 ## Blazar
-A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight
+A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight. Have spectra dominated by featureless non-thermal continuum, which we would expect for a relativistic jet along the line of sight.
 
 
 ## Collapsar

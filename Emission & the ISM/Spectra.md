@@ -31,9 +31,16 @@ Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be use
 
 
 ## 21cm line
-Sping flip of neutral hydrogen. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$
+Sping flip of ground state neutral hydrogen, hyperfine transition. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$. From Megans notes:
+![[spin_flip.png|400]]
+The degeneracy of the anti-aligned state is 1 since the total spin quantum number is $S = 0$ and the degeneracy is $2S+1$. For the aligned state, $S=1$ and so degeneracy is $3$.
 
-Maps neutral hydrogen in radio wavelengths, [[Observatories#CHIME|CHIME]] can observe it. [[Observatories#MEERKAT|MEERKAT]] also did this recently.
+**Observational characteristics**:
+- Transition is very rare and happens on a timecale of $\sim 10\,\pu{Myr}$, but observable for very large amounts of neutral $H$ (low density to avoid collisional de-excitation) 
+- Can be used to map neutral hydrogen in the "dark ages" between $z=1100$ and $z=6-20$ (ie the times between recombination and reionization) in radio wavelengths. [[Observatories#CHIME|CHIME]] can observe it, [[Observatories#MEERKAT|MEERKAT]] also did this recently.
+- Can map neutral hydrogen in spiral arms of a galaxy, and can therefore use to constrain rotation curves.
+- Comes from cold gas $\implies$ little thermal broadening.
+- At microwave wavelengths which pass mostly unobstructed through the atmosphere, therefore suitable for ground-based astronomy.
 
 **Halo model of H1 power spectrum**
 A model for the H1 power spectrum with 2halo, 1halo and shot noise terms, dpeending also on some temperature? Need to look into.
