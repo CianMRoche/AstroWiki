@@ -236,12 +236,23 @@ Matching these two equations we get $$\frac{A_{21}}{B_{21}} = \mathcal{F}(\nu)\q
 ## 89
 **Explain quantitatively why stimulated emission is important and spontaneous emission is usually ignored in the radio domain, whereas the reverse is true in the optical domain.**
 
+Compare the rates of stimulated and spontaneous emission. Using [[#88|Q88]] we have $$R = \frac{\text{stimulated rate per volume}}{\text{spontaneous rate per volume}} = \frac{B_{21}n_2J_\nu}{A_{21}n_2} = \frac{c^2}{2h\nu^3}J_\nu$$If we assume a [[Blackbody radiation#Blackbody radiation|blackbody]] this reduces to $$R = \left(e^{\frac{h\nu}{k T}} - 1\right)^{-1}$$For [[Spectra#The electromagnetic spectrum|radio]] wavelengths, for a blackbody with peak in the radio at $1\,\pu{m}$ we have $T\sim \pu{mK}$ via [[Blackbody radiation#Wien's displacement law|Wiens law]] and so $kT\sim 10^{-7}\,\pu{eV}$ and $h\nu \sim 10^{-6}\,\pu{eV}$. Therefore via $e^x \simeq 1 + x$ for $x$ small we have $R = kT/h\nu \gg 1$ and thus stimulated is dominant over spontaneous. 
+
+For [[Spectra#The electromagnetic spectrum|optical]] wavelengths ($\nu$ large, similar argument) so $R \simeq e^{-h\nu/kT} \ll 1$ and thus spontaneous is dominant over stimulated. 
 
 **Given a thermal spectrum at some temperature T, at what frequency would the two emission rates be equal?**
-
+Equal contributions means $R=1$ and so$$R = 1 \implies e^{\frac{h\nu}{kT}} = 2 \implies \nu = \frac{kT}{h}\ln(2)$$
 
 ## 90
-**Name five molecules found in the interstellar medium and comment on how they are detected**
+**Name five molecules found in the interstellar medium and comment on how they are detected. What limits our ability to directly detect the most common molecules in the ISM?**
 
+Detection mechanisms: lines in spectra
+- Rotational transitions which produce emission/absorption lines, mostly in [[Spectra#The electromagnetic spectrum|microwave/radio]]. Dipole transitions are low-energy.
+- Vibrational transitions which do the same, mostly in [[Spectra#The electromagnetic spectrum|mid to far-IR]]  
 
-**What limits our ability to directly detect the most common molecules in the ISM?**
+1. $\ce{H_2}$ ([[Spectra#Molecular hydrogen|molecular hydrogen]], vibrational) is the most abundant molecule, but is symmetric and has no rotational modes and doesnt have emission/absorption lines  in [[Spectra#The electromagnetic spectrum|optical or radio]] at the typical temperatures in the [[Interstellar medium#ISM|ISM]] where it is found, so we almost never detect this directly. It does have lines in the UV, which have been observed by a spectrograph on a rocket. Instead, the ratio between $\ce{CO}$ luminosity and $\ce{H_2}$ mass is thought to be constant, so we infer its presence from the next molecule:
+2. $\ce{CO}$ (carbon monoxide, rotational transitions) is next most abundant by a factor of $\sim 10^4$. Because of its asymmetry, this polar molecule produces far brighter spectral lines than the hydrogen molecule, making $\ce{CO}$ much easier to detect. It is now used as a tracer of interstellar gas in [[Galaxies]]
+3. $\ce{CH_4}$ (methane, vibrational)
+4. $\ce{NH_3}$ (ammonia, vibrational)
+5. $\ce{H_2O}$ (water, vibrational)
+6. About 50 other detected molecules, including $\ce{HCN, H_2CO}$ (formaldehyde) $\ce{OH}$ etc...
