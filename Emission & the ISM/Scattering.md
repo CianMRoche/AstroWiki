@@ -1,6 +1,10 @@
 Some good notes [here](http://spiff.rit.edu/classes/phys440/lectures/opacity/opacity.html). "Bound" and "free" refer to being either in an atomic configuration or not, respectively (I think). A highly detailed overview of all this in [this article](https://arxiv.org/pdf/1202.5949.pdf) (radiative processes in high energy astrophysics by Ghisellini)
 
 
+## Electron scattering
+Eslastic scattering of a photon by an electron. [[#Thomson scattering]] when non-relativistic and non-quantum, [[#Compton scattering]] otherwise
+
+
 ## Compton scattering
 The scattering of a high frequency photon after an interaction with a charged particle, usually an electron, which decreases the photon energy (otherwise [[#Inverse-Compton scattering]]), since part of the energy of the photon is transferred to the recoiling electron.
 ![[compton.jpg]]
@@ -24,8 +28,8 @@ A single, isolated electron cannot absorb a passing photon (see [[#No isolated e
 
 This classical treatment of the electron-photon scattering makes the following assumptions:
 - Elastic scattering
-- The photon energy is much smaller than the mass-energy of the particle
-- Equivalently, the wavelength of the light is much greater than the Compton wavelength of the particle.
+- The photon energy is much smaller than the mass-energy of the particle (Equivalently, the wavelength of the light is much greater than the Compton wavelength of the particle, so quantum effects can be ignored).
+- Additionally, it is non-relativistic.
 
 **Cross section**:
 Important feature is that cross section is independent of frequency, and is given by $$\sigma_T = \frac{8\pi}{3}\left(\frac{q^2}{4\pi\epsilon_0 m c^2}\right)^2 = \frac{8\pi}{3}\left(\frac{\alpha \lambda_c}{2\pi}\right)^2$$where $\alpha \simeq 1/137$ is the fine-structure constant  and $\lambda_c$ is the Compton wavelength of the particle.
@@ -41,10 +45,6 @@ Important at high temperatures, where the plasma is highly ionized.
 
 ## Free-free absorption
 A free electron can *gain* energy during a collision with an ion by absorbing a photon, complementary to [[#Free-free emission]].
-
-**Examples**: 
-- Electron scattering: photons scatter off free electrons. 
-  This is called [[#Thomson scattering]] for low energies, and [[#Compton scattering]] at high energies.
 
 Must occur in presence of an ion due to [[#No isolated emission]].
 
@@ -64,3 +64,18 @@ Explanation:
 - A photon has (1D) momentum $p = \hbar k = h/\lambda$
 - A photon has energy $E = h\nu = hc/\lambda = pc$
 - If we start with no photon and an electron of energy $E_e$ and momentum $p_e$ then working in a frame where the electron is initially at rest, using primes to denote "after collision" by energy and momentum conservation: $$\begin{align} E_e = m_ec^2 &= E_e' + |\vec{p}|c \\ \vec{p}_e = 0 &= \vec{p}_e{}' + \vec{p} \end{align}$$ we see the electron and photon after collision have equal and opposite momenta in this frame $\vec{p}_e{}' = -\vec{p}$ and $|p_e{}'| = |p|$. Which implies $$ E_e' = m_ec^2 - |\vec{p}_e{}'|c$$Filling in the relativistic kinetic energy $E_e' = c\sqrt{|\vec{p}_e{}'|^2 + m_e^2c^2}$ we get $$\sqrt{|\vec{p}_e{}'|^2 + m_e^2c^2} = m_ec - |\vec{p}_e{}'|$$This equation is $\sqrt{x^2 + y^2} = y - x$ which cannot be true for $x$ and $y$ positive by the triangle inequality (unless $|\vec{p}_e{}'| = 0$ in which case so too is the photon momentum, and nothing happens). That is, this process cannot occur if both energy and angular momentum are conserved.
+
+
+## Mie scattering
+Scattering of EM radiation from quasi-spherical particles where <mark class="hltr-pink">the size of the scattering particles is comparable to the wavelength of the light</mark>, rather than much smaller or much larger.
+
+Takes place in the lower 4,500 m (15,000 ft) of the atmosphere, where many essentially spherical particles with diameters approximately equal to the wavelength of the incident ray may be present.
+
+
+## Rayleigh scattering
+The elastic scattering of light by spheres that are <mark class="hltr-pink">much smaller than the wavelength of light</mark>. The [[Units#Intensity|intensity]] of scattered light is$$
+I_\lambda(\theta)=I_0\left(\frac{1+\cos ^2 \theta}{2 R^2}\right)\left(\frac{2 \pi}{\lambda}\right)^4\left(\frac{n^2-1}{n^2+2}\right)^2\left(\frac{d}{2}\right)^6 \propto \frac{1}{\lambda^4}
+$$where $I_0$ is the light intensity before the interaction with the particle, $R$ is the distance between the particle and the observer, $\theta$ is the scattering angle, $\lambda$ is the wavelength of light under consideration, $n$ is the refractive index of the particle, and $d$ is the diameter of the particle.
+
+![[rayleigh_sunset.jpg|300]]
+The change of sky colour at sunset (red nearest the sun, blue furthest away) is caused by Rayleigh scattering by atmospheric gas particles, which are much smaller than the wavelengths of visible light (since $\lambda_{blue} < \lambda_{red}$ so scattering for blue is much stronger, so the red light makes it trhough and theblue is scattered off in other directions. Also why we see blue baove us preferentially, since light passing though will be preferentially scattered down to us if its blue, largely unrelated to $\theta$-dependence). The grey/white colour of the clouds is caused by [[#Mie scattering]] by water droplets, which are of a comparable size to the wavelengths of visible light.

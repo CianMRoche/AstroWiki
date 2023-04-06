@@ -51,10 +51,15 @@ Units of power ($\pu{W}$). The energy per time leaving a (usually astrophysical)
 ## Flux
 Loosely used, generally refers to some power per area ($\pu{W\,m^{-2}}$). Not intrinsic property of source, depends on "observation"/"location" parameters such as distance from source.
 
-*Specific* flux refers to the flux density in frequency space, such that $F_\nu(\nu)\,d\nu$ is the flux in the frequency band from $[\nu,\nu + d\nu]$ 
+<mark class="hltr-pink">Specific flux</mark> refers to the flux density in frequency space, such that $F_\nu(\nu)\,d\nu$ is the flux in the frequency band from $[\nu,\nu + d\nu]$ 
 
+Can be defined in terms of the [[#Intensity|specific intensity]] via 
+$$F_\nu = \int \cos\theta \,d\Omega\,I_\nu$$
 
 ## Intensity
 Refers to a flux per solid angle ($\pu{W\,m^{-2}}\,\rm{steradian}^{-1}$). Think "per unit area on my detector, what is the flux I get from a given solid angle on the sky". Since intensity is per unit area and solid angle, changing the size of your detector of viewing area (as long as the source is entirely within that area in each case) will not increase the intensity.![[intensity.png|450]]
 
-*Specific* intensity refers to the intensity density in frequency space, such that $I_\nu(\nu)\,d\nu$ is the intensity in the frequency band from $[\nu,\nu + d\nu]$ 
+<mark class="hltr-pink">Specific intensity</mark> refers to the intensity density in frequency space, such that $I_\nu(\nu)\,d\nu$ is the intensity in the frequency band from $[\nu,\nu + d\nu]$ 
+
+A differential energy element can be expressed in terms of this quantity via (noting in the image above they use $d\sigma$ for area but here we use $dA$ to be consistent with astro 1 notes)$$dE = I_\nu \cos\theta\, d\theta\,dA\, d\Omega\, d\nu\, dt$$
+Note that one can also define the (specific) <mark class="hltr-pink">mean intensity</mark> as $$J_\nu = \frac{1}{4\pi}\int d\Omega\,I_\nu$$where $d\Omega$ is a solid angle element (divide by $4\pi$ since there are $4\pi$ steradians on a sphere, want average) which means for an isotropic source $J_\nu = I_\nu$.

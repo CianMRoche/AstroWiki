@@ -154,3 +154,94 @@ TL;DR it's the energy and redshift-dependent [[Optical depth#Mean free path|mean
 - Because the density of EBL photons depends on [[Spectra#Redshift|redshift]] (the average rate of star formation is different at different epochs in the Universe), the probability of pair-production depends on redshift. It also depends on energy of the photon: the total energy must surpass the rest energy of the particles created. The easiest barrier to surpass is the rest mass of an electron-positron pair, since these have tiny masses. Because photons in the EBL typically have lower energies than the electro-positron rest mass, you need a very high energy photon to interact with a low-energy photon from the EBL to produce one such pair.
 - Given the probability of interaction, there will be a maximum effective distance that a high-energy photon can travel before before it encounters an EBL photon. That is, the universe will have some [[Optical depth]] for such high energy photons due to the EBL $$I_{out} = I_{in} e^{-\tau}$$The cosmic γ-ray horizon (CGRH) is the energy/distance at which the optical depth $\tau$ is equal to unity and it is a function of redshift and energy. That is, it's the energy and redshift-dependent [[Optical depth#Mean free path|mean free path]] for cosmic rays due to background light in the universe.
  - Current measurements place it at $z\simeq 0.5$ away from us ($\sim 2\,\pu{Gpc}$)
+
+
+## 83
+**Why is the gas in the interstellar medium largely transparent at visible wavelengths? How does the transparency of the ISM depend on wavelength in the optical and near-IR, and why?**
+The [[Optical depth#Opacity|opacity]] of the [[Interstellar medium#ISM|ISM]] has many sources, ignoring emissions from the ISM we have
+- [[Scattering#Bound-bound absorption|Bound-bound absorption]] which leads to absorption lines at specific energies, but does not attenuate the whole continuum
+- [[Scattering#Bound-free absorption|Bound-free absorption]] from the ionization of primarily hydogen, leading to absorption lines at $\sim 13.6\,\pu{eV}$ which is in the [[Spectra#The electromagnetic spectrum|UV]] 
+- [[Scattering#Free-free absorption|Free-free absorption]] and [[Scattering#Electron scattering|electron scattering]] which both require ionized gas to occur (such as that in the hot coronal [[Interstellar medium#ISM|ISM]] component) but the density of this component is too low to contribute significantly to opacity.
+- $\rm{H}^-$ opacity (when a Hydrogen picks up another electron to fill its 1s orbital) requires neutral $\rm{H}$ and free electrons, which can happen with partially ionized metals in a solar atmosphere.
+
+But overall not much opacity in the ISM, except for [[Dust#Dust|dust]] which absorbs in the optical and re-emits thermally in the IR. The wavelength dependence of the optical depth 
+![[extinction_ISM.png]]
+
+
+## 84
+**Sketch a typical cooling function L(T) for diffuse interstellar gas and identify its prominent features, spanning from IR to X-ray. Overplot a hypothetical heating curve and show how to identify points of thermal equilibrium and their stability.**
+
+Cooling takes place via (for example)
+- Collisionally excited line emission
+- Recombination
+- Thermal [[Bremsstrahlung#Bremsstrahlung|bremsstrahlung]]
+
+The <mark class="hltr-pink">cooling function</mark> $\Lambda (T)$ in units of $[\pu{J m^3 s^{-1}}]$ is such that $R = n^2 \Lambda$ is the energy per volume per time released by gas cooling where $n$ is the number density.
+
+The cooling curve from Megan's notes: (units are $\pu{erg cm^3 s^{-1}}$)
+![[cooling_vs_T.png]]
+
+There is also a <mark class="hltr-pink">heating function</mark> labelled $\Gamma(T)$ in units of $[\pu{J s^{-1}}]$ such that $n\Gamma (T)$ is the energy injected into the ISM per volume per time. Why defined with different units? Not sure.
+
+Thermal equilibrium is then defined by the zeros of the generalized loss function$$\mathcal{L}(T) =  n^2\Lambda (T) - n\Gamma(T) = 0$$and stability of a particular equilibrium point (red and blue below) depends on the derivative at those points
+- If you perturb temperture a bit to the left (lower temp) from the blue dots below, $\mathcal{L}$ is negative and thus more heating than cooling, $T$ returns back to where i was. Same thing on the right but for heating, tehrefore theyre stable
+- If you do this for the red point, going a little left means $\mathcal{L}$ positive and thus more cooling than heating, and thus temperature continues to decrease. Same on right side
+![[ISM_stability.png|600]]
+- Therefore stability determined by sign of derivative of $\mathcal{L}$ via$$\begin{align}\frac{\partial \mathcal{L}}{\partial T}\Big\vert_{\text{equilibrium point}} >0 \quad &\implies \quad \text{stable} \\ \frac{\partial \mathcal{L}}{\partial T}\Big\vert_{\text{equilibrium point}} <0 \quad &\implies \quad \text{unstable}\end{align}$$
+
+## 85
+**What is "brightness temperature"?**
+Brightness temperature is the temperature at which a [[Blackbody radiation#Blackbody radiation|blackbody]] would be reproduce the observed [[Units#Intensity|specific intensity]]. Rearranging the blackbody spectrum to get $T$ and labelling it $T_\nu$ (and using the label $I_\nu$ instead of $B_\nu$ to emphasize that the system is not a perfect blalckbody) we have $$T_\nu = \frac{h\nu}{k_B\ln\left(1+\frac{h\nu^3}{c^2I_\nu}\right)}$$in terms of the blackbody specific intensity $I_\nu$. This measure of specific intensity is commonly used in radio astronomy (low-frequency or "Rayleigh-Jeans" limit) wherein the blackbody spectrum reduces to $$I_\nu \simeq \frac{2\nu^2k_B T}{c^2} \implies T_\nu \simeq \frac{c^2I_\nu}{2k_b \nu^2}$$**What is a “Jansky”? How are these different?**
+A Jansky is a unit of  [[Units#Flux|specific flux]] (that is, not per steradian as for a brightness temperature).
+
+If you measure a specific flux $F_\nu$ (which can be expressed in Janskys) with your detector that has a field of view of $\Omega$ steradians, then $F\nu / \Omega$ is a brightness temperature.
+
+
+## 86
+**Make a simple, classical argument to show that the spectrum of radiation from monoenergetic electrons with a speed v impinging on ions at an impact parameter b would be roughly flat up to a frequency ~ v/b.**
+
+Consider the acceleration of a nonrelativistic charge $q$ with mass $m$ scattering from an ion (labelled "nucleus" here but means an ion assumes to have charge $-q$, though not a necessary assumption)
+![[ion_scatter.png|500]]
+The [[Magnetobremsstrahlung#Larmor formula|Larmor formula]] tells us the power emitted due to the acceleration, which varies, so the power will also vary, but we assume the speed is $v$ uniform in the region of interest where most power is emitted (near closest approach) $$a(r) = \frac{F(r)}{m} = \frac{q^2}{m\,4\pi \epsilon_0 r^2} = \frac{q^2}{m\,4\pi \epsilon_0}\frac{1}{(vt)^2 + b^2} = \frac{q^2}{m\,4\pi \epsilon_0 b^2}\left[1+\left(\frac{t}{\tau}\right)^2\right]^{-1}$$where $r$ is the distance between the particles and $\tau = b/v$. Thus the power is $$P = \frac{q^2a^2}{6\pi \epsilon_0 c^3}  \propto \left[1+\left(\frac{t}{\tau}\right)^2\right]^{-2} $$Timescale over which we emit radiation is $\tau = b/v$, in that faster electrons give a shorter pulse of radiation, and so too does a closer approach. This is really the smallest timescale since $\tau \downarrow \implies P \downarrow$ and there arent really charges moving here on timescales smaller than this. (if you dont like this argument, see the explicitly calculated fourier transform below).
+
+The spectrum (loosely energy per frequency, really a distribution) is the Fourier transform of the power (energy per time). A minimum timescale corresponds to a maximum frequency, which here will be $\nu = v/b$ above which the spectrum (fourier transform of the power) will drop to zero. One can actually calculate the Fourier transform to be more precise and get something like $$\rm{FT}[P(t)] = P(\omega) \propto e^{-\tau \omega}$$in the region of validity near $\omega = 2\pi\nu = 2\pi/\tau$ . So once we get to a frequency of $1/\tau$ the spectrum decays exponentially. This however doesnt explain why its flat before that !UNFINISHED
+
+
+## 87
+**If a typical interstellar dust grain is 0.2 microns in size, and starlight suffers an extinction of 1 magnitude per kpc, estimate the space density of dust grains.**
+
+Assume only absorption and no emission, so that via the [[Optical depth#Mean free path|Lambert-Beer law]] light is attenuated as it passes through medium as $F = F_0e^{-\tau}$ via some [[Optical depth#Optical depth|optical depth]] $\tau$. [[Magnitudes#Apparent magnitude|Apparent magnitude]] differences due to differences in observed [[Units#Flux|flux]] $F$ between emission at "$0$" and observation at a distance $d$ are given by $$\begin{align}\Delta m = m_d - m_0 &= -2.5\log _{10}\left(\frac{F_d}{F_0}\right) \\ &= -2.5\log _{10}\left(e^{-\tau}\right)\\ &= -2.5\log _{10}\left(e^{-n\sigma d}\right)\\ &= -2.5 \left({-n\sigma d}\right)\log _{10}(e)\end{align}$$Where we choose to write $n\sigma d$ in place of $N\sigma$ as in [[Optical depth#Optical depth|optical depth]] since we are interested in getting a volume density, not a column density, and we assume the material is uniform over the distance $d$. If we rearrange we can get $$n = \frac{\Delta m}{2.5\,\sigma d \log_{10}(e)}$$We know that for $d=1\,\pu{kpc}$ we have $\Delta m = 1$. We can approximate the scattering cross section $\sigma$ as completely classical scattering if the wavelength of light is much smaller than the size of the grain. With this $$n = \frac{1}{2.5\,\pi(0.2\,\pu{\mu m})^2 (1\,\pu{kpc}) \log_{10}(e)}\sim 10^{-12}\,\pu{cm^{-3}}$$
+
+## 88
+**What are the Einstein A and B coefficients for a spectral line, and what are the relationships
+among them?**
+The Einstein coefficients are a measure of the probability that an atom/molecule/ion will undergo emission or absorption.
+| Atomic Process | Reaction | Einstein coefficient | Units |
+| --- | ----------- | -------------| -------------|
+| Spontaneous emission |  $E_2 \rightarrow E_1 + h\nu$ | $A_{21}$ | $\pu{s^{-1}}$ |
+| Absorption | $h\nu + E_1 \rightarrow E_2$ | $B_{12}$ | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
+|Stimulated emission | $h\nu + E_2 \rightarrow E_1 + 2h\nu$ | $B_{21}$ | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
+
+Note the units of [[Units#Intensity|specific intensity]]. We break them up into $A$ and $B$ coefficients via
+- $A$ doesnt depend on what light is around
+- $B$ does
+
+Then $A_{21} n_2$ (for $n_2$ the volume number density of particles in energy state $E_2$) is the transition rate for spontaneous emission per unit volume, and for [[Units#Intensity|specific mean intensity]] $J_\nu$ the transition rate per volume for absorption is $B_{12}n_1 J_\nu$ (similar for stimulated emission). Putting this together we have in thermal equilibrium that transitions into second level should equal transitions down to first, ie $$\begin{align}
+\text{transitions } \uparrow \quad &=\quad \text{transitions } \downarrow \\
+B_{12}n_1 J_\nu \quad &= \quad B_{21}n_2 J_\nu + A_{21} n_2
+\end{align}$$We can obtain relative populations of excited states by ratios of Boltzmann factors $$\frac{n_2}{n_1} = \frac{g_2}{g_1}e^{\frac{-(E_2 - E_1)}{kT}}$$Combining the balance equation (divided across by $n_1$) with the Boltzmann factor above and solving for $J_\nu$ one finds $$J_\nu = \frac{\left(\frac{A_{21}}{B_{21}}\right)}{\left(\frac{g_1B_{12}}{g_2B_{21}}\right)e^{\frac{h\nu}{kT}} - 1}$$For a thermal process we have that $J_\nu$ is the [[Blackbody radiation#Blackbody radiation|blackbody]] spectrum (labelled $B_\nu$ in reference to emphasize that its for a blackbody, and isotropic so $J_\nu = I_\nu$) $$J_\nu(\nu\,;T) = \frac{\mathcal{F}(\nu)}{e^{\frac{h\nu}{kT}} - 1}\quad,\quad\mathcal{F}(\nu):= \frac{2h\nu^3}{c^2}$$
+Matching these two equations we get $$\frac{A_{21}}{B_{21}} = \mathcal{F}(\nu)\quad,\quad \frac{B_{12}}{B_{21}} = \frac{g_2}{g_1}$$which are known as the <mark class="hltr-pink">Einstein relations</mark> that guarantee if we know one of the numbers, we know all 3. Note that the resulting equations hold even out of equilibrium, but since we derived them using thermal equilibrium I am confused.
+
+
+## 89
+**Explain quantitatively why stimulated emission is important and spontaneous emission is usually ignored in the radio domain, whereas the reverse is true in the optical domain.**
+
+
+**Given a thermal spectrum at some temperature T, at what frequency would the two emission rates be equal?**
+
+
+## 90
+**Name five molecules found in the interstellar medium and comment on how they are detected**
+
+
+**What limits our ability to directly detect the most common molecules in the ISM?**

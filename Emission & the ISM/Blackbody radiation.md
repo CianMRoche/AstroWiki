@@ -1,5 +1,5 @@
 ## Blackbody radiation
-Black body spectral power density [interactive](https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_en.html) with units power/(surface area of "emitter" $\cdot$ solid angle of "detector" $\cdot$ frequency) $\pu{J s^{-1}Hz^{-1}m^{-2}}$
+Black body spectral power density [interactive](https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_en.html) with units power/(surface area of "emitter" $\cdot$ solid angle of "detector" $\cdot$ frequency) $\pu{J s^{-1}Hz^{-1}m^{-2} sr^{-2}}$ (ie in the notation of these notes, a [[Units#Intensity|specific intensity]])
 $$B_\nu(\nu\,;T) = \frac{2h\nu^3}{c^2}\frac{1}{e^{\frac{h\nu}{kT}} - 1}$$
 But can also reforumulate in terms of wavelength. To do the conversion, need to remember that this is a density and perform a change of variables under the integral sign. 
 $$\int d\nu B_\nu(\nu;T) = \int d\lambda \underbrace{\frac{d\nu}{d\lambda}}_{= \frac{d}{d\lambda}\frac{c}{\lambda} = -\frac{c}{\lambda^2}}B_\nu(\nu;T) \implies B_\lambda(\lambda;T) = \frac{c}{\lambda^2}B_\nu\left(\frac{c}{\lambda};T\right)$$

@@ -25,3 +25,7 @@ Much stronger emission from electrons than for heavier particles since power emi
 
 The name contains "cycle" because it is derived by considering a charged particle in circular motion with a certain frequency due to a uniform magnetic field. The spectrum then looks like a delta function at $\nu = qB/2\pi m c$ (might be in CGS units?) but in reality we also see weak harmonics at integer multiples of this frequency. As a result, can be a great way to measure magnetic fields.
 ![[cyclotron_schematic.png|250]]
+
+
+## Larmor formula
+Total power radiated by a nonrelativistic point charge as it accelerates. For a point charge $q$ accelerating with acceleration $a$ we have $$P = \frac{q^2a^2}{6\pi \epsilon_0 c^3}$$which is notably proportional to $a^2$. Note that the relativistic version is the same but replacing $a$ by the relativistic proper acceleration $\alpha$
