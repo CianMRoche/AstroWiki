@@ -90,7 +90,26 @@ Imagine a pulse of light emitted from the source. There are two sources of time 
 1. Geometric time delay
 2. Gravitational time dilation due to the presence of massive objects, "Shapiro time delay" (see [[#97|Q97]] below)
 
-The net delay looks something like $$\Delta t = \frac{1 + z_{lens}}{c}\frac{D_LD_{LS}}{D_{S}}\left(\frac{1}{2}(\theta - \beta)^2 - \psi_{2D}\right)$$where the left term in parentheses is geometric and the right due to Shapiro delay. The terms outside the parentheses are a function of [[Distances#Angular diameter distance|angular diameter distance]] which depends on $H_0$ 
+The net delay looks something like $$\Delta t = \frac{1 + z_{lens}}{c}\frac{D_LD_{LS}}{D_{S}}\left(\frac{1}{2}(\theta - \beta)^2 - \psi_{2D}\right)$$where $\psi_{2D}$ is the 2D lensing potential and the left term in parentheses is geometric and the right due to Shapiro delay. The terms outside the parentheses are a function of [[Distances#Angular diameter distance|angular diameter distance]] which depends on $H_0$ 
 
 **What is the current status of these determinations of H$_0$?** 
 Current estimate is that of HoLiCOW which measures time delays from lensed [[AGN#Quasar|quasars]]. Their current figure is $$H_0 = 73.3_{-1.8}^{+1.7}\,\pu{km s^{-1} Mpc^{-1}}$$ which is in $5.3\sigma$ tension with [[CMB#CMB|CMB]] measurements from [[Observatories#Planck|Planck]]. HOLiCOW uses the following observatories: [[Observatories#HST|Hubble Space Telescope]], the [[Observatories#Spitzer|Spitzer Space Telescope]], the [[Observatories#Subaru|Subaru Telescope]], the Canada-France-Hawaii Telescope, the Gemini Observatory, and the W. M. Keck Observatory.
+
+
+## 97
+**What is the "Shapiro time delay"? Where was it first measured?**
+This is a gravitational time delay that arises from time dilation near massive bodies. One of the four [[General relativity#Classical tests of GR|classical tests of GR]]. If we bounce light off of a mirror (or anything that reflects) and the signal has to pass a massive body on the way there and back, we should see that the signal takes a bit longer than expected due to time dilation. Roughly speaking, the time dilation increases with spacetime curvature, so the coordinate time along the null geodesic will be larger than if there were no curvature (but since its a null geodesic the proper time interval will be zero).
+
+It was predicted in 1964 by Shapiro, and first measured here at MIT in 1966 by shooting radar at Mercury and Venus when they were almost at the opposite side of [[The Sun]], and measuring the time delay compared to the expected. It matched the GR prediction of about $0.2\,\pu{ms}$. 
+
+Need to measure the time delay multiple times as the light path gets closer to the massive object, otherwise result is degenerate with an object that is more distant.
+
+
+## 98
+**What is gravitational microlensing, what do we learn from it, and how are various experiments studying this phenomenon?**
+
+Lensing by a lens small enough that its not currently possible to observe the time delays as it was in [[#96|Q96]], but as the lens passes in front of a background source, we should see a small increase in brightness. Can think of it as the presence of the lens "bending a few more paths of light rays toward us as it passes over a background source".
+
+Used in [[Exoplanets - Questions#13|Exoplanet detection]]. Can learn about a planets orbital period and potentially the mass (height of peak) but that is degenerate with its semimajor axis and to a degree orbital speed. We have used this method to see planets we otherwise couldnt, eg. MACHOs (massive compact halo objects) like brown dwarfs [[Stellar classes#White dwarf|WDs]] and [[Black holes#Black hole|BHs]].
+
+Is a rare phenomenon that requires high cadence in time, so need high-cadence surveys to find it. Examples are EROS and OGLE both of which look sometimes at the [[Galaxy examples#Large Magellanic Cloud|LMC]].
