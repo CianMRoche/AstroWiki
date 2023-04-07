@@ -72,13 +72,7 @@ The following constitutes "Alfvéns theorem", don't trust this "proof". Combine 
 
 ## 96
 **Qualitatively, how does a gravitational lens work?**
-When we see light, we assume its source is in the direction the light came from. Light can be bent by optics like lenses, so if we can see the light is coming out of a lens, we can infer that the source may not be where it appears to be. When we look at a light source in space we dont see any (obvious) lenses, so we assume the source is along the line of sight of the "bright spot" on the sky. 
-
-However, [[General relativity]] tells us that light doesnt travel in "straight lines" in the way we are used to, and that this effect grows with the amount mass (energy) present near the path of light. Large collections of mass like a [[Galaxy clusters#Galaxy cluster|galaxy cluster]] can thus act as massive astronomical lenses, making objects appear in positions they are not (if we had erroneously made the assumption that light is not bending). The geometric picture (from Megan's notes) is 
-
-![[grav_lens_geometry.png]]
-
-If the "true source angle" $\beta$ is zero, then we see a perfect ring of images of the source (by rotating the above picture about the observer-lens axis) called an <mark class="hltr-pink">Einstein ring</mark>. The angular size of the Einstein ring is the *Einstein angle* $$\theta_E = \sqrt{\frac{4GM}{c^2}\frac{D_{LS}}{D_{L}D_{S}}}$$the derivation of which we skip (it seems like almost everyone does, its a GR prediction plus trigonometry). 
+See [[Lensing]].
 
 **Explain what needs to be measured to use a gravitational lens system to measure the Hubble constant**
 
@@ -113,3 +107,10 @@ Lensing by a lens small enough that its not currently possible to observe the ti
 Used in [[Exoplanets - Questions#13|Exoplanet detection]]. Can learn about a planets orbital period and potentially the mass (height of peak) but that is degenerate with its semimajor axis and to a degree orbital speed. We have used this method to see planets we otherwise couldnt, eg. MACHOs (massive compact halo objects) like brown dwarfs [[Stellar classes#White dwarf|WDs]] and [[Black holes#Black hole|BHs]].
 
 Is a rare phenomenon that requires high cadence in time, so need high-cadence surveys to find it. Examples are EROS and OGLE both of which look sometimes at the [[Galaxy examples#Large Magellanic Cloud|LMC]].
+
+
+## 99
+**What is the "weak lensing effect"? How does this differ from “strong lensing”? What are each of these phenomena useful for to astronomers?**
+
+
+
