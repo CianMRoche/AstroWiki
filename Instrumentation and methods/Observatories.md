@@ -9,6 +9,9 @@ Note: Good name is hard, some of these are telescopes. Surveys will go into "cat
 ## HST
 
 
+## Spitzer
+
+
 ## JWST
 
 
@@ -164,3 +167,5 @@ See [[Emission & the ISM - Questions#79|Q79]] for dust sadness.
 
 
 ## Planck
+
+

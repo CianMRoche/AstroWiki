@@ -15,3 +15,11 @@ r &\in (0,\infty) \\
 
 
 ## Kerr
+
+
+
+## Classical tests of GR
+- Precession of perihelion of mercury
+- Shapiro time delay
+- Gravitational redshift
+- Lensing (angle between real source and apparent source double what was predicted without GR)

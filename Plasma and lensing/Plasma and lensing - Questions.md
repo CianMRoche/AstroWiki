@@ -58,3 +58,39 @@ Would look something like (Megan's notes)
 **Are magnetic fields important in the propagation of waves in the interstellar medium? In a star?**
 - [[Interstellar medium#ISM|ISM]]: Yes $\rightarrow$  mainly due to [[#91|Faraday rotation]] 
 - Stars: Yes $\rightarrow$  Alfvén waves are primary mechanism for heating of stellar corona and accelerating stellar winds.Have also been seen in shockwaves in [[Supernovae#Supernova|SNe]] remnants.
+
+
+## 95
+**What is the "ideal Ohm's law" for a plasma?**
+Start with Ohms law for a steady ($\partial/\partial t \rightarrow 0$) current wherein we neglect contributions to the electric field from other terms in the generalized Ohm's law (the Hall effect, electron inertia and ambipolar diffusion, etc) $$\vec{J} = \sigma \vec{E}'$$where $\sigma$ is electrical conductivity (inverse to the resistivity) and $\vec{E}'$ is the electric field experienced by the plasma (fluid) element in its rest frame. When the plasma is moving (with respect to the external magnetic field $\vec{B}$) at velocity $\vec{v}$, applying the Lorentz transformation we obtain $$\vec{J} = \sigma (\vec{E} + \vec{v} \times \vec{B})$$For an ideal plasma we assume $\sigma \rightarrow \infty$ so it must be that $$\vec{E} + \vec{v} \times \vec{B} = 0$$This is the <mark class="hltr-pink">idealized Ohm's law</mark>.
+
+**What does "frozen-in" mean?**
+If the ideal Ohm's law holds, we can prove that the flux through any closed contour is constant in time. Another way to state this is that the magnetic field lines are "frozen in" to the fluid motion (can think of it as magnetic field lines threading through the fluid and "telling it where to flow").
+
+The following constitutes "Alfvéns theorem", don't trust this "proof". Combine idealized Ohm's law first with Faraday's law to obtain $$\frac{\partial \vec{B}}{\partial t} = -\nabla \times \vec{E}  = \nabla \times (\vec{v} \times \vec{B}) $$Then via the fact that $\nabla \cdot \vec{B} = 0$ and using the vector triple product $a\times (b \times c) = (a\cdot c) b - (b\cdot a) c$ (which can be written in different ways) we can write this as $$\frac{\partial \vec{B}}{\partial t} = - (\vec{v}\cdot \nabla)\vec{B}$$Then taking the convective derivative (goes by many names) $D/Dt = \partial/\partial t + \vec{v} \cdot \nabla$ of $\vec{B}$ one obtains  $$\frac{D \vec{B}}{D t} = \frac{\partial \vec{B}}{\partial t} + (\vec{v}\cdot \nabla)\vec{B} = 0 $$Which means the magnetic field is constant along streamlines, ie the magnetic field lines are streamlines. I must have done something wrong because everybody does this with integral calculus. 
+
+
+## 96
+**Qualitatively, how does a gravitational lens work?**
+When we see light, we assume its source is in the direction the light came from. Light can be bent by optics like lenses, so if we can see the light is coming out of a lens, we can infer that the source may not be where it appears to be. When we look at a light source in space we dont see any (obvious) lenses, so we assume the source is along the line of sight of the "bright spot" on the sky. 
+
+However, [[General relativity]] tells us that light doesnt travel in "straight lines" in the way we are used to, and that this effect grows with the amount mass (energy) present near the path of light. Large collections of mass like a [[Galaxy clusters#Galaxy cluster|galaxy cluster]] can thus act as massive astronomical lenses, making objects appear in positions they are not (if we had erroneously made the assumption that light is not bending). The geometric picture (from Megan's notes) is 
+
+![[grav_lens_geometry.png]]
+
+If the "true source angle" $\beta$ is zero, then we see a perfect ring of images of the source (by rotating the above picture about the observer-lens axis) called an <mark class="hltr-pink">Einstein ring</mark>. The angular size of the Einstein ring is the *Einstein angle* $$\theta_E = \sqrt{\frac{4GM}{c^2}\frac{D_{LS}}{D_{L}D_{S}}}$$the derivation of which we skip (it seems like almost everyone does, its a GR prediction plus trigonometry). 
+
+**Explain what needs to be measured to use a gravitational lens system to measure the Hubble constant**
+
+The principle is as follows (Megan's notes) 
+
+![[h0_lens.png]]
+
+Imagine a pulse of light emitted from the source. There are two sources of time delay between the arrival of blue and red at the observer
+1. Geometric time delay
+2. Gravitational time dilation due to the presence of massive objects, "Shapiro time delay" (see [[#97|Q97]] below)
+
+The net delay looks something like $$\Delta t = \frac{1 + z_{lens}}{c}\frac{D_LD_{LS}}{D_{S}}\left(\frac{1}{2}(\theta - \beta)^2 - \psi_{2D}\right)$$where the left term in parentheses is geometric and the right due to Shapiro delay. The terms outside the parentheses are a function of [[Distances#Angular diameter distance|angular diameter distance]] which depends on $H_0$ 
+
+**What is the current status of these determinations of H$_0$?** 
+Current estimate is that of HoLiCOW which measures time delays from lensed [[AGN#Quasar|quasars]]. Their current figure is $$H_0 = 73.3_{-1.8}^{+1.7}\,\pu{km s^{-1} Mpc^{-1}}$$ which is in $5.3\sigma$ tension with [[CMB#CMB|CMB]] measurements from [[Observatories#Planck|Planck]]. HOLiCOW uses the following observatories: [[Observatories#HST|Hubble Space Telescope]], the [[Observatories#Spitzer|Spitzer Space Telescope]], the [[Observatories#Subaru|Subaru Telescope]], the Canada-France-Hawaii Telescope, the Gemini Observatory, and the W. M. Keck Observatory.
