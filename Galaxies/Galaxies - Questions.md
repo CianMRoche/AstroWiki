@@ -52,3 +52,22 @@ Below are two views of the bullet cluster, the first a composite image of <mark 
 
 ![[bullet_nice.jpg]]
 ![[bullet_map.jpg]]
+
+
+## 102
+**What are the typical mass ranges of dwarf galaxies, normal galaxies, and galaxy clusters?**
+The below (from Megan's notes) described the approximate mass ranges for [[Galaxies#Galaxy|galaxies]], [[Galaxy groups#Galaxy group|groups]] and [[Galaxy clusters#Galaxy cluster|clusters]]. 
+![[galaxy_mass_scales.png]]
+
+**Describe a few ways in which we measure the masses of these different types of systems.**
+1. [[Galaxy clusters#Galaxy cluster|Galaxy clusters]]
+   - [[Lensing#Weak lensing|Weak lensing]] for total mass measurements (can strong lensing also constrain mass?)
+   - Scaling relations from X-ray measurements or SZ-effect measurements
+   - Assume [[Stellar structure equations#Hydrostatic equilibrium|hydrostatic equilibrium]] of [[Cluster media#ICM|ICM]] and obtain mass from measurements of density and temperature (both from X-ray). If we have density why cant we get mass?
+
+2. [[Galaxies#Galaxy|Galaxies]]
+   - Rotation curves (see [[#101|Q101]])
+   - [[Velocity dispersion#Velocity dispersion|Velocity dispersion]]
+   - [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher]] gives $L\propto v_r^4$ + assume $M/L$ ratio to get mass
+   - [[Velocity dispersion#Faber-Jackson relation|Faber-Jackson]] gives $L\propto \sigma_r^4$ + as above
+   - Dynamical masses obtained for example by [[Observatories#GAIA|GAIA]] [[Clustering#Globular Cluster|globular cluster]] motions.
