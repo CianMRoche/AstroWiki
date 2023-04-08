@@ -112,5 +112,5 @@ Is a rare phenomenon that requires high cadence in time, so need high-cadence su
 ## 99
 **What is the "weak lensing effect"? How does this differ from “strong lensing”? What are each of these phenomena useful for to astronomers?**
 
-
+See [[Lensing#Weak lensing|weak lensing]] and [[Lensing#Strong lensing|strong lensing]]
 

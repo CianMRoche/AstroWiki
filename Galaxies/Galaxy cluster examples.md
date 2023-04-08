@@ -14,4 +14,6 @@ Exhibits a "flattened" bubble resulting from a jet, flattening is evidence of ef
 
 
 ## Bullet Cluster
-merging cluster?
+
+
+## Coma cluster
