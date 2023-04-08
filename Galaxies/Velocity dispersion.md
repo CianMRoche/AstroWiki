@@ -25,4 +25,12 @@ For elliptical galaxies
 
 
 ## Tully-Fisher relation
-For spiral galaxies
+For spiral galaxies. A relationship between rotational velocity (isnt this also just dispersion?) and luminosity, $$L\propto v^4$$**Assumptions**:
+- Galaxy radiates as a thin disk
+- Virialized
+- Assume that a simple mass to light ratio applies to all spiral galaxies (therefore this relation doesnt apply across different environments? See [[Galaxies - Questions#107|Q107]])
+
+**Derivation**
+Virial theorem or [[Binaries#Circular motion|circular motion]] $\implies v^2 = GM/R$. 
+
+Furthermore, let $\Gamma = M/L$ be the mass to light ratio, and assume a disk shape (since talking about spiral galaxies) $L = 2\pi R^2 I_0$ where $I_0$ is the [[Units#Intensity|surface brightness]]. This can be rearranged to $R = \sqrt{L/2\pi I_0}$. Then $$v^4 = \left(\frac{GM}{R}\right)^2 = \frac{\left(G\Gamma L\right)^2}{R^2} = (G^2 \Gamma^2 2\pi I_0) L$$and we recover the proportionality above.

@@ -11,10 +11,10 @@ The first discovered galaxy group was Stephan's quintet:
 
 
 ## Local Group
-A [[Galaxy groups#Galaxy group|galaxy group]] which hosts the [[Milky Way#Milky Way|Milky Way]] (that is, we live in it). The maor components are, in order of mass
+A [[Galaxy groups#Galaxy group|galaxy group]] which hosts the [[Milky Way#Milky Way|Milky Way]] (that is, we live in it). About 100 galaxies. The maor components are, in order of mass
 
 **Components**
-1. [[Galaxy examples#M31|Andromeda (M31)]]
+1. [[Galaxy examples#M31|Andromeda (M31)]] (merger with Milky Way coming in about $4\,\pu{Gyr}$)
 2. The [[Milky Way#Milky Way|Milky Way]]
 3. Triangulum (M33)
 4. The [[Galaxy examples#Large Magellanic Cloud|LMC]] and SMC

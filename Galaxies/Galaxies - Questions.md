@@ -111,5 +111,78 @@ See [[Galaxy groups#Local Group|Local group]].
 
 
 ## 107
-**What is the morphology-density relation for galaxies? Give several possible explanations for this
-trend.**
+**What is the morphology-density relation for galaxies? Give several possible explanations for this trend.**
+
+Basic idea is that 
+- Elliptical [[Galaxies#Galaxy|galaxies]] are more likely to be found in denser environments like [[Galaxy groups#Galaxy group|groups]] and [[Galaxy clusters#Galaxy cluster|clusters]] 
+- Conversely, spiral galaxies are more likely to be found in less dense environments like the field
+
+Illustrated below, where $S0$ is another name for "lenticular" [[Galaxies#Galaxy|galaxy]].
+
+![[morphology_density.png|400]]
+
+Potential explanations:
+- Denser environments lead to more mergers, disrupting spiral structure
+- Gas more easily stripped in these environments due to [[Definitions - The Solar System#Ram pressure|ram pressure]] and ellipticals and lenticulars are gas-poor relative to spirals. 
+
+
+## 108
+**What is the "Schechter luminosity function"? What is the luminosity of a typical bright galaxy?**
+Empirical relationship to describe the observed galaxy luminosity function (distribution of number of galaxies over luminosities). $$\Phi(L) = \frac{\Phi_*}{L_*}\left(\frac{L}{L_*}\right)^\alpha e^{L/L_*}$$where $\Phi(L)$ has dimensions "per volume per luminosity" such that $\Phi(L) dL$ is the number of galaxies with luminosity between $L$ and $L+dL$ per unit volume. Bbserved best-fit numbers $$\cases{\alpha \simeq 1.1 \\ L_* \simeq 10^{10}\,L_\odot \sim \text{MW luminosity} \\\Phi_* \simeq 0.02\,\pu{Mpc^{-3}}}$$The function has the following shape (from Megan's notes):
+![[shechter.png|300]]
+
+and a typical galaxy has a luminosity like that of the [[Milky Way#Milky Way|Milky Way]] ($\sim 2\times 10^{11} L_\odot$ ). We see few galaxies far above this luminosity because theyre rare, and few far below because theyre faint.
+
+**How does the luminosity function of galaxies compare to the mass function of halos from simulations?**
+Observations compare in the following way to our expectations from simulations (effort is put into addressing this in sims by adjusting feedback and baryonic physics models)
+![[schechter_function_comparison.png]]
+
+Take-home is smaller galaxies cant form as many stars by the disruption of gas due to [[Supernovae#Supernova|supernovae]] and larger galaxies cant due to heating from [[AGN#AGN|AGN]] feedback.
+
+
+## 109
+**Describe Hubble's classification scheme for galaxies and explain why it is useful.**
+
+A classification scheme that separates ellipticals from barred and non-barred spirals. The letter subclasses in spirals S and barred galaxies SB refer to how tightly wound the spiral arms are. S0 refers to lenticular [[Galaxies#Galaxy|galaxies]]. 
+![[Hubble_classification.png]]
+
+Another view with some galaxy images
+![[Hubble_Tuning_Fork_diagram.svg]]
+
+Usefulness: Captures some trends in galaxy populations, such as: 
+- **Support**:
+  Ellipticals tend to be supported pressure-supported with random motions, but spirals tend to be rotation-supported (ie more net angular momentum).
+- **Brightness profiles**:
+  Spirals are exponential, but ellipticals are de Vaucoleurs (see [[#118|Q118]])
+- **Age**:
+  Spirals are young(ish) and ellipticals are old ("Pop 2")
+- **Stellar motion**:
+  Spirals fit [[Velocity dispersion#Tully-Fisher relation|TF-relation]] and ellipticals fit [[Velocity dispersion#Faber-Jackson relation|FJ-relation]]
+  
+Not an evolutionary sequence as Hubble once thought.
+
+
+## 110
+**What is the "Tully-Fisher relation"? Derive this relation beginning with the virial theorem and
+using simplifying assumptions about galaxies.**
+
+See [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher relation]].
+
+**How can this relation be used to determine H0?**
+Measuring the [[Hubble constant#Hubble constant|Hubble constant]] $H_0$ requires both distances and recessional velocities. Velocities follow easily from redshifts. Tully-Fisher allows us to determine intrinsic luminosities from [[Spectra|spectral]] line widths, and therefore distances to the object. 
+
+
+## 111
+**What are cD galaxies and where are they found? How might they be formed?**
+Another name for a [[Galaxy clusters#Brightest cluster galaxy|BCG]]. "c" refers to very large and "D" refers to diffuse. "Central dominant" is a backronym. Formed via mergers and dynamical friction.
+
+
+## 112
+**What is the “Faber-Jackson relation” for elliptical galaxies?**
+
+The [[Velocity dispersion#Faber-Jackson relation|Faber-Jackson relation]] is a connection between the velocity dispersion of elliptical [[Galaxies#Galaxy|galaxies]] and their luminosity. Analogue to [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher]] but for elliptical galaxies. I dont see how its different. !UNFINISHED
+
+**How is this different than the "fundamental plane" for elliptical galaxies?**
+Large scatter in the Faber-Jackson relationship for different types of population lead to the development of the "fundamental plane" which incorporates a 3rd independent parameter $R_e$ called the "effective radius". FJ is then a projection of this relationship down the $R_e$ axis.
+
+Defined by $$L^\alpha R_e^\beta \sigma^\gamma = \text{const}$$
