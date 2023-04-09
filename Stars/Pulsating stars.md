@@ -9,7 +9,7 @@ p modes have pressure restoring force
 g has grav (deeper interior)
 r has coriolis "inertial modes"
 
-and each prbbes a different layer of the star. That said, there are mixed modes (eg. gravoinertial modes) that couple these effects.
+and each probes a different layer of the star. That said, there are mixed modes (eg. gravoinertial modes) that couple these effects.
 
 
 ## Pulsating binaries

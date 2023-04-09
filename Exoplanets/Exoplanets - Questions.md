@@ -62,8 +62,7 @@ Closer to host star $\implies$ higher torque, becomes locked more quickly / infl
 See C+O 2nd edition pg 722
 
 ## 12
-**Describe qualitatively one of the theories explaining the presence of hot Jupiters -- Jupiter mass
-planets orbiting at separations of less than 0.05 AU from the star**
+**Describe qualitatively one of the theories explaining the presence of hot Jupiters -- Jupiter mass planets orbiting at separations of less than 0.05 AU from the star**
 
 **Hot jupiter** 
 A ~Jupiter sized planet very close to host star. [[Exoplanet examples#51 Pegasi b|51 Peg b]] is an example.
@@ -85,8 +84,7 @@ Astronomers did not expect giant gas planets to form at a radius that close to t
 
 ## 13
 **Describe four methods for detecting an exoplanet, and the potential biases in the inferred  
-populations of planets associated with each method. Roughly how many planets have been  
-detected using each?**
+populations of planets associated with each method. Roughly how many planets have been detected using each?**
 1. **Transits** (~3500 confirmed as of 2022)
    If the planet passes in front of the star along the line of sight, we see a dip in the flux of light, the shape being approximately trapezoidal (but with curvy edges)
    
@@ -140,8 +138,7 @@ detected using each?**
 
 
 ## 14
-**Describe a sequence of observations to identify an exoplanet, to determine that it has a rocky
-composition, and to measure the chemical constituents of its atmosphere.**
+**Describe a sequence of observations to identify an exoplanet, to determine that it has a rocky composition, and to measure the chemical constituents of its atmosphere.**
 1. Discovery likely to be by transits or radial velocity. Transit gives you $R_p$ (see [[#8]]), and this may or may not include the atmosphere, depending on wavelength of observation and atmospheric composition.
 2. Radial velocity measurement can constrain $M_p$ (if planet $\gtrsim 10\,\pu{M_\odot}$, see [[#8]], [[#13]]) 
 3. $M_p$ and $R_p$ gives an estimate of the density. Higher density (lower radius for a given mass) means rockier planet. There exist some mass-radius relationships for planets of different composition to do the actual constraining.

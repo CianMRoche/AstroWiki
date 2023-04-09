@@ -9,6 +9,9 @@ Note: Good name is hard, some of these are telescopes. Surveys will go into "cat
 ## HST
 
 
+## Spitzer
+
+
 ## JWST
 
 
@@ -151,3 +154,18 @@ Half of the data unavilable due to Russian invasion of Ukraine.
 
 ## MEERKAT
 Array of 64 13-meter radio dish telescopes. Karoo desert, South Africa.
+
+
+## IceCube
+Neutrino obseratory at South Pole. Would see a spike in neutrino detection from a certain direction in the Milky Way disk if there way an otherwise undetected (say, behind galactic center) [[Supernovae#Supernova|supernova]] event.
+
+
+## BICEP
+"Background Imaging of Cosmic Extragalactic Polarization". South Pole mission. They aim to measure the polarization of the [[CMB#CMB|CMB]]; in particular, measuring the B-mode of the CMB.
+
+See [[Emission & the ISM - Questions#79|Q79]] for dust sadness.
+
+
+## Planck
+
+

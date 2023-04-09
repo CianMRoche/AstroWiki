@@ -10,11 +10,13 @@ Cold [[#Molecular cloud|molecular gas]] falls onto the AGN (from [[#Brightest cl
 **Feedback**: 
 - Accretion onto BH -> Jets -> Bubbles -> ICM.
 - Early stage is supersonic expansion until the movement of the bubble itself becomes faster than the expansion, then detachment of bubble. Enough energy in bubbles to balance radiative cooling
+![[AGN_structure.jpg]]
 
 **Corona**:
 The region at the base of a jet or roughly a spherical plasma region {contentious}. Know close to the SMBH due to [[#Reverberation mapping]] signal of [[Spectra#Fe k-alpha line|Fe]]-K$\alpha$ line (6.4 keV) and its time delays.
 
 Coronal X-rays are thermal (blackbody) photons the are compton up-scattered to x-ray wavelengths by the corona.
+
 
 
 ## Quasar
@@ -26,7 +28,7 @@ A highly luminous [[#AGN]]. AKA "QSO" (quasi-stellar object). Outshines the rest
 
 
 ## Blazar
-A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight
+A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight. Have spectra dominated by featureless non-thermal continuum, which we would expect for a relativistic jet along the line of sight.
 
 
 ## Collapsar

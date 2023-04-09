@@ -39,7 +39,10 @@ high-eccentricity orbit near a [[Black holes|SMBH]] disrupts object and shoots s
 
 
 ## X-ray binary
-A [[Neutron stars#Neutron stars|neutron star]] or [[Black holes#Black hole|black hole]] accreting from a companion (often a [[Spectra#Main sequence|main sequence]] star) and emitting strongly in the x-ray. Neutron stars are invisible in the optical so the x-ray lines are how we typically identify the accreting binary. 
+A [[Neutron stars#Neutron stars|neutron star]] or [[Black holes#Black hole|black hole]] [[Accretion#Accretion disk|accreting]] from a companion (often a [[Spectra#Main sequence|main sequence]] star) and emitting strongly in the x-ray. Neutron stars are invisible in the optical so the x-ray lines are how we typically identify the accreting binary. 
+
+- High mass companions accrete via stellar wind losses 
+- Low mass companions accrete via [[Binaries#Roche-lobe overflow|Roche-lobe overflow]] (see also [[Compact objects - Questions#48|Q48]])
 
 
 ## Cataclysmic variable

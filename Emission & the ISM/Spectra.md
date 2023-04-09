@@ -24,22 +24,29 @@ A line (and thus, evolutionary track) that can be identified on the [[#Hertzspru
 Traces cool, ionized gas. Has been used to trace [[Object Types#CGM|CGM]]. Ratio of two lines depends on the temperature
 
 
-## H$\alpha$
+## H-alpha
 Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 2eV
 
-Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere
+Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere. Also by HII regions (see [[Emission & the ISM - Questions#73|Q73]]).
 
 
 ## 21cm line
-Sping flip of neutral hydrogen. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$
+Sping flip of ground state neutral hydrogen, hyperfine transition. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$. From Megans notes:
+![[spin_flip.png|400]]
+The degeneracy of the anti-aligned state is 1 since the total spin quantum number is $S = 0$ and the degeneracy is $2S+1$. For the aligned state, $S=1$ and so degeneracy is $3$.
 
-Maps neutral hydrogen in radio wavelengths, [[Observatories#CHIME|CHIME]] can observe it. [[Observatories#MEERKAT|MEERKAT]] also did this recently.
+**Observational characteristics**:
+- Transition is very rare and happens on a timecale of $\sim 10\,\pu{Myr}$, but observable for very large amounts of neutral $H$ (low density to avoid collisional de-excitation) 
+- Can be used to map neutral hydrogen in the "dark ages" between $z=1100$ and $z=6-20$ (ie the times between recombination and reionization) in radio wavelengths. [[Observatories#CHIME|CHIME]] can observe it, [[Observatories#MEERKAT|MEERKAT]] also did this recently.
+- Can map neutral hydrogen in spiral arms of a galaxy, and can therefore use to constrain rotation curves.
+- Comes from cold gas $\implies$ little thermal broadening.
+- At microwave wavelengths which pass mostly unobstructed through the atmosphere, therefore suitable for ground-based astronomy.
 
 **Halo model of H1 power spectrum**
 A model for the H1 power spectrum with 2halo, 1halo and shot noise terms, dpeending also on some temperature? Need to look into.
 
 
-## Lyman-$\alpha$ forest
+## Lyman-alpha forest
 - Lyman series is transitions of atomic hydrogen to $n=1$ 
 - Lyman-$\alpha$ is the first one ($n=2$ to $n=1$) and is $120\,\pu{nm}$
 - Strong absorbtion in air, so usually done in space. Highly-redshifted sources can penetrate though
@@ -99,3 +106,14 @@ Atmosphere not too problematic, can perform radio observations even on cloudy da
 - Unfocused cosmic hard X-ray background, constant in time
 
 Eric Miller(?MIT?) - Model your Xray BG, dont subtract it.
+
+
+## Balmer Jump
+Large jumps in some spectra, caused by the following pair of effects:
+
+- [[Scattering#Bound-bound absorption|Bound-bound absorption]] transitions occur only for photons with exactly the right amount of energy
+- [[Scattering#Bound-free absorption|Bound-free absorption]] transitions can absorb ANY photon with more than a critical amount of energy (ionizing energy).
+
+Therefore, the [[Optical depth#Opacity|opacity]] of a material will increase at wavelengths shorter than one of these critical edges. That is, if we have a source light behind some material, and a particular wavelength can ionize the material, you wont see much of that light on the other side. For bound-bound though, we would just see lines.
+
+Related to (but distinct from) the **Lyman limit**, which occurs at the wavelength which will just ionize a hydrogen atom from its ground state.

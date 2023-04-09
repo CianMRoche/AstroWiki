@@ -20,8 +20,13 @@ A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousa
 
 
 ## Brightest cluster galaxy
-Largest/brightest galaxy in a [[#Galaxy cluster]]
-Large amount of X-ray emission
+Largest/brightest galaxy in a [[#Galaxy cluster]], elliptical. Large amount of X-ray emission. theorized to form via multiple merger events in dense cluster environment (supported by presence of very large number of globular clusters, why?).
+
+**Typical parameters**:
+- Diameter $\sim 300-1000\,\pu{kpc}$
+- Mass $M\sim 10^{13}\,M_\odot$
+- Tens of thousands of [[Clustering#Globular Cluster|GCs]]
+- High mass to light ratio $\implies$ large fraction of [[Dark matter]].
 
 **Observation strategies**:
 - Can observe molecular gas emission, but need ~$10^8\,M_\odot$ of stellar mass to observe this confidently (can do with [[Observatories#ALMA|ALMA]])
