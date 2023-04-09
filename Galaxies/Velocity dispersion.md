@@ -1,6 +1,6 @@
 
 ## Velocity dispersion
-A series of relationships derived from the virial theorem, relating velocity dispersion to the mass of the system. In the simplest case, the relation looks something like $$M = \frac{v^2r}{G} \simeq \frac{3}{2}\frac{\sigma^2R}{G}$$which is reliable up to an order $\sim 1-10$ factor
+A series of relationships derived from the virial theorem, relating velocity dispersion to the mass of the system. In the simplest case, the relation looks something like $$M = \frac{v^2r}{G} \simeq \frac{3}{2}\frac{\sigma^2R}{G}$$where $\sigma$ is the 1D velocity dispersion (radial typically) we can actually measure. Relationship reliable up to an order $\sim 1-10$ factor
 
 **Derivation**
 The speeds of the objects in the galaxy have two components
@@ -33,4 +33,4 @@ For spiral galaxies. A relationship between rotational velocity (isnt this also 
 **Derivation**
 Virial theorem or [[Binaries#Circular motion|circular motion]] $\implies v^2 = GM/R$. 
 
-Furthermore, let $\Gamma = M/L$ be the mass to light ratio, and assume a disk shape (since talking about spiral galaxies) $L = 2\pi R^2 I_0$ where $I_0$ is the [[Units#Intensity|surface brightness]]. This can be rearranged to $R = \sqrt{L/2\pi I_0}$. Then $$v^4 = \left(\frac{GM}{R}\right)^2 = \frac{\left(G\Gamma L\right)^2}{R^2} = (G^2 \Gamma^2 2\pi I_0) L$$and we recover the proportionality above.
+Furthermore, let $\Gamma = M/L$ be the mass to light ratio, and assume a disk shape (since talking about spiral galaxies) $L = (2\pi R^2) (4\pi I_0)$ where $J_0$ is the [[Units#Intensity|mean surface brightness]] (ie assuming isotropic). This can be rearranged to $R = \sqrt{L/2\pi J_0}$. Then $$v^4 = \left(\frac{GM}{R}\right)^2 = \frac{\left(G\Gamma L\right)^2}{R^2} = (G^2 \Gamma^2 2\pi J_0) L$$and we recover the proportionality above.

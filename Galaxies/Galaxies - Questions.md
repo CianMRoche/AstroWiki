@@ -186,3 +186,57 @@ The [[Velocity dispersion#Faber-Jackson relation|Faber-Jackson relation]] is a c
 Large scatter in the Faber-Jackson relationship for different types of population lead to the development of the "fundamental plane" which incorporates a 3rd independent parameter $R_e$ called the "effective radius". FJ is then a projection of this relationship down the $R_e$ axis.
 
 Defined by $$L^\alpha R_e^\beta \sigma^\gamma = \text{const}$$
+
+## 113
+**What is a violent relaxation?**
+A process by which a body relaxes/virializes via the changing of the gravitational potential, rather than via gravitational collisions. Most efficient way to relax the system as it is comparable to the [[Timescales#Dynamical timescale|free-fall time]]. 
+
+Basic idea: If the potential is time-varying then particles can gain or lose energy on a timescale much faster than by collisions. The potential can be time-varying to to the growth and collapse of density fluctuations From Megan's notes: 
+![[violent_relaxation.png]]
+
+This leads to the spreading out of particle energy distributions. 
+
+**How does the phase space distribution function it produces differ from that of an isothermal gas?**
+For an [[Density profiles#Isothermal sphere|isothermal sphere]] the phase space distribution is Maxwell-Boltzmann, but for violently relaxed systems it is more uniform. 
+
+**How does the timescale for violent relation compare to that for weak 2-body interactions?**
+The timescale for violent relaxation can be approximated by considering the time derivative of the energy per unit mass where $d$ represents the convective derivative (using that $\vec{a} = \dot{\vec{v}} = -\nabla\phi = \vec{F}/m$) $$\begin{align}
+\epsilon &= \frac{1}{2}v^2 + \phi  \\
+\frac{d\epsilon}{dt} &= -\,\vec{v}\cdot\nabla \phi\, + \,\frac{d\phi}{dt} \\
+&= \frac{\partial\phi}{\partial t}
+\end{align}$$Then to estimate a timescale for the changes, we would like to take an expectation value of something like $\epsilon/\dot{\epsilon}$ but since changes can be positive or negative, the expectation value will be about zero. A better way to find the timescale is then to get expectation values of the squared quantity (we could just take absolute values, but variances are usually defined in this way) and take the root after $$\tau_{\rm{vr}} = \left\langle \frac{\epsilon^2}{\left(\frac{d\epsilon}{dt}\right)^2} \right\rangle^{1/2} \sim \left\langle \frac{\phi^2}{\left(\frac{\partial \phi}{\partial t}\right)^2} \right\rangle^{1/2}$$Weak 2-body timescale goes as $\tau_{coll} \sim N/\ln N$ so why the above is smaller than that is not clear to me. [source](http://www.astro.yale.edu/vdbosch/lecture10.pdf)
+
+
+## 114
+**Why do some galaxies have prominent spiral structure and others do not?**
+Try to explain existence with differential rotation, that is maybe pattern arises due to the roughly flat rotation curve ($v=\text{const}$) and thus $\omega \propto 1/r$. Then the timescale for rotation is $$\tau_{rot} = \frac{2\pi}{\omega} = \frac{2\pi r}{v} \sim 10^8\,\pu{yr}$$assuming $v=200\,\pu{km s^{-1}}$ and $r=10\,\pu{kpc}$ (note that Megans notes use [[Binaries#Kepler's laws|Keplers third]] here but we get the same number). That is, the spiral arms will wind ~10s to 100s of times in the age of the universe. In such a case, we should not see prevalent structure, as it would all be washed out by many rotations(the so-called "winding problem").
+
+**Briefly describe the density wave theory of spiral structure?**
+The idea is that there are density waves which propagate around the disk, like a sound wave in air, and that: 
+- The stars experience roughly no net motion due to the passage of the wave (which contains different stars at any point in time except for the stars at a certain raius such that their angular velocity coincides with the angular velocity of the wave, $\Omega_{gp}$ below).
+- The density wave increases the density of gas and thus boosts star formation rates, explaining why we see star formation mostly within spiral arms
+
+![[spiral_arms.png]]
+
+
+## 115
+**How many globular clusters does our Galaxy contain? How are they distributed in space? What fraction of the total mass of the Galaxy do they contain?**
+The [[Milky Way#Milky Way|Milky Way]] contains $\gtrsim 150$ [[Clustering#Globular Cluster|globular clusters]] 
+- Distributed roughly isotropically in the stellar halo (i.e. not in the disk), but potentially an oblate/flattened distribution rather than perfectly isotropic
+- Most contained within $\sim 40\,\pu{kpc}$ of the galactic center
+- They make up about 1% of the stellar mass of the Milky Way
+
+
+## 116
+**A globular cluster at a distance of 10 kpc, containing 10$^6$ stars, subtends an angle of 1/3 arcminute. Estimate the velocity dispersion among its stars.**
+Assuming [[Binaries#Circular motion|circular motion]] of the stars in the cluster, the [[Velocity dispersion#Velocity dispersion|velocity dispersion]] is $$\sigma = \sqrt{\frac{2GM}{3R}}$$We can estimate the mass as $10^6\,M_\odot$ by assuming the mean mass is a solar mass, and to get the radius we use the definition of the [[Units#Arcminute|arcmin]] and the [[Units#parsec|parsec]] and simply get $R = d\,\theta \simeq 1\,\pu{pc}$ resulting in $\sigma \simeq 50\,\pu{km s^{-1}}$ 
+
+
+## 117
+**What are the Oort A and B coefficients and what basic information about the Galaxy can be determined from them?**
+
+
+
+**What are the four types of observations that go into constraining these coefficients, and how precisely are each measured by current technology.**
+
+
