@@ -125,7 +125,7 @@ populations of planets associated with each method. Roughly how many planets hav
 
    Direct observables:
    - Period
-   - Semi-amplitude of velocity shift $\implies$ lower bound on mass (see [[#8]])
+   - Semi-amplitude of velocity shift $\implies$ lower bound on mass (see [[#8]]) and obliquity (see [[#10]])
 
    Problems:
    - Measuring shift of spectral lines $\implies$ biased toward large masses to have large enough spectral line shifts. Dont measure Earth-mass planets yet (see [[#9]]).
