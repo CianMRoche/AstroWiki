@@ -69,7 +69,7 @@ Can be defined in terms of the [[#Intensity|specific intensity]] via
 $$F_\nu = \int \cos\theta \,d\Omega\,I_\nu$$
 
 ## Intensity
-Also called "surface brightness" because it is an intrinsic feature of the source which doesnt depend on how it is observed (ideally). Refers to a flux per solid angle ($\pu{W\,m^{-2}}\,\rm{steradian}^{-1}$). Think "per unit area on my detector, what is the flux I get from a given solid angle on the sky". Since intensity is per unit area and solid angle, changing the size of your detector of viewing area (as long as the source is entirely within that area in each case) will not increase the intensity.![[intensity.png|450]]
+Also called <mark class="hltr-pink">"surface brightness"</mark> because it is an intrinsic feature of the source which doesnt depend on how it is observed (ideally). Refers to a flux per solid angle ($\pu{W\,m^{-2}}\,\rm{steradian}^{-1}$). Think "per unit area on my detector, what is the flux I get from a given solid angle on the sky". Since intensity is per unit area and solid angle, changing the size of your detector of viewing area (as long as the source is entirely within that area in each case) will not increase the intensity.![[intensity.png|450]]
 
 <mark class="hltr-pink">Specific intensity</mark> refers to the intensity density in frequency space, such that $I_\nu(\nu)\,d\nu$ is the intensity in the frequency band from $[\nu,\nu + d\nu]$ 
 
