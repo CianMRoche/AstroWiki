@@ -24,7 +24,7 @@ So we would need centimeter per second velocity resolution or we wouldnt see any
 
 **What astrophysical processes complicate the measurement of radial velocities with this precision?**
 Measured via spectrum.
-- The material within the star is moving, causing noise in the spectra to appear
+- The material within the star is moving, causing noise in the spectra to appear. Stellar activity is very complicated. 
 - Atmospheric seeing, turbulence in the atmosphere leads to additional noise in spectrum
 - Need high-resolution spectrometer
 - very hot stars (O,B,A) may not have enough narrow lines in their spectra for precise Doppler shift measurements.
@@ -148,6 +148,8 @@ populations of planets associated with each method. Roughly how many planets hav
 - High level of diversity in exoplanet composition and properties
 - Have seen hot Jupiters with opaque clouds and inflated planets with larger radii than expected (how would we know this? Not with the method described above anyway)
 
+Note: Trappist-1 (solar system-like system with $\gtrsim 7$ planets) recently had a detection of water in atmosphere, but turned out to be due to a cold spot on the star. Stellar activity is complicated problematic, especially for radial velocity measurements.
+
 
 ## 15
 **Why are M Dwarfs thought to be promising candidates for identifying Earth-sized, temperate (but
@@ -160,3 +162,8 @@ not necessarily habitable) planets?**
 
 **Why arent they likely to be habitable?**
 M-dwarfs have a lot of stellar activity -- flares and strong magnetic fields, so nearby planets can lose atmospheres and can be dangerous to life.
+
+
+
+
+

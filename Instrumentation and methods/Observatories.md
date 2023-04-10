@@ -169,3 +169,6 @@ See [[Emission & the ISM - Questions#79|Q79]] for dust sadness.
 ## Planck
 
 
+## VLA
+
+6GHz is ~an optimal frequency for VLA, and is used to measure [[GRBs#GRB|GRB]] afterglows
