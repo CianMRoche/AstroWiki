@@ -234,9 +234,77 @@ Assuming [[Binaries#Circular motion|circular motion]] of the stars in the cluste
 
 ## 117
 **What are the Oort A and B coefficients and what basic information about the Galaxy can be determined from them?**
+By assuming all the stars in the [[The Sun#The Sun|solar]] neighborhood are on circular orbits and that the Milky Way has an axisymmetric potential, one can use measurements of the speeds of stars near the Sun to infer information about the Sun's orbit around the Milky Way (really the mean motion of the "local standard of rest" which is the collection of objects within $\sim 100\,\pu{pc}$ of the Sun), and furthermore obtain information about the circular and noncircular components of the motion of stars in the solar neighborhood. One can also use knowledge of them to infer distances to objects if their kinematics are known.
 
+The constants are defined as $$
+A =\frac{1}{2}\left(\frac{V_0}{R_0}-\left.\frac{d v}{d r}\right|_{R_0}\right)\quad ,\quad 
+B =-\frac{1}{2}\left(\frac{V_0}{R_0}+\left.\frac{d v}{d r}\right|_{R_0}\right)
+$$where $V_0$ and $R_0$ are the rotational velocity and distance to the galactic center measured at the position of the Sun, and $v$ and $r$ are the velocities and distances of stars at other positions in the solar neighborhood. With these parameters one
 
+![[Oort_constants_derivation_diagram.jpg]]
 
 **What are the four types of observations that go into constraining these coefficients, and how precisely are each measured by current technology.**
 
+We can rewrite the coefficients as $$
+A  =\frac{V_{\text {obs }, \mathrm{r}}}{d \sin (2 l)}\quad ,\quad 
+B  =\frac{V_{\text {obs }, \mathrm{t}}}{d}-A \cos (2 l)
+$$for an observation of a star with Galactic longitude $l$ at a distance $d$ from the Sun, with tangential and radial velocity components $V_{\rm{obs,t}}$ and $V_{\rm{obs,r}}$ as measured at the solar position (we assume circular orbits so $V_{\rm{obs,r}}$ would be zero if we measured with respect to the galactic center). Thus the observables necessary to determine the coefficients are:
 
+1. Radial velocity - stellar spectra ([[Observatories#GAIA|GAIA]] DR3 has 33 million radial velocities)
+2. On-sky velocity - proper motions from GAIA
+3. Distances - Use GAIA parallaxes
+4. Galactic longitude (not hard, GAIA works again)
+
+
+## 118
+**Define the following simple "laws" and "profiles" and for what galaxy component or galaxy type each is most relevant. Describe where observational data deviates from these idealized profiles.**
+
+| Name | Form | Notes | Use |
+| --- | ----------- | -------------| -------------|
+| Sersic |  $I(r) = I_0 e^{-(r/r_0)^{1/n}}$ | $I_0$ is central surface brightness, $r_0$ is scale length and $n$ is the "Sersic index". Note for $n=1$ we recover exponential, and $n=4$ we recover de Vaucouleurs | Models the [[Units#Intensity\|surface brightness]] profiles of [[Galaxies#Galaxy\|galaxies]] |
+| de Vaucouleurs | $I(r) = I_0 e^{-(r/r_0)^{1/4}}$ | Sersic with $n=4$ | Models the [[Units#Intensity\|surface brightness]] of an elliptical galaxy, or the galactic bulge of a disk galaxy |
+| Exponential | $I(r) = I_0 e^{-(r/r_0)}$ | Sersic with $n=1$ | Models the [[Units#Intensity\|surface brightness]] of a spiral/disk galaxy, but deviations common due to spiral structure |
+| Einasto | $\rho(r) = \rho_s \exp\left[-\frac{2}{\alpha} \left(\frac{r}{r_s}\right)^\alpha \right]$ | Does not exhibit a divergent central density. People define in different ways, $r_s$ is a scale radius. [Source](https://cluster-toolkit.readthedocs.io/en/latest/source/density_profiles.html) | [[Density profiles\|Density profile]] of halos in [[Dark matter\|CDM]] |
+| NFW | $\rho(r)=\frac{\rho_0}{\frac{r}{R_s}\left(1+\frac{r}{R_s}\right)^2}$ | Exhibits a divergent central density, goes as $r^{-1}$ toward $r=0$ and $r^{-3}$ toward $r\rightarrow \infty$. Also does not have a well-defined total mass. Shows up in simulations with this cuspy central region shape, but core/cusp problem appears with observational data (see [[#125\|Q125]]) | [[Density profiles\|Density profile]] of halos in [[Dark matter\|CDM]] |
+
+
+## 119
+**What is "Press-Schechter theory" and why is it wrong?**
+
+This is the theory that the probability of a galaxy having a mass $>M$ is directly related to the probability of having an early universe overdensity with $\delta > \delta_{crit}$ and thus connecting early universe fluctuations visible on the CMB to the mass function of low redshift [[Galaxies#Galaxy|galaxies]]. The overdensity $\delta$ is defined in terms of the density $\rho$ and average density $\bar{\rho}$ by $$\delta = \frac{\rho - \bar{\rho}}{\bar{\rho}}$$and the critical overdensity $\delta_{crit}\simeq 1.68$ comes from (havent done cosmology section yet!UNFINISHED). Essentially $P(>M) = P(\delta > \delta_{crit}|\text{ smoothing scale })$ where the smoothing scale determines the minimum mass scale of halos we are considering (this is why we calculate a probability of having a mass $M$ or greater). Since the scale is a function of the minimum mass we're looking at, we typically write $$P(>M) = P(\delta > \delta_{crit}|M)$$
+![[press_schechter_theory.png]]
+
+Start with Gaussian random fluctuations in the early universe, and the smoothing scale enters as the width of the Gaussian noise $\sigma_M \propto M^{\frac{1}{6}(n+3)}$ ... I dont understand where a lot of this comes from !UNFINISHED
+
+**Why is it wrong?**
+In fact $P(>M) = 2P(\delta > \delta_{crit}|M)$. Why is there a factor of two? Look at an underdensity within an overdense region at some mass scale.
+![[PS_underdensity.png|300]]
+
+PS formalism would say that these objects are not part of a halo with mass > M. But, at a different scale M, they may be pulled up to be includedso there’s inconsistency. Another way to look at it is that once things go nonlinear, the collapse is able to draw matter in from less dense regions, hence much of the mass does end up in the overdense regions, albeit a different M.
+
+
+## 120
+**What is "biased galaxy formation"?**
+Refers to the fact that galaxies are not perfect tracers of mass in the universe. Why would this be so?
+- Baryonic physics different than that of the mass-dominant [[Dark matter]]
+- Lack of good understanding of galaxy formation
+
+The "bias" refers to some metric of the difference between the galaxy distribution and that of all matter. Bias sometimes used in the context of the linear bias model, where, on scales larger than a few megaparsecs, the galaxy density fluctuations are enhanced over those of the mass by a factor $b$, the linear bias factor $$\frac{\delta n_g}{\bar{n}_g}=b\left(\frac{\delta \rho}{\rho}\right)$$where $n_g$ is the number density of galaxies and $\rho$ is the mass density. Many groups have found that the halos formed in dark matter simulations are actually antibiased with respect to the mass, (i.e. the fluctuations in galaxy number density are smaller than that of mass $b < 1$), because of excessive merging of halos compared with real galaxies, giving for example some very large halos. But at the same time [[CMB#CMB|CMB]] measurements have yielded a very different $b \simeq 1.5$ with the opposite conclusion, ie that galaxies are more tightly clustered (higher number overdensities) than all mass.
+
+Observationally, we can look at the galaxy-galaxy 2-point correlation function, ie "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Can do such a thing with [[Catalogs#SDSS|SDSS]] for example.
+
+
+## 121
+**What fractions of each of the following is composed of "dark matter"? How are each of these estimates arrived at?**
+
+**(i) The solar neighborhood**  |  $f_{DM} \lesssim 20\%$
+Within the [[Milky Way#Milky Way|MW]] disk (and therefore in the [[The Sun#The Sun|Solar]] neighborhood), we expect to find little [[Dark matter]] since DM is not thought to be dissipative, and therefore will not collapse into a disk like baryons do. the number quoted above is estimated based on [[Observatories#GAIA|GAIA]] stellar kinematics ([source](https://arxiv.org/pdf/1711.03103.pdf) from Katelin Schutz, former MIT student).
+
+**(ii) A typical galaxy like the Milky Way**  |  $f_{DM} \simeq 90-95\%$
+From something like [[#101|rotation curves]] or [[Velocity dispersion#Velocity dispersion|velocity dispersions]] can infer a total DM mass. Can then estimate the DM and stellar contributions from a mass to light ratio or knowledge of stellar evolution (basically adding up all the stars masses via their light).
+
+**(iii) A typical galaxy cluster like the Coma cluster**  |  $f_{DM} \simeq 90\%$
+Total mass of cluster can be estimated from [[Lensing#Weak lensing|weak lensing]] or scaling relations like the fact that the net result of the SZ-effect (basically [[Scattering#Inverse-Compton scattering|inverse Compton scattering]]) is proportional to cluster mass. Can also estimate baryonic contributions using the [[Spectra#The electromagnetic spectrum|X-ray]] emission of the [[Cluster media#ICM|ICM]] assuming models for that emission. [[Velocity dispersion#Velocity dispersion|Velocity dispersions]] also work, as originally done by Zwicky in 1930s for the [[Galaxy cluster examples#Coma cluster|Coma cluster]]. 
+
+**(iv) The universe**  |   $f_{DM} \simeq 83\%$
+Constraints from [[Power spectrum]] of the [[CMB#CMB|CMB]], [[balmer_fraction.png#BAO|BAO]](?) and from [[BBN#BBN|BBN]] can give relative abundances of dark matter and baryonic matter $\Omega_m$ and $\Omega_b$ (?) !UNFINISHED come back to after cosmology
