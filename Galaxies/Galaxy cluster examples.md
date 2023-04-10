@@ -17,3 +17,4 @@ Exhibits a "flattened" bubble resulting from a jet, flattening is evidence of ef
 
 
 ## Coma cluster
+One of the first places where observed gravitational anomalies were considered to be indicative of unobserved mass. In 1933 Fritz Zwicky showed that the galaxies of the Coma Cluster were moving too fast for the cluster to be bound together by the visible matter of its galaxies $\implies$ [[Dark matter]].

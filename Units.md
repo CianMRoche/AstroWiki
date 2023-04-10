@@ -2,17 +2,21 @@ We will be exhibiting an *SI units bias* because standardizing is good.
 
 ## Degree
 Unit of <mark class="hltr-pink">angle</mark>: $1/360$ of a full rotation
+
+**Notation**:
 $6^\circ$ = 6 degrees
 
 
 ## Arcminute
-Unit of <mark class="hltr-pink">angle</mark>: $1/60$ of a degree
-$4'$ = 4 arcmin
-1arcmin ~ 1 Mpc at z=0.7
+Unit of <mark class="hltr-pink">angle</mark>: $1/60$ of a [[#Degree]]
+- 60 [[#Arcsecond|arcseconds]]
+- 1arcmin ~ 1 Mpc at z=0.7
 
+**Notation**:
+$4'$ = 4 arcmin
 
 ## Arcsecond
-Unit of <mark class="hltr-pink">angle</mark>: 1/60 of an arcminute, $1/3600$ of a degree
+Unit of <mark class="hltr-pink">angle</mark>: 1/60 of an [[#Arcminute]], $1/3600$ of a degree
 $12''$ = 12 arcsec
 8kpc per arcsec at z=0.8
 
@@ -23,8 +27,16 @@ $12''$ = 12 arcsec
 - pkpc = proper kiloparsec
 - ply = proper light year
 
+
 ## Comoving distance
-<mark class="hltr-pink">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow
+<mark class="hltr-pink">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow.
+
+
+## parsec
+Unit of <mark class="hltr-pink">distance</mark>: $1\,\pu{pc}$ is defined as the distance at which a baseline of 1 [[#AU]] results in a parallax angle of one [[#Arcsecond]]. Can be thought of in terms of trying to measure the distance to an object which is at $1\,\pu{pc}$ or simply as being defined by this triangle.
+![[parsec.png|500]]
+
+$1\,\pu{pc} \simeq 3\,\pu{ly}\sim 3\times 10^{16}\,\pu{m}$
 
 
 ## AU

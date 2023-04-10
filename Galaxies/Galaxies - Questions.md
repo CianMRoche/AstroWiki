@@ -186,3 +186,125 @@ The [[Velocity dispersion#Faber-Jackson relation|Faber-Jackson relation]] is a c
 Large scatter in the Faber-Jackson relationship for different types of population lead to the development of the "fundamental plane" which incorporates a 3rd independent parameter $R_e$ called the "effective radius". FJ is then a projection of this relationship down the $R_e$ axis.
 
 Defined by $$L^\alpha R_e^\beta \sigma^\gamma = \text{const}$$
+
+## 113
+**What is a violent relaxation?**
+A process by which a body relaxes/virializes via the changing of the gravitational potential, rather than via gravitational collisions. Most efficient way to relax the system as it is comparable to the [[Timescales#Dynamical timescale|free-fall time]]. 
+
+Basic idea: If the potential is time-varying then particles can gain or lose energy on a timescale much faster than by collisions. The potential can be time-varying to to the growth and collapse of density fluctuations From Megan's notes: 
+![[violent_relaxation.png]]
+
+This leads to the spreading out of particle energy distributions. 
+
+**How does the phase space distribution function it produces differ from that of an isothermal gas?**
+For an [[Density profiles#Isothermal sphere|isothermal sphere]] the phase space distribution is Maxwell-Boltzmann, but for violently relaxed systems it is more uniform. 
+
+**How does the timescale for violent relation compare to that for weak 2-body interactions?**
+The timescale for violent relaxation can be approximated by considering the time derivative of the energy per unit mass where $d$ represents the convective derivative (using that $\vec{a} = \dot{\vec{v}} = -\nabla\phi = \vec{F}/m$) $$\begin{align}
+\epsilon &= \frac{1}{2}v^2 + \phi  \\
+\frac{d\epsilon}{dt} &= -\,\vec{v}\cdot\nabla \phi\, + \,\frac{d\phi}{dt} \\
+&= \frac{\partial\phi}{\partial t}
+\end{align}$$Then to estimate a timescale for the changes, we would like to take an expectation value of something like $\epsilon/\dot{\epsilon}$ but since changes can be positive or negative, the expectation value will be about zero. A better way to find the timescale is then to get expectation values of the squared quantity (we could just take absolute values, but variances are usually defined in this way) and take the root after $$\tau_{\rm{vr}} = \left\langle \frac{\epsilon^2}{\left(\frac{d\epsilon}{dt}\right)^2} \right\rangle^{1/2} \sim \left\langle \frac{\phi^2}{\left(\frac{\partial \phi}{\partial t}\right)^2} \right\rangle^{1/2}$$Weak 2-body timescale goes as $\tau_{coll} \sim N/\ln N$ so why the above is smaller than that is not clear to me. [source](http://www.astro.yale.edu/vdbosch/lecture10.pdf)
+
+
+## 114
+**Why do some galaxies have prominent spiral structure and others do not?**
+Try to explain existence with differential rotation, that is maybe pattern arises due to the roughly flat rotation curve ($v=\text{const}$) and thus $\omega \propto 1/r$. Then the timescale for rotation is $$\tau_{rot} = \frac{2\pi}{\omega} = \frac{2\pi r}{v} \sim 10^8\,\pu{yr}$$assuming $v=200\,\pu{km s^{-1}}$ and $r=10\,\pu{kpc}$ (note that Megans notes use [[Binaries#Kepler's laws|Keplers third]] here but we get the same number). That is, the spiral arms will wind ~10s to 100s of times in the age of the universe. In such a case, we should not see prevalent structure, as it would all be washed out by many rotations(the so-called "winding problem").
+
+**Briefly describe the density wave theory of spiral structure?**
+The idea is that there are density waves which propagate around the disk, like a sound wave in air, and that: 
+- The stars experience roughly no net motion due to the passage of the wave (which contains different stars at any point in time except for the stars at a certain raius such that their angular velocity coincides with the angular velocity of the wave, $\Omega_{gp}$ below).
+- The density wave increases the density of gas and thus boosts star formation rates, explaining why we see star formation mostly within spiral arms
+
+![[spiral_arms.png]]
+
+
+## 115
+**How many globular clusters does our Galaxy contain? How are they distributed in space? What fraction of the total mass of the Galaxy do they contain?**
+The [[Milky Way#Milky Way|Milky Way]] contains $\gtrsim 150$ [[Clustering#Globular Cluster|globular clusters]] 
+- Distributed roughly isotropically in the stellar halo (i.e. not in the disk), but potentially an oblate/flattened distribution rather than perfectly isotropic
+- Most contained within $\sim 40\,\pu{kpc}$ of the galactic center
+- They make up about 1% of the stellar mass of the Milky Way
+
+
+## 116
+**A globular cluster at a distance of 10 kpc, containing 10$^6$ stars, subtends an angle of 1/3 arcminute. Estimate the velocity dispersion among its stars.**
+Assuming [[Binaries#Circular motion|circular motion]] of the stars in the cluster, the [[Velocity dispersion#Velocity dispersion|velocity dispersion]] is $$\sigma = \sqrt{\frac{2GM}{3R}}$$We can estimate the mass as $10^6\,M_\odot$ by assuming the mean mass is a solar mass, and to get the radius we use the definition of the [[Units#Arcminute|arcmin]] and the [[Units#parsec|parsec]] and simply get $R = d\,\theta \simeq 1\,\pu{pc}$ resulting in $\sigma \simeq 50\,\pu{km s^{-1}}$ 
+
+
+## 117
+**What are the Oort A and B coefficients and what basic information about the Galaxy can be determined from them?**
+By assuming all the stars in the [[The Sun#The Sun|solar]] neighborhood are on circular orbits and that the Milky Way has an axisymmetric potential, one can use measurements of the speeds of stars near the Sun to infer information about the Sun's orbit around the Milky Way (really the mean motion of the "local standard of rest" which is the collection of objects within $\sim 100\,\pu{pc}$ of the Sun), and furthermore obtain information about the circular and noncircular components of the motion of stars in the solar neighborhood. One can also use knowledge of them to infer distances to objects if their kinematics are known.
+
+The constants are defined as $$
+A =\frac{1}{2}\left(\frac{V_0}{R_0}-\left.\frac{d v}{d r}\right|_{R_0}\right)\quad ,\quad 
+B =-\frac{1}{2}\left(\frac{V_0}{R_0}+\left.\frac{d v}{d r}\right|_{R_0}\right)
+$$where $V_0$ and $R_0$ are the rotational velocity and distance to the galactic center measured at the position of the Sun, and $v$ and $r$ are the velocities and distances of stars at other positions in the solar neighborhood. With these parameters one
+
+![[Oort_constants_derivation_diagram.jpg]]
+
+**What are the four types of observations that go into constraining these coefficients, and how precisely are each measured by current technology.**
+
+We can rewrite the coefficients as $$
+A  =\frac{V_{\text {obs }, \mathrm{r}}}{d \sin (2 l)}\quad ,\quad 
+B  =\frac{V_{\text {obs }, \mathrm{t}}}{d}-A \cos (2 l)
+$$for an observation of a star with Galactic longitude $l$ at a distance $d$ from the Sun, with tangential and radial velocity components $V_{\rm{obs,t}}$ and $V_{\rm{obs,r}}$ as measured at the solar position (we assume circular orbits so $V_{\rm{obs,r}}$ would be zero if we measured with respect to the galactic center). Thus the observables necessary to determine the coefficients are:
+
+1. Radial velocity - stellar spectra ([[Observatories#GAIA|GAIA]] DR3 has 33 million radial velocities)
+2. On-sky velocity - proper motions from GAIA
+3. Distances - Use GAIA parallaxes
+4. Galactic longitude (not hard, GAIA works again)
+
+
+## 118
+**Define the following simple "laws" and "profiles" and for what galaxy component or galaxy type each is most relevant. Describe where observational data deviates from these idealized profiles.**
+
+| Name | Form | Notes | Use |
+| --- | ----------- | -------------| -------------|
+| Sersic |  $I(r) = I_0 e^{-(r/r_0)^{1/n}}$ | $I_0$ is central surface brightness, $r_0$ is scale length and $n$ is the "Sersic index". Note for $n=1$ we recover exponential, and $n=4$ we recover de Vaucouleurs | Models the [[Units#Intensity\|surface brightness]] profiles of [[Galaxies#Galaxy\|galaxies]] |
+| de Vaucouleurs | $I(r) = I_0 e^{-(r/r_0)^{1/4}}$ | Sersic with $n=4$ | Models the [[Units#Intensity\|surface brightness]] of an elliptical galaxy, or the galactic bulge of a disk galaxy |
+| Exponential | $I(r) = I_0 e^{-(r/r_0)}$ | Sersic with $n=1$ | Models the [[Units#Intensity\|surface brightness]] of a spiral/disk galaxy, but deviations common due to spiral structure |
+| Einasto | $\rho(r) = \rho_s \exp\left[-\frac{2}{\alpha} \left(\frac{r}{r_s}\right)^\alpha \right]$ | Does not exhibit a divergent central density. People define in different ways, $r_s$ is a scale radius. [Source](https://cluster-toolkit.readthedocs.io/en/latest/source/density_profiles.html) | [[Density profiles\|Density profile]] of halos in [[Dark matter\|CDM]] |
+| NFW | $\rho(r)=\frac{\rho_0}{\frac{r}{R_s}\left(1+\frac{r}{R_s}\right)^2}$ | Exhibits a divergent central density, goes as $r^{-1}$ toward $r=0$ and $r^{-3}$ toward $r\rightarrow \infty$. Also does not have a well-defined total mass. Shows up in simulations with this cuspy central region shape, but core/cusp problem appears with observational data (see [[#125\|Q125]]) | [[Density profiles\|Density profile]] of halos in [[Dark matter\|CDM]] |
+
+
+## 119
+**What is "Press-Schechter theory" and why is it wrong?**
+
+This is the theory that the probability of a galaxy having a mass $>M$ is directly related to the probability of having an early universe overdensity with $\delta > \delta_{crit}$ and thus connecting early universe fluctuations visible on the CMB to the mass function of low redshift [[Galaxies#Galaxy|galaxies]]. The overdensity $\delta$ is defined in terms of the density $\rho$ and average density $\bar{\rho}$ by $$\delta = \frac{\rho - \bar{\rho}}{\bar{\rho}}$$and the critical overdensity $\delta_{crit}\simeq 1.68$ comes from (havent done cosmology section yet!UNFINISHED). Essentially $P(>M) = P(\delta > \delta_{crit}|\text{ smoothing scale })$ where the smoothing scale determines the minimum mass scale of halos we are considering (this is why we calculate a probability of having a mass $M$ or greater). Since the scale is a function of the minimum mass we're looking at, we typically write $$P(>M) = P(\delta > \delta_{crit}|M)$$
+![[press_schechter_theory.png]]
+
+Start with Gaussian random fluctuations in the early universe, and the smoothing scale enters as the width of the Gaussian noise $\sigma_M \propto M^{\frac{1}{6}(n+3)}$ ... I dont understand where a lot of this comes from !UNFINISHED
+
+**Why is it wrong?**
+In fact $P(>M) = 2P(\delta > \delta_{crit}|M)$. Why is there a factor of two? Look at an underdensity within an overdense region at some mass scale.
+![[PS_underdensity.png|300]]
+
+PS formalism would say that these objects are not part of a halo with mass > M. But, at a different scale M, they may be pulled up to be includedso there’s inconsistency. Another way to look at it is that once things go nonlinear, the collapse is able to draw matter in from less dense regions, hence much of the mass does end up in the overdense regions, albeit a different M.
+
+
+## 120
+**What is "biased galaxy formation"?**
+Refers to the fact that galaxies are not perfect tracers of mass in the universe. Why would this be so?
+- Baryonic physics different than that of the mass-dominant [[Dark matter]]
+- Lack of good understanding of galaxy formation
+
+The "bias" refers to some metric of the difference between the galaxy distribution and that of all matter. Bias sometimes used in the context of the linear bias model, where, on scales larger than a few megaparsecs, the galaxy density fluctuations are enhanced over those of the mass by a factor $b$, the linear bias factor $$\frac{\delta n_g}{\bar{n}_g}=b\left(\frac{\delta \rho}{\rho}\right)$$where $n_g$ is the number density of galaxies and $\rho$ is the mass density. Many groups have found that the halos formed in dark matter simulations are actually antibiased with respect to the mass, (i.e. the fluctuations in galaxy number density are smaller than that of mass $b < 1$), because of excessive merging of halos compared with real galaxies, giving for example some very large halos. But at the same time [[CMB#CMB|CMB]] measurements have yielded a very different $b \simeq 1.5$ with the opposite conclusion, ie that galaxies are more tightly clustered (higher number overdensities) than all mass.
+
+Observationally, we can look at the galaxy-galaxy 2-point correlation function, ie "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Can do such a thing with [[Catalogs#SDSS|SDSS]] for example.
+
+
+## 121
+**What fractions of each of the following is composed of "dark matter"? How are each of these estimates arrived at?**
+
+**(i) The solar neighborhood**  |  $f_{DM} \lesssim 20\%$
+Within the [[Milky Way#Milky Way|MW]] disk (and therefore in the [[The Sun#The Sun|Solar]] neighborhood), we expect to find little [[Dark matter]] since DM is not thought to be dissipative, and therefore will not collapse into a disk like baryons do. the number quoted above is estimated based on [[Observatories#GAIA|GAIA]] stellar kinematics ([source](https://arxiv.org/pdf/1711.03103.pdf) from Katelin Schutz, former MIT student).
+
+**(ii) A typical galaxy like the Milky Way**  |  $f_{DM} \simeq 90-95\%$
+From something like [[#101|rotation curves]] or [[Velocity dispersion#Velocity dispersion|velocity dispersions]] can infer a total DM mass. Can then estimate the DM and stellar contributions from a mass to light ratio or knowledge of stellar evolution (basically adding up all the stars masses via their light).
+
+**(iii) A typical galaxy cluster like the Coma cluster**  |  $f_{DM} \simeq 90\%$
+Total mass of cluster can be estimated from [[Lensing#Weak lensing|weak lensing]] or scaling relations like the fact that the net result of the SZ-effect (basically [[Scattering#Inverse-Compton scattering|inverse Compton scattering]]) is proportional to cluster mass. Can also estimate baryonic contributions using the [[Spectra#The electromagnetic spectrum|X-ray]] emission of the [[Cluster media#ICM|ICM]] assuming models for that emission. [[Velocity dispersion#Velocity dispersion|Velocity dispersions]] also work, as originally done by Zwicky in 1930s for the [[Galaxy cluster examples#Coma cluster|Coma cluster]]. 
+
+**(iv) The universe**  |   $f_{DM} \simeq 83\%$
+Constraints from [[Power spectrum]] of the [[CMB#CMB|CMB]], [[balmer_fraction.png#BAO|BAO]](?) and from [[BBN#BBN|BBN]] can give relative abundances of dark matter and baryonic matter $\Omega_m$ and $\Omega_b$ (?) !UNFINISHED come back to after cosmology
