@@ -11,3 +11,13 @@ The gravitational binding energy of a spherical mass distribution with constant 
 Consider concentric shells of volume $dV = 4\pi r^3 dr$ and thus mass $dm = 4\pi r^2 \rho\, dr$. 
 
 Each shell has gravitational potential energy $$dU = -G\frac{dm\,M_{<r}}{r} = -4\pi G r \rho M_{<r} dr$$where $M_{<r} = \frac{4}{3}\pi r^3 \rho$ is the mass contained within the radius $r$. Then the total potential energy of the body is given by $$U = \int dU = \int_0^R dr (-4\pi G r \rho)\left(\frac{4}{3}\pi r^3 \rho\right) = \dots = -\frac{3GM^2}{5R}$$
+
+## Jeans stability criteria
+
+
+
+## Jeans mass
+
+
+
+## Jeans analysis

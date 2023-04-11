@@ -363,6 +363,31 @@ Star formation rate correlates with the stellar mass of a galaxy. Suggests that 
 
 ![[sf_main_seq.png]]
 
+## 125
+**Describe the following galaxy-formation problems. Which of these are solved? What are their solutions?**
+**(i) the missing satellite problem**
+We dont see as many small satellite [[Galaxies#Galaxy|galaxies]] as predicted by CDM simulations. Interpretation could be that smallest DM halos are inefficient at forming stars, so they exist but we dont see them.
 
+![[MSP.png|500]]
+Resolution?
+- recently deep surveys ([[Catalogs#SDSS|SDSS]]) have found many more extremely faint dwarf galaxies (raising up the observations above)
+- [[Observatories#LSST|LSST]] is forecasted to improve this further
+- What remains is the question "what is suppressing star formation in small halos?". Feedback?
 
+**(ii) the core-cusp problem**
+CDM and simulations predict a sharply rising density profile near the cores of halos ("cusp"), but observations show a cored (flatter) density profile near the centers of halos.
 
+![[core_cusp.png|400]]
+Resolution?
+- Feedback: can remove matter from the core
+- Warm or self-interacting [[Dark matter|DM]]
+- MOND 😍
+
+**(iii) the cooling flow problem**
+Mass cooling rates from [[Spectra#The electromagnetic spectrum|X-ray]] measurements of the [[Cluster media#ICM|ICM]] suggest that gas should be cooling  
+and forming stars at rates of $\sim 100-1000\, M_\odot\,\pu{yr^{-1}}$ yet we observe star formation rates on the  
+order of ~1% of these rates in cluster cores (and not enough cool gas either to account for the  
+difference via "it happened in the past").
+
+Resolution?
+- [[[AGN#AGN|AGN]] feedback heats up the gas and prevents star formation, but the details of how the jets deposit energy into the cluster are unclear.
