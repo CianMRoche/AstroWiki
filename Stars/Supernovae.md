@@ -6,6 +6,8 @@ Theoretical studies indicate that most supernovae are triggered by one of two ba
    In the re-ignition of a white dwarf, the object's temperature is raised enough to trigger runaway nuclear fusion, completely disrupting the star. Possible causes are an accumulation of material from a binary companion through accretion, or by a smerger with another white dwarf (called "single-degenerate" and "double-degenerate" progenitors respectively, referring to the number of degenerate objects in each scenario).
 2. **The sudden gravitational collapse of a massive star's core**
    In the case massive star's sudden implosion, the core of a massive star will undergo sudden collapse once it is unable to produce sufficient energy from fusion to counteract the star's own gravity, which must happen once the star begins fusing iron, but may happen during an earlier stage of metal fusion.
+   
+   The core fuses iron at which point fusion no longer produces thermal pressure, and thus core collapses, collapse then prevented by neutron degeneracy pressure so we get a "bounce". Shockwave moves through the stellar envelope, heating up gas to fusing temperatures, forming $\ce{^{56}Ni}$. Later light curve powered by decay of elements fused in the shocked envelope(?). 
 
 For the final state of stars of different masses, see [[Compact objects - Questions#40|Q40]].
 

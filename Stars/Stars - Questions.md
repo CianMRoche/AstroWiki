@@ -64,13 +64,14 @@ Gravothermal collapse is an instability arising from negative heat capacity of s
 
 
 ## 22
-**Describe the various evolutionary phases of a low-mass (1 M☉) star and those of a high-mass
-(e.g. 12 M☉) star. Show the corresponding evolutionary tracks on an HR diagram.**
+**Describe the various evolutionary phases of a low-mass (1 M☉) star and those of a high-mass (e.g. 12 M☉) star. Show the corresponding evolutionary tracks on an HR diagram.**
 
-A summary of the stellar phases is shown below, where evolution takes place from left to right, excluding the [[Star formation]] stage wherein a [[Star formation#Molecular cloud|molecular cloud]] collapses provided it is larger than the [[Star formation#Jeans mass|Jeans mass]] for that cloud.
+A summary of the stellar phases is shown below, where evolution takes place from left to right.
+
+They also exhibit a common beginning, the [[Star formation]] stage, wherein a [[Star formation#Molecular cloud|molecular cloud]] collapses provided it is larger than the [[Star formation#Jeans mass|Jeans mass]] for that cloud.
 
 1. Low-mass:
-| Stage    | [[HR-diagram#Pre-main sequence\|Pre-MS]] | [[HR-diagram#Main sequence\|MS]]                   | Subgiant | RGB | Horizontal branch | AGB | [[Nebulae#Planetary nebula\|Planetary nebula]] | [[Stellar classes#White dwarf\|White dwarf]] |
+| Stage    | [[HR-diagram#Pre-main sequence\|Pre-MS]] | [[HR-diagram#Main sequence\|MS]]                   | [[HR-diagram#Subgiant branch\|Subgiant branch]] | [[HR-diagram#RGB\|RGB]] | Horizontal branch | AGB | [[Nebulae#Planetary nebula\|Planetary nebula]] | [[Stellar classes#White dwarf\|White dwarf]] |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Time in stage ($\pu{yr}$) | | $\sim10^{10}$ |  | $\sim10^{9}$ |  $\sim10^{8}$  | $\sim10^{6}$  |   $\sim10^{5}$    |             |
 
@@ -85,3 +86,39 @@ A summary of the stellar phases is shown below, where evolution takes place from
 
    which shows up on the HR diagram as a 💩 on the supergiant branch (from Megan's notes)
    ![[evolution_HHR_highmass.png|500]]
+
+
+## 23
+**Describe the types of stellar evolution that lead to type Ia, type Ib and type II supernovae. What are the observational differences among these?**
+See [[Supernovae#Supernova|supernovae]]. The primary observational signatures are:
+
+Type 1a ([[Stellar classes#White dwarf|WD]] with mass $\sim 1.4\,M_\odot$)
+- CO white dwarfs because they need to be relatively massive, imprint on spectra? no idea
+- No Hydrogen lines
+- A distinct Silicon II (singly-ionized) line that helps distinguish from 1b/c.
+
+Type 1b ($\,\gtrsim 30\,M_\odot$)
+- Core collapse of massive star, blew off its H envelope so again no H lines
+- He lines from He envelope
+- No silicon lines
+
+Type 2 ($\,\gtrsim 8\,M_\odot$)
+- massive stars (thus short lifetimes) so often found in star-forming regions
+- H absorption lines
+- Large variety of light curves due to variety of progenitors.
+
+
+## 24
+**What is a Cepheid variable? Explain the underlying stellar physics involved.**
+See [[Pulsating stars#Cepheids|Cepheids]]. 
+
+**What is the Leavitt Law?**
+
+
+**Over what range of distances do Cepheids play a major role in the “cosmic distance ladder”?**
+
+
+
+## 25
+**What are RR Lyrae stars, and how do they differ from Cepheids?**
+See [[Pulsating stars#RR-lyrae stars|RR-lyrae]] stars.

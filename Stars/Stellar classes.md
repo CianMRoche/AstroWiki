@@ -76,3 +76,7 @@ From youngest to oldest:
 	-  Too hard to image a star at such a high redshift (best change is lucky highly-magnified star via [[Lensing]])
 	- Initial mass function for stars would have been high-mass skewed (why?) and thus most of these stars would have died by now.
 	- Observable ones could also have been enriched by metals from their environment at this point.
+
+
+## Brown dwarf
+A "failed star" which did not have enough mass to start burning Hydrogen and fusing helium, bit it can fuse deuterium and a proton together to form Hydrogen 3 (distinguishing brown dwarfs from planets).

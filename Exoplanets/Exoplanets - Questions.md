@@ -9,6 +9,11 @@ From Megan's notes: Note that this would have to be normalized so that the flat 
 
 One can also in some cases determine the temperature of the planet by measuring a much smaller dip when the planet passes behind the star. Need to assume both are blackbodies.
 
+**Bonus** (from David)
+We can directly determine the density of the star if the planets orbit is circular. If we measure the duration of a transit $T$ and the period of transiting $P$ (ie that of the planets orbit) then by [[Binaries#Kepler's laws|Keplers third law]] we have $$P^2 = \frac{4\pi^2}{G}\frac{a^3}{M_{tot}} = \frac{4\pi^2}{G}\frac{a^3/\frac{4}{3}\pi R_*^3}{M_{tot}/\frac{4}{3}\pi R_*^3} = \frac{3\pi}{G}\frac{a^3}{R_*^3} \frac{1}{\rho_*}$$Futhermore $T/P$ is equal to the ratio of the arc length when the planet is passing in front of the star to that of the whole orbit (for circular orbits) such that $$\frac{T}{P} \simeq \frac{2R_*}{2\pi a} \implies \frac{a}{R_*} \simeq \frac{P}{\pi T}$$where the $2 R_*$ comes from the fact that the transiting arc is approximately a straight line at the large distance $a$ for a relatively small stellar radius as in image below. We can then rearrange the above to get $\rho_*(P,T)$ independent of transit depth.
+![[transit_arc.png|300]]
+
+
 **What additional observations are needed to determine the mass of this planet?**
 Need a radial velocity (ie spectroscopic follow-up). Why does this give you the mass? Start with [[Binaries#Kepler's laws|Kepler's third law]] $$\frac{P^2}{a^3} = \frac{4\pi^2}{GM_{tot}}$$Then replace $a$ with velocity by assuming circular orbit (most eccentricities in the solar system are below $e=0.1$) via $v = a\omega = a\,2\pi/P$ where $v$ is the **true** velocity in the orbit when the planet is moving along the line of sight (directly away from or towards us) and the fact that the radial velocity we measure depends on the inclination of the orbit as $v_r = v/\sin(i)$ where $i$ is the inclination angle of the orbit to get $$a = a_* + a_p =\frac{P}{2\pi\sin(i)}(v_{*,r}+v_{p,r})$$From Megan's notes (where line of sight is along the $v_r$ axis)
 ![[inclination.png|300]]
@@ -143,6 +148,7 @@ populations of planets associated with each method. Roughly how many planets hav
 2. Radial velocity measurement can constrain $M_p$ (if planet $\gtrsim 10\,\pu{M_\odot}$, see [[#8]], [[#13]]) 
 3. $M_p$ and $R_p$ gives an estimate of the density. Higher density (lower radius for a given mass) means rockier planet. There exist some mass-radius relationships for planets of different composition to do the actual constraining.
 4. For the atmosphere, look for absorption features in the spectrum during a transit.
+5. Note that in the atmospheres of hot Jupiters, things like saphires and pure carbon clouds can form and their imprint on the spectra is to damp the whole thing or cause broad absorption features in the IR 
 
 **What have we learned about exoplanet interiors and atmospheres from these observations?**
 - High level of diversity in exoplanet composition and properties
@@ -152,8 +158,7 @@ Note: Trappist-1 (solar system-like system with $\gtrsim 7$ planets) recently ha
 
 
 ## 15
-**Why are M Dwarfs thought to be promising candidates for identifying Earth-sized, temperate (but
-not necessarily habitable) planets?**
+**Why are M Dwarfs thought to be promising candidates for identifying Earth-sized, temperate (but not necessarily habitable) planets?**
 [[Stellar classes#M-dwarf|M-dwarfs]] are low mass and luminosity, so detection of low-mass and temperate planets is easier because:
 
 1. From [[#8]], half-amplitude of the radial velocity anomaly is $v_{*,r} \propto M_*^{-2/3}$ so if the star is smaller, radial velocity anomaly is larger.
