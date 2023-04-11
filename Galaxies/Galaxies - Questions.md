@@ -209,11 +209,11 @@ The timescale for violent relaxation can be approximated by considering the time
 
 ## 114
 **Why do some galaxies have prominent spiral structure and others do not?**
-Try to explain existence with differential rotation, that is maybe pattern arises due to the roughly flat rotation curve ($v=\text{const}$) and thus $\omega \propto 1/r$. Then the timescale for rotation is $$\tau_{rot} = \frac{2\pi}{\omega} = \frac{2\pi r}{v} \sim 10^8\,\pu{yr}$$assuming $v=200\,\pu{km s^{-1}}$ and $r=10\,\pu{kpc}$ (note that Megans notes use [[Binaries#Kepler's laws|Keplers third]] here but we get the same number). That is, the spiral arms will wind ~10s to 100s of times in the age of the universe. In such a case, we should not see prevalent structure, as it would all be washed out by many rotations(the so-called "winding problem").
+Try to explain existence with differential rotation, that is maybe pattern arises due to the roughly flat rotation curve ($v=\text{const}$) and thus $\omega \propto 1/r$. Then the timescale for rotation is $$\tau_{rot} = \frac{2\pi}{\omega} = \frac{2\pi r}{v} \sim 10^8\,\pu{yr}$$assuming $v=200\,\pu{km s^{-1}}$ and $r=10\,\pu{kpc}$ (note that Megan's notes use [[Binaries#Kepler's laws|Keplers third]] here but we get the same number). That is, the spiral arms will wind ~10s to 100s of times in the age of the universe. In such a case, we should not see prevalent structure, as it would all be washed out by many rotations(the so-called "winding problem").
 
 **Briefly describe the density wave theory of spiral structure?**
 The idea is that there are density waves which propagate around the disk, like a sound wave in air, and that: 
-- The stars experience roughly no net motion due to the passage of the wave (which contains different stars at any point in time except for the stars at a certain raius such that their angular velocity coincides with the angular velocity of the wave, $\Omega_{gp}$ below).
+- The stars experience roughly no net motion due to the passage of the wave (which contains different stars at any point in time except for the stars at a certain radius such that their angular velocity coincides with the angular velocity of the wave, $\Omega_{gp}$ below).
 - The density wave increases the density of gas and thus boosts star formation rates, explaining why we see star formation mostly within spiral arms
 
 ![[spiral_arms.png]]
@@ -263,7 +263,7 @@ $$for an observation of a star with Galactic longitude $l$ at a distance $d$ fro
 | --- | ----------- | -------------| -------------|
 | Sersic |  $I(r) = I_0 e^{-(r/r_0)^{1/n}}$ | $I_0$ is central surface brightness, $r_0$ is scale length and $n$ is the "Sersic index". Note for $n=1$ we recover exponential, and $n=4$ we recover de Vaucouleurs | Models the [[Units#Intensity\|surface brightness]] profiles of [[Galaxies#Galaxy\|galaxies]] |
 | de Vaucouleurs | $I(r) = I_0 e^{-(r/r_0)^{1/4}}$ | Sersic with $n=4$ | Models the [[Units#Intensity\|surface brightness]] of an elliptical galaxy, or the galactic bulge of a disk galaxy |
-| Exponential | $I(r) = I_0 e^{-(r/r_0)}$ | Sersic with $n=1$ | Models the [[Units#Intensity\|surface brightness]] of a spiral/disk galaxy, but deviations common due to spiral structure |
+| Exponential | $I(r) = I_0 e^{-(r/r_0)}$ | Sersic with $n=1$ | Models the [[Units#Intensity\|surface brightness]] of a spiral/disk galaxy, but deviations common due to spiral structure and existence of bulge|
 | Einasto | $\rho(r) = \rho_s \exp\left[-\frac{2}{\alpha} \left(\frac{r}{r_s}\right)^\alpha \right]$ | Does not exhibit a divergent central density. People define in different ways, $r_s$ is a scale radius. [Source](https://cluster-toolkit.readthedocs.io/en/latest/source/density_profiles.html) | [[Density profiles\|Density profile]] of halos in [[Dark matter\|CDM]] |
 | NFW | $\rho(r)=\frac{\rho_0}{\frac{r}{R_s}\left(1+\frac{r}{R_s}\right)^2}$ | Exhibits a divergent central density, goes as $r^{-1}$ toward $r=0$ and $r^{-3}$ toward $r\rightarrow \infty$. Also does not have a well-defined total mass. Shows up in simulations with this cuspy central region shape, but core/cusp problem appears with observational data (see [[#125\|Q125]]) | [[Density profiles\|Density profile]] of halos in [[Dark matter\|CDM]] |
 
