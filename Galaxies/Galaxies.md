@@ -51,3 +51,16 @@ Here are some key differences between the thin disk and the thick disk:
 4.  Origin: 
    - <mark class="hltr-cyan">Thin disk</mark> is believed to have formed from the collapse of a gas cloud that was enriched with heavy elements from previous generations of stars.
    - <mark class="hltr-red">Thick disk</mark> is thought to have formed from the heating and thickening of the thin disk due to interactions with other galaxies, mergers, or accretion events.
+
+
+## Spiral arm clumpiness
+The density profile along a spiral arm looks like this (from Choudhuri)
+![[spiral_arm_clustering.png]]The reason for this is very cool, and related to magnetic buoyancy. The same feature will arise in any disky thing where magnetic field lines are [[Plasma and lensing - Questions#95|frozen in]]. Basically the following very coarse outline occurs
+- An underdensity perturbation appears in the arm
+- This underdense region in a denser region (like a bubble in water), the underdense region will be pushed out. 
+- The path of least resistance is out of the disk or pushed out of the arms
+- Since the magnetic field lines are frozen into the material, the field lines are bent. They then are kept from bending further due to magnetic tension, preventing material from going too far.
+- Why dont we break freeze-in? No idea.
+- The result is that the density profile looks very clumpy along the profile of a magnetically frozen-in region in the disk (like the spiral arm)
+
+Magnetic buoyancy 

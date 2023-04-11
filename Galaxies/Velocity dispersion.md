@@ -1,6 +1,6 @@
 
 ## Velocity dispersion
-A series of relationships derived from the virial theorem, relating velocity dispersion to the mass of the system. In the simplest case, the relation looks something like $$M = \frac{v^2r}{G} \simeq \frac{3}{2}\frac{\sigma^2R}{G}$$where $\sigma$ is the 1D velocity dispersion (radial typically) we can actually measure. Relationship reliable up to an order $\sim 1-10$ factor
+A series of relationships derived from the virial theorem, relating velocity dispersion to the mass of the system. In the simplest case, the relation looks something like $$M = \frac{v^2r}{G} \simeq \frac{3}{2}\frac{\sigma^2R}{G}$$where $\sigma$ is the 1D velocity dispersion (radial typically) we can actually measure. This applies to systems that are approximately isotropic, that is a disked galaxy with a net rotation wont have $v\sim \sigma$ since the distribution will be bimodal. In such a case one would be better off using the dispersion of $|\vec{v}|$ to infer the rotational velocity. Relationship reliable up to an order $\sim 1-10$ factor
 
 **Derivation**
 The speeds of the objects in the galaxy have two components
@@ -17,11 +17,14 @@ Putting these estimates into the virial theorem and rearranging, we have $$M = \
 
 
 ## M-sigma relation
-A mass-velocity dispersion relation for material circling [[Black holes#Black hole|supermassive black holes]].
+A mass-velocity dispersion relation between the mass of [[Black holes#Black hole|supermassive black holes]] and the speeds of stars in the [[Galaxies#Galaxy|galactic]] bulge. One version was called "the [[#Faber-Jackson relation]] for black holes". Relationship is $$M\propto \sigma^n$$and measurements place $n$ at about 4. 
+
+- Predictive power important since measuring black hole masses is hard and velocity dispersions arent
+- Implies galaxies and their SMBH coevolve. Measurements of $\sigma$ come from well outside the sphere of influence of the SMBH, so the galaxy and BH must coevolve
 
 
 ## Faber-Jackson relation
-For elliptical galaxies
+For elliptical galaxies $$L\propto \sigma^4$$
 
 
 ## Tully-Fisher relation
@@ -33,4 +36,4 @@ For spiral galaxies. A relationship between rotational velocity (isnt this also 
 **Derivation**
 Virial theorem or [[Binaries#Circular motion|circular motion]] $\implies v^2 = GM/R$. 
 
-Furthermore, let $\Gamma = M/L$ be the mass to light ratio, and assume a disk shape (since talking about spiral galaxies) $L = (2\pi R^2) (4\pi I_0)$ where $J_0$ is the [[Units#Intensity|mean surface brightness]] (ie assuming isotropic). This can be rearranged to $R = \sqrt{L/2\pi J_0}$. Then $$v^4 = \left(\frac{GM}{R}\right)^2 = \frac{\left(G\Gamma L\right)^2}{R^2} = (G^2 \Gamma^2 2\pi J_0) L$$and we recover the proportionality above.
+Furthermore, let $\Gamma = M/L$ be the mass to light ratio, and assume a disk shape (since talking about spiral galaxies) $L = (2\pi R^2) (4\pi J_0)$ where $J_0$ is the [[Units#Intensity|mean surface brightness]] (ie assuming isotropic, but wait that makes no sense since its a disk. Seems like it needs an integral over solid angle). This can be rearranged to $R = \sqrt{L/2\pi J_0}$. Then $$v^4 = \left(\frac{GM}{R}\right)^2 = \frac{\left(G\Gamma L\right)^2}{R^2} = (G^2 \Gamma^2 8\pi^2 J_0) L$$and we recover the proportionality above.

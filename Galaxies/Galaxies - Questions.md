@@ -96,7 +96,7 @@ See [[Density profiles#Isothermal sphere|Isothermal sphere]] for the derivation 
 The ”relaxation” of stars is the process deflecting the individual trajectories of stars from the one they would have if the distribution of matter was perfectly smooth. The ”2-body relaxation” is induced by the individual star-star interactions, while the ”violent relaxation” is induced by a large collective variation of the stellar system shape (see [[#113|Q113]]).
 
 **For a self-gravitating cluster of N objects, each of mass m, with a velocity dispersion $\sigma$, what is the relaxation time?**
-Consider a single gravitational scatter. If the deflection of the trajectory of the star involves a change in momentum at least as large as the original momentum of the star ($v\sim \Delta v$), then we would regard it as a collision. Assume the timescale of collisions is the timescale for relaxation via this mechanism $\tau_{relax} = \tau_{coll}$. For this working definition and labelling the impact parameter of the collision as $b$ (as in [[Emission & the ISM - Questions#86|Q86]]) for two stars of mass $m$ $$\Delta p \sim F\Delta t \sim \frac{Gm^2}{b^2}\frac{b}{v}\sim mv \implies b\sim \frac{Gm}{v^2}$$For a number density of stars $n$ and an effective cross section $\pi b^2$ the mean free path is $l \sim 1/\pi b^2 n$ such that the mean time between collisions for a star of velocity $v$ is $$\tau_{coll} = \frac{l}{v} = \frac{1}{\pi b^2 n v} \sim \frac{v^3}{\pi n G^2 m^2}$$Lets eliminate the density $n$ by evaluating $R$. If our system has $N$ total stars then via the virial theorem $$0 = 2\langle T\rangle + \langle U\rangle = Nm\left(\langle v^2\rangle -\frac{GM}{2R} \right) \implies R = \frac{G N m}{2\langle v^2 \rangle}$$Then with $\langle v^2 \rangle = \sigma^2$ and and replacing $n = N / \frac{4}{3}\pi R^3$ we have $$\tau_{coll} \sim \frac{GN^2 m}{6\sigma ^3} \propto N^2$$For a [[Clustering|star cluster]] this number is $\sim 10 \,\pu{Gyr}$ (ie the age of the universe) and for a [[Galaxies#Galaxy|galaxy]] it is $\sim 10^{10}\,\pu{Gyr}$, ie impossible to explain relaxation of galaxies $\implies$ violent relaxation (see [[#113|Q113]]).
+Consider a single gravitational scatter. If the deflection of the trajectory of the star involves a change in momentum at least as large as the original momentum of the star ($v\sim \Delta v$), then we would regard it as a collision. Assume the timescale of collisions is the timescale for relaxation via this mechanism $\tau_{relax} = \tau_{coll}$. For this working definition and labelling the impact parameter of the collision as $b$ (as in [[Emission & the ISM - Questions#86|Q86]]) for two stars of mass $m$ $$\Delta p \sim F\Delta t \sim \frac{Gm^2}{b^2}\frac{b}{v}\sim mv \implies b\sim \frac{Gm}{v^2}$$For a number density of stars $n$, a mass per star $m$ and an effective cross section $\pi b^2$ the mean free path is $l \sim 1/\pi b^2 n$ such that the mean time between collisions for a star of velocity $v$ is $$\tau_{coll} = \frac{l}{v} = \frac{1}{\pi b^2 n v} \sim \frac{v^3}{\pi n G^2 m^2}$$Lets eliminate the density $n$ by evaluating $R$. If our system has $N$ total stars then via the virial theorem $$0 = 2\langle T\rangle + \langle U\rangle = Nm\left(\langle v^2\rangle -\frac{GM}{2R} \right) \implies R = \frac{G N m}{2\langle v^2 \rangle}$$though I dont know why theres a factor of 2 in the PE (comes from Xiaowei's notes).Then with $\langle v^2 \rangle = \sigma^2$ and and replacing $n = N / \frac{4}{3}\pi R^3$ we have $$\tau_{coll} \sim \frac{GN^2 m}{6\sigma ^3} \propto N^2$$For a [[Clustering|star cluster]] this number is $\sim 10 \,\pu{Gyr}$ (ie the age of the universe) and for a [[Galaxies#Galaxy|galaxy]] it is $\sim 10^{10}\,\pu{Gyr}$, ie impossible to explain relaxation of galaxies $\implies$ violent relaxation (see [[#113|Q113]]).
 
 **How long does it take for a massive object (M>> m) to sink to the bottom of a cluster potential well?**
 Using the expression for $R$ we also have that the [[Timescales#Dynamical timescale|dynamical timescale]] is $$\tau_{ff} \sim \frac{1}{\sqrt{G\rho}} \sim \frac{GNm}{\sigma^3} \propto N$$Since the free-fall timescale is a factor of $N$ smaller than the collisional timescale, objects sink into the potential well effectively without collisions when $N$ is large. The sinking timescale is thus simply $\tau_{ff}$.
@@ -291,7 +291,7 @@ Refers to the fact that galaxies are not perfect tracers of mass in the universe
 
 The "bias" refers to some metric of the difference between the galaxy distribution and that of all matter. Bias sometimes used in the context of the linear bias model, where, on scales larger than a few megaparsecs, the galaxy density fluctuations are enhanced over those of the mass by a factor $b$, the linear bias factor $$\frac{\delta n_g}{\bar{n}_g}=b\left(\frac{\delta \rho}{\rho}\right)$$where $n_g$ is the number density of galaxies and $\rho$ is the mass density. Many groups have found that the halos formed in dark matter simulations are actually antibiased with respect to the mass, (i.e. the fluctuations in galaxy number density are smaller than that of mass $b < 1$), because of excessive merging of halos compared with real galaxies, giving for example some very large halos. But at the same time [[CMB#CMB|CMB]] measurements have yielded a very different $b \simeq 1.5$ with the opposite conclusion, ie that galaxies are more tightly clustered (higher number overdensities) than all mass.
 
-Observationally, we can look at the galaxy-galaxy 2-point correlation function, ie "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Can do such a thing with [[Catalogs#SDSS|SDSS]] for example.
+Observationally, we can look at the galaxy-galaxy 2-point correlation function (see [[#122|Q122]]), ie "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Can do such a thing with [[Catalogs#SDSS|SDSS]] for example.
 
 
 ## 121
@@ -308,3 +308,86 @@ Total mass of cluster can be estimated from [[Lensing#Weak lensing|weak lensing]
 
 **(iv) The universe**  |   $f_{DM} \simeq 83\%$
 Constraints from [[Power spectrum]] of the [[CMB#CMB|CMB]], [[balmer_fraction.png#BAO|BAO]](?) and from [[BBN#BBN|BBN]] can give relative abundances of dark matter and baryonic matter $\Omega_m$ and $\Omega_b$ (?) !UNFINISHED come back to after cosmology
+
+
+## 122
+**What is the galaxy correlation function?**
+Answers the question "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Defined as $$\langle\rho(\vec{x})\rho(\vec{x}+\vec{r})\rangle = \bar{\rho}^2\langle1+\underbrace{\delta(\vec{x})\delta(\vec{x}+\vec{r})}_{\xi(\vec{r}) := \langle \delta(\vec{x})\delta(\vec{x}+\vec{r}) \rangle}\rangle$$for $\rho$ the mass density, $\delta$ the overdensity (defined in [[#119|Q119]]) and bars and angular brackets meaning averages and integrals over space, respectively. Tthe chosen scale $\vec{r}$ tells us aboout correlations across a specific length scale, leading to interesting inferences like measurements of [[BAO#BAO|BAO]]. 
+
+How do we measure this? Via [[Galaxies#Galaxy|galaxy]] surveys (eg [[Catalogs#eBOSS|eBOSS]]).
+
+**How do the correlation functions of galaxies and clusters of galaxies differ?**
+Measurements suggest that$$\xi(\vec{r}) \simeq \left(\frac{|\vec{r}|}{r_0}\right)^\gamma$$ie a power law, and that for [[Galaxies#Galaxy|galaxies]] a good fit is given by $$\gamma = 1.7 \quad, \quad r_0 = 5\,\pu{Mpc}$$such on all scales (still for galaxies) the function looks like:
+![[2_point_corr.png]]
+
+For [[Galaxy clusters#Galaxy cluster|clusters]] of galaxies (ie treating a cluster as "one object" and getting the 2-point correlation for such objects) it has been found that the best fit is at $$\gamma = 2.1 \quad, \quad r_0 = 17\,\pu{Mpc}$$but critically, <mark class="hltr-pink">clusters are found to be much more strongly correlated in space than galaxies</mark> with $\xi_{cluster} \simeq 20 \xi_{gal}$, effectively representing the large-scale sctructure of the universe (modulo [[#120|galaxy bias]], which is less biased for clusters than for individual galaxies).
+
+**How is the galaxy correlation function used to constrain H$_0$?**
+If we measure the angular size of the [[BAO#BAO|BAO]] peak in a narrow range of [[Spectra#Redshift|redshifts]] (ie at roughly the same distance) then we can constrain $H_0$ using other parameters from [[CMB#CMB|CMB]] studies. The reason for this is that the BAO scale is comoving with the Hubble flow, therefore if we measure the angular size, using the expression for the [[Distances#Angular diameter distance|Angular diameter distance]] is given by !UNFINISHED (come back after cosmology)
+
+BAO is a standard ruler in a similar way to the "standard candles" of type-1a [[Supernovae#Supernova|supernovae]]
+
+
+## 123
+**What are “active galactic nuclei”?**
+See [[AGN#AGN|AGN]].
+
+**What is the “unified model of AGN”, and how does it explain the variety of AGN that are observed?**
+Explains the large differences seen in spectra between AGN when viewed form different lines of sight (Type 1 and 2). Also explains [[AGN#Blazar|blazars]] and "BL Lac"  objects, which are rapidly varying blazars, as AGN for which we look directly at the jet along the line of sight. Strongly 
+
+![[agn_schematic.png]]
+
+A table of the things that are "unified" in this picture is 
+
+![[agn_unification.png]]
+
+**How and when are AGN important for galaxy evolution?**
+As mentioned in [[#108|Q108]] it inhibits star formation in large galaxies by heating the gas and preventing collapse.
+
+
+## 124
+**Describe the following relations and what they are useful for:**
+**(i) Kennicutt-Schmidt**
+The statement that the mass column density (mass per area) for star formation (rate?) depends on the mass column density of gas as $$\Sigma_{SFR} \propto (\Sigma_{gas})^n$$but apparently the LHS is also per unit time? This one is a mess. $n$ measured to be $2\pm 1$ ?
+
+**(ii) M-sigma relation**
+See [[Velocity dispersion#M-sigma relation|M-sigma relation]]. 
+
+**(iii) the Madau plot**
+Describes the cosmic evolution of the average star formation rate. 
+- Cosmic star formation peaks at around $z\simeq 2$. (Is this cosmic noon?). This is also when the number density of [[AGN#Quasar|quasars]] appears to peak, inferring connection between galaxy and AGN evolutions like [[Velocity dispersion#M-sigma relation|M-sigma]]. 
+- Suggests that many metals formed early during the deaths of massive stars, corroboarted by [[Galaxy clusters#Galaxy cluster|cluster]] [[Cluster media#ICM|ICM]] measurements.
+![[madau.jpg|400]]
+**(iv) the star-forming main sequence**
+Star formation rate correlates with the stellar mass of a galaxy. Suggests that galaxies spend much of their lifetime building up stars in a self-regulated way. Seen across all broad classes of galaxy
+
+![[sf_main_seq.png]]
+
+## 125
+**Describe the following galaxy-formation problems. Which of these are solved? What are their solutions?**
+**(i) the missing satellite problem**
+We dont see as many small satellite [[Galaxies#Galaxy|galaxies]] as predicted by CDM simulations. Interpretation could be that smallest DM halos are inefficient at forming stars, so they exist but we dont see them.
+
+![[MSP.png|500]]
+Resolution?
+- recently deep surveys ([[Catalogs#SDSS|SDSS]]) have found many more extremely faint dwarf galaxies (raising up the observations above)
+- [[Observatories#LSST|LSST]] is forecasted to improve this further
+- What remains is the question "what is suppressing star formation in small halos?". Feedback?
+
+**(ii) the core-cusp problem**
+CDM and simulations predict a sharply rising density profile near the cores of halos ("cusp"), but observations show a cored (flatter) density profile near the centers of halos.
+
+![[core_cusp.png|400]]
+Resolution?
+- Feedback: can remove matter from the core
+- Warm or self-interacting [[Dark matter|DM]]
+- MOND 😍
+
+**(iii) the cooling flow problem**
+Mass cooling rates from [[Spectra#The electromagnetic spectrum|X-ray]] measurements of the [[Cluster media#ICM|ICM]] suggest that gas should be cooling  
+and forming stars at rates of $\sim 100-1000\, M_\odot\,\pu{yr^{-1}}$ yet we observe star formation rates on the  
+order of ~1% of these rates in cluster cores (and not enough cool gas either to account for the  
+difference via "it happened in the past").
+
+Resolution?
+- [[[AGN#AGN|AGN]] feedback heats up the gas and prevents star formation, but the details of how the jets deposit energy into the cluster are unclear.

@@ -11,14 +11,6 @@
 ## Redshift
 $$1 + z = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{\nu_{emit}}{\nu_{obs}}$$
 
-## Hertzsprung-Russel diagram
-This diagram demonstrates the clustering between the [[HarvardSpectralClassification.png|color]] (temperature) of stars to their intrinsic luminosity ([[Magnitudes#Absolute magnitude|absolute magnitude]])
-![[HRDiagram.png|]]
-
-
-## Main sequence
-A line (and thus, evolutionary track) that can be identified on the [[#Hertzsprung-Russel diagram]] which comprises ~90% of known stars, including the Sun. 
-
 
 ## OII doublet
 Traces cool, ionized gas. Has been used to trace [[Object Types#CGM|CGM]]. Ratio of two lines depends on the temperature
@@ -70,13 +62,17 @@ Spectroscopic feature with both a blueshifted absorption line and a broadened re
 
 
 ## Harvard Spectral Classification
+Classifies stars into spectral type based on temperature 
 - See [this page](http://astro.vaporia.com/start/spectraltype.html) for even more detail on letters that people add to spectral classes.
-- Classifies stars into spectral type based on temperature 
 - Originally classes A-Q based on strength of hydrogen lines in spectra, but found that there was lots of overlap amongst categories (and also they were in the wrong order for other properties)
-- Cannot distinguish between same color, same apparent magnitude, but different luminosity stars (need [[Spectra#Morgan-Keenan (MK or MKK) Luminosity Class|MK Luminosity Classification]])
+- Cannot distinguish between same color, same apparent magnitude, but different luminosity stars (need [[Spectra#Morgan-Keenan (MK or MKK) Luminosity Class|MK Luminosity Classification]] to distinguish between such stars)
 ![[HarvardSpectralClassification.png]]
 - Oh Be A Fine Goat Kick Me (OBAFGKM). Note the hydrogen line strength is a gaussian at "A", mass, radius and lunimosity all decrease, and fraction of [[#Main sequence]] stars increases. 
  ![[OBAFGKM.jpeg|250]]
+ - Prominent (non-Hydrogen) spectral features of each type: 
+|  | O | B | A | F | G | K | M |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Prominent features | ionized $\ce{He}$ lines| neutral $\ce{He}$ lines | mostly $\ce{H}$ | metal $\ce{Ca}$ lines | strong metal lines | strong metal lines| Molecular lines, neutral metal lines |
  - Each spectral type which is further divided into 10 sub-classes depending on the absorption features present in the spectrum with 0 (hottest) through 9 (coolest). For example, the Sun has a temperature of about 5,700 Kelvin and is classified as a G2 star.
 
 
