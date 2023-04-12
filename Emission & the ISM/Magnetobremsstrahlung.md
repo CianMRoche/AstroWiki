@@ -3,12 +3,17 @@ The magnetic counterpart to [[Bremsstrahlung#Bremsstrahlung|bremsstrahlung]].
 Great summary and explanation [here](https://jila.colorado.edu/~pja/astr3730/lecture10.pdf). A highly detailed overview of all this in [this article](https://arxiv.org/pdf/1202.5949.pdf) (radiative processes in high energy astrophysics by Ghisellini)
 
 ## Synchrotron radiation
-Electromagnetic radiation emitted by relativistic accelerating charged particles deflected by a magnetic field. The relativistic counterpart to [[#Cyclotron radiation]]. A beamed dipole looks like the following: 
+Electromagnetic radiation emitted by relativistic accelerating charged particles deflected by a magnetic field. The relativistic counterpart to [[#Cyclotron radiation]]. A relativistically beamed dipole moving to the right looks like the following: 
 ![[dipole_relativistic.png]]
 
 Relativistic effects are beaming and pulses are effectively shortened. Net effect is that the cyclotron spectrum for a single particle becomes (y axis is maybe logarithmic [[Units#Flux|specific flux]] but honestly hard to tell)
 ![[synchrotron.png|250]]
-Why does the single-particle spectrum have a break? Could be for many reasons(?):
+
+**Why does the spectrum become a spectrum and not a spike?**
+The electric field at a detector from a cyclotron source (ignoring the high-frequency wiggles due to the electric field of individual photons) will be approximately sinusoidal. Since the frequency spectrum goes as the fourier transform of the time signal, the FT will be a delta function (+ harmonics) as in [[#Cyclotron radiation]]. The doppler beaming effectively turns the source into a flashlight (due to relativistic beaming) that points in the direction of motion of the particle, so our spectrum at the detector will look like a series of thin peaks with a low continuum between. The FT of such a signal is very broad.
+
+**Why does the single-particle spectrum have a break?** 
+Could be for many reasons(?):
 - In the <mark class="hltr-pink">optically thin</mark> regime, can get a broken spectrum either by 
   1. Injecting a broken power law of light?
   2. The distribution of electron energies being a power law. Why not a Maxwell-Boltzmann distribution or similar? These plasmas where sychrotron is important (extremely high energies) are often non-collisional relative to the emission (that is the collision timescale is much lower than the syncrotron timescales) and thus nonthermal. The reason you get a power law is that in these plasmas you get lots of "Fermi-type" acceleration mechanisms, in which the particles gain energy through some interactions (for example, for crossing a shockwave). It can be shown (it's somewhere in Rybicki and Lightman for example) that the energy gain is proportional to the particle's energy so it kind of adds up multiplicatively - the more energy a particle has, the more it's going to receive each time it is accelerated. Eventually it all adds up to a power-law distribution in energy.

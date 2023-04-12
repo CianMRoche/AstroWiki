@@ -1,4 +1,4 @@
-## 16
+ ## 16
 **Describe the spectral classification scheme for stars: O, B, A, F, G, K, M. What are the characteristic effective temperatures for stars of each class? What are the characteristic absorption lines observed in the spectra of stars of each class? What are the characteristic luminosities for main-sequence stars of each class? What are the approximate masses for stars in each class?**
 See [[Spectra#Harvard Spectral Classification|Harvard spectral classification]] 
 
@@ -112,11 +112,10 @@ Type 2 ($\,\gtrsim 8\,M_\odot$)
 **What is a Cepheid variable? Explain the underlying stellar physics involved.**
 See [[Pulsating stars#Cepheids|Cepheids]]. 
 
-**What is the Leavitt Law?**
+**What is the Leavitt Law? Over what range of distances do Cepheids play a major role in the “cosmic distance ladder”?**
+Henrietta Swan Leavitt established a period-luminosity relation in Cepheids by studying thousands of stars in the [[Galaxy examples#Large Magellanic Cloud|LMC]] and [[Galaxy examples#Small Magellanic Cloud|SMC]]. Ths relationship was a simple power law $$M_V = -2.43\log P - 4.05$$where $M_V$ is the [[Magnitudes#UBVRI|V band]] [[Magnitudes#Absolute magnitude|absolute magnitude]]. This allowed the measurement of absolute magnitudes from pulse periods and thus, distances (by comparing with the [[Magnitudes#Apparent magnitude|apparent magnitude]]). This relationship was calibrated with Cepheids that had known distances via parallax. 
 
-
-**Over what range of distances do Cepheids play a major role in the “cosmic distance ladder”?**
-
+Biggest source of uncertainty is via metallicity dependence and obscuration via interstallar [[Dust#Dust|dust]]. Relatively local distance estimator since need to be able to resolve a single star and reliably measure period. Furthest such object is NGC 3370 at $\sim 29\,\pu{Mpc}$. 
 
 
 ## 25

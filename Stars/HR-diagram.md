@@ -51,3 +51,13 @@ We often refer to the time since ZAMS as the age of the star, although prior to 
 
 ## RGB
 "Red giant branch". Effectively the inverse evolution of the [[#Hayashi track]] whereby a star cant go to lower temperature and remain in [[Stellar structure equations#Hydrostatic equilibrium|HSE]] so its luminosity increases along a vertical line on [[#Hertzsprung-Russel diagram|HR-diagram]] after leaving the [[#Subgiant branch]] on the way to the helium flash. 
+
+
+## Instability strip
+A strip on the [[#Hertzsprung-Russel diagram|HR-diagram]] representing an instability of the radius and luminosity of stars to density and pressure fluctuations often via the [[Pulsating stars#Kappa-mechanism|Kappa mechanism]]. 
+
+Why doesnt this occur across all the HR diagram?
+- On the low $T$ end (red side), convection starts occurring in the envelope which increases mixing and prevents the development of the kappa mechanism
+- On the high $T$ end (blue side), the He ionization zone is too far out in the stellar atmosphere to drive pulsations
+
+![[instability_strip.png|400]]

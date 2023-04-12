@@ -11,7 +11,7 @@ The first discovered galaxy group was Stephan's quintet:
 
 
 ## Local Group
-A [[Galaxy groups#Galaxy group|galaxy group]] which hosts the [[Milky Way#Milky Way|Milky Way]] (that is, we live in it). About 100 galaxies. The maor components are, in order of mass
+A [[Galaxy groups#Galaxy group|galaxy group]] which hosts the [[Milky Way#Milky Way|Milky Way]] (that is, we live in it). About 100 galaxies. The major components are, in order of mass
 
 **Components**
 1. [[Galaxy examples#M31|Andromeda (M31)]] (merger with Milky Way coming in about $4\,\pu{Gyr}$)

@@ -15,3 +15,7 @@ A sattelite galaxy of the [[#Milky Way]], the third closest sattelite galaxy (ex
 Mass: $1.4\times 10^{11}\,M_\odot$ (of which $10^{10}\,M_\odot$ is baryonic)
 Radius: $\sim 10\,\pu{kpc}$
 Distance: $\sim 50 \,\pu{kpc}$
+
+
+## Small Magellanic Cloud
+
