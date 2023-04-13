@@ -200,7 +200,7 @@ This leads to the spreading out of particle energy distributions.
 For an [[Density profiles#Isothermal sphere|isothermal sphere]] the phase space distribution is Maxwell-Boltzmann, but for violently relaxed systems it is more uniform. 
 
 **How does the timescale for violent relation compare to that for weak 2-body interactions?**
-The timescale for violent relaxation can be approximated by considering the time derivative of the energy per unit mass where $d$ represents the convective derivative (using that $\vec{a} = \dot{\vec{v}} = -\nabla\phi = \vec{F}/m$) $$\begin{align}
+The timescale for violent relaxation can be approximated by considering the time derivative of the energy per unit mass where $d$ represents the convective derivative, since the change happens to a particle as it is moving (using that $\vec{a} = \dot{\vec{v}} = -\nabla\phi = \vec{F}/m$) $$\begin{align}
 \epsilon &= \frac{1}{2}v^2 + \phi  \\
 \frac{d\epsilon}{dt} &= -\,\vec{v}\cdot\nabla \phi\, + \,\frac{d\phi}{dt} \\
 &= \frac{\partial\phi}{\partial t}

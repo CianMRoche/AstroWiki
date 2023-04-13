@@ -11,7 +11,12 @@ The pulsations come from sound waves resonating within the star (see [[#Kappa-me
 
 
 ## RR-lyrae stars
-Periodic variable stars, commonly found in [[Clustering#Globular Cluster|GCs]]. They are used as standard candles to measure (extra) galactic distances, assisting with the cosmic [[Hubble constant#Distance ladder|distance ladder]] as they are more common than [[#Cepheids]] but less reliable pulses (more unstable). 
+Periodic variable stars on the [[HR-diagram#Horizontal branch|horizontal branch]], commonly found as [[Stellar classes#Pop N|Pop II stars]] in [[Clustering#Globular Cluster|GCs]]. They are used as standard candles to measure (extra) galactic distances, assisting with the cosmic [[Hubble constant#Distance ladder|distance ladder]] as they are more common than [[#Cepheids]] but less reliable pulses (more unstable). 
+
+**Typical parameters**:
+- Mass starts at $\sim 2.5\,M_\odot$ but reduces to $\lesssim 1\,M_\odot$ 
+- Luminosity $\sim 50\,L_\odot$
+- Pulsation period $\sim\,\text{hours to days}$
 
 
 ## Pulse sources

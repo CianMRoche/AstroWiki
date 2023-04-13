@@ -121,3 +121,45 @@ Biggest source of uncertainty is via metallicity dependence and obscuration via 
 ## 25
 **What are RR Lyrae stars, and how do they differ from Cepheids?**
 See [[Pulsating stars#RR-lyrae stars|RR-lyrae]] stars.
+
+Differences are that relative to [[Pulsating stars#Cepheids|cepheids]] these stars are
+- Dimmer
+- Shorter pulsation periods
+- Lower mass
+- Hard to calibrate the less consistent period-luminosity relationship
+
+
+## 26
+**What are the following objects and where are they found?**
+**(i) HH objects?**
+"Herbig Haro objects". Bright patches of emission from where the jet launched from protostars (like [[Stellar classes#T-tauri star|T-tauri stars]]) interact with and excite the surrounding material, a bit like an [[Nebulae#Emission nebula|emission nebula]]. In fact, the first oen discoevred was clasified as an emission nebula rather than a distinct class of object.
+
+- Typically found in [[Star formation#Molecular cloud|molecular clouds]] and other star forming regions
+- When the excited gas relaxes/recombines, see strong emission lines in the [[Spectra#The electromagnetic spectrum|optical]]. 
+- Jets moving at $\sim 100\,\pu{km s^{-1}}$ probably formed due to presence of an [[Accretion#Accretion disk|accretion disk]]
+- Transient that lasts $\sim 10^4$ years, can change on month to year timescales as jet encounters new media
+- First discovered in the orion nebula
+
+![[HH_object.jpg|400]]
+
+**(ii) T Tauri stars?**
+See [[Stellar classes#T-tauri star|T-tauri stars]].
+
+**(iii) Bipolar flows?**
+Two-sided outflows launched by protostars (younger than [[Stellar classes#T-tauri star|T-tauri]] stars) or evolved post-[[HR-diagram#AGB|AGB]] stars.  Flow is driven by a dense, collimated jets, which can make the outflow difficult to observe directly. In the case of evolved stars, can find these flows in [[Nebulae#Planetary nebula|planetary nebulae]] with a jet driven by [[Accretion#Accretion disk|accretion]] from a [[Binaries|binary]] companion, whereas the accretion for a young star does not have a binary companion (similar to the HH object above).
+
+![[boomerang_nebula_bipolar_flow.jpg|400]]
+
+**(iv) OH masers?**
+"Microwave amplification of stimulated emission of radiation". Objects with significant OH [[Emission & the ISM - Questions#88|stimulated emission]] in the [[Spectra#The electromagnetic spectrum|millimeter]] ($\sim 1.6 \,\pu{GHz}$). Objects with line intensities far above what would be expected of a blackbody. 
+
+As with bipolar flows, also found near protostars or evolved post-[[HR-diagram#AGB|AGB]] stars.
+
+
+## 27
+**What is a planetary nebula? What is our current understanding of the formation of planetary nebulae?**
+See [[Nebulae#Planetary nebula|planetary nebula]].
+
+
+## 28
+**What is a P Cygni line profile, and what does it signify?**

@@ -22,8 +22,10 @@ Circumstellar junk. A [[#Nebula|nebula]] formed of ionized gas emitting in vario
 
 
 ## Planetary nebula
-An emission nebula from the outer layers of a dying intermediate mass ($0.8 M_\odot \lesssim M \lesssim 8 M_\odot$) star as the outer envelope expands away after the AGB phase
-- envelope lost from strong stellar winds in AGB phase
+An [[#Emission nebula]] from the outer layers of a dying intermediate mass ($0.8 M_\odot \lesssim M \lesssim 8 M_\odot$) star as the outer envelope expands away after the [[HR-diagram#AGB|AGB]] phase
+- Envelope lost from strong stellar winds in AGB phase
+- The hot [[Stellar classes#White dwarf|WD]] core irradiates the ejected stellar envelope with strong [[Spectra#The electromagnetic spectrum|UV]] radiation, ionizing the gas. 
+  
 ![[Southern_Ring_Nebula_Webb2022.jpg|400]]
 
 
