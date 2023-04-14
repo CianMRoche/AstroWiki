@@ -163,3 +163,110 @@ See [[Nebulae#Planetary nebula|planetary nebula]].
 
 ## 28
 **What is a P Cygni line profile, and what does it signify?**
+See [[Spectra#P Cygni Line Profile|P Cygni line profile]].
+
+
+## 29
+**Two stars are observed to have the same color and brightness. One of them is a giant at a greater distance than the other, which is a main sequence star. How could these be distinguished from spectroscopic measurements?**
+
+Put another way, if two stars have the same surface temperature (~color), and the same [[Magnitudes#Apparent magnitude|apparent magnitude]] we cannot distinguish them according to the [[Spectra#Harvard Spectral Classification|Harvard spectral classes]]. We could thus have a very luminous but distant star and a very dim but nearby star of the same surface temperature, and we would classify them as the same object. To distinguish further we need the [[Spectra#Morgan-Keenan (MK or MKK) Luminosity Class|MK luminosity class]], which utilizes the difference in line broadening for different size objects to distinguish between such objects. 
+
+
+## 30
+**Write down and describe the four basic equations of stellar structure.**
+See [[Stellar structure equations]]. 
+
+
+## 31
+**Make a dimensional analysis of the equation of hydrostatic equilibrium using a polytropic equation of state to find a general mass-radius relation for spherically-symmetric, self-gravitating bodies.**
+Start with the [[Polytropes#Polytrope|polytrope]] equation of state $$P = \kappa \rho^{\gamma}$$Doing some very loose dimension-matching and dividig by $R$ we convert the polytrope equation to $$\frac{P_c}{R} = \frac{K\bar{\rho}^{\gamma}}{R}$$Using [[Stellar structure equations#Hydrostatic equilibrium|HSE]] we also have $$\frac{dP}{dr} = -\frac{GM_{<r}\rho}{r^2}$$Doing the same loose dimension matching for HSE we get $$\frac{P_c}{R} = -\frac{GM_{tot}\bar{\rho}}{R^2}$$Equating the two (and labelling the total mass as $M$) we get $$M \sim R\,\bar{\rho}\,{}^{\gamma - 1}$$Replacing $\bar{\rho}$ with $M/R^3$ this results in $$M\propto R^{\frac{4 - 3\gamma}{2 - \gamma}}$$
+**For which two polytropic indices is the configuration unstable?**
+- At $\gamma = 2$ the mass scales "infinitely quickly" with $R$
+- At $\gamma = \frac{4}{3}$ the mass is independent of $R$ 
+
+
+## 32
+**Make a dimensional analysis of the equation of radiative diffusion in stars to show that the luminosity of a star scales as its mass cubed, if the opacity is taken to be a constant and assuming that radiative diffusion is the dominant mechanism for energy transfer.**
+
+The [[Stellar structure equations#Energy transport|energy transport]] equation for radiation-dominated systems is $$\frac{dT}{dr} = -\frac{3\kappa}{16\pi a c}\frac{\rho L}{ r^2 T^3}$$forgetting constants (including the opacity) and replacing with some loose dimensional equivalents we have  $$\frac{T}{R} = \frac{\bar{\rho} L}{ R^2 T^3}$$and replacing $\bar{\rho}$ with $M/R^3$ this results in $$L \sim R^4 T^4 M^{-1}$$How do we eliminate $T$? Use [[Stars/Equations of state#Radiation pressure|radiation-dominated gas]] (ideal gas both didnt work and doesnt make sense) to get $$P \sim T^4$$and then replace $P$ via [[Stellar structure equations#Hydrostatic equilibrium|HSE]] $$\frac{P}{R} \sim \frac{M^2}{R^5} \implies P \sim \frac{M^2}{R^4}$$and so finally $$L \sim R^4 P M^{-1} \sim M$$which is wrong I guess. !UNFINISHED
+
+
+## 33
+**Use the known luminosity and mass of the Sun to estimate its nuclear lifetime.**
+Luminosity of [[The Sun#The Sun|the Sun]] is about $L_\odot \simeq 10^{26}\,\pu{W}$. How long can the mass-energy of teh Sun power such a luminosity?
+
+Not all the Suns mass will be converted to energy, the real number is actually the solar mass times the fraction of the Suns mass which is hydrogen $f \simeq 0.7$ times the energy efficiency of nuclear burning $\eta \simeq 0.07$. The mass energy which can go into producing light is thus $E = f_H \eta M_\odot$ and the [[Timescales#Main Sequence Timescale|Main sequence timescale]] for the sun is then $$\tau_{MS,\odot} = \frac{f \eta X M_{\odot} c^2}{L_{\odot}} \simeq 10\,\pu{Gyr}$$
+**What is the current age of the sun, roughly?**
+Best estimates for the age of the Sun are based on radioactive dating of meteorites and modelling of the solar spectrum, placing the age at about $4.5\,\pu{Gyr}$. 
+
+
+## 34
+**Describe the prominent neutrino producing reactions in the sun, and the experiments designed to detect them.**
+Neutrinos are produced in large quantities in the [[The Sun#The Sun|Sun]] since lepton number is conserved in nuclear reactions in the Sun, and they very easily escape (with a mean free path of $\sim 10\,\pu{pc}$). This also means that we can directly probe the core of the Sun if we happen to detect neutrinos coming from there. 
+
+The primary creation mechanism is via the [[#35|pp-chain]], for which we expect all to be electron neutrinos:
+- The first step (PP1) results in about 90% of solar neutrinos. 
+- The rest come from PP2 (~7%) and PP3 ($\lesssim$ 1%)
+
+**What was the solar neutrino problem and how was it solved?**
+The homestake experiment was a detector a mile underground that searched for neutrinos in the 1970s. It operated via the reaction $$\ce{^{37}Cl + \nu_e <-> ^{37}Ar + e^-}$$and one would examine the amount of argon present. 
+
+The summary is they saw only one third of the neutrino flux they expected to detect ("solar neutrino problem"). Results confirmed with other experiments like Super-Kamiokande, SAGE and GALLEX. 
+
+Resolution is either
+1. We dont understand the Sun
+2. Something happens to the neutrinos on their way from the Sun to us
+
+The detectors are only sensitive to electron neutrinos, and so if they oscillate between the different flavours (electron, tauon, muon neutrinos) we would only see about 1/3 of the electron neutrino flux emitted by the Sun. Resulted in 2002 Nobel prize. Later confirmed by Solar Neutrino Observatory which could detect all 3 flavors and found about 1/3 of each, matching oscillation theory. 
+
+
+## 35
+**Write down the basic equations of the p-p chain that provides the Sun's nuclear power**
+
+A mechanism to fuse hydrogen into helium. Below are the 3 branches of the pp-chain. In branch PP1 we effectively turn 4 protons (subtracting off the two left at the end) into:
+- a helium nucleus
+- a gamma ray
+- a positron that will annihilate and create a second gamma ray
+- an electron neutrino
+
+In the diagram the lower number indicates the number of protons and is thus degenerate with the name of the element (ie you can ignore the lower numbers) and a proton is written as H so i think its assumed these things are all ionized(?) !UNFINISHED 
+![[ppchain.gif]]
+[Source for image](http://burro.cwru.edu/academics/Astr221/StarPhys/ppchain.html) . The energy generated per unit volume in a general reaction $\ce{A + B -> C + D}$ is $$\epsilon = Q n_A n_B \langle \sigma v\rangle \left(\frac{1}{1 + \delta_{AB}}\right)$$where $v$ is the speed, $\sigma$ the cross section, and the parenthetical term halves the number to avoid double counting if $A$ and $B$ are the same thing. The energy output $Q$ is $$Q = \text{energy of RHS - energy of LHS}$$Evaluating this with some inspiration from nuclear physics, the Maxwell-Boltzmann distribution for the speeds, and expanding about the "Gamow peak" (not going into details) one ends up finding the energy generation is roughly $\epsilon \propto T^4$ at around $1.5\times 10^7\,\pu{K}$.
+
+
+## 36
+**How does the CNO cycle work?**
+A mechanism to fuse hydrogen into helium. Discussing only CNO1 which is the branch that occurs 99.96% of the time, 3 others, some only really happening in very massive stars and[[Supernovae#Supernova|supernovae]]. 
+
+A lot like [[#35|PP1]] in that it turns 4 protons into 
+- A helium nucleus
+- two positrons (which will end up annihilating into gamma rays)
+- two electron neutrinos
+
+but it is *catalytic*, meaning it doesnt use up some of the "inputs" like the carbon, nitrogen and oxygen over the whole cycle. They are used up in one step but regenerated in another. Can "start" looking at the reaction on the top right, noting that you need a carbon 12 atom around to get going
+![[CNO_cycle.png|500]]
+
+The pp-cycle is more efficient at the [[The Sun#The Sun|Suns]] temperature, as demonstrated below, where the y axis is a relative energy output: 
+![[Nuclear_energy_generation_comparison.png|400]]
+
+## 37
+**Describe the internal structure of the sun**
+See [[The Sun#The Sun|the Sun]] (but do not look at it directly unless you have the right eye protection). Why does the sun have a radiative zone outside the core and a convective zone outside that? Explained below.
+
+**What is the Schwarzschild criterion for convective instability, and how does it delineate the convective and radiative zones in the sun?**
+The summary is that <mark class="hltr-pink">a radiative zone forms where the material is stable against the formation of convective cells</mark> and the criteria for stability **against** this convection is $$\Bigg|\frac{dT}{dr}\Bigg| < \Bigg|\frac{dT}{dr}\Bigg|_{\text{adiabatic}} = \left(1-\frac{1}{\gamma}\right)\frac{T}{P}\frac{dP}{dr}$$where $\gamma$ is the assumed [[Polytropes#Polytrope|polytropic]] exponent and we take absolute values because those quantities are often negative. (Can also reframe this equation in terms of logarithmic derivatives since $(1/x)df/dx = d \ln(f)/dx$). 
+
+- Small temperature gradient means radiative 
+- large temperature gradient means convective
+
+**More detail**:
+The radiation zone is <mark class="hltr-pink">stable against formation of convection cells if the density gradient is high enough</mark>, so that an element moving upwards has its density lowered (due to adiabatic expansion) less than the drop in density of its surrounding, so that it will experience a net buoyancy force downwards. Like an air bubble rising out of water into helium gas, it will be pushed back toward the water. 
+
+Making some assumptions about adiabatic evolution, [[Polytropes#Polytrope|polytropic]] equation of state, then also simultaneously using ideal gas law to eliminate $P$ in favor of $T$ (? Megans notes) and deriving the criteria from the density relationship mentioned above, one finds the above expression.
+
+![[convective_radiative_layers.png]]
+
+Let us examine the [[Stellar structure equations#Energy transport|radiative energy transport]] equation and look for what physics could lead to large temperature gradients, and thus convective zones: $$\Bigg|\frac{dT}{dr}\Bigg|_{\text{radiative}} = \frac{3\kappa}{16\pi a c}\frac{\rho L}{ r^2 T^3}$$Large (and thus convective) when 
+- $\kappa$ large, $T$ low: as in the outer layers of sun-like stars
+- $L/r^2$ large (a [[Units#Flux|flux]] roughly): like cores of very luminous stars
+- $\gamma$ close to 1: as in low mass stars (see [[Polytropes#Polytrope|polytropes]])

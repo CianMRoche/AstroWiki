@@ -5,7 +5,9 @@
 - $P_\odot$ ~ 1 month
 - $L_\odot \simeq 3.8\times10^{26}\,\pu{W}$
 
-The sun has a core, radiate and then covective zone. The region between the radiative and convective zones is called the tachocline and this is thought to be the origin of the magnetic field. As such, fully convective 
+The sun has a core, radiate and then covective zone. The region between the radiative and convective zones is called the tachocline and this is thought to be the origin of the magnetic field. As such, fully convective stars are not thought to have strong magnetic fields.
+
+![[sun.jpg]]
 
 
 ## Heliopause

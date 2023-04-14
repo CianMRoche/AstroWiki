@@ -209,7 +209,7 @@ The **$\mathbf{\alpha}$-disk model** is a steady-state model with fixed mass usi
 - Radiative transport
 
 Can infer more about the disk with the 2 additional equations:
-- Equation of state (pressure or radiation dominated, see [[Equations of state]])
+- Equation of state (pressure or radiation dominated, see [[Emission & the ISM/Equations of state]])
 - Opacity law
 
 Accretion assumes infalling objects start at rest and <mark class="hltr-pink">convert gravitational potential energy into luminosity</mark>. Explicitly, the change in potential energy and corresponding luminosity for an infalling mass $m$ at a distance $R$ from a central mass $M$ is $$\Delta E = \frac{GMm}{R}\quad\implies\quad L = \frac{GM\dot{M}}{R} $$**What are the assumptions that go into its derivation?**
