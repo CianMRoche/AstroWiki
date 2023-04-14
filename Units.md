@@ -18,6 +18,7 @@ $4'$ = 4 arcmin
 ## Arcsecond
 Unit of <mark class="hltr-pink">angle</mark>: 1/60 of an [[#Arcminute]], $1/3600$ of a degree
 $12''$ = 12 arcsec
+$1'' = \frac{\pi}{180\times3600}\,\pu{rad} \simeq 5\times 10^{-6}\,\pu{rad}$
 8kpc per arcsec at z=0.8
 
 ## Proper distance

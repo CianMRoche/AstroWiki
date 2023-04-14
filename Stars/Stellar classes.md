@@ -21,12 +21,14 @@ An early star which is not yet hot enough to start nuclear fusion, and is still 
 
 
 ## T-tauri star
-Variable stars on [[Tracks#Hayashi track|Hayashi track]], variablility in optical comes from obscuration by protoplanetary disk and winds, jets and starspots.
+Variable stars on [[HR-diagram#Hayashi track|Hayashi track]], variablility in [[Spectra#The electromagnetic spectrum|optical]] comes from obscuration by protoplanetary disk and winds, jets and starspots, also variable in X-ray and radio. Found in star-forming regions.
 
-Central temperatures are too low for hydrogen fusion. Instead, they are powered by gravitational energy released as the stars contract, while moving towards the [[main sequence]], which they reach after about 100 million years
+Central temperatures are too low for hydrogen fusion. Instead, they are powered by gravitational energy released as the stars contract, while moving towards the [[HR-diagram#Main sequence|main sequence]], which they reach after about 100 million years
 
-**Age**: ~10 million years
-**Period**: ~1-10 days
+**Typical parameters**:
+Age $\lesssim10\,\pu{Gyr}$
+Period $\sim 1-10\,\pu{days}$
+Mass $<2\,M_\odot$
 
 
 ## M-dwarf
@@ -47,6 +49,7 @@ AKA "degenerate dwarf". A stellar remnant composed mostly of electron-degenerate
 - See final states of stars of different masses in [[Compact objects - Questions#40|Q40]].
 - In stars $\gtrsim 0.8\,M_\odot$, $\rm{He}$ fuses via the triple-$\alpha$ process into $\rm{C}$ and $\rm{O}$ and so WDs are thought to consist largely of carbon and oxygen.
 - Can be modelled as different types of [[Polytropes#Polytrope|polytrope]] depending on mass
+- Found on the high-T low-L part of the [[HR-diagram#Hertzsprung-Russel diagram|HR diagram]]
 
 **Typical parameters**: 
 - $R \sim 0.01-0.02\,R_\odot \sim R_\bigoplus$ 

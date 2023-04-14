@@ -53,6 +53,13 @@ We often refer to the time since ZAMS as the age of the star, although prior to 
 "Red giant branch". Effectively the inverse evolution of the [[#Hayashi track]] whereby a star cant go to lower temperature and remain in [[Stellar structure equations#Hydrostatic equilibrium|HSE]] so its luminosity increases along a vertical line on [[#Hertzsprung-Russel diagram|HR-diagram]] after leaving the [[#Subgiant branch]] on the way to the helium flash. 
 
 
+## Horizontal branch
+
+
+## AGB
+"Asymptotic giant branch". 
+
+
 ## Instability strip
 A strip on the [[#Hertzsprung-Russel diagram|HR-diagram]] representing an instability of the radius and luminosity of stars to density and pressure fluctuations often via the [[Pulsating stars#Kappa-mechanism|Kappa mechanism]]. 
 

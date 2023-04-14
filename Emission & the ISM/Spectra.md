@@ -79,7 +79,7 @@ Classifies stars into spectral type based on temperature
 ## Morgan-Keenan (MK or MKK) Luminosity Class
 Stellar classification based on spectral line widths to distinguish between stars with the same color/temperature and apparent magnitude, but different luminosities/distances
 - denser objects have broader spectral lines due to increased pressure/collisional broadening and higher surface gravity
-- complementary to [[Spectra#Harvard Spectral Classification|Harvard Spectral Classification]]
+- complementary to [[Spectra#Harvard Spectral Classification|Harvard Spectral Classification]], <mark class="hltr-pink">simply adds a letter (or a few) to the existing letter-number harvard classification</mark>
 ![[MK.png]]
 So the Sun is a **G2V** star
 
