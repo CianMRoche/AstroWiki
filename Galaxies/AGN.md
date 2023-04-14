@@ -11,7 +11,7 @@ Cold [[#Molecular cloud|molecular gas]] falls onto the AGN (from [[#Brightest cl
 - Accretion onto BH -> Jets -> Bubbles -> ICM.
 - Early stage is supersonic expansion until the movement of the bubble itself becomes faster than the expansion, then detachment of bubble. Enough energy in bubbles to balance radiative cooling
 ![[AGN_structure.jpg]]
-
+![[AGN_type1_type2.png|300]]
 **Corona**:
 The region at the base of a jet or roughly a spherical plasma region {contentious}. Know close to the SMBH due to [[#Reverberation mapping]] signal of [[Spectra#Fe k-alpha line|Fe]]-K$\alpha$ line (6.4 keV) and its time delays.
 
