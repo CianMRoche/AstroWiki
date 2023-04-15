@@ -38,4 +38,16 @@ At IR wavelengths the dark current is significant so $\sigma \simeq \sqrt{n N_d}
 
 **Why, when observing objects that are fainter than physical foregrounds like the night sky, does SNR increase as sqrt(time)?**
 
-Look at the observation in terms of intrinsic rates multiplied by exposure times $$N_s = R_st,\quad N_b =nR_bt,\quad N_d = nR_dt, \quad N_r = nR_r $$where $R_s$ has units photons per second and the others have units photons per second per pixel, noting that the read-out is time-independent. We can rewrite the signal to noise as $$\frac{\rm{Signal}}{\rm{Noise}}= \frac{R_s t}{\sqrt{R_s t + n(R_b t + R_d t + R_r^2)}} = \frac{R_s \sqrt{t}}{\sqrt{R_s + n(R_b + R_d + R_r^2/t)}}$$So for everything except readout noise, it scales as $\sqrt{t}$. 
+Look at the observation in terms of intrinsic rates multiplied by exposure times $$N_s = R_st,\quad N_b =nR_bt,\quad N_d = nR_dt, \quad N_r = nR_r $$where $R_s$ has units photons per second and the others have units photons per second per pixel, noting that the read-out is time-independent. We can rewrite the signal to noise as $$\frac{\rm{Signal}}{\rm{Noise}}= \frac{R_s t}{\sqrt{R_s t + n(R_b t + R_d t + R_r^2)}} = \frac{R_s \sqrt{t}}{\sqrt{R_s + n(R_b + R_d + R_r^2/t)}}$$So for everything except readout noise-dominated, it scales as $\sqrt{t}$. 
+
+
+## 156
+**What is the diffraction limit for a telescope?**
+Minimum angular separation that can be resolved by a telescope, set by the observing wavelength and diameter of the telescope. $$\theta_{min} = \frac{1.22\lambda}{D}$$Arises due to the width of the central peak in the Airy disk, which is the diffraction patters of light passing through a circular aperture.
+![[airy.png|200]]
+
+**Why does the signal-to-noise ratio scale like D^4 for diffraction limited imaging on ground-based telescopes with diameter D at IR wavelengths?**
+
+The energy from a source hitting a detector of diameter $D$ per time is $$N = \frac{\pi D^2F}{4} \propto D^2$$where $F$ is the [[Units#Flux|flux]] of the source. In the [[Spectra#The electromagnetic spectrum|IR]] $\lambda$ is large and thus via diffraction limit $\theta \sim \lambda/D$ we have that the angular resolution is large (ie bad).. Increasing $D$ makes $\theta_{min}$ go down as $D^{-1}$, and the number of "non-source" photons go down as the corresponding area (ie $D^{-2}$).
+
+Then signal ($\propto D^2$) over noise ($\propto D^{-2}$)will go as $D^{4}$.
