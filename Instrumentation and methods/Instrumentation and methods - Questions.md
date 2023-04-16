@@ -18,23 +18,23 @@ The mirrors are often coated in gold or nickel since X-rays reflect best off of 
 ## 155 
 **How would you calculate the “signal-to-noise ratio” for a standard ground-based telescope performing CCD imaging?**
 
-Lets quantify the number of photons observed per pixel $N$ and the various contributions to noise in that pixel's counts, without making explicit any frequency dependence.
+Lets quantify the number of photons observed $N$ and the various contributions to noise in those counts, without making explicit any frequency dependence.
 
 Signal:
 - $N$ = number of photons from the source + sky background + anything else
-- $N_s$ = number of photons after we calibrate and quantify the other sources ($N_b, N_d, N_r$ below), and subtract their counts per pixel times umber of pixels, leaving an estimate of the **total** source counts.
+- $N_s$ = number of photons after we calibrate and quantify the other sources ($N_b, N_d, N_r$ below), and subtract their counts, leaving an estimate of the **total** source counts.
 
 Noise contributions:
 - $\sigma_s = \sqrt{N_s}$ = poisson noise from source 
-- $\sigma_b = \sqrt{N_b}$ = poisson noise per pixel from background 
-- $\sigma_d = \sqrt{N_d}$ = poisson noise per pixelfrom dark current (thermal noise in electrons, decreases if we lower temperature)
-- $\sigma_r = N_r$ = [[Electronics#Read noise|read noise]] per pixel
+- $\sigma_b = \sqrt{N_b}$ = poisson noise from background 
+- $\sigma_d = \sqrt{N_d}$ = poisson noise from dark current (thermal noise in electrons, decreases if we lower temperature)
+- $\sigma_r = N_r$ = [[Electronics#Read noise|read noise]]
 
-The total magnitude of the noise is then the following, assuming all the above are independent $$\sigma = \sqrt{\sigma_s^2+n(\sigma_b^2+\sigma_d^2+\sigma_r^2)} = \sqrt{N_s+n(N_b+N_d+N_r^2)}$$where $n$ is the number of pixels. Thus the signal to noise ratio is $$\frac{\rm{Signal}}{\rm{Noise}}= \frac{N_s}{\sigma}$$**What terms dominate at optical versus infrared wavelengths?**
+The total magnitude of the noise is then the following, assuming all the above are independent $$\sigma = \sqrt{\sigma_s^2+\sigma_b^2+\sigma_d^2+\sigma_r^2} = \sqrt{N_s+N_b+N_d+N_r^2}$$where $n$ is the number of pixels. Thus the signal to noise ratio is $$\frac{\rm{Signal}}{\rm{Noise}}= \frac{N_s}{\sigma}$$**What terms dominate at optical versus infrared wavelengths?**
 
 At [[Spectra#The electromagnetic spectrum|optical]] wavelengths we are usually object-limited, meaning the dominant source of noise is the large number of source counts $\sigma \simeq \sqrt{N_s}$ (even though the percentage error decreases with number of counts for poisson processes, the magnitude of the error itself still increases. Since this is assumed independent of the other sources, it will eventually dominate). 
 
-At IR wavelengths the dark current is significant so $\sigma \simeq \sqrt{n N_d}$ (why? not sure).
+At IR wavelengths the dark current is significant so $\sigma \simeq \sqrt{N_d}$ (why? not sure).
 
 **Why, when observing objects that are fainter than physical foregrounds like the night sky, does SNR increase as sqrt(time)?**
 
@@ -48,7 +48,7 @@ Minimum angular separation that can be resolved by a telescope, set by the obser
 
 **Why does the signal-to-noise ratio scale like D^4 for diffraction limited imaging on ground-based telescopes with diameter D at IR wavelengths?**
 
-The energy from a source hitting a detector of diameter $D$ per time is $$N = \frac{\pi D^2F}{4} \propto D^2$$where $F$ is the [[Units#Flux|flux]] of the source. In the [[Spectra#The electromagnetic spectrum|IR]] $\lambda$ is large and thus via diffraction limit $\theta \sim \lambda/D$ we have that the angular resolution is large (ie bad).. Increasing $D$ makes $\theta_{min}$ go down as $D^{-1}$, and the number of "non-source" photons go down as the corresponding area (ie $D^{-2}$).
+The energy from a source hitting a detector of diameter $D$ per time is $$N = \frac{\pi D^2F}{4} \propto D^2$$where $F$ is the [[Units#Flux|flux]] of the source. In the [[Spectra#The electromagnetic spectrum|IR]] $\lambda$ is large and thus via diffraction limit $\theta \sim \lambda/D$ we have that the angular resolution is large (ie bad). Increasing $D$ makes $\theta_{min}$ go down as $D^{-1}$, and the number of "non-source" photons go down as the corresponding area (ie $D^{-2}$).
 
 Then signal ($\propto D^2$) over noise ($\propto D^{-2}$)will go as $D^{4}$.
 
@@ -123,3 +123,8 @@ These are [[Spectra#The electromagnetic spectrum|Near-IR]], mid-IR and radio wav
 **What are "apparent magnitude," "absolute magnitude" and "bolometric magnitude"? What are U,B and V colors?**
 See the inset magnitudes file:
 ![[Magnitudes]]
+
+
+## 160
+**Briefly describe the main objectives and capabilities of the following astronomical observatories**
+I wont link them all individually here, see [[Observatories]] for all.
