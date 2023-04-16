@@ -117,4 +117,9 @@ These are [[Spectra#The electromagnetic spectrum|Near-IR]], mid-IR and radio wav
    Absorbed by $\ce{CO_2}$ in the atmosphere, space often necessary for mid-IR observations, where observations are only diffraction-limited. 
 3. Radio
    Far radio ($\gtrsim 10\,\pu{m}$) absorbed by ionosphere (related to [[Plasma and lensing - Questions#93|plasma frequency]]) so best to go to space. Resolution here limited by this absorption, but in mid-radio are diffraction-limited (below $10\,\pu{m}$)
-   
+
+
+## 159
+**What are "apparent magnitude," "absolute magnitude" and "bolometric magnitude"? What are U,B and V colors?**
+See the inset magnitudes file:
+![[Magnitudes]]
