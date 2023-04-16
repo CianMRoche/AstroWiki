@@ -51,3 +51,70 @@ Minimum angular separation that can be resolved by a telescope, set by the obser
 The energy from a source hitting a detector of diameter $D$ per time is $$N = \frac{\pi D^2F}{4} \propto D^2$$where $F$ is the [[Units#Flux|flux]] of the source. In the [[Spectra#The electromagnetic spectrum|IR]] $\lambda$ is large and thus via diffraction limit $\theta \sim \lambda/D$ we have that the angular resolution is large (ie bad).. Increasing $D$ makes $\theta_{min}$ go down as $D^{-1}$, and the number of "non-source" photons go down as the corresponding area (ie $D^{-2}$).
 
 Then signal ($\propto D^2$) over noise ($\propto D^{-2}$)will go as $D^{4}$.
+
+
+## 157
+**Briefly describe the following kinds of astronomical instruments and their purpose:** 
+Many from Megan's notes.
+
+**(i) Schmidt camera** 
+Optical telescope with large FOV and limited aberration. 
+
+Examples: Hipparcos, Kepler
+![[schmidt.png|400]]
+
+**(ii) Ritchy-Chretien telescope** 
+Specialized Cassegrain telescope with two hyperbolic mirrors to eliminate off axis  optical errors (a "classic" Cassegrain has parabolic primary mirror and hyperbolic secondary mirror). Similar to Shmidt but replace plate with mirror.
+
+Examples: [[Observatories#HST|HST]], [[Observatories#VLT|VLT]], [[Observatories#KECK|Keck]] 
+![[Ritchy_Chretien.png|400]]
+
+**(iii) Multi-object spectrograph** 
+Spectrograph that can get a spectrum for multiple different targets/points on the sky at a given time. Employed on almost all ground based telescopes these days.
+
+Many different types:
+- multi fiber ([[Catalogs#SDSS|SDSS]])
+- multi slit ([[Observatories#GMT|GMT]]))
+- slitless (Nirspec on [[Observatories#JWST|JWST]])
+- integral field unit (IFU, e.g Gemini)
+
+**(iv) Echelle spectrograph**
+Diffraction grating that is optimized for high incident angles + high diffraction orders which gives better spectral resolution. 
+
+Uses two gratings (one $\perp$ to the other) to cross disperse the light + separate the overlapping high orders
+
+**(v) CCD**
+See [[Electronics#CCD|CCD]]
+
+**(vi) Coronograph** 
+Instrument on a telescope used to block out the direct light from a star to see other dimmer features like solar corona or exoplanets.
+
+Moon acts like a coronograph during solar eclipse
+
+Examples: [[Observatories#JWST|JWST]] has Nircam+MIRI, [[Observatories#HST|HST]] has NIMCOS
+
+**(vii) Laser interferometer**
+Uses relative phases of two paths along which a light beam can travel to infer changes in proper length along the two paths. Eg [[Observatories#LIGO|LIGO]]
+![[interferometer.png|400]]
+
+**(viii) Adaptive optics**
+Deformable mirrors for ground-based telescopes which can counter atmospheric turbulence and blurring using bright sources on the sky as "guides" for very fast timescale corrections. Measure time-dependent deflection of bright source and correct that deflection.
+
+Examples: [[Observatories#VLT|VLT]], [[Observatories#KECK|Keck]]
+
+
+## 158
+**What limits the angular resolution of ground-based telescopes at 1μm, 10μm, or 100m?**
+
+These are [[Spectra#The electromagnetic spectrum|Near-IR]], mid-IR and radio wavelengths. 
+
+![[Atmospheric_electromagnetic_opacity.svg.png]]
+![[absorb_atmosphere.svg]]
+
+1. Near-IR
+   Water absorbs strongly here, but can observe here at high altitudes where air is dry (or in desert, including poles). Atmospheric seeing limits resolution to $\theta_{atm} = 0.5 \gg \theta_{min}$ where the min is set by diffraction limitation (see [[#156|Q156]]) for a $10\,\pu{m}$ telescope, but can be overome somewhat by adaptive optics.
+2. Mid-IR
+   Absorbed by $\ce{CO_2}$ in the atmosphere, space often necessary for mid-IR observations, where observations are only diffraction-limited. 
+3. Radio
+   Far radio ($\gtrsim 10\,\pu{m}$) absorbed by ionosphere (related to [[Plasma and lensing - Questions#93|plasma frequency]]) so best to go to space. Resolution here limited by this absorption, but in mid-radio are diffraction-limited (below $10\,\pu{m}$)
+   
