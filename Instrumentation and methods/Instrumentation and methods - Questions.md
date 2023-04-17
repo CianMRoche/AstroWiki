@@ -173,6 +173,6 @@ Current:
 VIRGO and KAGRA also exist and form the LVK collaboration.
 
 Future:
-- continued improvement of LIGO, VIRGO and KAGRA GW observatories to build statistics and template generation
+- Continued improvement of LIGO, VIRGO and KAGRA GW observatories to build statistics and template generation
 - [[Observatories#LISA|LISA]] which will be more sensitive to extreme mass ratio inspirals and supermassive BH mergers
 - Cosmic explorer: Two $40\,\pu{km}$ arm observatories on the ground which increases sensitivity (sensitivity $\propto L^{2}$ says LISA paper but diminishing returns since longer arms means not sensitive to high frequency waves) with no additional noise (ideally).
