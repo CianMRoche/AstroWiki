@@ -153,6 +153,26 @@ Need space:
 **Derive the approximate (within a factor of a few) spectral resolution R required to detect a planet that perturbs its host star by a radial velocity amplitude of 10 cm/s.**
 The spectral resolution of a spectrograph, or, more generally, of a frequency spectrum, is a measure of its ability to resolve features in the electromagnetic spectrum. It is usually denoted by $\Delta \lambda$, and is closely related to the resolving power of the spectrograph, defined as $$R = \frac{\lambda}{\Delta\lambda}$$where $\Delta \lambda$ is the smallest <mark class="hltr-pink">difference in wavelengths</mark> that can be distinguished at a wavelength of $\lambda$. The spectral resolution can also be expressed in terms of physical quantities, such as velocity; then it describes the difference between velocities $\Delta v$ that can be distinguished through the [[Spectra#Relativistic Doppler shift|doppler shift]]. Then, the resolution is $\Delta v$ and the resolving power is $$R = \frac{\lambda}{\beta\lambda} = \frac{1}{\beta}= \frac{c}{\Delta v}$$For a radial velocity measurement of $\sim 10\,\pu{cm s^{-1}}$ (see [[Exoplanets - Questions#9|Q9]] to understand order of magnitude) this would mean a resolving power of $R \sim 10^9$ but the best that exists right now is $R\sim 10^5$ on HARPS. 
 
-The resolution is the ability to distinguish between lines, but really we need to measure the position of the center of a line (and compare it to the rest frame value to get a radial velocity). 
+The resolution is the ability to distinguish between lines, but really we need to measure the position of the center of a line (and compare it to the rest frame value to get a radial velocity). If we measure multiple lines rather than just one, we can measure shifts below the spectral resolution of the instrument. In general, if we have an observable $X$ and we can measure it to be $\mu_X$ with uncertainty for a single observation $\sigma_X$, then our uncertainty on the value of $\mu_X$ can be reduced by repeating observations (for a Gaussian process if we made the observation a billion times, we would get a beautiful Gaussian of well-measured width $\sigma_X$ and a very certain mean value $\mu_X$). The scaling on the uncertainty of the mean $\sigma_{\mu,X}$ for repeating the observation $N$ times is  $$\sigma_{\mu,X} = \frac{\sigma_X}{\sqrt{N}}$$In the case at hand, we want to measure the position of the center of a line $\mu$ which we do with some uncertainty $\sigma$ set by the spectral resolution, and if we measure several lines we can improve sensitivity roughly via the same math as above (since we are in principle measuring different things each time, but to get the same number) to get $$\sigma_\mu = \frac{\sigma}{\sqrt{N}}$$where $N$ is the number of lines. 
 
 **Describe some practical challenges with calibration and stability, and how they are addressed for such instruments. Why have we not yet achieved this precision in RV measurements of real stars?**
+
+Challenges:
+- Instrument has to be extremely stable. Vacuum to prevent pressure fluctuations, cooled to prevent thermal fluctuations, no moving parts ideally, calibration via known sources
+- Sources also vary in that they are spinning and have intrinsic variability in their atmospheres etc, which is really hard to subtract from signal. Has been proposed to observe in minima of solar cycles of stars strategically to minimize this effect.
+
+
+## 163
+**Summarize the current state of experimental gravitational wave detection, and the prospects for improvement in the near future**
+Current: 
+[[Observatories#LIGO|LIGO]] did the following (main points):
+- GW150914 (14th Sept 2015) a [[Binaries|binary]] [[Black holes#Black hole|BH]] merger with [[Gravitational waves#Chirp mass|mass]] $\sim 30\,M_\odot$ which resulted in Nobel prize
+- GW170817 (17th Aug 2017) a binary [[Neutron stars#Neutron stars|NS]] merger followed up by [[Observatories#Fermi|Fermi]] [[GRBs#GRB|GRB]] detector.
+- GW190521 (21st May 2019) a binary BH merger for which one of the progenitors and the remnant lay in the [[Black holes#Pair instability gap|pair instability gap]] (one $\sim 85\,M_\odot$ progenitor and $\sim 150\,M_\odot$ intermediate mass BH remnant)
+
+VIRGO and KAGRA also exist and form the LVK collaboration.
+
+Future:
+- continued improvement of LIGO, VIRGO and KAGRA GW observatories to build statistics and template generation
+- [[Observatories#LISA|LISA]] which will be more sensitive to extreme mass ratio inspirals and supermassive BH mergers
+- Cosmic explorer: Two $40\,\pu{km}$ arm observatories on the ground which increases sensitivity (sensitivity $\propto L^{2}$ says LISA paper but diminishing returns since longer arms means not sensitive to high frequency waves) with no additional noise (ideally).

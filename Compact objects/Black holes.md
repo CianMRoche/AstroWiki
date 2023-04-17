@@ -13,3 +13,9 @@ To measure the mass of SMBH can look at time lags in the [[Spectra#Fe k-alpha li
 "Innermost stable circular orbit". Location depends on spin and mass. Can already see this feature in the effective keplerian potential as a function of angular momentum, then in GR we see a similar thing but the potential doesnt diverge toward zero. 
 
 ![[isco.png]]
+
+## Pair instability gap
+A mass range in which [[Black holes#Black hole|BHs]] are expected not to exist due to the destruction of their progenitors.
+
+Expected that around $M_{BH} \sim 60-150\,M_\odot$ there should be pair production in the core of the progenitor star that reduces pressure that leads to partial collapse, followed by a thermonuclear
+explosion (aka [[Supernovae#Supernova|supernova]]) that destroys the star and leaves no remnant. [[Observatories#LIGO|LIGO]] result of GW190521 puts this into question.
