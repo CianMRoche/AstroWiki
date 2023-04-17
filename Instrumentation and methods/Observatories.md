@@ -35,6 +35,13 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched 
 
 
 ## JWST
+"Juiced space telescope". NASA's flagship near-IR mission that launced on Dec 25 2021. $6.5\,\pu{m}$ diameter [[Spectra#The electromagnetic spectrum|IR]] telescope ($0.6-28.3\,\pu{\mu m}$) orbiting in the [[The Sun#The Sun|Sun]]-Earth L2 [[Methods#Space-based detector orbits|Lagrange point]]. 
+
+4 science instruments:
+- NIRCam: ($0.6-5\,\pu{\mu m}$)
+- NIRSpec: ($0.6-5\,\pu{\mu m}$ with 3 observing models)
+- MIRI: ($5-27\,\pu{\mu m}$) with MIR camera and imaging spectrometer
+- FGS/NIRISS ($0.8-5\,\pu{\mu m}$)
 
 
 ## ALMA
@@ -110,10 +117,11 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|X-ray]] mission launched 
 
 
 ## Vera C. Rubin Observatory
+$8.4\,\pu{m}$ ground based optical telescope in Chile, first light expected in 2023. Will perform a sky survey down to 25th [[Magnitudes|magnitude]] in a single visit expected to find thousands of transients a night. 
 
 
 ## LSST
-Telesope hosted at the [[#Vera C. Rubin Observatory]] 
+Telescope hosted at the [[#Vera C. Rubin Observatory]] 
 
 
 ## Kepler
@@ -150,6 +158,7 @@ NASA facility for the retrieval of signals from deep space telescopes. Consists 
 
 
 ## Green bank telescope
+Died :/
 
 
 ## NANOGrav
@@ -177,7 +186,11 @@ Half of the data unavilable due to Russian invasion of Ukraine.
 
 
 ## CHIME
+Cool concept for a radio ($400-800\,\pu{MHz}$) telescope which simultaneously views a very large portion of the sky ($200\,\pu{deg^2}$), and "pointing" takes place in post-processing by examining autocorrelations in the signal. 
+- Can probe the [[Spectra#21cm line|21cm line]] from redshifts $z\sim 0.8-2.5$ and also an excellent [[FRBs#FRB|FRB]] finding device, though localization is hard and so they built outrigger stations to assist, will be made better by [[#CHORD]]. 
+- Kiyoshi Masui here at MKI is heavily involved. 
 
+![[chime.png|500]]
 
 
 ## CHORD
@@ -243,3 +256,29 @@ Temperature sensitivity $\Delta T/T \sim 10^{-6}$ and $\sim 5'-10'$ angular reso
 Stares at one patch of the sky for a month getting an observation every 10 mins. Observes in red side of [[Spectra#The electromagnetic spectrum|optical]] $600\,\pu{nm} -  1\,\pu{\mu m}$ bandpass (single filter).
 
 George Ricker here at MKI is the PI. 
+
+
+## HERA
+"Hydrogen Epoch of Reionization Array". Array of radio dishes in South Africa operating at $120-200\,\pu{MHz}$ which can measure the [[Spectra#21cm line|21cm]] line heavily [[Spectra#Redshift|redshifted]] at $z\sim 6-13$ (so $\lambda \simeq 2\,\pu{m}$). Along with [[#MWA]] is a precursor to [[#SKA]]. 
+
+Jackie Hewitt at MKI is PI
+
+
+## WINTER
+"Wide field Infrared Transient Explorer". Ground based [[Spectra#The electromagnetic spectrum|NIR]] telescope at palomar, $1\,\pu{m}$ diameter, ($\sim 0.9 - 1.7\,\pu{\mu m}$) aimed at electromagnetic follow-up of [[Gravitational waves|GW]] events.
+
+Will perform the first seeing-limited IR time-domain survey with FoV $\sim 1 \,\pu{deg^2}$ 
+
+
+## SPT
+"South Pole Telescope". $10\,\pu{m}$ telescope observing in $\pu{mm/sub-mm}$ ([[Spectra#The electromagnetic spectrum|microwave]]) at the South Pole. 
+- Goal is to study [[CMB#CMB|CMB]] but also locates 1000s of [[Galaxy clusters#Galaxy cluster|galaxy clusters]] via the SZ effect that can sometimes be followed up with [[#HST|HST]] 
+- First light in 2007, still operational
+
+
+## Roman
+"Nancy Grace Roman space telescope" and other names, formerly "Wide-Field Infrared Survey Telescope". NASA [[Spectra#The electromagnetic spectrum|IR]] instrument that will launch near 2027. $2.4\,\pu{m}$ wide and FoV $\sim 28\,\pu{deg^2}$. Science goals are direct imaging of exoplanets via the CGI, cosmology + dark energy via [[BAO#BAO|BAO]], distance [[Supernovae#Supernova|SNe]] and [[Lensing#Weak lensing|weak lensing]]. 
+
+2 science instruments:
+- WFI (wide field instrument) $\sim 0.5 - 2.3\,\pu{\mu m}$ with 6 filters
+- CGI (coronagraphic instrument) $\sim 0.5 - 0.8\,\pu{\mu m}$ with high contrast

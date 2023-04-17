@@ -1,5 +1,5 @@
 ## Space-based detector orbits
-**Lagrange points** - JWST. For discussion of locations see [[Compact objects - Questions#47|47]]. The points in a binary orbit where the net force is zero due to a balance of gravity and the centrifugal force. Note that they are all either unstable or quasi-stable, requiring small orbits around the lagrange points themselves to stay at that point
+**Lagrange points** - [[Observatories#JWST|JWST]]. For discussion of locations see [[Compact objects - Questions#48|48]]. The points in a binary orbit where the net force is zero due to a balance of gravity and the centrifugal force. Note that they are all either unstable or quasi-stable, requiring small orbits around the lagrange points themselves to stay at that point
 ![[Lagrange_Contours.jpeg|400]]
 
 **Low Earth orbit** - HITOMI XRISM SWIFT NuSTAR AMS (on ISS)

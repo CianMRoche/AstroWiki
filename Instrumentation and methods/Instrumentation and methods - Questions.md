@@ -107,7 +107,6 @@ Examples: [[Observatories#VLT|VLT]], [[Observatories#KECK|Keck]]
 **What limits the angular resolution of ground-based telescopes at 1μm, 10μm, or 100m?**
 
 These are [[Spectra#The electromagnetic spectrum|Near-IR]], mid-IR and radio wavelengths. 
-
 ![[Atmospheric_electromagnetic_opacity.svg.png]]
 ![[absorb_atmosphere.svg]]
 
@@ -128,3 +127,32 @@ See the inset magnitudes file:
 ## 160
 **Briefly describe the main objectives and capabilities of the following astronomical observatories**
 I wont link them all individually here, see [[Observatories]] for all.
+
+
+## 161
+**What are the pros/cons of having a space-based versus ground-based observatory? At what wavelengths can you do both? At what wavelengths can you only observe from space?**
+From Megan's notes:
+![[space_ground.png]]
+
+See [[#158|Q158]]. 
+
+Can do on ground and in space:
+- Optical
+- some NIR
+- sub-mm
+- radio
+
+Need space:
+- $\gamma$-ray
+- X-ray
+- UV
+- most IR
+
+
+## 162
+**Derive the approximate (within a factor of a few) spectral resolution R required to detect a planet that perturbs its host star by a radial velocity amplitude of 10 cm/s.**
+The spectral resolution of a spectrograph, or, more generally, of a frequency spectrum, is a measure of its ability to resolve features in the electromagnetic spectrum. It is usually denoted by $\Delta \lambda$, and is closely related to the resolving power of the spectrograph, defined as $$R = \frac{\lambda}{\Delta\lambda}$$where $\Delta \lambda$ is the smallest <mark class="hltr-pink">difference in wavelengths</mark> that can be distinguished at a wavelength of $\lambda$. The spectral resolution can also be expressed in terms of physical quantities, such as velocity; then it describes the difference between velocities $\Delta v$ that can be distinguished through the [[Spectra#Relativistic Doppler shift|doppler shift]]. Then, the resolution is $\Delta v$ and the resolving power is $$R = \frac{\lambda}{\beta\lambda} = \frac{1}{\beta}= \frac{c}{\Delta v}$$For a radial velocity measurement of $\sim 10\,\pu{cm s^{-1}}$ (see [[Exoplanets - Questions#9|Q9]] to understand order of magnitude) this would mean a resolving power of $R \sim 10^9$ but the best that exists right now is $R\sim 10^5$ on HARPS. 
+
+The resolution is the ability to distinguish between lines, but really we need to measure the position of the center of a line (and compare it to the rest frame value to get a radial velocity). 
+
+**Describe some practical challenges with calibration and stability, and how they are addressed for such instruments. Why have we not yet achieved this precision in RV measurements of real stars?**

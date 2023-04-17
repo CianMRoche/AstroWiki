@@ -67,7 +67,7 @@ Classifies stars into spectral type based on temperature
 - Originally classes A-Q based on strength of hydrogen lines in spectra, but found that there was lots of overlap amongst categories (and also they were in the wrong order for other properties)
 - Cannot distinguish between same color, same apparent magnitude, but different luminosity stars (need [[Spectra#Morgan-Keenan (MK or MKK) Luminosity Class|MK Luminosity Classification]] to distinguish between such stars)
 ![[HarvardSpectralClassification.png]]
-- Oh Be A Fine Goat Kick Me (OBAFGKM). Note the hydrogen line strength is a gaussian at "A", mass, radius and lunimosity all decrease, and fraction of [[#Main sequence]] stars increases. 
+- Oh Be A Fine Goat Kick Me (OBAFGKM). Note the hydrogen line strength is a gaussian at "A", mass, radius and lunimosity all decrease, and fraction of [[HR-diagram#Main sequence|MS]] stars increases. 
  ![[OBAFGKM.jpeg|250]]
  - Prominent (non-Hydrogen) spectral features of each type: 
 |  | O | B | A | F | G | K | M |
@@ -113,3 +113,7 @@ Large jumps in some spectra, caused by the following pair of effects:
 Therefore, the [[Optical depth#Opacity|opacity]] of a material will increase at wavelengths shorter than one of these critical edges. That is, if we have a source light behind some material, and a particular wavelength can ionize the material, you wont see much of that light on the other side. For bound-bound though, we would just see lines.
 
 Related to (but distinct from) the **Lyman limit**, which occurs at the wavelength which will just ionize a hydrogen atom from its ground state.
+
+
+## Relativistic Doppler shift
+For $\beta = v/c$ and a speed $v$ light is red or blue shifted according to: $$\frac{f_0}{f_{obs}} = \frac{\lambda_{obs}}{\lambda_0} = \sqrt{\frac{1+\beta}{1-\beta}}\simeq 1+\beta + \mathcal{O}(\beta^2)$$also implies, to first order, $$\Delta f = f_{obs} - f_0 = - \beta f_0$$meaning if the observer and source are getting closer together ($v>0$) we have that the frequency increases, and that the frequency decreases for moving away. Similarly $\Delta \lambda = \lambda_{obs} - \lambda_0 = \beta \lambda_0$ 
