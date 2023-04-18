@@ -215,6 +215,9 @@ ESA mission that ran from 2009 2013 to measure the anisotropies of the [[CMB#CMB
 
 Temperature sensitivity $\Delta T/T \sim 10^{-6}$ and $\sim 5'-10'$ angular resolution
 
+Here's a map of the different types of emission detected by Planck
+![[planck_components.png]]
+
 
 ## VLA
 
@@ -226,6 +229,11 @@ Temperature sensitivity $\Delta T/T \sim 10^{-6}$ and $\sim 5'-10'$ angular reso
 - launched in 1977 to take advantage of a favorable alignment of the planets during the late 1970s
 - designated officially to study just the planetary systems of Jupiter and Saturn, the space probes were able to continue their mission into the outer solar system, and they are expected to push through the heliosheath in deep space. Voyager 1 is furthest manmade object from Earth
 - the trajectories of the two spacecraft have been used to place limits on the existence of any hypothetical trans-Neptunian planets
+
+
+## COBE
+"Cosmic Background Explorer". Operated from 1989 to 1993. Primary goal was to investigate [[CMB]]. MAde the below measurement of CMB anisotropy.
+![[cobe_cmb.jpg|400]]
 
 
 ## WMAP

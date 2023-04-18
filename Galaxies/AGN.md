@@ -1,5 +1,5 @@
 ## AGN
-"Active galactic nucleus". A compact region in a galactic center with high luminosity not produced by stars. This luminosity is theorized to arise from accretion onto a supermassive [[#Black Hole|black hole]] at the center of the galaxy.
+"Active galactic nucleus". A compact region in a galactic center with high luminosity not produced by stars. This luminosity is theorized to arise from accretion onto a supermassive [[Black holes#Black hole|BHs]] at the center of the galaxy.
 
 **Typical parameters**:
 Size = 1 gravitational radius $R_g = 2GM/c^2$ (?) ~ $10^{-2}\,\pu{pc}$ 
