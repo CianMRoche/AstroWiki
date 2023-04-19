@@ -1,4 +1,4 @@
-## 1 (a) 
+## 1
 **Describe, qualitatively, the standard model for the formation of the solar system, and discuss observational evidence for this model.**
 
 Formed ~$4.5\,\pu{Gyr}$ ago, obtained by radioactive dating of heavy elements in meteorites
@@ -25,8 +25,6 @@ Sarah: People think that planets cant get large enough fast enough to maintain g
 - All planets roughly in ecliptic plane (formed from same disk)
 - [[Definitions - The Solar System#Asteroid|Asteroid]] belt
 
-
-## 1 (b)
 **Describe observations of exoplanets that have challenged this simple picture as a universal explanation for planet formation.**
 
 Existence of hot Jupiters: We've seen Jupiter-like planets near their host stars ($<0.1\,\pu{AU}$). How did they migrate all the way in? A potential resolution is a perturbation of their orbit to a high-eccentricity one, then they tidally migrate the orbit down to a much closer one. 
@@ -62,14 +60,13 @@ Note that the [[The Sun#Heliosphere|heliosphere]] is **not spherical** and so th
 We need to balance the pressure from the solar wind with the thermal pressure of the ISM. 
 1. The solar wind in the heliosphere can be viewed as exerting a [[Definitions - The Solar System#Ram pressure|ram pressure]] on the [[Interstellar medium|ISM]] as $$P_{\rm{ram}} = \rho_{sw}(R) v^2$$ where $R$ labels the distance from [[The Sun#The Sun|the Sun]] to heliopause, $v$ is the relative velocity of the two bodies and we use the subscript $sw$ for the solar wind. 
 	- We can approximate $v$ by assuming the speed of the solar wind is about the escape velocity from the surface of the Sun, and that it maintains a constant speed until reaching the Heliopause. We also treat the ISM as at rest. The escape velocity from the surface of the Sun is$$v\sim v_{\rm{esc},\odot} = \sqrt{\frac{2GM_\odot}{R_\odot}} \simeq 600\,\pu{km s^{-1}}$$
-	- We can estimate $\rho_{sw}(r)$ using $\rho_{sw}(R_{\bigoplus}) \simeq n(R_{\bigoplus})\, \mu \, m_H \simeq (6\times10^6 \pu{m^{-3}})\, \frac{1}{2} \, (1.6\times 10^{-27}\,\pu{kg}) \simeq 10^{-21}$ (in SI units) where the number density at 1AU is determined by ground-based measurements, $\mu$ is the [[Mean molecular weight#Mean molecular weight|mean molecular weight ]] (here for an ionized hydrogen gas, so $\mu = \frac{1}{2}$) and the hydrogen mass is about 1 [[Units#amu|amu]]. We extend this value to any $r$ by mass continuity for a spherically symmetric density $\rho$, namely: $\frac{dM}{dr} = 4\pi r^2 \rho(r) = \text{const}$ because the mass integrated over a sphere at any radius should be equal for this simple flow. As a result, we have$$\rho_{sw}(R) = \left(\frac{R_\bigoplus}{R}\right)^2 \rho_{sw}(R_{\bigoplus})$$
+	- We can estimate $\rho_{sw}(r)$ using $\rho_{sw}(R_{\bigoplus}) \simeq n(R_{\bigoplus})\, \mu \, m_H \simeq (6\times10^6 \pu{m^{-3}})\, \frac{1}{2} \, (1.6\times 10^{-27}\,\pu{kg}) \simeq 10^{-21}$ (in SI units) where the number density at 1[[Units#AU|AU]] is determined by ground-based measurements, $\mu$ is the [[Mean molecular weight#Mean molecular weight|mean molecular weight ]] (here for an ionized hydrogen gas, so $\mu = \frac{1}{2}$) and the hydrogen mass is about 1 [[Units#amu|amu]]. We extend this value to any $r$ by mass continuity for a spherically symmetric density $\rho$, namely: $\frac{dM}{dr} = 4\pi r^2 \rho(r) = \text{const}$ because the mass integrated over a sphere at any radius should be equal for this simple flow. As a result, we have$$\rho_{sw}(R) = \left(\frac{R_\bigoplus}{R}\right)^2 \rho_{sw}(R_{\bigoplus})$$
 2. The thermal pressure of the ISM can be modelled as an ideal gas with pressure $$P_{ism} = n_{ism} k T_{ism}$$ 
-	- $n_{ism} \simeq 0.1\,\pu{cm^{-3}}$ as an average of the most abundant [[Interstellar medium|ISM]] components
-	- $T_{ism} \simeq 7000\,\pu{K}$ in the same way
+	- $n_{ism} \simeq 10^4\,\pu{cm^{-3}}$ in a molecular cloud from which the sun presumably formed, see [[Interstellar medium|ISM]] components)
+	- $T_{ism} \simeq 10\,\pu{K}$ in the same way
 	- $k = 1.38\times 10^{-23}\,\pu{m^2 kg s^{-2} K^{-1}}$ is the Boltzmann constant
 
-3. Equating the pressure equations we have$$R = R_{\bigoplus}\sqrt{\frac{\rho_{sw}(R_{\bigoplus})\,v^2}{n_{ism} k T_{ism}}} \sim (7\times 10^8\,\pu{m})\, 10^{\frac{1}{2}(-21+11-5+23-4)} \sim 10^{11}\,\pu{m} \sim 1\,\pu{AU}$$but thats **wrong** and we shouldve gotten ~100 AU. Blame the 3 random numbers I guess. 
-
+3. Equating the pressure equations we have$$R = R_{\bigoplus}\sqrt{\frac{\rho_{sw}(R_{\bigoplus})\,v^2}{n_{ism} k T_{ism}}} \sim (1\,\pu{AU})\, 10^{\frac{1}{2}(-21+11-10+23-1)} \sim 100\,\pu{AU}$$
 **Does the local interstellar medium begin at this boundary? Explain.**
 The heliopause is the location where pressure balances betweem the solar wind and the ISM thermal pressure. Thus, this location is by definition at some distance within the ISM, meaning that the ISM begins closer to the Sun than the heliopause, where it is understood that no clear boundary between the species exists.
 
@@ -109,7 +106,7 @@ From Megan's notes:
 - Dynamical friction decreases eccentricity of Neptune's orbit
 - [[Definitions - The Solar System#Kozai mechanism|Kozai mechanism]] pushes some objects to higher-inclination orbits
 - Does not seem to produce enough low-eccentricity opbects in Kuiper belt, other problems
-- Oort cloud objects scattered ut to larger radii
+- Oort cloud objects scattered out to larger radii
 - Even in other models, key feature is outward migration of giant planets
 
 

@@ -789,24 +789,24 @@
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 427,
-      "pageCount": 1.4233333333333333,
-      "characterCount": 3001,
-      "nonWhitespaceCharacterCount": 2553,
+      "wordCount": 629,
+      "pageCount": 2.0966666666666667,
+      "characterCount": 4598,
+      "nonWhitespaceCharacterCount": 3929,
       "createdDate": 1677543451529,
-      "modifiedDate": 1681786311064,
-      "sizeInBytes": 3001
+      "modifiedDate": 1681835722164,
+      "sizeInBytes": 4600
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 402,
-      "pageCount": 1.34,
-      "characterCount": 2920,
-      "nonWhitespaceCharacterCount": 2502,
+      "wordCount": 394,
+      "pageCount": 1.3133333333333332,
+      "characterCount": 2815,
+      "nonWhitespaceCharacterCount": 2412,
       "createdDate": 1680567197176,
-      "modifiedDate": 1681794209736,
-      "sizeInBytes": 2920
+      "modifiedDate": 1681797953996,
+      "sizeInBytes": 2815
     },
     "Cosmology/BBN.md": {
       "isDirectory": false,

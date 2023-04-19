@@ -50,7 +50,7 @@ Whats left to measure: Primarily the B-mode polarization (the thing [[Observator
 ## 128
 **What are the anisotropies in the CMB? How do their amplitudes depend on angular scale?**
 
-The anisotropy, or directional dependency, of the [[CMB#CMB|cosmic microwave background]] signal is divided into two types: **primary anisotropy**, due to effects that occur at the surface of last scattering (the spherical shell on the sky so photons are now received that were originally emitted at [[Recombination#Recombination|recombination]]) and before; and **secondary anisotropy**, due to effects such as interactions of the background radiation with intervening hot gas or gravitational potentials, which occur between the last scattering surface and the observer. These effects have effects on the shape of the [[CMB#CMB power spectrum|CMB power spectrum]].
+The anisotropy, or directional dependency, of the [[CMB#CMB|cosmic microwave background]] signal is divided into two types: **primary anisotropy**, due to effects that occur at the surface of last scattering (the spherical shell on the sky so photons are now received that were originally emitted at [[Recombination#Recombination|recombination]]) and before; and **secondary anisotropy**, due to effects such as interactions of the background radiation with intervening hot gas or gravitational potentials, which occur between the last scattering surface and the observer. These effects have an impact on the shape of the [[CMB#CMB power spectrum|CMB power spectrum]].
 
 Explaining the <mark class="hltr-pink">primary anisotropies</mark>: 
 1. Non-integrated Sachs-Wolfe effect ($l\lesssim 100$)
