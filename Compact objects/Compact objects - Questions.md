@@ -448,7 +448,7 @@ As with any [[Accretion#Accretion disk|accretion disk]] formation, matter loses 
 **How does an X-ray pulsar pulse?**
 X-ray [[Pulsars]] are accreting from a donor. For very strong mangetic fields $B\sim 10^8\,\pu{T}$ accreted material is directed along field lines to magnetic poles, resulting in magnetic dipole radiation (but for lower magnetic fields the star is spun up, as in a [[#53|millisecond pulsar]]). The pulses are the resulting jets emitted at the magnetospheric radius (see [[#64]]) crossing our line of sight as the pulsar rotates.
 
-A challenge to this picture comes from [[Observatories#NICER|NICER]] however, which ahs observed multiple X-ray pulses coming from hotspots on the same hemisphere. This suggests a much more complicated magnetic field configuration.
+A challenge to this picture comes from [[Observatories#NICER|NICER]] however, which has observed multiple X-ray pulses coming from hotspots on the same hemisphere. This suggests a much more complicated magnetic field configuration.
 
 
 ## 64
