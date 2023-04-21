@@ -1,7 +1,4 @@
 
-
-
-
 ## Chirp mass
 Chirp mass of a compact binary system determines the leading-order orbital evolution of the system as a result of energy loss from emitting gravitational waves. Because the gravitational wave frequency is determined by orbital frequency, the chirp mass also determines the frequency evolution of the gravitational wave signal emitted during a binary's inspiral phase.$$M_c = \frac{(M_1 M_2)^{3/5}}{(M_1+M_2)^{1/5}} = \mu^{3/5}M_{tot}^{2/5}$$Note that the chirp mass experiences a degeneracy with [[Spectra#Redshift|redshift]]. Note that for equal masses $M$ we get $M_c = M/2^{1/5} \simeq 0.9\,M$
 

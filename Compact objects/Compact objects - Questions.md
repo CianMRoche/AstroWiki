@@ -33,16 +33,14 @@ black holes, and how do we know these things?**
 
 ## 39
 **What properties of supermassive black holes correlate with properties of the host galaxy?**
-- The M-$\sigma$ relationship (see [[#38]] and [[Galaxies - Questions#124|124]])
-- BH mass scales with stellar velocity of the galaxy / galactic bulge
-- Velocity dispersion $\sigma$ correlated with bulge mass and luminosity, and therefore black hole mass.
-- **Feedback**: The stellar formation rate of the galaxy also correlates with the activities of the suoermassive black holes. Most galaxies tend to fall into two types: a "red sequence" and a "blue cloud". Red sequence galaxies are generally non-star-forming elliptical galaxies with little gas and dust, while blue cloud galaxies tend to be dusty star-forming spiral galaxies. The process of which star formation is turned off is called “quenching,” and one way to explain it is through AGN feedback. Simulations have shown that gas accreting onto supermassive black holes in galactic centers produces high-energy jets; the released energy can expel enough cold gas to quench star formation.
+- The M-$\sigma$ relationship (see [[#38]] and [[Galaxies - Questions#124|124]] and [[Velocity dispersion#M-sigma relation|M-sigma]])
+- **Feedback**: The stellar formation rate of the galaxy also correlates with the activities of the supermassive black holes. Most galaxies tend to fall into two types: a "red sequence" and a "blue cloud". Red sequence galaxies are generally non-star-forming elliptical galaxies with little gas and dust, while blue cloud galaxies tend to be dusty star-forming spiral galaxies. The process of which star formation is turned off is called “quenching,” and one way to explain it is through AGN feedback. Simulations have shown that gas accreting onto supermassive black holes in galactic centers produces high-energy jets; the released energy can expel enough cold gas to quench star formation.
 
 
 ## 40
 **It is believed that most stars leave a collapsed remnant at the end of their evolution. What stars leave (i) white dwarfs? (ii) neutron stars? (iii) black holes?**
 Exact numbers of below are not known. Can find sources with $\pm$ 25%  on each number
-$$M_{*, initial} = \cases{\lesssim0.08 \\0.08 - 0.8M_\odot \\0.8 - 8M_\odot \\ 8-20 M_\odot \\ \gtrsim 20 M_\odot} \implies \cases{\text{brown dwarf} \\ \text{MS ``forever"} \\ \text{white dwarf} \\ \text{neutron star} \\ \text{black hole}} \implies \cases{\text{same} \\\text{same} \\0.4 - 1M_\odot \\ 1.5-2 M_\odot \\ \gtrsim 3 M_\odot} = M_{*,final}$$
+$$M_{*, initial} = \cases{\lesssim0.08 \\0.08 - 0.8M_\odot \\0.8 - 8M_\odot \\ 8-20 M_\odot \\ \gtrsim 20 M_\odot} \implies \cases{\text{brown dwarf} \\ \text{MS ``forever"} \\ \text{white dwarf} \\ \text{neutron star} \\ \text{black hole}} \implies \cases{\text{same} \\\text{same} \\0.4 - 1M_\odot \\ 1.5-3 M_\odot \\ \gtrsim 3 M_\odot} = M_{*,final}$$
 Why?
 - In massive stars, strong winds drive major mass loss
 - Chandrasekhar mass ($\sim 1.4 M_\odot$, see [[#52]] for derviation) dictates how large a core can get under degenerate conditions
@@ -62,14 +60,13 @@ See [[Neutron stars#Neutron stars|neutron stars]].
 **What assumptions and inputs go into determining the upper mass limit for a neutron star?**
 Analogous to the Chandrasekhar limit for white dwarf stars, the mass limit for neutron stars is called the *Tolman-Oppenheimer-Volko limit* (or TOV limit), but the accurate value is not known because the equations of state for extremely dense matter are not well known (for deriving the degeneracy pressure due to electrons, we use the Fermi-Dirac statistics, which tacitly assumes that the particles are non-interacting; this is not bad an assumption for the electron gas inside a white dwarf, but when neutrons are packed to densities close to the density inside atomic nucleus, the neighbouring neutrons interact with each other through nuclear forces and it is no longer justified to treat them as non-interacting particles). The limit is generally held to be around $2.1\,M_\odot$, but a recent estimate puts the upper limit at $2.16\,M_\odot$. The maximum observed mass of neutron stars is about $2.14\,M_\odot$ for PSR J0740+6620 discovered in September, 2019.
 
-**What is the approximate ratio of neutrons to protons (and electrons) in the interior
-of a neutron star?**
+**What is the approximate ratio of neutrons to protons (and electrons) in the interior of a neutron star?**
 Dictated by $\beta$ decay versus electron capture rates:
 
 - $\beta$ decay: $n \rightarrow p + e^- + \bar{\nu}_e$
 - $e^-$ capture: $p + e^- \rightarrow n + \bar{\nu}_e$
 
-Then ratio is roughly given by ratio of Boltzmann factors for the neutron and the (proton + electron) systems $$\frac{n}{p} \sim \exp\left(-\frac{(m_n - m_p - m_e)c^2}{kT}\right) \sim \exp\left(-\frac{0.8\,\pu{MeV}}{kT}\right) \sim \exp\left(-\frac{10^{10}}{T [K]}\right)$$so at temperatures ~ $10^{10}\,\pu{K}$ we have 3 times more $p$ than $n$ but above this the exponent becomes closer to 0 and the best we can do is go to 1?? I think maybe that is flawed and should include a term for the fermi level so that the exponent can become positive(?)
+Then ratio is roughly given by ratio of Boltzmann factors for the neutron and the (proton + electron) systems $$\frac{n}{p} \sim \exp\left(-\frac{(m_n - m_p - m_e)c^2}{kT}\right) \sim \exp\left(-\frac{0.8\,\pu{MeV}}{kT}\right) \sim \exp\left(-\frac{10^{10}}{T [K]}\right)$$so at temperatures ~ $10^{10}\,\pu{K}$ we have 3 times more $p$ than $n$ and it maximizes at a 1:1 ratio? Really that is flawed and should include a term for the fermi level in the e+p state: $(m_p + m_e)c^2 - E_F(T)$ since as we increase the density the Fermi level for making an electron increases and eventually it will be not energetically favorable at all to make an electron.
 
 
 ## 42

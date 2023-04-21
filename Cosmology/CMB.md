@@ -18,3 +18,8 @@ $^2$ Loosely, we have a discrete basis because compact spaces like the 2D sphere
 
 
 ## SZ effect
+[[Scattering#Inverse-Compton scattering|ICS]] of [[CMB#CMB|CMB]] photons by high-energy electrons (eg in [[Cluster media#ICM|ICM]] of a [[Galaxy clusters#Galaxy cluster|cluster]]). Only applied at very small scales (large $l$).
+
+Two types:
+- Thermal SZ: from $e^-$ temp
+- Kinetic: from bulk $e^-$ motion

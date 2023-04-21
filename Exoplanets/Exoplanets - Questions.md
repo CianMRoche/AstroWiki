@@ -99,7 +99,7 @@ populations of planets associated with each method. Roughly how many planets hav
    - Temperature of planet can in theory be observed when the planet goes behind star, should see the subtraction of a blackbody spectrum at a certain temperature
 
    Problems:
-   - Biased towards detecting planets close to the star
+   - Biased towards detecting planets close to the star, the chance of getting a transit along a particular line of sight is very small for a planet far away
    - Biased towards larger planets
    - Increasing sensitivity reduces effect of biases
    - Can only detect edge-on binary systems
@@ -152,7 +152,7 @@ populations of planets associated with each method. Roughly how many planets hav
 
 **What have we learned about exoplanet interiors and atmospheres from these observations?**
 - High level of diversity in exoplanet composition and properties
-- Have seen hot Jupiters with opaque clouds and inflated planets with larger radii than expected (how would we know this? Not with the method described above anyway)
+- Have seen hot Jupiters with opaque clouds and inflated planets with larger radii than expected
 
 Note: Trappist-1 (solar system-like system with $\gtrsim 7$ planets) recently had a detection of water in atmosphere, but turned out to be due to a cold spot on the star. Stellar activity is complicated problematic, especially for radial velocity measurements.
 

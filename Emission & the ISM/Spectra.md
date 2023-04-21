@@ -59,6 +59,7 @@ Fe-K$\alpha$ line (6.4 keV) AGN shows up in x-ray spectrum
 ## P Cygni Line Profile
 Spectroscopic feature with both a blueshifted absorption line and a broadened rest wavelength emission line arising from an expanding envelope around an ionized source
 ![[PCygniLineProfile.png|400]]
+![[cygni.png]]
 
 
 ## Harvard Spectral Classification

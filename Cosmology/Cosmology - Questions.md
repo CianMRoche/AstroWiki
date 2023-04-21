@@ -54,17 +54,26 @@ The anisotropy, or directional dependency, of the [[CMB#CMB|cosmic microwave bac
 
 Explaining the <mark class="hltr-pink">primary anisotropies</mark>: 
 1. Non-integrated Sachs-Wolfe effect ($l\lesssim 100$)
-   Caused by gravitational [[Spectra#Redshift|redshift]] occurring at the surface of last scattering. The effect is not constant across the sky due to differences in the matter/energy density at the time of last scattering, such that deeper potential wells lead to more reddened photons, and thus apparently lower [[Blackbody radiation#Blackbody radiation|blackbody]] peak temperaure via [[Blackbody radiation#Wien's displacement law|Wien's law]]. This happens on large angular scales because ???
+   - Photons in a grav. well get redshifted climbing out of it (like the opposite of  [[Galaxies - Questions#113|violent relaxation]])
+   - Caused by gravitational [[Spectra#Redshift|redshift]] occurring at the surface of last scattering. 
+   - The effect is not constant across the sky due to differences in the matter/energy density at the time of last scattering, such that deeper potential wells lead to more reddened photons, and thus apparently lower [[Blackbody radiation#Blackbody radiation|blackbody]] peak temperaure via [[Blackbody radiation#Wien's displacement law|Wien's law]] (can also think of the peak wavelegth being redshifted to longer values). 
+   - From Tegmark (1995): potential well also leads to time dilation, and so photons from deeper wells are actually from earlier times and therefore hotter (bluer). On larger scales this effect is proportional to the time of last scattering gravitational potential.
 
 2. Acoustic oscillations ($100\lesssim l\lesssim 1000$)
    See [[BAO#BAO|BAO]].
 
 3. Silk damping ($l\gtrsim 1000$)
-   
+   "photon diffusion damping" which washes out scales smaller than $1^\circ$ ($\lesssim 0.1^\circ$, around the third acoustic peak)
+   - [[Recombination#Recombination|Recombination]] $\implies$ photons can "suddenly" travel much farther
+   - These photons carry energy from the hot regions and diffuse to the cold regions, also dragging baryons around, such that any anisotropy on a very small scale is quickly washed out. Effect is strongest for smallest scales (largest $l$)
+   - The *silk scale* is distance scale over which photon diffusion is important at $z=1100$, so about $3\,\pu{Mpc}$ when using an angular scale measured now of $0.1^\circ$. The mass contained within the scale is the *Silk mass* which we estimate to be $\sim 10^{13}\,M_\odot$, i.e. about the mass of a [[Galaxies#Galaxy|galaxy]] today 😱. SMaller sclaes (and smaller masses) are washed out.
+   - There also exists electron diffusion damping for the same reasons but it is far weaker since the electrons couldnt diffuse nearly as far.
 
-Explaining the secondary anisotropies: 
+Explaining the <mark class="hltr-pink">secondary anisotropies</mark>: 
 1. Integrated Sachs-Wolfe effect
-2. [[Scattering#Thomson scattering|Thomson scattering]]
-3. [[CMB#SZ effect|SZ effect]]
+   Same thing as non-integrated but can blueshift if photon passes through a well thats shallowing or redshifted if passing through a well thats deepening.
+2. [[Scattering#Thomson scattering|Thomson scattering]] (isotropic and scale-independent)
+3. [[CMB#SZ effect|SZ effect]] 
 4. [[Lensing]]
+   Large scale structure can lens the CMB
 5. Late-time integrated Sachs–Wolfe effect -  dark energy?

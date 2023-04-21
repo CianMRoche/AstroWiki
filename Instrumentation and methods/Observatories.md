@@ -121,7 +121,7 @@ $8.4\,\pu{m}$ ground based optical telescope in Chile, first light expected in 2
 
 
 ## LSST
-Telescope hosted at the [[#Vera C. Rubin Observatory]] 
+"Legacy survey of space and time" which will be carried out by Vera Rubin and used to mean "large synoptic survey telescope" which is now called the [[#Vera C. Rubin Observatory]]. 
 
 
 ## Kepler

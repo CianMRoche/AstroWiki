@@ -6,8 +6,8 @@ See [[Spectra#Harvard Spectral Classification|Harvard spectral classification]]
 ## 17
 **Sketch the HR diagrams for a typical globular cluster and open cluster. Identify the various observed populations and interpret them on the basis of stellar evolution theory.**
 
-1. [[Clustering#Globular Cluster|Globular cluster]]
-   The [[HR-diagram]] for a globular cluster is only evolved stars, so looks like the below (from Megan's notes). Note the [[Stellar classes#Blue straggler|blue stragglers]] at the end of the [[HR-diagram#Main sequence|main sequence]] and the instability gap due to [[Pulsating stars#RR-lyrae stars|RR-lyrae]] stars. 
+1. [[Clustering#Globular Cluster|Globular cluster]] 
+   The [[HR-diagram]] for a globular cluster is only evolved stars, so looks like the below (from Megan's notes). Note the [[Stellar classes#Blue straggler|blue stragglers]] at the end of the [[HR-diagram#Main sequence|main sequence]] and the instability gap due to [[Pulsating stars#RR-lyrae stars|RR-lyrae]] stars. See [this video](https://www.youtube.com/watch?v=wbvgjzW3Xz0) for an animation of how this changes with cluster age.
    ![[globular_HR.png|500]]
    The observed <mark class="hltr-pink">turn-off point of the main sequence can be used to estimate the cluster's age, since as a cluster ages, the turn off-point migrates down the HR diagram</mark>. Since a star existing in what has been labelled the blue straggler area will only be able to survive on the main sequence for a certain amount of time before turning into a red giant. A star just past the turnoff could stay on the main sequence for about 3 billion years, but a star far past could only fuse helium for about 50 million years before becoming a red giant. If the turning point is at a very high temperature and luminosity, this means the cluster is very young and those stars havent had the chance to become red giants yet, but over time the population migrates to red giants and the turn-off point moves down along the main sequence.
 
@@ -47,7 +47,7 @@ Consider a [[Binaries|binary]] between objects of mass $M_1$ and $M_2$ on effect
 ## 21
 **What is meant by the "gravothermal collapse" of a globular cluster, and what can save the cluster
 from complete collapse?**
-Gravothermal collapse is an instability arising from negative heat capacity of self-gravitating systems. 
+Gravothermal collapse is an instability arising from negative heat capacity of self-gravitating systems. !UNFINISHED (redo these notes with notebook summary in mind).
 
 1. Negative heat capacity:
   Assuming 3 degrees of freedom and ideal gas, can write for the average particle $$\rm{KE} = \frac{1}{2}m\bar{v}^2 = \frac{3}{2}kT$$and thus the total kinetic energy is $\frac{3}{2}NkT$. From the virial theorem we know $$E = -\, \langle\rm{KE}\rangle = -\frac{3}{2}NkT$$making clear that $\partial E/\partial T < 0$ ie a negative heat capacity. Thus when the system loses energy, the temperature increases and it gets hotter (to what systems does this <mark class="hltr-pink">not</mark> apply?).
@@ -80,6 +80,7 @@ They also exhibit a common beginning, the [[Star formation]] stage, wherein a [[
 
 
 2. High-mass:
+   The elements on the left represent what is currently being burned in the core, and each lobe on the top is basically the SGB-RBG-helium flash-horizontal branch evolution, but with a different cycle of burning a thing in the core and then shell burning.
 | Stage    | [[HR-diagram#Pre-main sequence\|Pre-MS]] | [[HR-diagram#Main sequence\|MS]]  | maybe a blue loop | Red supergiant | [[Supernovae#Supernova\|Supernova]] | [[Neutron stars#Neutron stars\|NS]] or [[Black holes#Black hole\|BH]] |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Time in stage ($\pu{yr}$) | | $\sim10^{7}$ |  | $\sim10^{6}$ | |   |
@@ -132,7 +133,7 @@ Differences are that relative to [[Pulsating stars#Cepheids|cepheids]] these sta
 ## 26
 **What are the following objects and where are they found?**
 **(i) HH objects?**
-"Herbig Haro objects". Bright patches of emission from where the jet launched from protostars (like [[Stellar classes#T-tauri star|T-tauri stars]]) interact with and excite the surrounding material, a bit like an [[Nebulae#Emission nebula|emission nebula]]. In fact, the first oen discoevred was clasified as an emission nebula rather than a distinct class of object.
+"Herbig Haro objects". Bright patches of emission from where the jet launched from protostars (like [[Stellar classes#T-tauri star|T-tauri stars]]) interact with and excite the surrounding material, a bit like an [[Nebulae#Emission nebula|emission nebula]]. In fact, the first one discovered was classified as an emission nebula rather than a distinct class of object.
 
 - Typically found in [[Star formation#Molecular cloud|molecular clouds]] and other star forming regions
 - When the excited gas relaxes/recombines, see strong emission lines in the [[Spectra#The electromagnetic spectrum|optical]]. 
@@ -179,7 +180,7 @@ See [[Stellar structure equations]].
 
 ## 31
 **Make a dimensional analysis of the equation of hydrostatic equilibrium using a polytropic equation of state to find a general mass-radius relation for spherically-symmetric, self-gravitating bodies.**
-Start with the [[Polytropes#Polytrope|polytrope]] equation of state $$P = \kappa \rho^{\gamma}$$Doing some very loose dimension-matching and dividig by $R$ we convert the polytrope equation to $$\frac{P_c}{R} = \frac{K\bar{\rho}^{\gamma}}{R}$$Using [[Stellar structure equations#Hydrostatic equilibrium|HSE]] we also have $$\frac{dP}{dr} = -\frac{GM_{<r}\rho}{r^2}$$Doing the same loose dimension matching for HSE we get $$\frac{P_c}{R} = -\frac{GM_{tot}\bar{\rho}}{R^2}$$Equating the two (and labelling the total mass as $M$) we get $$M \sim R\,\bar{\rho}\,{}^{\gamma - 1}$$Replacing $\bar{\rho}$ with $M/R^3$ this results in $$M\propto R^{\frac{4 - 3\gamma}{2 - \gamma}}$$
+Start with the [[Polytropes#Polytrope|polytrope]] equation of state $$P = \kappa \rho^{\gamma}$$Doing some very loose dimension-matching and dividing by $R$ we convert the polytrope equation to $$\frac{P_c}{R} = \frac{K\bar{\rho}^{\gamma}}{R}$$Using [[Stellar structure equations#Hydrostatic equilibrium|HSE]] we also have $$\frac{dP}{dr} = -\frac{GM_{<r}\rho}{r^2}$$Doing the same loose dimension matching for HSE we get $$\frac{P_c}{R} = -\frac{GM_{tot}\bar{\rho}}{R^2}$$Equating the two (and labelling the total mass as $M$) we get $$M \sim R\,\bar{\rho}\,{}^{\gamma - 1}$$Replacing $\bar{\rho}$ with $M/R^3$ this results in $$M\propto R^{\frac{4 - 3\gamma}{2 - \gamma}}$$
 **For which two polytropic indices is the configuration unstable?**
 - At $\gamma = 2$ the mass scales "infinitely quickly" with $R$
 - At $\gamma = \frac{4}{3}$ the mass is independent of $R$ 
@@ -188,7 +189,7 @@ Start with the [[Polytropes#Polytrope|polytrope]] equation of state $$P = \kappa
 ## 32
 **Make a dimensional analysis of the equation of radiative diffusion in stars to show that the luminosity of a star scales as its mass cubed, if the opacity is taken to be a constant and assuming that radiative diffusion is the dominant mechanism for energy transfer.**
 
-The [[Stellar structure equations#Energy transport|energy transport]] equation for radiation-dominated systems is $$\frac{dT}{dr} = -\frac{3\kappa}{16\pi a c}\frac{\rho L}{ r^2 T^3}$$forgetting constants (including the opacity) and replacing with some loose dimensional equivalents we have  $$\frac{T}{R} = \frac{\bar{\rho} L}{ R^2 T^3}$$and replacing $\bar{\rho}$ with $M/R^3$ this results in $$L \sim R^4 T^4 M^{-1}$$How do we eliminate $T$? Use ideal gas to get $$P \sim \frac{N}{V}T \sim \frac{\rho}{\mu m_p}T \sim \rho T$$where we assume the [[Mean molecular weight#Mean molecular weight|mean molecular weight]] is constant. Then replace $P$ via [[Stellar structure equations#Hydrostatic equilibrium|HSE]] $$\frac{P}{R} \sim \frac{M^2}{R^5} \implies P \sim \frac{M^2}{R^4}$$to get $$\frac{M^2}{R^4} \sim \rho T \implies T\sim \frac{M}{R}$$and so finally $$L \sim R^4 T^4 M^{-1} \sim R^4 \frac{M^4}{R^4} M^{-1}\sim M^3$$
+The [[Stellar structure equations#Energy transport|energy transport]] equation for radiation-dominated systems is $$\frac{dT}{dr} = -\frac{3\kappa}{16\pi a c}\frac{\rho L}{ r^2 T^3}$$forgetting constants (including the opacity) and replacing with some loose dimensional equivalents we have  $$\frac{T}{R} \sim \frac{\bar{\rho} L}{ R^2 T^3}$$and replacing $\bar{\rho}$ with $M/R^3$ this results in $$L \sim R^4 T^4 M^{-1}$$How do we eliminate $T$? Use ideal gas to get $$P \sim \frac{N}{V}T \sim \frac{\rho}{\mu m_p}T \sim \rho T$$where we assume the [[Mean molecular weight#Mean molecular weight|mean molecular weight]] is constant. Then replace $P$ via [[Stellar structure equations#Hydrostatic equilibrium|HSE]] $$\frac{P}{R} \sim \frac{M^2}{R^5} \implies P \sim \frac{M^2}{R^4}$$to get $$\frac{M^2}{R^4} \sim \rho T \implies T\sim \frac{M}{R}$$and so finally $$L \sim R^4 T^4 M^{-1} \sim R^4 \frac{M^4}{R^4} M^{-1}\sim M^3$$
 
 ## 33
 **Use the known luminosity and mass of the Sun to estimate its nuclear lifetime.**
@@ -243,7 +244,8 @@ A lot like [[#35|PP1]] in that it turns 4 protons into
 - two electron neutrinos
 
 but it is *catalytic*, meaning it doesnt use up some of the "inputs" like the carbon, nitrogen and oxygen over the whole cycle. They are used up in one step but regenerated in another. Can "start" looking at the reaction on the top right, noting that you need a carbon 12 atom around to get going
-![[CNO_cycle.png|500]]
+![[CNO_cycle.png|400]]
+Actually remembering both the 1 and 2 branches simultaneously isnt that hard (see [[Mnemonics]]) ![[cno_panels.png|500]]
 
 The pp-cycle is more efficient at the [[The Sun#The Sun|Suns]] temperature, as demonstrated below, where the y axis is a relative energy output: 
 ![[Nuclear_energy_generation_comparison.png|400]]

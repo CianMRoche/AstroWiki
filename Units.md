@@ -76,3 +76,7 @@ Also called <mark class="hltr-pink">"surface brightness"</mark> because it is an
 
 A differential energy element can be expressed in terms of this quantity via (noting in the image above they use $d\sigma$ for area but here we use $dA$ to be consistent with astro 1 notes)$$dE = I_\nu \cos\theta\, d\theta\,dA\, d\Omega\, d\nu\, dt$$
 Note that one can also define the (specific) <mark class="hltr-pink">mean intensity</mark> as $$J_\nu = \frac{1}{4\pi}\int d\Omega\,I_\nu$$where $d\Omega$ is a solid angle element (divide by $4\pi$ since there are $4\pi$ steradians on a sphere, want average) which means for an isotropic source $J_\nu = I_\nu$.
+
+
+## Useful dimensions
+$G$ has dimensions of 1/(density $\times$ time^2)

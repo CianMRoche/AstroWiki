@@ -44,7 +44,7 @@ AKA "red dwarf" (with some caveats, see [wiki page](https://en.wikipedia.org/wik
 
 
 ## White dwarf
-AKA "degenerate dwarf". A stellar remnant composed mostly of electron-degenerate matter. White dwarfs are thought to be the final evolutionary state of all stars whose mass is not high enough to become a neutron star, ie stars with $M\lesssim 8\,M_\odot$. It is effectively the exposed core of a star on the asymptotic giant branch (AGB). Supported by electron degeneracy pressure (in contrast to the neutron degeneracy pressure of [[Neutron stars#Neutron stars|neutron stars]]). 
+AKA "degenerate dwarf". A stellar remnant composed mostly of electron-degenerate matter. White dwarfs are thought to be the final evolutionary state of all stars whose mass is not high enough to become a neutron star, ie stars with $M\lesssim 8\,M_\odot$ who cant fuse carbons together and so cool down over time. It is effectively the exposed core of a star on the asymptotic giant branch (AGB). Supported by electron degeneracy pressure (in contrast to the neutron degeneracy pressure of [[Neutron stars#Neutron stars|neutron stars]]). 
 
 - See final states of stars of different masses in [[Compact objects - Questions#40|Q40]].
 - In stars $\gtrsim 0.8\,M_\odot$, $\rm{He}$ fuses via the triple-$\alpha$ process into $\rm{C}$ and $\rm{O}$ and so WDs are thought to consist largely of carbon and oxygen.
