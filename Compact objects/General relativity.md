@@ -23,3 +23,7 @@ r &\in (0,\infty) \\
 - Shapiro time delay
 - Gravitational redshift
 - Lensing (angle between real source and apparent source double what was predicted without GR)
+
+
+## FLRW
+Just linking to the [[FLRW]] metric and Friedmann equations.

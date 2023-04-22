@@ -13,7 +13,7 @@ Cold [[#Molecular cloud|molecular gas]] falls onto the AGN (from [[#Brightest cl
 ![[AGN_structure.jpg]]
 ![[AGN_type1_type2.png|300]]
 **Corona**:
-The region at the base of a jet or roughly a spherical plasma region {contentious}. Know close to the SMBH due to [[#Reverberation mapping]] signal of [[Spectra#Fe k-alpha line|Fe]]-K$\alpha$ line (6.4 keV) and its time delays.
+The region at the base of a jet or roughly a spherical plasma region {contentious}. Know close to the SMBH due to [[Methods#Reverberation mapping|reverberation mapping]] signal of [[Spectra#Fe k-alpha line|Fe]]-K$\alpha$ line (6.4 keV) and its time delays.
 
 Coronal X-rays are thermal (blackbody) photons the are compton up-scattered to x-ray wavelengths by the corona.
 
@@ -21,6 +21,7 @@ Coronal X-rays are thermal (blackbody) photons the are compton up-scattered to x
 
 ## Quasar
 A highly luminous [[#AGN]]. AKA "QSO" (quasi-stellar object). Outshines the rest of the galaxy
+Galaxy mergers can trigger AGN and quasar activity.
 
 **Catalogs**: [[Catalogs#SDSS|SDSS]] and [[Catalogs#LAMOST|LAMOST]] 
 
@@ -40,3 +41,7 @@ Classification of radio galaxies with active nuclei based on their radio luminos
 - FR1 arms can look bent due to [[Definitions - The Solar System#Ram pressure|ram pressure]] as galaxy moves through [[Cluster media#ICM|ICM]] 
 - FR2 often looks one-sided due to relativistic boosting
 ![[fanaroff_riley.png]]
+
+
+confirmation is expensive, but is the proposed number of quasar pairs ~10^3? cant we estimate a population of 
+What specific models are we trying to understand by quasar pair formation statistics?
