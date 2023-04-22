@@ -1,4 +1,4 @@
-The start of cosmology is super dense. I recommend reviewing [[FLRW]] first, then something like [[Recombination]]. 
+The start of cosmology is super dense. I recommend reviewing [[FLRW]] first.. 
 
 ## 126
 **Summarize the state of the experimental field of 21cm cosmology and what it hopes to accomplish.**
@@ -89,10 +89,10 @@ Theres also the [[CMB#CMB Polarization|CMB polarization]] signal.
 ## 129
 **What are acoustic peaks in the CMB power spectrum? What do their locations and amplitudes tell us?**
 
-Lets look at the [[CMB#CMB power spectrum|CMB power spectrum]]. Megans notes are great, here is mostly just those:
+Lets look at the [[CMB#CMB power spectrum|CMB power spectrum]] (explanation of origins of peaks found there). Megans notes are great, here is mostly just those:
 ![[CMB_PS_cosmological_params.png]]
 
-Using the relative densities $\Omega_i$ defined in the context of the [[FLRW]] metric and Friedmann equation (linking broken for some reason, need to click on it), changing the $\Omega_i$ has the following effects on the power spectrum:
+Using the relative densities $\Omega_i$ defined in the context of the [[FLRW]] metric and [[FLRW#Friedmann equation|Friedmann equation]], changing the $\Omega_i$ has the following effects on the power spectrum:
 
 1. $\Omega_k$
    Changes the scale we measure these peaks on, since we measure angular sizes of these length scales and angles change with curvature. If the length scale is $L$, the angular size in and open/flat/closed universe is $\theta_{o/f/c}$ and the multipole moment corresponding to its angular size is $l_{o/f/c}$ then we would see: 
@@ -116,3 +116,32 @@ Using the relative densities $\Omega_i$ defined in the context of the [[FLRW]] m
 
 4. $\Omega_\Lambda$
    Seems we define it as $\Omega_\Lambda = 1-\Omega_k - \Omega_M - \Omega_r$ but I thought the fact that they all sum to 1 was confusing? Not sure. If we assume $\Omega_k = 0$ can use location of first peak to get $H_0$ . This one is unclear.
+
+
+## 130
+**Write down the Jeans equation for a disturbance propagating in a self-gravitating medium. From this show how to find the critical wavenumber for propagating modes. What is the Jeans mass?**
+We essentially want to find the Jeans length. 
+
+1. Intuitive answer:
+   See [[Jeans#Jeans length|Jeans length]]
+   
+2. From Jeans equation: 
+   Skipping the derivation, if you want details see Megan's notes, start with the collisionless Boltzmann equation and take the first moment (multiply it by $\mathbf{v}$ and integrate over velocity space) to end up with $$\frac{D\mathbf{v}}{Dt} = -\nabla \Phi - \frac{1}{\rho}\nabla P$$where $D/Dt = \partial/\partial t + (\mathbf{v}\cdot\nabla)$ is the convective dervative. Here $\Phi$ is the gravitational potential and $P$ is the pressure. We then use the following:
+   - steady state ($\partial / \partial t = 0$)
+   - spherically symmetric
+   - radial equilibrium ($\langle v_r\rangle = 0$)
+   - perturbations, so every quantity is background + small perturbation (eg $\rho = \rho_0 + \rho'$)
+   -  mass continuity 
+   - "Jeans swindle" (assume $\nabla^2\Phi = 0 \neq 4\pi G \rho$), 
+   
+   one finds a wave equation for a density perturbation $\rho'$ on a background $\rho_0$ of $$\frac{\partial^2 \rho'}{\partial t^2} - 4\pi G\rho_0 \rho' = c_s^2\nabla^2\rho'$$where $c_s = \sqrt{\partial P / \partial \rho}$. Making a plane wave ansatz $$\rho'(\mathbf{k},t) \propto e^{i(\mathbf{k}\cdot\mathbf{x} - \omega t)}$$ one finds a dispersion relation $$\omega^2 = c_s^2k^2 - 4\pi G \rho_0$$Which can be recast in terms of the wavelength $\lambda = 2\pi / k$ as $$\omega = 2\pi\sqrt{\frac{c_s^2}{\lambda^2} - \frac{G\rho_0}{\pi}}$$One can see that for $$\lambda > \lambda_J := \sqrt{\frac{\pi c_s^2}{G\rho}} \implies \omega \text{ complex} \implies \text{perturbation grows in time}$$and conversely if $\lambda < \lambda_J$ the perturbation will oscillate and not collapse. Then [[Jeans#Jeans mass|Jeans mass]] is simple to calculate.
+
+
+## 131
+**Qualitatively, how does a density fluctuation grow over cosmic history and how does the answer differ for dark matter and baryons?**
+
+There are two considerations to be made here, the Jeans length before and after recombination, and the size scale of the sound horizon (and in particular, whether it is bigger or smaller than $\lambda_J$ in each epoch). 
+
+- First consider the [[Jeans#Jeans length|Jeans length]] $$\lambda_J = \sqrt{\frac{\pi c_s^2}{G\rho}}$$which is set by the sound speed. Before [[Recombination]], the fluid is dominated by [[Stars/Equations of state#Radiation pressure|Radiation pressure]] and so the sound speed is $$P_{rad} = \frac{1}{3}\rho c^2 \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \frac{c}{\sqrt{3}}$$After recombination, the baryons are efectively an ideal gas and so the sound speed is $$P = \frac{\rho}{\mu m_p}kT \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \sqrt{\frac{kT}{\mu m_p}} \ll c$$where we use $T  = T_0(1+z) \simeq 2.7\,\pu{K} (1100)\simeq 3000\,\pu{K}$ and $\mu$ is the [[Mean molecular weight#Mean molecular weight|mean molecular weight]]. This means $c_s$ drops dramatically at recombination, and the Jeans mass actually drops from $$M_J \sim10^{16}\,M_\odot \longrightarrow M_J \sim 10^{5}\, M_\odot$$which implies most of the structure we see today formed after recombination. 
+
+- Next consider how the sound horizon evolves in different epochs (which term dominates the evolution of the scale factor $a$ of the [[FLRW#Friedmann equation|Friedmann equations]]). 

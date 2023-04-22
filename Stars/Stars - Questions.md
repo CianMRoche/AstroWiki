@@ -68,7 +68,7 @@ Gravothermal collapse is an instability arising from negative heat capacity of s
 
 A summary of the stellar phases is shown below, where evolution takes place from left to right.
 
-They also exhibit a common beginning, the [[Star formation]] stage, wherein a [[Star formation#Molecular cloud|molecular cloud]] collapses provided it is larger than the [[Star formation#Jeans mass|Jeans mass]] for that cloud.
+They also exhibit a common beginning, the [[Star formation]] stage, wherein a [[Star formation#Molecular cloud|molecular cloud]] collapses provided it is larger than the [[Jeans#Jeans mass|Jeans mass]] for that cloud.
 
 1. Low-mass:
 | Stage    | [[HR-diagram#Pre-main sequence\|Pre-MS]] | [[HR-diagram#Main sequence\|MS]]                   | [[HR-diagram#Subgiant branch\|Subgiant branch]] | [[HR-diagram#RGB\|RGB]] | Horizontal branch | AGB | [[Nebulae#Planetary nebula\|Planetary nebula]] | [[Stellar classes#White dwarf\|White dwarf]] |

@@ -3,11 +3,14 @@
 - homogeneous
 - isotropic
 
-These assumptions lead to a form of the metric $$- c^2 d\tau^2 = -  c^2 dt^2 + a(t)^2d\mathbf{\Sigma}^2 $$where $d\mathbf{\Sigma}$ is the line element on a 3D space of uniform curvature $$d\mathbf{\Sigma}^2 = \frac{dr^2}{1 - kr^2} + r^2 d\mathbf{\Omega}^2,\quad\text{where }d\mathbf{\Omega}^2 = d\theta^2 + \sin^2{\theta} d\varphi^2$$where $k$ represents the type of curvature of the space $$k = \cases{
-+1 \implies \text{positive curvature,~~~~~ (closed) 3-sphere} \\
-~~~0 \implies \text{zero curvature~~~~~~~,~~~~~ flat Euclidean space} \\
--1 \implies \text{negative curvature,~~~~ (open) hyperbolic space} \\
-}$$and in this parameterization $a$ has dimensions of length (and represents the radius of curvature) and $r$ is dimensionless. In these coordinates, $r,\theta,\varphi$ are all comoving coordinates which are invariant under the expansion of the universe, which is described by $a(t)$. 
+These assumptions lead to a form of the metric $$- c^2 d\tau^2 = -  c^2 dt^2 + a(t)^2d\mathbf{\Sigma}^2 $$where $d\mathbf{\Sigma}$ is the line element on a 3D space of uniform curvature $$d\mathbf{\Sigma}^2 = \frac{dr^2}{1 - kr^2} + r^2 d\mathbf{\Omega}^2,\quad\text{where }d\mathbf{\Omega}^2 = d\theta^2 + \sin^2{\theta} d\varphi^2$$where $k$ represents the type of curvature of the space 
+| $k$  | Curvature | Topology | Example          |
+| :------: | :-----------: | :----------: | :------------------: |
+| $+1$ | positive  | closed   | 3-sphere         |
+| $0$  | zero      |          | Euclidean space  |
+| $-1$ | negative  | open     | Hyperbolic space |
+
+and in this parameterization $a$ has dimensions of length (and represents the radius of curvature) and $r$ is dimensionless. In these coordinates, $r,\theta,\varphi$ are all comoving coordinates which are invariant under the expansion of the universe, which is described by $a(t)$. 
 
 
 ## Friedmann equation
