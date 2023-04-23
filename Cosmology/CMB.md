@@ -18,7 +18,7 @@ And real measurements from [[Observatories#Planck|Planck]] look like
 ![[planck_PS.png|500]]
 $^1$ The signal *after* subtracting the monopole signal arising from the motion of your detector relative to the CMB, which effectively amounts to the relative motion of the [[Galaxy groups#Local Group|local group]] relative to the rest frame of the CMB. Interestingly, fitting the CMB monopole direction (the direction we are moving in relative to CMB rest frame) gives a very different answer than other measurements, treated as another [[LCDM#LCDM|LCDM]] tension.
 
-$^2$ Loosely, we have a discrete basis because compact spaces like the 2D sphere on the sky admit discrete decompositions, as with the spin operator in QM.
+$^2$ Loosely, we have a discrete basis because compact spaces like the 2D sphere on the sky admit discrete decompositions, as with the spin operator in QM. In fact, depending on the paper they may may decompose into lagrange polynomials rather than spherical harmonics.
 
 
 **Origin of the peaks and the sound horizon**
@@ -42,14 +42,16 @@ $^2$ Loosely, we have a discrete basis because compact spaces like the 2D sphere
    -   Modes (and therefore length scales) caught at extrema of their oscillation represent peaks - characteristic scales with enhanced temperature fluctuations
    -   The wavenumbers (or spatial frequency) of the peaks are harmonically related to the fundamental scale - the distance sound can travel by recombination
 
-   The scale (mode) which can reach maximum compression exactly when recombination occurs will show up as a scale over which we see large temperature fluctuations, this length scale is the **sound horizon** and its angular size sets the position of the first peak of the CMB power spectrum.
+   The scale (mode) which can reach maximum compression exactly when recombination occurs will show up as a scale over which we see large temperature fluctuations, this length scale is the **sound horizon** and its angular size sets the position of the first peak of the CMB power spectrum. See [[#Sound horizon size]] for the calculation of the size.
 
    Because a scale half the size oscillates twice as fast, if the sound horizon scale $l_H$ reaches exactly first compression in the time it takes to reach recombination, then $2 l_H$ will reach exactly its first rarefaction by recombination (it will reach first compression in half the time to recombination). The hormonics of $l_H$ continue in this manner, leading to the following scales observed as being those with greatest temperature fluctuation relative to the mean:
    ![[cmb_compress_rarefact.png|500]]
 
-5. A nice way to think about this is as resonant frequencies/wavelengths in a cavity/pipe. The scale of the effective cavity $L$ is set by the time to recombination and the sound speed as $L = t_{reion}\,v_s$, and the size admits a fundamental frequency/wavelength $\lambda_0 = 2L$  and harmonics of that frequency (unclear the exact nature of factors of 2 here). Then $\lambda_0$ is 
+5. A nice way to think about this is as resonant frequencies/wavelengths in a cavity/pipe. The scale of the effective cavity $L$ is set by the time to recombination and the sound speed as $L = t_{recomb}\,v_s$, and the size admits a fundamental frequency/wavelength $\lambda_0 = 2L$  and harmonics of that frequency (unclear the exact nature of factors of 2 here). Then $\lambda_0$ is 
    ![[sound_cavity_harmonics.png|400]]
 
+## Sound horizon size
+Calculation of the size of the sound horizon relating to the [[#CMB power spectrum]]. Before [[Recombination]], the fluid is dominated by [[Stars/Equations of state#Radiation pressure|Radiation pressure]] and so the sound speed is $$P_{rad} = \frac{1}{3}\rho c^2 \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \frac{c}{\sqrt{3}}$$We can estimate the sound horizon length scale $r_s$ by the distance that sound can travel from the big bang $t = 0$ to recombination at time $t_{rc}$ $$r_s \simeq \int_0 ^{t_{rc}}dt \, c_s \simeq \int_0 ^{t_{rc}}dt \, \frac{c}{\sqrt{3}}$$where the $\Omega$s are as in the [[FLRW#Friedmann equation|Friedmann equation]] and the second equality is only approximately equal to the cource material linked below. If we assume matter-dominated early universe, this results in $$r_s \simeq \frac{2 c_s}{3 H_0 \sqrt{\Omega_M}}(1 + z_{rc})^{-3/2}$$Then the angular size of this length scale at $z_{rc}$ that we would measure now at $z=0$ is given in terms of the [[Distances#Angular diameter distance|angular diameter distance]] as $$\theta_s = \frac{r_s}{d_A(z_{rc})} = \frac{r_s (1+z_{rc})}{d_{sls}}$$where $d_{sls}$ is the [[Distances#Comoving distance|comoving distance]] $$d_{sls}(z_{rc}) =  \frac{c}{H_0} \int_0^{z_{rc}} \frac{dz}{E(z)}$$Finally the angular size will be (see [this](https://physics.stackexchange.com/questions/54124/relation-between-multipole-moment-and-angular-scale-of-cmb) for relationship between $l$ and $\theta$)$$l_{s} \sim \frac{\pi}{\theta_s} \sim \pi \frac{d_{sls}}{r_s} \sim 220\, (?)$$making the assumption of a flat and matter-dominated universe. [Source](https://ned.ipac.caltech.edu/level5/Sept02/Reid/Reid5_2.html) (which doesnt have the factor of $\pi$)
 
 
 ## SZ effect
@@ -73,3 +75,4 @@ The names derive from an analogy to the decomposition of a vector field into cur
 ![[E_B_modes.png|300]]
 Performing this decomposition on the CMB polarization map gives us two panels, a mock map would look like the following, where red is CMB temperature hotspots and blue is cold spots.
 ![[e-mode-b-mode_measurement.png]]
+

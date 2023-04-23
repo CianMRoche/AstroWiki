@@ -30,7 +30,7 @@ $1'' = \frac{\pi}{180\times3600}\,\pu{rad} \simeq 5\times 10^{-6}\,\pu{rad}$
 
 
 ## Comoving distance
-<mark class="hltr-pink">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow.
+<mark class="hltr-pink">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow. See [[Distances#Comoving distance|comoving distance]]. 
 
 
 ## parsec

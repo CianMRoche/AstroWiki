@@ -1,6 +1,6 @@
 {
   "settings": {
-    "countType": "page",
+    "countType": "word",
     "countType2": "none",
     "countType3": "none",
     "showSameCountsOnFolders": true,
@@ -30,13 +30,13 @@
     "Units.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 570,
-      "pageCount": 1.9,
-      "characterCount": 4071,
-      "nonWhitespaceCharacterCount": 3462,
+      "wordCount": 574,
+      "pageCount": 1.9133333333333333,
+      "characterCount": 4127,
+      "nonWhitespaceCharacterCount": 3513,
       "createdDate": 1676582717403,
-      "modifiedDate": 1681965673001,
-      "sizeInBytes": 4077
+      "modifiedDate": 1682227913349,
+      "sizeInBytes": 4133
     },
     "The Solar System/The Solar System - Questions.md": {
       "isDirectory": false,
@@ -725,11 +725,11 @@
       "noteCount": 1,
       "wordCount": 535,
       "pageCount": 1.7833333333333334,
-      "characterCount": 3695,
-      "nonWhitespaceCharacterCount": 3060,
+      "characterCount": 3696,
+      "nonWhitespaceCharacterCount": 3061,
       "createdDate": 1682124109317,
-      "modifiedDate": 1682201180487,
-      "sizeInBytes": 3702
+      "modifiedDate": 1682232043234,
+      "sizeInBytes": 3703
     },
     "Cosmology/Reionization.md": {
       "isDirectory": false,
@@ -789,13 +789,13 @@
     "Cosmology/Distances.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 4,
-      "pageCount": 0.013333333333333334,
-      "characterCount": 29,
-      "nonWhitespaceCharacterCount": 25,
+      "wordCount": 298,
+      "pageCount": 0.9933333333333333,
+      "characterCount": 2138,
+      "nonWhitespaceCharacterCount": 1832,
       "createdDate": 1680826747569,
-      "modifiedDate": 1681151293983,
-      "sizeInBytes": 29
+      "modifiedDate": 1682235306055,
+      "sizeInBytes": 2138
     },
     "Cosmology/Dark matter.md": {
       "isDirectory": false,
@@ -822,13 +822,13 @@
     "Cosmology/CMB.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1091,
-      "pageCount": 3.6366666666666667,
-      "characterCount": 7729,
-      "nonWhitespaceCharacterCount": 6549,
+      "wordCount": 1326,
+      "pageCount": 4.42,
+      "characterCount": 9655,
+      "nonWhitespaceCharacterCount": 8237,
       "createdDate": 1680567197176,
-      "modifiedDate": 1682190486129,
-      "sizeInBytes": 7729
+      "modifiedDate": 1682236131812,
+      "sizeInBytes": 9655
     },
     "Cosmology/BBN.md": {
       "isDirectory": false,
