@@ -17,7 +17,7 @@ and in this parameterization $a$ has dimensions of length (and represents the ra
 Time evolution of a homogeneous, isotropic universe.
 
 1. **Friedmann equation version 1**
-   If we write down the Einstein equations for the [[#FLRW metric]] one can find two differential equations for the scale factor $a(t)$. One of these expresses energy conservation and the other is $$H(t)^2 := \left( \frac{\dot{a}}{a} \right)^2 = \frac{8\pi G \rho}{3} - \frac{kc^2}{a^2} +\frac{\Lambda c^2}{3}$$where $H(t)$ is the *Hubble parameter*, $\rho$ is the volumetric mass density and $\Lambda$ is the cosmological constant with units $\pu{length^{-2}}$, each of which can vary in time (as can $k$). 
+   If we write down the Einstein equations for the [[#FLRW metric]] one can find two differential equations for the scale factor $a(t)$. One of these expresses energy conservation and the other is $$H(t)^2 := \left( \frac{\dot{a}}{a} \right)^2 = \frac{8\pi G \rho}{3} - \frac{kc^2}{a^2} +\frac{\Lambda c^2}{3}$$where $H(t)$ is the *Hubble parameter*, $\rho$ is the volumetric mass density (often easier to think of $\rho = \epsilon/c^2)$ where $\epsilon$ is the energy density of matter including rest energy, thermal energy and things like radiation energy density) and $\Lambda$ is the cosmological constant with units $\pu{length^{-2}}$, each of which can vary in time (as can $k$). 
 
 2. **Critical density**
    The critical density of the universe $\rho_c$ is just the mass density $\rho$ at a given cosmological time required to eventually "stop" the expansion of the universe, and for (reasons unclear at the moment) we calculate it by setting $k$ and $\Lambda$ to zero, finding $$\rho_c(t) = \frac{3 H(t)^2}{8\pi G}$$Assuming a zero vacuum energy density ($\Lambda=0$)

@@ -723,13 +723,13 @@
     "Cosmology/FLRW.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 535,
-      "pageCount": 1.7833333333333334,
-      "characterCount": 3696,
-      "nonWhitespaceCharacterCount": 3061,
+      "wordCount": 562,
+      "pageCount": 1.8733333333333333,
+      "characterCount": 3874,
+      "nonWhitespaceCharacterCount": 3212,
       "createdDate": 1682124109317,
-      "modifiedDate": 1682232043234,
-      "sizeInBytes": 3703
+      "modifiedDate": 1682275796761,
+      "sizeInBytes": 3881
     },
     "Cosmology/Reionization.md": {
       "isDirectory": false,
@@ -811,13 +811,13 @@
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2157,
-      "pageCount": 7.19,
-      "characterCount": 14733,
-      "nonWhitespaceCharacterCount": 12365,
+      "wordCount": 2517,
+      "pageCount": 8.39,
+      "characterCount": 17203,
+      "nonWhitespaceCharacterCount": 14466,
       "createdDate": 1677543451529,
-      "modifiedDate": 1682272071096,
-      "sizeInBytes": 14737
+      "modifiedDate": 1682277469436,
+      "sizeInBytes": 17207
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,
