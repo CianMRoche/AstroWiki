@@ -1,4 +1,4 @@
-The start of cosmology is super dense. I recommend reviewing [[FLRW]] first.. 
+The start of cosmology is super super dense. I recommend reviewing [[FLRW]] first.
 
 ## 126
 **Summarize the state of the experimental field of 21cm cosmology and what it hopes to accomplish.**
@@ -140,8 +140,18 @@ We essentially want to find the Jeans length.
 ## 131
 **Qualitatively, how does a density fluctuation grow over cosmic history and how does the answer differ for dark matter and baryons?**
 
-There are two considerations to be made here, the Jeans length before and after recombination, and the size scale of the sound horizon (and in particular, whether it is bigger or smaller than $\lambda_J$ in each epoch). 
+There are two considerations to be made here, the Jeans length in each epoch, and the size scale of the "sound horizon" at different times. The sound horizon is the length scale that sound can travel at a particular time, and thus the length scale over which overdensities can be washed out at any given time. 
 
-- First consider the [[Jeans#Jeans length|Jeans length]] $$\lambda_J = \sqrt{\frac{\pi c_s^2}{G\rho}}$$which is set by the sound speed. Before [[Recombination]], the fluid is dominated by [[Stars/Equations of state#Radiation pressure|Radiation pressure]] and so the sound speed is $$P_{rad} = \frac{1}{3}\rho c^2 \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \frac{c}{\sqrt{3}}$$After recombination, the baryons are efectively an ideal gas and so the sound speed is $$P = \frac{\rho}{\mu m_p}kT \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \sqrt{\frac{kT}{\mu m_p}} \ll c$$where we use $T  = T_0(1+z) \simeq 2.7\,\pu{K} (1100)\simeq 3000\,\pu{K}$ and $\mu$ is the [[Mean molecular weight#Mean molecular weight|mean molecular weight]]. This means $c_s$ drops dramatically at recombination, and the Jeans mass actually drops from $$M_J \sim10^{16}\,M_\odot \longrightarrow M_J \sim 10^{5}\, M_\odot$$which implies most of the structure we see today formed after recombination. 
+<mark class="hltr-pink">When the spatial size of a perturbation is larger than the sound horizon, it will grow as the universe grows (since it cant be stabilized/washed out yet), and if it is smaller than the Jeans length, it will also not collapse</mark>. However, once the sound horizon grows big enough, it will be able to stabilize the perturbation.
 
-- Next consider how the sound horizon evolves in different epochs (which term dominates the evolution of the scale factor $a$ of the [[FLRW#Friedmann equation|Friedmann equations]]). 
+- First consider the [[Jeans#Jeans length|Jeans length]] $$\lambda_J = \sqrt{\frac{\pi c_s^2}{G\rho}}$$which is set by the sound speed. Before [[Recombination]], the fluid is dominated by [[Stars/Equations of state#Radiation pressure|Radiation pressure]] and so the sound speed is $$P_{rad} = \frac{1}{3}\rho c^2 \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \frac{c}{\sqrt{3}}$$After recombination, the baryons are efectively an ideal gas and so the sound speed is $$P = \frac{\rho}{\mu m_p}kT \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \sqrt{\frac{kT}{\mu m_p}} \ll c$$where we use $T  = T_0(1+z) \simeq 2.7\,\pu{K} (1100)\simeq 3000\,\pu{K}$ and $\mu$ is the [[Mean molecular weight#Mean molecular weight|mean molecular weight]]. This means $c_s$ drops dramatically at recombination, and the Jeans mass actually drops from $$M_J \sim10^{16}\,M_\odot \longrightarrow M_J \sim 10^{5}\, M_\odot$$which implies most of the structure we see today formed after recombination. As a result, lets only consider overdensity growth due to expansion and ignore the Jeans criteria for now.
+
+- Next consider how the sound horizon evolves in different epochs (which term dominates the evolution of the scale factor $a$ of the [[FLRW#Friedmann equation|Friedmann equations]]). See [[#137|Q137]] for the form of $a(t)$ in each era.
+  1. Radiation-dominated era, $a(t) \propto t^{1/2}$
+     The proper length of the sound horizon is $$\chi_s \simeq \int_0 ^{t}\frac{dt'}{a(t')} \, c_s \propto 2 c_s\, t^{1/2}$$ and so the proper length is $L_s = a\, \chi_s \propto 2c_s\, t$ which is we used the full expression for $a$ i suppose we would find is smaller than the Jeans length. The connection between this and how $\delta$ scales is in [[#132|Q132]]
+   2. Matter-dominated era, $a(t) \propto t^{2/3}$
+      Here as above we get  $L_s = a\, \chi_s \propto 3c_s\, t$ 
+
+   So until  (ie perturbations "enter the horizon") all perturbations grow as the scale factor grows, but do not collapse as their sizes are smaller than the Jeans length. Finally, (ignoring Jeans instability) the picture is as below (Megans notes), where the oscillating portion is illustrated in [[CMB#CMB power spectrum|CMB power spectrum]] and the dark matter doesnt oscillate because there isnt the equivalent photon coupling and thus the overdensities can keep growing.
+   ![[overdensity_growth.png]]
+   

@@ -789,13 +789,13 @@
     "Cosmology/Distances.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 298,
-      "pageCount": 0.9933333333333333,
-      "characterCount": 2138,
-      "nonWhitespaceCharacterCount": 1832,
+      "wordCount": 354,
+      "pageCount": 1.18,
+      "characterCount": 2491,
+      "nonWhitespaceCharacterCount": 2127,
       "createdDate": 1680826747569,
-      "modifiedDate": 1682235306055,
-      "sizeInBytes": 2138
+      "modifiedDate": 1682267664057,
+      "sizeInBytes": 2491
     },
     "Cosmology/Dark matter.md": {
       "isDirectory": false,
@@ -811,24 +811,24 @@
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1930,
-      "pageCount": 6.433333333333334,
-      "characterCount": 13365,
-      "nonWhitespaceCharacterCount": 11246,
+      "wordCount": 2157,
+      "pageCount": 7.19,
+      "characterCount": 14733,
+      "nonWhitespaceCharacterCount": 12365,
       "createdDate": 1677543451529,
-      "modifiedDate": 1682201243487,
-      "sizeInBytes": 13369
+      "modifiedDate": 1682272071096,
+      "sizeInBytes": 14737
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1326,
-      "pageCount": 4.42,
-      "characterCount": 9655,
-      "nonWhitespaceCharacterCount": 8237,
+      "wordCount": 1360,
+      "pageCount": 4.533333333333333,
+      "characterCount": 9923,
+      "nonWhitespaceCharacterCount": 8470,
       "createdDate": 1680567197176,
-      "modifiedDate": 1682236131812,
-      "sizeInBytes": 9655
+      "modifiedDate": 1682268364225,
+      "sizeInBytes": 9923
     },
     "Cosmology/BBN.md": {
       "isDirectory": false,
