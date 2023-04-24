@@ -173,4 +173,51 @@ The growth of this overdensity continues until it decouples from the Hubble flow
 
 To find the time when it turns around from "getting bigger" with the Hubble flow to "getting smaller" as it collapses, use energy conservation while its expaning/contracting, and when it has its maximum radius at turnaround which we label $r_{max}$ (where $\dot{r} = 0$) $$E = \frac{1}{2}\dot{r}^2 - \frac{GM}{r} = -\frac{GM}{r_{max}}$$This is a differential equation for $r(t)$, and after making some substitutions and inverting to get $t(r)$ one finds $$t_{max} = \frac{\pi}{2}\left(\frac{3}{8\pi G\rho_{max}}\right)^{1/2}$$Lets compare this to the background at that time. The [[FLRW#Friedmann equation|Friedmann equation]] for a matter-dominated universe tells us $$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \left(\frac{2}{3t}\right)^2 = \frac{8\pi G \bar\rho}{3} \implies \bar\rho = \frac{1}{6\pi Gt^2}$$Therefore evaluating the background density at that time we find $$\bar\rho(t_{max}) = \frac{2}{3\pi^3 G}\left(\frac{8\pi G\rho_{max}}{3}\right) \implies \frac{\rho_{max}}{\bar\rho(t_{max})} = \frac{9\pi^2}{16}$$Since we mostly care about the end state of such an overdensity (that is, after it collapses and becomes a galaxy or similar) we may look at this object once it has virialized. We will use this to examine how dense the virialized object is relative to a part of the universe that is unperturbed. 
 
-Via the virial theorem we know $E = (1/2) U_{vir}$ so using the above expression for energy at maximum radius we get $r_{max} = 2 r_{vir}$ which implies $\rho_{max} = 8\rho_{vir}$. Thus via the above we have  $$\frac{\rho_{vir}}{\bar\rho(t_{max})} = \frac{9\pi^2}{2}$$but really we dont want to compare to $\bar\rho(t_{max})$, rather we want to compare to $\bar\rho(t_{vir})$ and we can assume that the time to maximum is about the same as the time to virialization $t_{vir} = 2 t_{max}$ such that by the above work where we showed $\bar\rho \propto t^{{-2}}$ we know $\bar\rho(t_{vir}) = 4\bar\rho(t_{max})$ leading to $$\frac{\rho_{vir}}{\bar\rho(t_{vir})} = 18\pi^2$$
+Via the virial theorem we know $E = (1/2) U_{vir}$ so using the above expression for energy at maximum radius we get $r_{max} = 2 r_{vir}$ which implies $\rho_{max} = 8\rho_{vir}$. Thus via the above we have  $$\frac{\rho_{vir}}{\bar\rho(t_{max})} = \frac{9\pi^2}{2}$$but really we dont want to compare to $\bar\rho(t_{max})$, rather we want to compare to $\bar\rho(t_{vir})$ and we can assume that the time to maximum is about the same as the time to virialization $t_{vir} = 2 t_{max}$ such that by the above work where we showed $\bar\rho \propto t^{{-2}}$ we know $\bar\rho(t_{vir}) = 4\bar\rho(t_{max})$ leading to $$\frac{\rho_{vir}}{\bar\rho(t_{vir})} = 18\pi^2$$So this number described the density of a virialized galaxy relative to that of the background $\simeq 180$ which lead to people discussing the $R_{200}$ for example, the radius within which the mean density was 200 times the average density of the universe at that time. It is now known however that this is a biased metric and something like the splashback radius is more appropriate.
+
+
+## 133
+**Summarize the observational evidence in favor of the standard "Big Bang" model of the universe.**
+1. The universe is expanding
+   We see everything moving away from us in a way that implies space is expanding. This is [[#134|Hubble's law]] and it could be caused by us being the center of some explosion of galaxies the likes of which we have no other observational evidence for, or that the universe is expanding uniformly (the same everywhere in space). This means the universe used to be much smaller, denser and hotter.
+2. [[CMB]]
+   - Originates in early universe and [[Spectra#Redshift|redshifted]] by expansion of universe
+   - The universe used to be a [[Blackbody radiation#Blackbody radiation|blackbody]] until it cooled and expanded so photons could free stream. Implies hot and dense early universe
+3. Big bang nucleosynthesis + abundance
+   - In early universe ($\sim 2\,\pu{min}$ after big bang) nuclear fusion could occur, fusing hydrogen into helium and some others like lithium (see [[#146|Q146]]).
+   - The expected abundances from modelling the big bang match the observed abundances (although maybe they dont? Is cosmic lithium problem resolved?)
+4. [[Galaxies#Galaxy|Galaxy]] evolution
+   - High redshift galaxies look different as a population than local galaxies $\implies$ evolution over cosmic time(?)
+   - The distribution of [[Galaxy clusters]] match expectations for structure formation after big bang
+
+
+## 134
+**What is the Hubble constant?** 
+As in the [[FLRW#Friedmann equation|Friedmann equation]] the Hubble constant represents the rate of expansion of the universe *today* via $$H_0 = \frac{\dot{a}}{a}\Bigg|_{z=0} = \dot a(z=0)$$since we define $a(z=0)$ to have a value of unity in whatever units we choose for $a$. It describes how fast an object should be moving away from us, since [[Distances#Proper distance|proper distances]] are related to [[Distances#Comoving distance|comoving distances]] by $$d_p = a \,d_C$$ which also implies the radial velocity of an object moving away from us with the Hubble flow is $$v_r = \dot{d_p} = \dot a \, d_C = H a\,d_C = H d_p$$which is called <mark class="hltr-pink">Hubble's law</mark>. Evaluating this today at $z=0$ and simplifying notation for current-day measurements we get $$v = H_0 d$$ as we see when combining measurements of both distance (various methods) and radial velocity (usually spectroscopic redshift) such as 
+![[hubble_law.jpg|400]]
+We typically resport it in $\pu{km s^{-1} Mpc^{-1}}$ so that we can easily calculate a distance in $\pu{Mpc}$ or speed in $\pu{km s^{-1}}$ if the other is known. There's tension across different methods, but some of the obtained values are as follows 
+![[Hubble Tension.png|500]]
+
+
+**Explain in detail at least three independent methods to measure it.**
+1. Distance ladder     |     $H_0 \simeq 73\pm 1\,\pu{km s^{-1} Mpc^{-1}}$ 
+   The most challenging part is distances. Here are the different methods which have been used to measure distances on different scales, together forming a "ladder". An example would be: 
+   - we measure close objects of type A with parallax
+   - calibrate a relationship to estimate distances to A based on observational characteristics
+   - Observe A near rarer object B, and infer distances to B based on calibration of A
+   - Calibrate B and repeat, getting distances to very distant objects
+
+   The current state of our cosmological distance ladder depends on pulsating objects like [[Pulsating stars#Cepheids|cepheids]], [[Pulsating stars#RR-lyrae stars|RR-lyrae stars]] and "standard candles" of presumably known luminosity like Type 1a [[Supernovae#Supernova|supernovae]]  and the helium flash at the tip of the [[HR-diagram#RGB|red giant branch]] (independent measurement using this metric finds $H_0 \simeq 70\pm ?\,\pu{km s^{-1} Mpc^{-1}}$). We also have distant rungs like the [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher relation]]. The below diagram is explained in more detail [here](https://en.wikipedia.org/wiki/Cosmic_distance_ladder)
+   ![[distance_ladder.png|500]]
+
+2. [[Lensing#Strong lensing|Strongly-lensed]] [[AGN#Quasar|quasars]]     |     $H_0 \simeq 73\pm 2\,\pu{km s^{-1} Mpc^{-1}}$ 
+   The H0LiCOW team measures time delays between multiple images of a straongly lensed background quasar by a large foreground object, and the time delay (can be $\sim$ seconds) can be used to infer a distance independent of [[CMB]] and distance ladder constraints
+
+3. Standard sirens     |     $H_0 \simeq 70\pm 2\,\pu{km s^{-1} Mpc^{-1}}$ 
+   Method co-invented by Scott Hughes here at MKI. [[Gravitational waves|Gravitational wave]] observation can tell us the [[Gravitational waves#Chirp mass|chirp mass]] of a binary source, and from this we can calculate the power emitted in the merger. Via the inverse square law and the magnitude of our observation we then obtain a distance measurement (known loudness of siren + measurement $\implies$ distance). With EM followup to get a recessional velocity, we get an estimate of $H_0$.
+
+4. [[CMB]] measurements     |     $H_0 \simeq 67\pm 1\,\pu{km s^{-1} Mpc^{-1}}$ 
+   For example fitting the [[CMB#CMB power spectrum|power spectrum]] with the $\Lambda\rm{CDM}$ model, and predicting $H_0$ within the context of this model. Can combine with [[BAO]] to improve constraints.
+
+**How does it relate to the age of the universe?**
+The Hubble time is the age of the universe if it has always expanded at the same rate, and that rate is the one we measure today. If the universe was always expanding (starting from size 0) with rate described by $H_0$ then its size $L$ is as measured at the time $t_H$ (today) would be $$L = v \, t_H = H_0 \, d\, t_H \implies t_H = \frac{1}{H_0} \simeq 14\,\pu{Gyr}$$where $v$ is the constant rate of expansion.

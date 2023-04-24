@@ -1,6 +1,6 @@
 {
   "settings": {
-    "countType": "word",
+    "countType": "page",
     "countType2": "none",
     "countType3": "none",
     "showSameCountsOnFolders": true,
@@ -30,13 +30,13 @@
     "Units.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 574,
-      "pageCount": 1.9133333333333333,
-      "characterCount": 4127,
-      "nonWhitespaceCharacterCount": 3513,
+      "wordCount": 587,
+      "pageCount": 1.9566666666666668,
+      "characterCount": 4230,
+      "nonWhitespaceCharacterCount": 3603,
       "createdDate": 1676582717403,
-      "modifiedDate": 1682227913349,
-      "sizeInBytes": 4133
+      "modifiedDate": 1682298200723,
+      "sizeInBytes": 4236
     },
     "The Solar System/The Solar System - Questions.md": {
       "isDirectory": false,
@@ -789,13 +789,13 @@
     "Cosmology/Distances.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 354,
-      "pageCount": 1.18,
-      "characterCount": 2491,
-      "nonWhitespaceCharacterCount": 2127,
+      "wordCount": 393,
+      "pageCount": 1.31,
+      "characterCount": 2761,
+      "nonWhitespaceCharacterCount": 2358,
       "createdDate": 1680826747569,
-      "modifiedDate": 1682267664057,
-      "sizeInBytes": 2491
+      "modifiedDate": 1682298554085,
+      "sizeInBytes": 2761
     },
     "Cosmology/Dark matter.md": {
       "isDirectory": false,
@@ -811,13 +811,13 @@
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2517,
-      "pageCount": 8.39,
-      "characterCount": 17203,
-      "nonWhitespaceCharacterCount": 14466,
+      "wordCount": 3353,
+      "pageCount": 11.176666666666666,
+      "characterCount": 22872,
+      "nonWhitespaceCharacterCount": 19253,
       "createdDate": 1677543451529,
-      "modifiedDate": 1682277469436,
-      "sizeInBytes": 17207
+      "modifiedDate": 1682306061788,
+      "sizeInBytes": 22876
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,

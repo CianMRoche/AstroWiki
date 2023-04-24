@@ -22,7 +22,7 @@ $1'' = \frac{\pi}{180\times3600}\,\pu{rad} \simeq 5\times 10^{-6}\,\pu{rad}$
 8kpc per arcsec at z=0.8
 
 ## Proper distance
-<mark class="hltr-pink">Distance</mark> between objects including expansion of universe; changes in time, in contrast to [[#Comoving distance]].
+<mark class="hltr-pink">Distance</mark> between objects including expansion of universe; changes in time, in contrast to [[#Comoving distance]]. See [[Distances#Proper distance|Proper distance]] for formulae in the context of an [[FLRW]] universe.
 
 **Examples**:
 - pkpc = proper kiloparsec
