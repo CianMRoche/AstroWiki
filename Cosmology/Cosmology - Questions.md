@@ -221,3 +221,36 @@ We typically resport it in $\pu{km s^{-1} Mpc^{-1}}$ so that we can easily calcu
 
 **How does it relate to the age of the universe?**
 The Hubble time is the age of the universe if it has always expanded at the same rate, and that rate is the one we measure today. If the universe was always expanding (starting from size 0) with rate described by $H_0$ then its size $L$ is as measured at the time $t_H$ (today) would be $$L = v \, t_H = H_0 \, d\, t_H \implies t_H = \frac{1}{H_0} \simeq 14\,\pu{Gyr}$$where $v$ is the constant rate of expansion.
+
+
+## 135
+**How can the age of the universe be estimated empirically? Do the current estimates agree with that obtained from the Hubble constant?**
+
+1. Can estimate from the turn-off point of the [[HR-diagram#Main sequence|MS]] in [[Clustering#Globular Cluster|GCs]] as in [[Stars - Questions#17|Q17]]. Theyre very old so provide a good lower bound on age of universe. Current estimates are roughly  consistent with [[#134|Hubble time]] as we find GCs with ages of $\sim 12-13\,\pu{Gyr}$.
+2. [[Stellar classes#White dwarf|WD]] cooling from $T\sim 10^4\,\pu{K}$ with the [[Units#Luminosity|luminosity]] scaling with the core temperature as $L \propto T_c^{7/2}$. As a result, we cal use the coolest white dwarfs to get a lower limit on age of the universe if we understand the processes by which they cool. Also $\sim 12-13\,\pu{Gyr}$
+3. The [[Milky Way#Milky Way|MW]] stellar halo. This is thought to contain old stellar populations, but because these stars come from multiple populations (mergers) this can be difficult to do
+
+
+## 136
+**How would you compute the age of our universe using the Friedmann equation? What approximations can be made to simplify this calculation?**
+
+Can estimate the age of the universe roughly via the [[FLRW#Friedmann equation|Friedmann equation]] if we assume the universe is matter dominated. In a matter-dominated universe (see [[#137|Q137]]) the scale factor is  $$a(t) \propto t^{2/3} \implies H(t) = \frac{\dot a}{a} = \frac{\frac{2}{3}t^{-1/3}}{t^{2/3}} = \frac{2}{3t}$$Evaluating the expression $t = \frac{2}{3H}$ today (ie using the presnt-day Hubble constant $H = H_0$) one gets an estimate for the age of the universe as $$t_0 = \frac{2}{3H_0} = \frac{2}{3} t_H \simeq 9\,\pu{Gyr}$$ where $t_H$ is the Hubble time as in [[#134|Q134]]. Note that this is smaller than other estimates, the reason being that we assumed matter-dominated, which is the second-fastest driving force in expansion, with radiation as the fastest, and dark energy the slowest. As a result, we end up underestimating the age a bit.
+
+
+## 137
+**What is the Robertson-Walker metric? What are the Friedmann equations?**
+
+See [[FLRW]] for the answer to both.
+
+**How does the universe expand if it is 
+(i) radiation dominated?** 
+   Radiation-dominated $\implies$ Friedmann equation reduces to $$\left(\frac{H}{H_0}\right)^2 = \Omega_r (1+z)^4 = \frac{\Omega_r}{a^4}$$Evaluating this at $z=0$ reveals that in the assumed radiation-dominated universe, $\Omega_r = 1$ (as expected). Then $$\frac{\dot a}{a} = H = \frac{H_0}{a^2}\implies \dot a  = \frac{H_0}{a} \implies a(t) = \sqrt{2H_0 t}\propto t^{1/2}$$
+**(ii) matter dominated with $\mathbf{\Omega \ll 1,\, \Omega = 1,\, \Omega \gg 1}$?**
+   Matter-dominated if we assume $\Omega_M = 1$ $\implies$ as above $$\dot a  = \frac{H_0}{\sqrt{a}} \implies a(t) = \left(\frac{3}{2}H_0 t\right)^{2/3}\propto t^{2/3}$$However, if we assume $\Omega \neq 1$ and allow $|\Omega_k| \neq 0 < |\Omega_M|$ (since still matter dominated)  then this is altered. Intuitively (and roughly), if the universe is 
+   - open (negative curvature, $k = -1$) it should expand, 
+   - but if its closed (positive curvature, $k = +1$) it should contract 
+
+   See Megans notes for calculation.
+
+**(iii) dominated by a cosmological constant?**
+   Dark energy dominated $\implies$ as above $H^2 = H_0^2 \Omega_\Lambda = H_0^2$ and thus $$\frac{\dot a}{a} = H_0 \implies a = e^{H_0 t}$$which expands exponentially. The universe reached matter-dark energy equality at $z = 0.3$ (recent!).

@@ -40,3 +40,5 @@ Some reported relative to [[#Neutron stars|neutron star]] parameters.
 - Magnetic field: $\sim 10^4$ times higher than typical (so $\sim10^{9-11}\,\pu{T}$) 
 - Period: a bit slower than typical, but hard to quantify since range is large. Order 1-10 seconds
 - Lifetime: $\sim 10^4\,\pu{yrs}$ until mag field strength decays
+
+Why dont we expect to find them in [[Clustering#Globular Cluster|GC]]?

@@ -25,6 +25,10 @@ The problem is we usually dont know when all the light was emitted, so we cant m
 Has been used in [[FRBs#FRB|FRBs]] to demonstrate they must be extragalactic. shape of galactic "cone" thingy just because moving away from latitude 0 is moving out of the disk, so less material, so dispersion measure gets smaller. This shows a stark difference between FRB dispersion measures and things we see out of the disk in the [[Milky Way]]. Note that knowing the distance to a galactic pulsar (blue below) we can get an estimate of the column density, or vice versa.
 ![[frb_dm.jpg]]
 
+Calvin's thesis talk:
+- A very clean probe, good up to $10^{10}\,\pu{K}$ 
+- Even mostly metallicity dependent since that dependence is suppressed by the electron to proton mass ratio.
+
 
 ## 93
 **What is the physical significance of the plasma frequency?**

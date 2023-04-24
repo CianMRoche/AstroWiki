@@ -21,6 +21,8 @@ Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 
 
 Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere. Also by HII regions (see [[Emission & the ISM - Questions#73|Q73]]).
 
+Traces star formation 
+
 
 ## 21cm line
 Sping flip of ground state neutral hydrogen, hyperfine transition. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$. From Megans notes:

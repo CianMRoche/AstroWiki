@@ -116,7 +116,7 @@ populations of planets associated with each method. Roughly how many planets hav
    - Require large separations to be able to resolve planet $\implies$ biased toward long-period planets
    
 3. **Microlensing** (~100 confirmed as of 2022)
-   When a background source is lensed by a foreground star, a planet which orbits in the [[Einstein ring]] can briefly increase the magnification of the lensing, resulting in an increase in flux.   ![[microlensing.jpg]]
+   When a background source is lensed by a foreground star, a planet which orbits in the Einstein ring can briefly increase the magnification of the lensing, resulting in an increase in flux. The blip occurs when the planet hits the Einstein ring. For the lensing magnification curve on which the blip sits, see [[Lensing#Strong lensing|strong lensing]].  ![[microlensing.jpg]]
    
    Direct observables:
    - Timescale of orbit (require accurate relative proper motion of lens-source system)
