@@ -217,8 +217,7 @@ where 4 and 5 relate to treating the disk as many local [[Blackbody radiation#Bl
 
 
 ## 50
-**Write down the fluid equations for conservation of mass and momentum that would describe a
-spherically symmetric, expanding supernova remnant**
+**Write down the fluid equations for conservation of mass and momentum that would describe a spherically symmetric, expanding supernova remnant**
 
 Fluid equations:
 - Continuity of mass: $\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho\vec{v}) = 0$
@@ -237,22 +236,20 @@ Basically by making simplifying assumptions and treating the problem in the fram
 
 In a frame moving with the shock front (ie moving at a speed $v_{shock} =: v_s$) we assume
 - The dynamics are steady-state in this frame: $\partial/\partial t = 0$
-- The radial derivativessimplify to 1D Cartesian derivatives: $\frac{1}{r}\frac{\partial}{\partial r}(r^2\,\cdot) \rightarrow \frac{d}{d x}(\cdot)$ 
+- The radial derivatives simplify to 1D Cartesian derivatives: $\frac{1}{r}\frac{\partial}{\partial r}(r^2\,\cdot) \rightarrow \frac{d}{d x}(\cdot)$ 
 - Ignore gravity and external forces: $f = 0$
-- Approximate the medium past the shock front as being at rest, so in the shock front frame is moves with speed $v_{s}$ 
+- Approximate the medium past the shock front as being at rest, so in the shock front frame it moves with speed $v_{s}$ 
 
 With this, we obtain the "Rankine–Hugoniot jump conditions":
 1. From mass conservation, obtain $\frac{d}{d x}(\rho v) = 0 \implies \rho v = \text{const}$
-2. From momentum conservation, obtain $\rho v \frac{d v}{d x} + \frac{d P}{d x} = 0 = \frac{d}{d x}(\rho v^2 + P) \implies \rho v^2 + P = \text{const}$
+2. From momentum conservation, obtain (using product rule and mass continuity)$\rho v \frac{d v}{d x} + \frac{d P}{d x} = 0 = \frac{d}{d x}(\rho v^2 + P) \implies \rho v^2 + P = \text{const}$
 3. From energy conservation, obtain $(\epsilon + P)v = \text{const}$ 
 
 We can do more with these but thats enough for now (see Megan and Xiaowei's notes).
 
 
 ## 51
-**Describe the various stages of evolution of a supernova remnant. What are the relevant physical  
-processes during each phase? Explain why in the Sedov-Taylor phase of a supernova remnant, the  
-radius expands at $t^{2/5}$**
+**Describe the various stages of evolution of a supernova remnant. What are the relevant physical processes during each phase? Explain why in the Sedov-Taylor phase of a supernova remnant, the radius expands at $t^{2/5}$**
 
 Basic picture is below, from Geoffrey's notes
 ![[sne_expansion_phases.png]]
@@ -286,7 +283,9 @@ Basic picture is below, from Geoffrey's notes
 See [[Stellar classes#White dwarf|white dwarf]]. 
 
 **Why is the radius of a white dwarf a decreasing function of its mass?**
-We proceed via an energy minimization argument. Consider a unit mass near the radius of a WD of mass $M$ and radius $R$. Its gravitational potential energy per unit mass will be $$E_g = -\frac{GM}{R}$$and its  *non-relativistic* kinetic energy per unit mass will primarily come from the motion of electrons $$E_k = N_e\frac{p^2}{2m_e}$$where $N_e$ is the number of electrons per unit mass in this matter (there are $N_eM$ electrons in total in the WD, related to the [[Mean molecular weight#Mean molecular weight|mean weight]] per electron via $N_e \simeq 1/(\mu_e m_H)$ where $m_H$ stands in for 1 [[Units#amu|amu]]). Since the matter is degenerate, we can take the momentum $p$ to be roughly given by the uncertainty in the momentum $\Delta p = \hbar / \Delta x$ (via Heisenberg's uncertainty principle). The quantity $\Delta x$ will be on the order of the separation between electrons, which is $n_e^{-1/3}$ for $n_e$ the number density of electrons. Since there are $N_eM$ electrons in the WD and the volume $V\propto R^3$ we have that $n_e = N_e M / V \sim N_e M/R^3$ and thus $$E_k \simeq N_e \frac{\hbar^2 n_e^{2/3}}{2m_e} \simeq M^{2/3}N_e^{5/3}\frac{\hbar^2}{2m_e R^2}$$The total energy is zero when $E_k + E_g = 0$ which yields $R \propto M^{-1/3}$, that is larger masses yield smaller radii. A rough interpretation of this is that since there is no mechanism such as fusion which can support the WD more as the mass grows, larger masses simply "push more" against the electron degeneracy pressure which is eventually overcome at the Chandrasekhar mass ($\sim 1.4\,M_\odot$) we will describe now.
+We proceed via an energy minimization argument. Consider a unit mass near the radius of a WD of mass $M$ and radius $R$. Its gravitational potential energy per unit mass will be $$E_g = -\frac{GM}{R}$$and its  *non-relativistic* kinetic energy per unit mass will primarily come from the motion of electrons $$E_k = N_e\frac{p^2}{2m_e}$$where $N_e$ is the number of electrons per unit mass in this matter (there are $N_eM$ electrons in total in the WD, related to the [[Mean molecular weight#Mean molecular weight|mean weight]] per electron via $N_e \simeq 1/(\mu_e m_H)$ where $m_H$ stands in for 1 [[Units#amu|amu]]). Since the matter is degenerate, we can take the momentum $p$ to be roughly given by the uncertainty in the momentum $\Delta p = \hbar / \Delta x$ (via Heisenberg's uncertainty principle). The quantity $\Delta x$ will be on the order of the separation between electrons, which is $n_e^{-1/3}$ for $n_e$ the number density of electrons. Since there are $N_eM$ electrons in the WD and the volume $V\propto R^3$ we have that $n_e = N_e M / V \sim N_e M/R^3$ and thus $$E_k \simeq N_e \frac{\hbar^2 n_e^{2/3}}{2m_e} \simeq M^{2/3}N_e^{5/3}\frac{\hbar^2}{2m_e R^2}$$The total energy is zero when $E_k + E_g = 0$ which yields $R \propto M^{-1/3}$, that is larger masses yield smaller radii. 
+
+A rough interpretation of this is that since there is no mechanism such as fusion which can support the WD more as the mass grows, larger masses simply "push more" against the electron degeneracy pressure which is eventually overcome at the Chandrasekhar mass ($\sim 1.4\,M_\odot$) we will describe now.
 
 <mark class="hltr-pink">The Chandrasekhar limit</mark>
 As the mass of a model white dwarf increases, the typical energies to which degeneracy pressure forces the electrons (ie how far up the Fermi level is pushed) are no longer negligible relative to their rest masses. The velocities of the electrons approach the speed of light, and special relativity must be taken into account. The *relativistic* limit of the kinetic energy per unit mass is $E_{k,rel} = N_e pc$ such that via the same procedure as before one finds$$E_{k,rel} = M_{rel}^{1/3}N_e^{4/3}\frac{\hbar c}{R}$$and equating as before with the gravitational energy we find $R$ drops out completely and the relativistic limit mass, $M_{rel}$ is forced to be $$M_{rel} \simeq N_e^2\left(\frac{\hbar c}{G}\right)^{3/2} = \left(\frac{1}{\mu_e m_H}\right)^2\left(\frac{\hbar c}{G}\right)^{3/2} \simeq 1.8\, M_\odot$$To interpret this result, observe that as we add mass to a white dwarf, its radius will decrease, so, by the uncertainty principle, the momentum, and hence the velocity, of its electrons will increase. As this velocity approaches $c$, the extreme relativistic analysis becomes more exact, meaning that the mass $M$ of the white dwarf must approach this limiting mass $M_{rel}$ above. Therefore, no white dwarf can be heavier than this limiting mass, which can be evaluated via more rigorous means to be slightly lower at about $1.4\,M_\odot$, known as the Chandrasekhar limit.
@@ -294,7 +293,7 @@ As the mass of a model white dwarf increases, the typical energies to which dege
 Exact final mass depends on initial mass via "how far it can get" by nuclear burning, changing the composition:
 | Dominant elements(?) | Progenitor mass| Resulting WD mass | 
 |:------------: | :------------: | :------------: |
-|$\ce{He}$ | $0.05-1.5\,M_\odot$ | $0.1-0.4\,M_\odot$ |
+|$\ce{He}$ | $0.1-1.5\,M_\odot$ | $0.1-0.4\,M_\odot$ |
 |$\ce{CO}$ | $1.5-8\,M_\odot$ | $0.5-1.3\,M_\odot$ |
 |$\ce{ONeMg}$ | $6-8\,M_\odot$ | $1-1.3\,M_\odot$ |
 
@@ -317,14 +316,12 @@ Just need to have dense enough body to not be disrupted by centrifugal forces. C
 
 
 ## 54
-**Show from a simple dimensional analysis how the effective temperature of an accretion disk
-depends on accretion rate and distance from the central object**
+**Show from a simple dimensional analysis how the effective temperature of an accretion disk depends on accretion rate and distance from the central object**
 Assume virialized ($2T + U = 0 \implies T = -\frac{1}{2} U$) and thus any potential energy lost by particles migrating in from the edge of the disk $R$ during accretion goes half into kinetic energy, the remaining half powering radiation (not sure about this 1/2 but doesnt change conclusion later). Therefore $$L = \frac{1}{2}\frac{GM\dot{M}}{R} = \frac{1}{2}\frac{dU}{dt}$$ Also assume disk radiates as a [[Blackbody radiation#Blackbody radiation|blackbody]] of area (top of disk) + (bottom of disk) $$L = 2(\pi R^2)\,\sigma\, T_{eff}^4$$Combining expressions we obtain $$T_{eff} \simeq \left( \frac{GM\dot{M}}{4\pi \sigma R^3} \right)^{1/4} \propto R^{-3/4}$$which has the wrong prefactor but the radial dependence is approximately right, depending on type of disk.
 
 
 ## 55
-**What evidence is there for "superluminal" jets from black holes, and how does one explain the
-superluminal motion?**
+**What evidence is there for "superluminal" jets from black holes, and how does one explain the superluminal motion?**
 Superluminal jets are relativistic jets with apparent faster-than-light motion. Evidence is radio knots in jets from [[AGN#AGN|AGN]] such as 3C 279, M87 and other jetted AGN / quasars. Have observed ~$40\,\pu{ly}$ apparent motion in 10 years, and much smaller-timescale measurements with [[Methods#Long baseline interferometry|VLBI]].
 ![[superluminal_jet.jpg|300]]
 
@@ -332,7 +329,7 @@ Explanation is a special relativistic projection effect via relativistic beaming
 ![[superluminal_jet_projection.png|500]]
 
 Observed time to travel from S to P:
-- Light emitted from S at time $t_0$ reaches observer at time $t_{0,obs} = D/c$
+- Light emitted from S at time $t_0=0$ reaches observer at time $t_{0,obs} = D/c$
 - The knot reaches P at time $t_1$. To first order, distance from P to observer is $D_{PO} = D - v t_1\cos\theta$ and so the time at which the knot reaching P is observed is $t_{1,obs} = t_1 + D_{PO}/c$ 
 - $\implies \Delta t_{obs} = t_{1,obs} - t_{0,obs} = \dots = t_1 (1 - \beta \cos\theta)$ where $\beta=v/c$
 
@@ -360,7 +357,7 @@ Assuming accretion efficiency of $\eta = 0.01$ (see [[#47]]) we have $$\dot{M} =
 
 ## 58
 **How much energy is typically released in a type II supernova?**
-Consider a type 2 [[Supernovae#Supernova|supernova]], ie SN showing hydrogen lines arising from core collapse of a single massive ($\gtrsim 8\,M_\odot$) star after core fuses iron and radiation pressure drops off. Consider the collapse of only the iron core of mass $\gtrsim 1.4\,M_\odot$ from a radius of $R_i\simeq 5000\,\pu{km}$ to a radius of $R_f \simeq \,10$s of $\pu{km}$. Gravitational energy released is based on the difference in [[Star formation#Gravitational binding energy|gravitational binding energy]] $$\Delta E = -\frac{3GM^2}{5R_{f}} + \frac{3GM^2}{5R_i} \simeq - 10^{46}\,\pu{J}$$where the - sign refers to the fact that energy is lost by the system. Note that this happens on the [[Timescales#Dynamical timescale|dynamical timescale]] $\tau_{dyn} \sim 1/\sqrt{G\rho} \sim 1\,\pu{s}$ here. 
+Consider a type 2 [[Supernovae#Supernova|supernova]], ie SN showing hydrogen lines arising from core collapse of a single massive ($\gtrsim 8\,M_\odot$) star after core fuses iron and radiation pressure drops off. Consider the collapse of only the iron core of mass $\gtrsim 1.4\,M_\odot$ from a radius of $R_i\simeq 5000\,\pu{km}$ to a radius of $R_f \simeq \,10$s of $\pu{km}$. Gravitational energy released is based on the difference in [[Star formation#Gravitational binding energy|gravitational binding energy]] $$\Delta E = -\frac{3GM^2}{5R_{f}} + \frac{3GM^2}{5R_i} \simeq - 10^{46}\,\pu{J} = - 100 \,\pu{foe}$$where the - sign refers to the fact that energy is lost by the system and an $\pu{foe}$ is $10^{51}\,\pu{ergs}$ (type 1a is about $1\,\pu{foe}$). Note that this happens on the [[Timescales#Dynamical timescale|dynamical timescale]] $\tau_{dyn} \sim 1/\sqrt{G\rho} \sim 1\,\pu{s}$ here, but the light curves of for example type 1a can be significant for months. 
 
 **What fractions of that energy are in the forms of neutrinos, visible light, gas kinetic energy and gravitational radiation?**
 Table below, take-home is neutrinos are incredibly efficient at carrying away energy from the system.
@@ -374,20 +371,19 @@ Table below, take-home is neutrinos are incredibly efficient at carrying away en
 
 
 ## 59
-**Describe a scenario whereby a neutron star can be formed in a binary system and have the system
-remain bound.**
+**Describe a scenario whereby a neutron star can be formed in a binary system and have the system remain bound.**
 Note: some disagreement between notes for this question. Subscript 0 here means before explosion, no subscript implies after explosion. Assume binary stars in a circular orbit of radius $a$ such that the initial energy of the orbit is $$E_0 =-\frac{GM_1M_2}{2a}$$If we ignore the center of mass motion and consider the effective one-body problem of mass $\mu_0 = M_1M_2 / M_{tot,0}$ and speed $v_0$ and use the virial theorem to write $E = -T$ (since $E = T+U$ and $U = -2T$) then the initial orbital energy is$$E_0 = -\frac{1}{2}\mu_0 v_0{}^2$$Putting these together we have $v_0{}^{2} = GM_{tot,0}/a$ 
 
 **After explosion:**
 Consider then that star 1 undergoes a spherically-symmetric [[Supernovae#Supernova|supernova]] explosion, reducing its mass from $M_1$ to the remnant mass $M_r = q M_1$ ($q\in[0,1]$), and which gives no net momentum to star 1 (so $|\vec{v}_1|$ remains constant) due to spherical symmetry. 
 
-Assuming this does not impart significant momentum to the other star (most energy in neutrinos anyway)  then the relative speed of the stars will not change ($v = v_0, a = a_0$). Only the mass of star 1 and thus, the reduced mass of the effective one-body problem $\mu_0 \rightarrow \mu$ is changed. With this, the total energy after explosionwe write as kinetic plus potential (with no center of mass motion) $$E = \frac{1}{2}\mu v_0{}^2 -\frac{GqM_1M_2}{a}$$System is bound when $E < 0$, such that plugging in the expression for $v_0{}^2$ we get $$
+Assuming this does not impart significant momentum to the other star (most energy in neutrinos anyway)  then the relative speed of the stars will not change ($v = v_0, a = a_0$). Only the mass of star 1 and thus, the reduced mass of the effective one-body problem $\mu_0 \rightarrow \mu$ is changed. With this, the total energy after explosion we write as kinetic plus potential (with no center of mass motion) $$E = \frac{1}{2}\mu v_0{}^2 -\frac{GqM_1M_2}{a}$$System is bound when $E < 0$, such that plugging in the expression for $v_0{}^2$ we get $$
 \begin{align}
 \frac{1}{2}\mu v_0{}^2 &< \frac{GqM_1M_2}{a} \\
 \frac{1}{2}\mu \frac{GM_{tot,0}}{a} &< \frac{GqM_1M_2}{a} \\
 \mu M_{tot,0} &< 2 qM_1M_2 \\
 \frac{qM_1M_2}{M_{tot}} M_{tot,0} &< 2 qM_1M_2
-\end{align}$$which all implies for a bound orbiy after explosion: $$\frac{M_{tot}}{M_{tot,0}} > \frac{1}{2}$$That is, if we dont lose more than half of the total mass of the system, it remains bound (assuming no momentum transfer via SN ejecta). This can be turned into a condition on $q$ but this is sufficient. 
+\end{align}$$which all implies for a bound orbit after explosion: $$\frac{M_{tot}}{M_{tot,0}} > \frac{1}{2}$$That is, if we dont lose more than half of the total mass of the system, it remains bound (assuming no momentum transfer via SN ejecta). This can be turned into a condition on $q$ but this is sufficient. 
 
 
 ## 60
@@ -410,7 +406,7 @@ See [[Binaries#Cataclysmic variable|cataclysmic variable]]. Basically a [[Stella
    - Lasts between 2 and 20 days and can exhibit quasi-periodicity on day to decade scales
    - **Does not eject material** from binary
    - Most abundant type of nova
-   - Mechanism is as follows:
+   - Mechanism is as follows: (this seems basically like the [[Pulsating stars#Kappa-mechanism|K-mechanism]] but with viscosity)
 	   - Thermal instability in accretion disk close to ionization temperature of $\ce{H}$
 	   - When $\ce{H}$ ionizes, [[Optical depth#Opacity|opacity]] increases which results in an effective increase in viscosity
 	   - This causes an increase in $\dot{M}$, which also increases the rate of gravitational potential energy loss by material falling into the accretion disk
@@ -422,7 +418,9 @@ See [[Binaries#Cataclysmic variable|cataclysmic variable]]. Basically a [[Stella
 **What is the gravitational redshift from the surface of a neutron star?**
 Consider the [[General relativity#Schwarzschild|Schwarzschild metric]] for the [[Neutron stars#Neutron stars|neutron star]] of mass $M$ and radius $R$ (ie we assume that it is not rotating, which isnt a great assumption). Consider a photon starting at $r=R$ moving radially (ie we can ignore the angular parts of the metric)
 
-For an object at a particular radius $r$ the spacing of clock ticks in proper time are determined by (abusing notation a little)$$d\tau^2 = \left( 1 - \frac{R_S}{r} \right)dt^2\quad \implies \quad \frac{d\tau}{dt} = \left( 1 - \frac{R_S}{r} \right)^{1/2}$$Consider an observer at infinity. The [[Spectra#Redshift|redshift]] they measure at infinity is given by $$1 + z = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{\lambda_{\infty}}{\lambda_{r}}$$Since the wavelength observed by a timelike observer $\lambda \sim 1/\nu \sim \text{observers proper time } \tau$, if we compare the proper time observed by a timelike observer in one unit of coordinate time $t$ (that is $d\tau/dt$) at both $r$ and $\infty$ we can also compare their wavelengths $$1 + z = \frac{\lambda_{\infty}}{\lambda_{r}} = \frac{d\tau/dt |_{\infty}}{d\tau/dt |_{r}} = \left( 1 - \frac{R_S}{r} \right)^{-1/2}$$For a photon emitted at the radius of the neutron star $r=R$ evaluating this (with the typical [[Neutron stars#Neutron stars|NS]] parameters) yields $z\sim 0.3$. We have measured redshifts of the [[Spectra#Fe k-alpha line|Fe k-alpha line]] due to gravitational redshift outside a [[Black holes#Black hole|black hole]].
+For an object at a particular radius $r$ the spacing of clock ticks in proper time are determined by (abusing notation a little)$$d\tau^2 = \left( 1 - \frac{R_S}{r} \right)dt^2\quad \implies \quad \frac{d\tau}{dt} = \left( 1 - \frac{R_S}{r} \right)^{1/2}$$Consider an observer at infinity. The [[Spectra#Redshift|redshift]] they measure at infinity is given by $$1 + z = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{\lambda_{\infty}}{\lambda_{r}}$$Since the wavelength observed by a timelike observer $\lambda \sim 1/\nu \sim \text{observers proper time } \tau$, if we compare the proper time observed by a timelike observer in one unit of coordinate time $t$ (that is $d\tau/dt$) at both $r$ and $\infty$ we can also compare their wavelengths $$1 + z = \frac{\lambda_{\infty}}{\lambda_{r}} = \frac{d\tau/dt |_{\infty}}{d\tau/dt |_{r}} = \left( 1 - \frac{R_S}{r} \right)^{-1/2}$$For a photon emitted at the radius of the neutron star $r=R$ evaluating this (with the typical [[Neutron stars#Neutron stars|NS]] parameters) yields $z\sim 0.3$. 
+
+Dubious: we have measured redshifts of the [[Spectra#Fe k-alpha line|Fe k-alpha line]] or maybe $H\beta$ line due to gravitational redshift outside a [[Black holes#Black hole|black hole]] and supermassive black hole.
 
 
 ## 62

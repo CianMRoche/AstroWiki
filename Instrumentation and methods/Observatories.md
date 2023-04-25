@@ -294,3 +294,7 @@ Will perform the first seeing-limited IR time-domain survey with FoV $\sim 1 \,\
 
 ## Fermi
 A space observatory being used to perform [[Spectra#The electromagnetic spectrum|gamma-ray]] astronomy observations from low Earth orbit. Its main instrument is the Large Area Telescope (LAT), with which astronomers mostly intend to perform an all-sky survey studying astrophysical and cosmological phenomena such as [[AGN#AGN|AGN]], [[Pulsars#Pulsar|pulsars]], other high-energy sources and [[Dark matter]]. Another instrument aboard Fermi, the Gamma-ray Burst Monitor (GBM; formerly GLAST Burst Monitor), is being used to study [[GRBs#GRB|GRBs]] and [[The Sun#The Sun|solar]] flares.
+
+
+## IXPE
+"Imaging Polarimetry X-ray Explorer". 

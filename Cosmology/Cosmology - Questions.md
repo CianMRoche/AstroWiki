@@ -118,6 +118,9 @@ Using the relative densities $\Omega_i$ defined in the context of the [[FLRW]] m
 4. $\Omega_\Lambda$
    Seems we define it as $\Omega_\Lambda = 1-\Omega_k - \Omega_M - \Omega_r$ but I thought the fact that they all sum to 1 was confusing? Not sure. If we assume $\Omega_k = 0$ can use location of first peak to get $H_0$ . This one is unclear.
 
+5. $\Omega_r$
+   Actually doesnt show up here, but if we know $H_0$ then we can calculate this directly from the CMB temperature since we know how radiation energy density scales with $T$.
+
 
 ## 130
 **Write down the Jeans equation for a disturbance propagating in a self-gravitating medium. From this show how to find the critical wavenumber for propagating modes. What is the Jeans mass?**
@@ -254,3 +257,83 @@ See [[FLRW]] for the answer to both.
 
 **(iii) dominated by a cosmological constant?**
    Dark energy dominated $\implies$ as above $H^2 = H_0^2 \Omega_\Lambda = H_0^2$ and thus $$\frac{\dot a}{a} = H_0 \implies a = e^{H_0 t}$$which expands exponentially. The universe reached matter-dark energy equality at $z = 0.3$ (recent!).
+
+
+## 138
+**What was the approximate temperature of the universe at recombination, and why did recombination happen then?**
+
+Short answer: 
+- $T = T_0(1+z)$ (see [[[Blackbody radiation#Blackbody radiation|BB]]) 
+- $z_{rec} = 1100$ at [[Recombination]]
+- so it was about $2.7\,\pu{K}(1100) \simeq 3000\,\pu{K}$ 
+
+Why is that the redshift? Need to establish the redshift at which half of the hydrogen is ionized. This calculation is dnoe in [[Recombination]]. 
+
+Note that the ionization energy of hydrogen is about $13.6\,\pu{eV}$ which would correspond to a thermal temperature on the order of $T \simeq E/k_B \simeq 10^5\,\pu{K}$  (using $k_B \simeq 10^{-4}\,\pu{eV K^{-1}}$) which implies we should have recombined much earlier than the redshift at which $T$ was $3000\,\pu{K}$. The reason it takes longer to reach half ionization is that the photon energy distribution has a long tail which keeps things ionized for longer (think of it as a [[Blackbody radiation#Blackbody radiation|BB]] with peak temperature much smaller than that required to ionize, but the tail is long so it can still do so).
+
+
+## 139
+**When (or at what redshift) did the universe become 
+(i) matter dominated?** 
+Matter-radiation equality of the [[FLRW#Friedmann equation|Friedmann equation]] happens when $$\Omega_{r}(1+z)^4 = \Omega_M(1+z)^3\implies z = \frac{\Omega_M}{\Omega_r} -1 \simeq \frac{0.3}{10^{-4}} - 1 = 3000\,\pu{K}$$**(ii) optically thin to electron scattering?** 
+[[Recombination]], after which [[Scattering#Electron scattering|electron scattering]] occurs far less frequently.
+
+**What temperature was the CMB at these times?** 
+$T = T_0 (1+z)$ where $T_0 = 2.7\,\pu{K}$
+
+**What significance did these events have for the CMB?**
+
+For matter-radiation equality:
+- Before this, no structure forms because the expansion is too fast. Afer, [[Dark matter]] starts to collapse and set potential wells in which the baryons oscillate with gravity against photon pressure (once enough time as passed for sound waves to travel in them, ie they "entered the sound horizon" as in [[#131|Q131]]).
+- Once potential wells are set, the [[CMB#CMB power spectrum|CMB power spectrum]] is impacted because as photons climb out of those wells, they get redshifted (the non-integrated Sachs-Wolfe effect). Since one large scales the DM potential wells are not varying, this means no power in the power spectrum on large scalles (small $l$ plateau).
+- $\Omega_m$ sets the heights of the peaks on the power spectrum (see [[#129|Q129]]) and also the redshift of M-R equality.
+
+For [[Recombination]]:
+- Sets the scales that show up as peaks on the [[CMB#CMB power spectrum|power spectrum]].
+- [[BAO]] which is just the same thing as the first peak.
+
+
+## 140
+**What evidence is there for dark energy and what might it be?**
+
+What is it? 
+- Cosmological constant/dark energy which acts like a negative pressure (think of a positive pressure as pushing in isotropically on a small body, such that a negative pressure pulls on it isotropically). 
+- Maybe not a constant, rather a scalar field which changes in time ("quintessence")
+- Maybe some exotic modified gravity
+
+Particle physics predicts $\Omega_\Lambda\sim10^{120}$ via the planck time which is 120 orders of magnitude different than modelling of [[CMB]].
+
+Evidence:
+1. [[CMB#CMB power spectrum|CMB power spectrum]] fitting
+   (and other things related to CMB) gives $\Omega_\Lambda \simeq 0.7 \neq 0$.
+
+2. Integrated Sachs-Wolfe effect
+   We see large scale redshifting consistent with an accelerated expansion that only occurs if universe is $\Lambda$ or radiation dominated
+
+3. [[Supernovae#Supernova|Supernova]] cosmology
+   Can measure [[Distances#Luminosity distance|luminosity distance]] of SNe and plot against redshift, see (from Megans notes) ![[sne_cosmology.png]]
+   Since the luminosity distance depends on cosmological params, can constrain $\Omega_\Lambda$ with these measurements. Difference becomes pronounced at higher redshifts, because expansion rate varies over cosmic time.
+   
+   If the universe is flat (otherwise degeneracy between $\Omega_M$ and $\Omega_\Lambda$) we can use these measurements to make plots like ![[sne_constraints.png]]
+
+
+## 141
+**Is most of the hydrogen in the universe neutral or ionized? Describe the approximate ionization history of the Universe, and at what redshift the major phase transitions occurred.**
+
+[[Reionization]] happened so its almost all ionized. 
+
+
+## 142
+**What is the Ly alpha forest? Why are cosmologists interested in it?**
+
+See [[Spectra#Lyman-alpha forest|Lyman alpha forest]]. 
+
+Cosmologists are interested in it because it provides a map of the matter along the line of sight.
+
+
+## 143
+**What are the "flatness problem" and the "isotropy problem" in standard Big-Bang cosmology?**
+The fact that the total $\Omega$ 
+
+
+**How does the inflationary model resolve these problems?**

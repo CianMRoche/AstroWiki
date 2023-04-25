@@ -23,6 +23,8 @@ r &\in (0,\infty) \\
 - Shapiro time delay
 - Gravitational redshift
 - Lensing (angle between real source and apparent source double what was predicted without GR)
+- [[Gravitational waves]]
+- Hulse-Taylor pulsar ([[Compact objects - Questions#56|Q56]])
 
 
 ## FLRW

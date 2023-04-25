@@ -9,3 +9,5 @@ A group of 10s to 1000s of stars formed from the same giant [[#Molecular cloud|c
 
 **Typical parameters**
 - Mass: $\sim 10^4-10^6\,M_\odot$ 
+
+47 Tucanae is a famous examplel

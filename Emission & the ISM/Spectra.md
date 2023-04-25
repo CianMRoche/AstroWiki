@@ -19,9 +19,9 @@ Traces cool, ionized gas. Has been used to trace [[Object Types#CGM|CGM]]. Ratio
 ## H-alpha
 Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 2eV
 
-Emitted by many [[Object Types#Emission Nebula|emission nebulae]] and can be used to observe features in the [[Objects#The Sun|Sun]]'s atmosphere, including solar prominences and the chromosphere. Also by HII regions (see [[Emission & the ISM - Questions#73|Q73]]).
+Emitted by many [[Nebulae#Emission nebula|emission nebulae]] and can be used to observe features in the [[The Sun#The Sun|the Sun]]'s atmosphere, including solar prominences and the chromosphere. Also by HII regions (see [[Emission & the ISM - Questions#73|Q73]]).
 
-Traces star formation 
+Traces star formation.
 
 
 ## 21cm line
@@ -45,7 +45,18 @@ A model for the H1 power spectrum with 2halo, 1halo and shot noise terms, dpeend
 - Lyman-$\alpha$ is the first one ($n=2$ to $n=1$) and is $120\,\pu{nm}$
 - Strong absorbtion in air, so usually done in space. Highly-redshifted sources can penetrate though
 
-The **Lyman-$\mathbf{\alpha}$ forest** is a series of absorbtion lines corresponding to the absorbtion of distant background light by gas clouds at different redshifts, each absorbing at the Lyman-$\alpha$ transition. In principle, the absorbtion spectrum in this case is a map of the gas between the observer and the source, including redshift information.
+The **Lyman-$\mathbf{\alpha}$ forest** is a series of absorbtion lines corresponding to the absorbtion of distant background light by gas clouds at different redshifts, each absorbing at the Lyman-$\alpha$ transition in their own rest frames. In principle, the absorbtion spectrum in this case is a map of the gas between the observer and the source, including redshift information.
+
+Each cloud absorbs the line at a wavelength $\lambda = (1+z) \lambda_0$. We corrected back to emitted wavelength in the plot below, rather than observed.
+
+Lyman limit is the wvaelength at which the hydrogen will just become ionized.
+
+![[Lya-forest-60.gif|400]]
+![[Lyman-alpha_forest.gif]]
+
+The Gunn-Peterson trough appears for sources which are at redshifts between [[Reionization]] and [[Recombination]], since in that period there was a lot f neutral H and all the emission is fully absorbed. 
+
+![[gunn-peterson.jpg|350]]
 
 
 ## Molecular hydrogen
