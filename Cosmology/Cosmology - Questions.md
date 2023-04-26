@@ -438,7 +438,7 @@ Experimental neutrino mass timeline below. Also cosmological contraints using [[
 ## 151
 **What is the meaning and purpose of a log N – log S curve? Explain the current interpretation of this curve for gamma-ray bursts.**
 
-Used to measure deviation of a population of sources from being homogeneous and isotropic in the universe. 
+Used to measure deviation of a population of sources from being homogeneous and isotropic in the universe (eg uniform on sky and at all redshifts).
 
 - $N$ is number of [[GRBs]]
 - $S$ is total energy released = "fluence" = time-integrated [[Units#Flux|flux]]. Often measured in total number of counts observed. The flux $F$ for a source of [[Units#Luminosity|luminosity]] $L$ at distance $D$ is $$F = \frac{L}{4\pi D^2} \longrightarrow \text{time integrate} \longrightarrow S = \frac{E}{4\pi D^2}$$for total energy output $E$. 

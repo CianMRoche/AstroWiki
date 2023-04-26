@@ -51,6 +51,7 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched 
 
 
 ## EHT
+Observed [[AGN examples#Sagittarius A|Sag A*]] and M87 [[Black holes#Black hole|SMBHs]] using [[Methods#Long baseline interferometry|VLBI]] to get sub-arcsecond resolution.
 
 
 ## LIGO
