@@ -4,7 +4,3 @@
 - QSO 1013+277 - A [[Object Types#Quasar|quasar]]
 - 
 
-
-# Bonus questions
-#### Why is a void spherical?
-- It isnt

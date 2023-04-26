@@ -16,6 +16,17 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "Bonus Questions.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 54,
+      "pageCount": 0.18,
+      "characterCount": 344,
+      "nonWhitespaceCharacterCount": 282,
+      "createdDate": 1682482053232,
+      "modifiedDate": 1682486559253,
+      "sizeInBytes": 344
+    },
     "Mnemonics.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -294,13 +305,13 @@
     "Lightning round.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 58,
-      "pageCount": 0.19333333333333333,
-      "characterCount": 383,
-      "nonWhitespaceCharacterCount": 321,
+      "wordCount": 46,
+      "pageCount": 0.15333333333333332,
+      "characterCount": 325,
+      "nonWhitespaceCharacterCount": 275,
       "createdDate": 1676490414602,
-      "modifiedDate": 1677287934910,
-      "sizeInBytes": 383
+      "modifiedDate": 1682482050604,
+      "sizeInBytes": 325
     },
     "Instrumentation and methods/Methods.md": {
       "isDirectory": false,
@@ -514,13 +525,13 @@
     "Galaxies/AGN examples.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 73,
-      "pageCount": 0.24333333333333335,
-      "characterCount": 560,
-      "nonWhitespaceCharacterCount": 485,
+      "wordCount": 88,
+      "pageCount": 0.29333333333333333,
+      "characterCount": 650,
+      "nonWhitespaceCharacterCount": 558,
       "createdDate": 1677541407445,
-      "modifiedDate": 1680900238856,
-      "sizeInBytes": 560
+      "modifiedDate": 1682482133711,
+      "sizeInBytes": 650
     },
     "Exoplanets/Exoplanets - Questions.md": {
       "isDirectory": false,
@@ -547,13 +558,13 @@
     "Emission & the ISM/Spectra.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1210,
-      "pageCount": 4.033333333333333,
-      "characterCount": 8153,
-      "nonWhitespaceCharacterCount": 6882,
+      "wordCount": 1226,
+      "pageCount": 4.086666666666667,
+      "characterCount": 8272,
+      "nonWhitespaceCharacterCount": 6984,
       "createdDate": 1677701019011,
-      "modifiedDate": 1682464752150,
-      "sizeInBytes": 8153
+      "modifiedDate": 1682486553739,
+      "sizeInBytes": 8272
     },
     "Emission & the ISM/Scattering.md": {
       "isDirectory": false,
@@ -811,13 +822,13 @@
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 6276,
-      "pageCount": 20.92,
-      "characterCount": 43078,
-      "nonWhitespaceCharacterCount": 36302,
+      "wordCount": 6478,
+      "pageCount": 21.593333333333334,
+      "characterCount": 44583,
+      "nonWhitespaceCharacterCount": 37597,
       "createdDate": 1677543451529,
-      "modifiedDate": 1682479596937,
-      "sizeInBytes": 43086
+      "modifiedDate": 1682481273758,
+      "sizeInBytes": 44591
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,
