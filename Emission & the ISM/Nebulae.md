@@ -35,7 +35,7 @@ Clouds of interstellar [[Dust#Dust|dust]] which reflect the light of a nearby st
 ![[reflectionNebula.jpg|500]]
 
 ## Dark nebula
-A [[Star formation#Molecular cloud|molecular cloud]] for which enough dust is present and the medium is dense enough to block visible light from background sources like stars, [[Nebulae#Emission nebula|emission nebulae]] or [[Nebulae#Reflection nebula|reflection nebulae]]. 
+A [[Star formation#Molecular cloud|molecular cloud]] for which enough [[Dust]] is present and the medium is dense enough to block visible light from background sources like stars, [[Nebulae#Emission nebula|emission nebulae]] or [[Nebulae#Reflection nebula|reflection nebulae]]. 
 ![[GAIAMilkyWay.jpg]]
 GAIA Milky Way data, dark nebulae in black and stellar clouds ([[Clustering#Globular Cluster|globular clusters]] and [[Clustering#Open Cluster|open clusters]]) in white
 

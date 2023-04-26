@@ -104,11 +104,16 @@ So the Sun is a **G2V** star
 Atmosphere not too problematic, can perform radio observations even on cloudy days
 
 **Solar system**:
-- The Sun
+- [[The Sun]]
 - Jupiter 
 
 **Galactic**:
 - Galactic center
+- [[Pulsars]]
+
+**Extragalactic**
+- [[Galaxies#Radio galaxy|Radio galaxies]]
+- [[FRBs]] 
 
 
 ## X-ray background

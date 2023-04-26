@@ -70,6 +70,11 @@ A summary of the stellar phases is shown below, where evolution takes place from
 
 They also exhibit a common beginning, the [[Star formation]] stage, wherein a [[Star formation#Molecular cloud|molecular cloud]] collapses provided it is larger than the [[Jeans#Jeans mass|Jeans mass]] for that cloud.
 
+Good estimate for the [[Jeans#Jeans length|Jeans length]] in the molecular cloud where they formed: 
+- Distance to closest star is $\sim 1\,\pu{pc}$ (proxima cantauri)
+- Lengths have expanded a factor of $\sim 4$ since redshift $\sim3$ (via [[FLRW#Friedmann equation|Friedmann eq]]) (might need to consiider volumes but all order-1 factors anyway)
+- The Jeans length in the original cloud must have been $\lesssim 0.1 \,\pu{pc}$ 
+
 1. Low-mass:
 | Stage    | [[HR-diagram#Pre-main sequence\|Pre-MS]] | [[HR-diagram#Main sequence\|MS]]                   | [[HR-diagram#Subgiant branch\|Subgiant branch]] | [[HR-diagram#RGB\|RGB]] | Horizontal branch | AGB | [[Nebulae#Planetary nebula\|Planetary nebula]] | [[Stellar classes#White dwarf\|White dwarf]] |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

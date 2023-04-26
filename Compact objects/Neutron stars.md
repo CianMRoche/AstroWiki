@@ -20,6 +20,9 @@ Most of the basic models for these objects imply that neutron stars are composed
 
 
 ## Neutron star equation of state
+We dont know what it is.
+
+**Incomplete notes from a talk:**
 Want $P(\rho)$, but that assumes that the matter is at $T=0$ and at $\beta$-equilibrium (?). Apparently fine pre-binary merger, but not in the merging and post-merger phases. 
 
 [[Observatories#NICER|NICER]] has helped to inform the EoS of NSs by 

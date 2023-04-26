@@ -305,13 +305,13 @@
     "Lightning round.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 578,
-      "pageCount": 1.9266666666666667,
-      "characterCount": 4497,
-      "nonWhitespaceCharacterCount": 3804,
+      "wordCount": 902,
+      "pageCount": 3.006666666666667,
+      "characterCount": 6952,
+      "nonWhitespaceCharacterCount": 5910,
       "createdDate": 1676490414602,
-      "modifiedDate": 1682542529874,
-      "sizeInBytes": 4497
+      "modifiedDate": 1682546112812,
+      "sizeInBytes": 6955
     },
     "Instrumentation and methods/Methods.md": {
       "isDirectory": false,
@@ -415,24 +415,24 @@
     "Galaxies/Milky Way.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 36,
-      "pageCount": 0.12,
-      "characterCount": 216,
-      "nonWhitespaceCharacterCount": 181,
+      "wordCount": 55,
+      "pageCount": 0.18333333333333332,
+      "characterCount": 335,
+      "nonWhitespaceCharacterCount": 276,
       "createdDate": 1678991908048,
-      "modifiedDate": 1678992124483,
-      "sizeInBytes": 216
+      "modifiedDate": 1682543768171,
+      "sizeInBytes": 335
     },
     "Galaxies/Galaxy examples.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 105,
-      "pageCount": 0.35,
-      "characterCount": 801,
-      "nonWhitespaceCharacterCount": 686,
+      "wordCount": 102,
+      "pageCount": 0.34,
+      "characterCount": 785,
+      "nonWhitespaceCharacterCount": 676,
       "createdDate": 1679944116804,
-      "modifiedDate": 1682538219816,
-      "sizeInBytes": 801
+      "modifiedDate": 1682543713739,
+      "sizeInBytes": 785
     },
     "Galaxies/Galaxy evolution.md": {
       "isDirectory": false,
@@ -481,13 +481,13 @@
     "Galaxies/Galaxies.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 797,
-      "pageCount": 2.6566666666666667,
-      "characterCount": 5370,
-      "nonWhitespaceCharacterCount": 4513,
+      "wordCount": 831,
+      "pageCount": 2.77,
+      "characterCount": 5677,
+      "nonWhitespaceCharacterCount": 4782,
       "createdDate": 1680671267557,
-      "modifiedDate": 1681162009211,
-      "sizeInBytes": 5370
+      "modifiedDate": 1682545756214,
+      "sizeInBytes": 5679
     },
     "Galaxies/Density profiles.md": {
       "isDirectory": false,
@@ -558,13 +558,13 @@
     "Emission & the ISM/Spectra.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1226,
-      "pageCount": 4.086666666666667,
-      "characterCount": 8272,
-      "nonWhitespaceCharacterCount": 6984,
+      "wordCount": 1235,
+      "pageCount": 4.116666666666666,
+      "characterCount": 8364,
+      "nonWhitespaceCharacterCount": 7065,
       "createdDate": 1677701019011,
-      "modifiedDate": 1682486553739,
-      "sizeInBytes": 8272
+      "modifiedDate": 1682545517550,
+      "sizeInBytes": 8364
     },
     "Emission & the ISM/Scattering.md": {
       "isDirectory": false,
@@ -604,11 +604,11 @@
       "noteCount": 1,
       "wordCount": 318,
       "pageCount": 1.06,
-      "characterCount": 2449,
-      "nonWhitespaceCharacterCount": 2111,
+      "characterCount": 2453,
+      "nonWhitespaceCharacterCount": 2115,
       "createdDate": 1677535860645,
-      "modifiedDate": 1681958847754,
-      "sizeInBytes": 2449
+      "modifiedDate": 1682544761458,
+      "sizeInBytes": 2453
     },
     "Emission & the ISM/Magnetobremsstrahlung.md": {
       "isDirectory": false,

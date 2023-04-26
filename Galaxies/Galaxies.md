@@ -19,6 +19,13 @@ Here are examples of what the different types look like:
 ## Jellyfish galaxy
 
 
+## Radio galaxy
+A [[#Galaxy]] with giant regions of [[Spectra#The electromagnetic spectrum|radio]] emission extending well beyond its visible structure. Large radio lobes driven by [[AGN#AGN|AGN]] activity.
+
+Often corresponds to [[AGN#Fanaroff–Riley classification|type 2]] [[AGN]] 
+
+![[radio_galaxy.jpg]]
+
 
 ## Starburst galaxy
 Starburst Galaxies are the galaxies where massive stars are forming at a very high rate (about 10^3 times greater than in a normal galaxy like our [[Milky Way]]). 

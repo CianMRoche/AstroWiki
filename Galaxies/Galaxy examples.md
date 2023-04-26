@@ -6,10 +6,6 @@ Radius: $\sim 50\,\pu{kpc}$
 Distance: $\sim 800 \,\pu{kpc}$
 
 
-## Milky Way
-
-
-
 ## Large Magellanic Cloud
 A sattelite galaxy of the [[#Milky Way]], the third closest sattelite galaxy (except maybe its the closest because are the other two considered to be disrupted? See [[Galaxy groups#Local Group|local group]])
 

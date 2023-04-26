@@ -60,14 +60,94 @@ You will note that below
 - See also [[Bonus Questions#Observing the EM spectrum|Observing EM spectrum]] for what telescopes could see these things in principle.
 | Band         | Isotropic | Anisotropic |
 |--------------|-----------|-------------|
-| radio        |Radio galaxies| Cas A (picture below) and other [[Magnetobremsstrahlung#Synchrotron radiation\|Synchrotron]] from [[Supernovae#Supernova\|SN]] remnants|
+| radio        |[[Galaxies#Radio galaxy\|Radio galaxies]]| Cas A (picture below) and other [[Magnetobremsstrahlung#Synchrotron radiation\|Synchrotron]] from [[Supernovae#Supernova\|SN]] remnants|
 | mm           |  [[CMB]] and [[AGN]]        |             |
 | MIR          |[[Galaxies#Starburst galaxy\|Starburst galaxies]]|[[Dust]], and cool stars|
 | optical      | [[Galaxies]], [[AGN]]|      Stars       |
 | UV          |[[AGN#Quasar\|Quasars]]| Hot stars (eg [[Spectra#Harvard Spectral Classification\|O-type]]) and hot [[Stellar classes#White dwarf\|WDs]] |
-| X-ray        |[[AGN]]|[[Binaries#X-ray binary\|XRBs]], [[Supernovae#Supernova\|SNe]] remnants, [[Galaxy clusters#Galaxy cluster\|galaxy clusters]]|
+| X-ray        |[[AGN]]|[[Binaries#X-ray binary\|XRBs]], [[Supernovae#Supernova\|SNe]] remnants, [[Galaxy clusters#Galaxy cluster\|galaxy clusters]](?)|
 | $\gamma$-ray |[[GRBs]], [[AGN]]|[[Binaries#X-ray binary\|XRBs]], and the Crab [[Nebulae#Pulsar wind nebula\|pulsar wind nebula]] (brightest non-transient)|
 
-Note brightest radio source in a given constellation is labelled "A" (eg [[AGN examples#Sagittarius A|Sag A*]]) as with Cas A above, and X-ray sources typically get something like "X1" etc.
+Note brightest radio source in a given constellation is labelled "A" (eg [[AGN examples#Sagittarius A|Sag A*]]) as with Cas A (pictured below), and X-ray sources typically get something like "X1" etc.
 
 ![[CasA.jpg]]
+
+
+## 168
+Briefly describe the following famous astronomical objects: 
+
+**The Crab**
+- [[Nebulae#Pulsar wind nebula|Pulsar wind nebula]] supernova remnant
+- Observed in 1054 in China
+- One of the brightest X-ray and $\gamma$-ray sources on the sky
+- See [[Compact objects - Questions#62|Q62]] for energy budget
+
+**[[Catalogs#M|M]]3**
+- [[Clustering#Globular Cluster|Globular cluster]] in the [[Milky Way#Milky Way|Milky Way]] 
+- One of the brightest and best studied GCs since is only $10\,\pu{kpc}$
+- Contains a large population of [[Pulsating stars#RR-lyrae stars|RR-lyrae]] stars making it useful for (bad) distance ladder calibration
+- Relatively metal-rich despite inferred age of $\sim 11.4\,\pu{Gyr}$ 
+
+**[[Galaxy examples#M31|M31]]**
+- Galaxy similar to milky way, largest member of local group. See linked note.
+
+**[[Catalogs#M|M]]87**
+- Elliptical galaxy at center of [[Galaxy cluster examples#Virgo Cluster|Virgo cluster]]
+- About $16\,\pu{Mpc}$ away
+- Will collide with Milky Way in about $5\,\pu{Gyr}$ 
+- [[Black holes#Black hole|SMBH]] at center was observed by [[Observatories#EHT|EHT]] in 2017
+
+**W51**
+- [[Nebulae|Nebula]] with a lot of [[Dust]] so have to observe in IR (eg with [[Observatories#Spitzer|Spitzer]]) 
+- One of the most active star-forming regions in the Milky Way
+- $d\sim 6\,\pu{kpc}$ and $r\sim 100\,\pu{pc}$ 
+
+**Cyg X-1**
+- First stellar mass [[Black holes#Black hole|BH]] ($\sim 20\,M_\odot$) discovered in 1964 in X-ray, distance $\sim 2\,\pu{kpc}$
+- In a high-mass [[Binaries#X-ray binary|XRB]] with a blue supergiant ([[Accretion]] driven by stellar winds)
+- Launches jets so also a strong radio source
+
+**[[Catalogs#3C|3C]] 273**
+- First [[AGN#Quasar|quasar]] discovered in that catalog, optical counterpart looked like a star
+- When nucleus was blocked, revealed a giant elliptical [[Galaxies#Galaxy|galaxy]] 
+
+**Cyg A**
+- [[Galaxies#Radio galaxy|Radio galaxy]] + [[AGN#Fanaroff–Riley classification|type 2]] [[AGN]] 
+
+**SS 433**
+- Eclipsing [[Binaries#X-ray binary|XRB]] in the MW containing a stellar-mass [[Black holes#Black hole|BH]] and [[Spectra#Harvard Spectral Classification|A-type]] companion
+- $d\sim 5.5\,\pu{kpc}$ and $P\sim 13\,\pu{days}$ 
+- First "microquasar" with jets + $\pu{TeV}$ photons
+
+**GW150914**
+- first detection of [[Gravitational waves]] from [[Observatories#LIGO|LIGO]]
+- [[Binaries|Binary]] [[Black holes#Black hole|BH]] merger of about $30\,M_\odot$ each
+- $d\sim 400\,\pu{Mpc}$ with total energy $\sim 3M_\odot c^2$ 
+![[GW150914.png]]
+**GW170817**
+- First detection of binary [[Neutron stars#Neutron stars|NS]] merger by [[Observatories#LIGO|LIGO]]
+- Temporally and spatially consistent [[GRBs#GRB|GRB]] detected by [[Observatories#Fermi|Fermi]] (very cool very convincing), great multi-messenger viability demonstration
+- Time-delayed detections in other bands
+- $d\sim 40\,\pu{Mpc}$ and $z \sim 0.01$ 
+
+**[[Galaxy examples#Large Magellanic Cloud|LMC]]**
+- See note
+
+**Boötes Void**
+- Giant anomalously empty region of space in the Boötes constellation containing very few [[Galaxies]]
+- One of largest known voids with a radius of $\sim 50\,\pu{Mpc}$ at a distance of $\sim 250\,\pu{Mpc}$
+
+**[[Galaxy cluster examples#Virgo Cluster|Virgo cluster]]**
+- See note
+
+**TRAPPIST-1**
+- An [[Stellar classes#M-dwarf|M-dwarf]] with 7 planets (like our solar system) with 4 in the habitable zone
+- Discovered with TRAPPIST telescope ("transiting planets and planetesimals small telescope", 2 telescopes in Chile) in 2016
+- Many of planets in [[Orbital resonance]] and are relatively low-denisty
+
+**Prox Cen b**
+- Planet in habitable zone of Proxima centauri (closest star to us at $\sim 1\,\pu{pc}$)
+- Discovered via radial velocity method (see [[Exoplanets - Questions]]) with $a\sim 0.05\,\pu{AU}, M\gtrsim 1M_\bigoplus$ 
+
+[[AGN examples#Sagittarius A|Sag A*]] 
+- See note
