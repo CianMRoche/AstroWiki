@@ -23,6 +23,8 @@ Time evolution of a homogeneous, isotropic universe.
    The critical density of the universe $\rho_c$ is just the mass density $\rho$ at a given cosmological time required to eventually "stop" the expansion of the universe, and for (reasons unclear at the moment) we calculate it by setting $k$ and $\Lambda$ to zero, finding $$\rho_c(t) = \frac{3 H(t)^2}{8\pi G}$$Assuming a zero vacuum energy density ($\Lambda=0$)
    - If $\rho > \rho_c$ the space sections of the universe are closed; the universe will eventually stop expanding, then collapse
    - If $\rho < \rho_c$ they are open, and the universe expands forever
+
+   This can be discussed in terms of the parameter $\Omega(t):= \rho(t)/\rho_c(t)$ and whether it is larger or smaller than 1 (time-dependence made explicit as when we dont write it it is often implied we mean evaluated at redshift 0).
    
 3. **Friedmann equation version 2**
    We can then rewrite the Friedmann equation in terms of things we would measure at redshift zero in the following way. Skipping the calculation, if we define $$\begin{align}

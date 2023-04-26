@@ -211,12 +211,16 @@ See [[Emission & the ISM - Questions#79|Q79]] for dust sadness.
 
 
 ## Planck
-ESA mission that ran from 2009 2013 to measure the anisotropies of the [[CMB#CMB|CMB]]. Best measurement of the CMB power spectrum + CMB measured cosmological parameters.
+ESA mission that ran from 2009-2013 to measure the anisotropies of the [[CMB#CMB|CMB]]. Best measurement of the CMB power spectrum + CMB measured cosmological parameters.
 
 Temperature sensitivity $\Delta T/T \sim 10^{-6}$ and $\sim 5'-10'$ angular resolution
 
 Here's a map of the different types of emission detected by Planck
 ![[planck_components.png]]
+
+Cosmological constraints on [[FLRW#Friedmann equation|Friedmann equation parameters]]
+![[planck_params.png]]
+
 
 
 ## VLA
@@ -232,7 +236,7 @@ Here's a map of the different types of emission detected by Planck
 
 
 ## COBE
-"Cosmic Background Explorer". Operated from 1989 to 1993. Primary goal was to investigate [[CMB]]. MAde the below measurement of CMB anisotropy.
+"Cosmic Background Explorer". Operated from 1989 to 1993. Primary goal was to investigate [[CMB]]. Made the below measurement of CMB anisotropy.
 ![[cobe_cmb.jpg|400]]
 
 
@@ -298,3 +302,14 @@ A space observatory being used to perform [[Spectra#The electromagnetic spectrum
 
 ## IXPE
 "Imaging Polarimetry X-ray Explorer". 
+
+
+## CMB-S4
+"CMB stage 4". Next-generation ground-based [[CMB]] experiment. Telescopes equipped with highly sensitive superconducting cameras operating at the South Pole, the high Chilean Atacama plateau, and possibly northern hemisphere sites.
+
+Designed to cross critical thresholds in testing inflation, determining the number and masses of the neutrinos, constraining possible new light relic particles, providing precise constraints on the nature of dark energy, and testing general relativity on large scales.
+![[CMB_S4.jpg|400]]
+
+
+## KATRIN
+"Karlsruhe Tritium Neutrino Experiment". Wants to measure the mass of the electron antineutrino with sub-eV precision by examining the spectrum of electrons emitted from the beta decay of tritium. 

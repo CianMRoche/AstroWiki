@@ -9,7 +9,7 @@ A gravitationally bound collection of <mark class="hltr-grey">hundreds to thousa
 **Typical parameters**:
 - $10^2$ to $10^3$ member galaxies
 - Mass: $10^{14}-10^{15}$ $M_\odot$ 
-- Diameter: 1-5 Mpc
+- Diameter: $1-5 \,\pu{Mpc}$
 
 **Examples**:
 - Virgo cluster

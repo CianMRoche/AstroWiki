@@ -174,9 +174,9 @@ The overdensity it defined as $$\delta(\mathbf{x}) = \frac{\rho(\mathbf{x}) - \b
 The growth of this overdensity continues until it decouples from the Hubble flow, after which it collapses. 
 ![[turn_overdensity.png|350]]
 
-To find the time when it turns around from "getting bigger" with the Hubble flow to "getting smaller" as it collapses, use energy conservation while its expaning/contracting, and when it has its maximum radius at turnaround which we label $r_{max}$ (where $\dot{r} = 0$) $$E = \frac{1}{2}\dot{r}^2 - \frac{GM}{r} = -\frac{GM}{r_{max}}$$This is a differential equation for $r(t)$, and after making some substitutions and inverting to get $t(r)$ one finds $$t_{max} = \frac{\pi}{2}\left(\frac{3}{8\pi G\rho_{max}}\right)^{1/2}$$Lets compare this to the background at that time. The [[FLRW#Friedmann equation|Friedmann equation]] for a matter-dominated universe tells us $$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \left(\frac{2}{3t}\right)^2 = \frac{8\pi G \bar\rho}{3} \implies \bar\rho = \frac{1}{6\pi Gt^2}$$Therefore evaluating the background density at that time we find $$\bar\rho(t_{max}) = \frac{2}{3\pi^3 G}\left(\frac{8\pi G\rho_{max}}{3}\right) \implies \frac{\rho_{max}}{\bar\rho(t_{max})} = \frac{9\pi^2}{16}$$Since we mostly care about the end state of such an overdensity (that is, after it collapses and becomes a galaxy or similar) we may look at this object once it has virialized. We will use this to examine how dense the virialized object is relative to a part of the universe that is unperturbed. 
+To find the time when it turns around from "getting bigger" with the Hubble flow to "getting smaller" as it collapses, use energy conservation while its expaning/contracting, and when it has its maximum radius at turnaround which we label $r_{max}$ (where $\dot{r} = 0$) $$E = \frac{1}{2}\dot{r}^2 - \frac{GM}{r} = -\frac{GM}{r_{max}}$$This is a differential equation for $r(t)$, and after making some substitutions and inverting to get $t(r)$ one finds $$t_{max} = \frac{\pi}{2}\left(\frac{3}{8\pi G\rho(t_{max})}\right)^{1/2}$$Lets compare this to the background at that time. The [[FLRW#Friedmann equation|Friedmann equation]] for a matter-dominated universe tells us $$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \left(\frac{2}{3t}\right)^2 = \frac{8\pi G \bar\rho}{3} \implies \bar\rho = \frac{1}{6\pi Gt^2}$$Therefore evaluating the background density at that time we find $$\bar\rho(t_{max}) = \frac{2}{3\pi^3 G}\left(\frac{8\pi G\rho(t_{max})}{3}\right) \implies \frac{\rho(t_{max})}{\bar\rho(t_{max})} = \frac{9\pi^2}{16}$$Since we mostly care about the end state of such an overdensity (that is, after it collapses and becomes a galaxy or similar) we may look at this object once it has virialized. We will use this to examine how dense the virialized object is relative to a part of the universe that is unperturbed. 
 
-Via the virial theorem we know $E = (1/2) U_{vir}$ so using the above expression for energy at maximum radius we get $r_{max} = 2 r_{vir}$ which implies $\rho_{max} = 8\rho_{vir}$. Thus via the above we have  $$\frac{\rho_{vir}}{\bar\rho(t_{max})} = \frac{9\pi^2}{2}$$but really we dont want to compare to $\bar\rho(t_{max})$, rather we want to compare to $\bar\rho(t_{vir})$ and we can assume that the time to maximum is about the same as the time to virialization $t_{vir} = 2 t_{max}$ such that by the above work where we showed $\bar\rho \propto t^{{-2}}$ we know $\bar\rho(t_{vir}) = 4\bar\rho(t_{max})$ leading to $$\frac{\rho_{vir}}{\bar\rho(t_{vir})} = 18\pi^2$$So this number described the density of a virialized galaxy relative to that of the background $\simeq 180$ which lead to people discussing the $R_{200}$ for example, the radius within which the mean density was 200 times the average density of the universe at that time. It is now known however that this is a biased metric and something like the splashback radius is more appropriate.
+Via the virial theorem we know $E = (1/2) U_{vir}$ so using the above expression for energy at maximum radius we get $r_{max} = 2 r_{vir}$ which implies $\rho(t_{max}) = 8\rho_{vir}$. Thus via the above we have  $$\frac{\rho_{vir}}{\bar\rho(t_{max})} = \frac{9\pi^2}{2}$$but really we dont want to compare to $\bar\rho(t_{max})$, rather we want to compare to $\bar\rho(t_{vir})$ and we can assume that the time to maximum is about the same as the time to virialization $t_{vir} = 2 t_{max}$ such that by the above work where we showed $\bar\rho \propto t^{{-2}}$ we know $\bar\rho(t_{vir}) = 4\bar\rho(t_{max})$ leading to $$\frac{\rho_{vir}}{\bar\rho(t_{vir})} = 18\pi^2$$So this number described the density of a virialized galaxy relative to that of the background $\simeq 180$ which lead to people discussing the $R_{200}$ for example, the radius within which the mean density was 200 times the average density of the universe at that time. It is now known however that this is a biased metric and something like the splashback radius is more appropriate.
 
 
 ## 133
@@ -332,8 +332,129 @@ Cosmologists are interested in it because it provides a map of the matter along 
 
 
 ## 143
-**What are the "flatness problem" and the "isotropy problem" in standard Big-Bang cosmology?**
-The fact that the total $\Omega$ 
+**What are the "flatness problem" and the "isotropy problem" in standard Big-Bang cosmology? How does the inflationary model resolve these problems?**
+
+**Flatness problem**
+The fact that the total $\Omega = \rho/\rho_c$ of the [[FLRW#Friedmann equation|Friedmann equations]] is remarkably close to 1 today ($\Omega \simeq 1.00\pm 0.01$) that is, it is very *flat*. 
+
+Why is this a problem? If you look at the Friedmann equations, a deviation from flatness will be blown up as the universe expands. A flatness of $\Omega \simeq 1.00\pm 0.01$ today would require
+- $\Omega \simeq 1.00\pm 0.00004$ at [[Recombination]]
+- $\Omega \simeq 1.00\pm 10^{-12}$ at nucleosynthesis
+
+This implies an incredibly fine tuning of the universe at early times to be incredibly flat.
+
+Derivation: 
+Start with the Friedmann equation and ignore $\Lambda$ (since in early universe it was negligible). It can be rearranged to $$\left(\frac{3H^2}{8\pi G} - \rho\right)a^2 = -\frac{3kc^2}{8\pi G} = \text{const}$$Then using that $\Omega(z) = \rho(z) / \rho_{crit}(z)$ and the definition of the critical density this can be written (using also $\rho\propto a^{-3})$ $$\frac{1}{\Omega(z)} - 1 \propto a(z)$$meaning that if today ($a=1$) we observe an $\Omega\simeq 1$ then since $a$ has changed by a factor of $10^{60}$ since the Planck era, so too must have $\Omega^{-1} - 1$ (implying it was extremely close to 1).
+
+Inflation solves this by rapidly expanding the universe by a large factor such that locally, the universe looks very flat. 
+![[flatness_problem.jpeg|400]]
+
+**Isotropy problem**
+The light horizon size at [[Recombination]] is only $\sim 2^\circ$ on the sky today (see [[CMB#Sound horizon size|sound horizon size]] and note that we assumed sound speed was $c/\sqrt{3}$ so we can just multiply that answer of about $1^\circ$ by $\sqrt{3}$) but its almost a perfect [[Blackbody radiation#Blackbody radiation|blackbody]] meaning it was in thermal equilibrium, suggesting this scale should be the size of the entire sky. When was it in causal contact in order to reach equilibrium?
+
+Inflation solves this by whole universe being in causal contact close to big bang
+![[isotropy_problem.png]]
 
 
-**How does the inflationary model resolve these problems?**
+## 144
+**What is the baryonic contribution to the cosmological mass density and how is it determined?**
+
+We have measured $\Omega_b \simeq 0.05$ and $\Omega_M \simeq 0.3$, so about 18% of the mass budget. We measure this via 
+1. The baryon loading effect of the [[CMB#CMB power spectrum|CMB power spectrum]] (see [[Cosmology - Questions#129|Q129]]) via the difference between the first and second peaks. 
+2. Big bang nucleosynthesis and the abundance of primordial elements, finds consistent baryon fraction with CMB. 
+   ![[BBN.png|300]]
+
+**Where are the bulk of the baryons in our Universe?**
+- If we add up all the baryons we see in [[Stars - Questions|stars]], [[Galaxies]], the [[Interstellar medium|ISM]], [[Cluster media#ICM|ICM]] etc, we only get $\sim 50\%$ of the baryons we'd expect from measurements of the [[CMB]] and [[BBN]]. This is the "missing baryon problem"
+- Solution is that half the baryons are in a warm-hot ($10^5-10^7\,\pu{K}$) intrgalactic medium ("WHIM") along cosmic filaments. Have recently observed this medium along the line of sight to distant quasars via the SZ-effect.
+
+![[missing_baryon_problem.png|400]]
+
+
+## 145
+**How did the particle content of the universe evolve? What is the most abundant particle in the universe today?**
+Stealing very nice table of early universe particle history + timeline afterwards from Megan's notes 
+
+![[particle_content_history.png]]
+
+The most abundant particles in the universe now are not baryons, but photons and neutrinos (can understand in terms of their "mass/energy per particle" and their relative abundances $\Omega_i$ currently). It may also be the case that dark matter is highly abundant in number density, via $$n_{DM,0} = \frac{\Omega_{DM}\rho_{crit,0}}{m_{DM}}$$provided that it is very light.
+
+
+## 146
+**Describe, qualitatively, the synthesis of light elements in the Big Bang. What is the deuterium bottleneck, and how does it help produce the right helium abundance? What role does radiation play in Big Bang nucleosynthesis?**
+
+See [[BBN]]. The role of radiation is that universe is radiation-dominated, setting the timescale over which temperature changes, and this sets when deuterium can form.
+
+
+## 147
+**What are the thermal and kinetic Sunyaev-Zel'dovich effects? What are they useful for?**
+
+See [[CMB#SZ effect|SZ effect]].
+
+
+## 148
+**What range of physical scales are being probed by current and future CMB experiments?** 
+- [[Observatories#COBE|COBE]]: $\sim 7^\circ$ 
+- [[Observatories#WMAP|WMAP]]: $\sim 0.5^\circ$ 
+- [[Observatories#Planck|Planck]]: $\sim 7'$  ([[Units#Arcminute|arcmin]])
+- [[Observatories#SPT|SPT]]: $\lesssim 5'$ 
+- [[Observatories#ACT|ACT]]: $\sim 1'$ 
+
+**Are the anisotropies related to galaxy formation?** 
+[[CMB#CMB|CMB]] anisotropies $\implies$ matter over- and under-densities which are believed to ultimately grow into the large scale structure of the universe like [[Galaxy clusters]] and [[Galaxy groups]]. However, silk damping (photon diffusion damping on small scales) wipes out structures smaller than the silk mass $\sim 10^{13}\,M_\odot$
+
+**What is the current observational status?**
+- Planck gives amazing anisotropy data and [[CMB#CMB power spectrum|power spectrum]] data down to very small ($l\simeq 2000$) scales, and we are reaching the statistical limit of what can be done with CMB
+- There is need for higher resolution measurements of [[CMB#CMB Polarization|CMB polarization]]
+- Future observations from [[Observatories#BICEP|BICEP3]], Simons observatory and [[Observatories#CMB-S4|CMB-S4]].
+
+
+## 149
+**What is the "Lyman limit", and how does it relate to observations of high-redshift galaxies?**
+
+See [[Spectra#Lyman-alpha forest|Lyman alpha forest]]. When there are a significant number of neutral hydrogen atoms along the line of sight, any light more energetic than $\lambda = 912\,\pu{Å}$ will be absorbed (wavelength corresponding to ionization energy of ground state hydrogen $\chi_H = 13.6\,\pu{eV}$). 
+
+The wavelength of the Lyman break informs the redshift of the source, after which follow-up spectroscopy can be performed.  Assuming a source hits the lyman limit along the line of sight, ie we see no flux at wavelengths smaller than $\lambda = 912\,\pu{Å} (1+z)$ which is a valid assumption for far away things. Should see source disappear in bluer filters if its at high redshift (Rohan Naidu here at MKI uses this).
+![[lyman_limit.jpg]]
+
+
+## 150
+**What mass should a neutrino have to close the universe?**
+
+"Close the universe" just means to make the universe flat $\Omega = 1$ in the context of the [[FLRW#Friedmann equation|Friedmann equations]]. If all mass is in neutrinos then this is the condition that $$\rho_\nu = \rho_{crit} = \frac{3H_0^2}{8\pi G}$$If we only needed neutrinos to account for all the [[Dark matter]], then we would instead have $$\rho_\nu = \Omega_{DM}\rho_{crit} = \frac{3\Omega_{DM}H_0^2}{8\pi G}$$with $\Omega_{DM}\simeq 0.3$ (see [[Observatories#Planck|Planck]]). Though if this was true there would be no large scale structure, as things would be moving too quickly to collapse.
+
+To work out the mass, we need the number density of neutrinos in the universe. One can calculate the neutrino to photon temperature ratio via conservation of neutrino entropy (why is it conserved lol) and end up with $$\frac{T_\nu}{T_\gamma} = \left(\frac{4}{11}\right)^{1/3} \implies T_{\nu,0} \simeq 2\,\pu{K}$$for the cosmic neutrino background today. Since $\rho \propto T^4$ this leads to $$\frac{\rho_\nu}{\rho_\gamma} \simeq N_{eff}\left(\frac{4}{11}\right)^{4/3}$$where $N_{eff} =  3$ comes from the greater number of degrees of freedom of neutrinos relative to photons since 3 neutrino flavors, and I've left out a factor of $7/8$. Then !UNFINISHED (how have we converted $\rho$ to $n$ ??)
+
+There are about 300 neutrinos per $\pu{cm^{3}}$ and about 400 photons. Leads to neutrino masses of $m_\nu \simeq 18\,\pu{eV}$ and $5\,\pu{eV}$ respectively for the above two cases.
+
+**Compare it with current upper bounds (or detections)**
+Current upper bound is $m_\nu < 0.8\,\pu{eV}$ from [[Observatories#KATRIN|KATRIN]]. 
+
+Experimental neutrino mass timeline below. Also cosmological contraints using [[BAO]] and other probes finding constraints $m_\nu \lesssim 0.1\,\pu{eV}$ but bounds depend on cosmological assumptions.
+
+![[NeutrinoMassTimeline2022.png|500]]
+
+
+## 151
+**What is the meaning and purpose of a log N – log S curve? Explain the current interpretation of this curve for gamma-ray bursts.**
+
+Used to measure deviation of a population of sources from being homogeneous and isotropic in the universe. 
+
+- $N$ is number of [[GRBs]]
+- $S$ is total energy released = "fluence" = time-integrated [[Units#Flux|flux]]. Often measured in total number of counts observed. The flux $F$ for a source of [[Units#Luminosity|luminosity]] $L$ at distance $D$ is $$F = \frac{L}{4\pi D^2} \longrightarrow \text{time integrate} \longrightarrow S = \frac{E}{4\pi D^2}$$for total energy output $E$. 
+
+For some minimum detectable fluence $S_{min}$ for our instrument, the maximum distance at which we can observe an object of energy $E$ is $$D_{max} = \sqrt{\frac{E}{4\pi S_{min}}}$$meaning we expect to be able to see sources in a volume of space (centered on us) is $V = \frac{4}{3} \pi D_{max}^3$ such that if the spatial density of sources is uniform, we should see $N\propto D_{max}^{3} \propto S_{min}^{-3/2}$ events, ie a line on a log-log plot of slope $-3/2$.
+
+The [[GRBs#GRB|GRB]] curve looks like: 
+![[logn_logs.gif]]
+The fact we are seeing deviations at low energy (ie far away form us) implies we are seeing out to redshifts at which GRBs had not yet formed. Could be due to 
+- Finite age of universe, not enough time for [[Supernovae]] and binary [[Neutron stars#Neutron stars|NS]] mergers etc
+- Evolving GRB rate or intrinsic luminosity over cosmic time, perhaps scaling with star formation rate or metallicity
+
+
+## 152
+**In our Universe, at roughly what scale does perturbation theory break down and become non-perturbative?**
+
+Linear perturbation growth breaks down when overdensities decouple form the Hubble flow (see [[#132|Q132]]). Structure in the universe forms hierarchically because smaller scales go non-linear first. 
+
+At what length scale does this transition occur for a given redshift? From [[#132|Q132]] we have for the density of a perturbation $$\frac{\rho(t_{max})}{\bar\rho(t_{max})} = \left(\frac{r(t_{max})}{r}\right)^{3} = \frac{9\pi^2}{16}$$where $t_{max}$ is the time at which the overdensity decouples from the Hubble flow. Thus the transition occurs at approximately $$\rho \simeq 5\bar\rho = 5\bar\rho_0 (1+z)^3 = \frac{15\Omega_M H_0^2}{8\pi G}(1+z)^3$$We can convert this to a (mass-dependent) radius via $\rho = 3M/4\pi r^3$ and end up with a nonlinear scale of $$r_{\rm{nonlinear}} \lesssim \left(\frac{M}{10^{12}\,M_\odot}\right)^{1/3} \left(\frac{1}{1+z}\right) \,\pu{Mpc}$$which gives something like 10s of $\pu{Mpc}$.  

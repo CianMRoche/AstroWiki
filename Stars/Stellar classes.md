@@ -43,6 +43,31 @@ AKA "red dwarf" (with some caveats, see [wiki page](https://en.wikipedia.org/wik
 ![[HR_names.png|450]]
 
 
+## Pop N
+From youngest to oldest:
+
+**Pop 1**
+- Metal-rich (ie young stars)
+- Often found in spiral arms of a [[Galaxies#Galaxy|galaxy]] (since those are star-forming regions)
+- elliptical orbits in the disk
+
+**Pop 2**
+- Metal-poor (ie old stars from an unenriched medium with few metals)
+- Typically found in [[Clustering#Globular Cluster|GCs]] and the galactic bulge and halo
+- More random orbits
+
+**Pop 3**
+- Theorized population of very first stars which formed when there were no metals at all ($z\simeq 20$)
+- Not yet observed. Why?
+	-  Too hard to image a star at such a high redshift (best change is lucky highly-magnified star via [[Lensing]])
+	- Initial mass function for stars would have been high-mass skewed (why?) and thus most of these stars would have died by now.
+	- Observable ones could also have been enriched by metals from their environment at this point.
+
+
+## Brown dwarf
+A "failed star" which did not have enough mass to start burning Hydrogen and fusing helium, bit it can fuse deuterium and a proton together to form Hydrogen 3 (distinguishing brown dwarfs from planets).
+
+
 ## White dwarf
 AKA "degenerate dwarf". A stellar remnant composed mostly of electron-degenerate matter. White dwarfs are thought to be the final evolutionary state of all stars whose mass is not high enough to become a neutron star, ie stars with $M\lesssim 8\,M_\odot$ who cant fuse carbons together and so cool down over time. It is effectively the exposed core of a star on the asymptotic giant branch (AGB). Supported by electron degeneracy pressure (in contrast to the neutron degeneracy pressure of [[Neutron stars#Neutron stars|neutron stars]]). 
 
@@ -69,28 +94,3 @@ After the hydrogen-fusing lifetime of a [[Spectra#Main sequence|MS]] star of ~ l
 3. Planets around WDs (Andrew Vanderburg here at MKI)
 4. Binary WD physics (Kevin Burdge here at MKI)
 5. Details of type 1a supernova progenitors
-
-
-## Pop N
-From youngest to oldest:
-
-**Pop 1**
-- Metal-rich (ie young stars)
-- Often found in spiral arms of a [[Galaxies#Galaxy|galaxy]] (since those are star-forming regions)
-- elliptical orbits in the disk
-
-**Pop 2**
-- Metal-poor (ie old stars from an unenriched medium with few metals)
-- Typically found in [[Clustering#Globular Cluster|GCs]] and the galactic bulge and halo
-- More random orbits
-
-**Pop 3**
-- Theorized population of very first stars which formed when there were no metals at all ($z\simeq 20$)
-- Not yet observed. Why?
-	-  Too hard to image a star at such a high redshift (best change is lucky highly-magnified star via [[Lensing]])
-	- Initial mass function for stars would have been high-mass skewed (why?) and thus most of these stars would have died by now.
-	- Observable ones could also have been enriched by metals from their environment at this point.
-
-
-## Brown dwarf
-A "failed star" which did not have enough mass to start burning Hydrogen and fusing helium, bit it can fuse deuterium and a proton together to form Hydrogen 3 (distinguishing brown dwarfs from planets).

@@ -140,13 +140,13 @@
     "Stars/Stellar classes.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 798,
-      "pageCount": 2.66,
-      "characterCount": 5321,
-      "nonWhitespaceCharacterCount": 4480,
+      "wordCount": 901,
+      "pageCount": 3.0033333333333334,
+      "characterCount": 6059,
+      "nonWhitespaceCharacterCount": 5109,
       "createdDate": 1677541574926,
-      "modifiedDate": 1681954324346,
-      "sizeInBytes": 5327
+      "modifiedDate": 1682460710275,
+      "sizeInBytes": 6065
     },
     "Stars/Stars - Examples.md": {
       "isDirectory": false,
@@ -239,13 +239,13 @@
     "Stars/Clustering.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 108,
-      "pageCount": 0.36,
-      "characterCount": 790,
-      "nonWhitespaceCharacterCount": 677,
+      "wordCount": 114,
+      "pageCount": 0.38,
+      "characterCount": 823,
+      "nonWhitespaceCharacterCount": 703,
       "createdDate": 1677535946044,
-      "modifiedDate": 1681065227602,
-      "sizeInBytes": 790
+      "modifiedDate": 1682454606790,
+      "sizeInBytes": 823
     },
     "Questions to ask.md": {
       "isDirectory": false,
@@ -316,13 +316,13 @@
     "Instrumentation and methods/Observatories.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1629,
-      "pageCount": 5.43,
-      "characterCount": 11624,
-      "nonWhitespaceCharacterCount": 9822,
+      "wordCount": 1743,
+      "pageCount": 5.81,
+      "characterCount": 12529,
+      "nonWhitespaceCharacterCount": 10602,
       "createdDate": 1676656177201,
-      "modifiedDate": 1682015179756,
-      "sizeInBytes": 11629
+      "modifiedDate": 1682478208349,
+      "sizeInBytes": 12534
     },
     "Instrumentation and methods/Magnitudes.md": {
       "isDirectory": false,
@@ -450,11 +450,11 @@
       "noteCount": 1,
       "wordCount": 226,
       "pageCount": 0.7533333333333333,
-      "characterCount": 1668,
-      "nonWhitespaceCharacterCount": 1433,
+      "characterCount": 1677,
+      "nonWhitespaceCharacterCount": 1442,
       "createdDate": 1677535613701,
-      "modifiedDate": 1680991984532,
-      "sizeInBytes": 1668
+      "modifiedDate": 1682474021159,
+      "sizeInBytes": 1677
     },
     "Galaxies/Galaxies - Questions.md": {
       "isDirectory": false,
@@ -547,13 +547,13 @@
     "Emission & the ISM/Spectra.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1209,
-      "pageCount": 4.03,
-      "characterCount": 8127,
-      "nonWhitespaceCharacterCount": 6856,
+      "wordCount": 1210,
+      "pageCount": 4.033333333333333,
+      "characterCount": 8153,
+      "nonWhitespaceCharacterCount": 6882,
       "createdDate": 1677701019011,
-      "modifiedDate": 1682452692214,
-      "sizeInBytes": 8127
+      "modifiedDate": 1682464752150,
+      "sizeInBytes": 8153
     },
     "Emission & the ISM/Scattering.md": {
       "isDirectory": false,
@@ -723,13 +723,13 @@
     "Cosmology/FLRW.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 562,
-      "pageCount": 1.8733333333333333,
-      "characterCount": 3874,
-      "nonWhitespaceCharacterCount": 3212,
+      "wordCount": 601,
+      "pageCount": 2.0033333333333334,
+      "characterCount": 4111,
+      "nonWhitespaceCharacterCount": 3406,
       "createdDate": 1682124109317,
-      "modifiedDate": 1682275796761,
-      "sizeInBytes": 3881
+      "modifiedDate": 1682462728073,
+      "sizeInBytes": 4118
     },
     "Cosmology/Reionization.md": {
       "isDirectory": false,
@@ -811,35 +811,35 @@
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 4884,
-      "pageCount": 16.28,
-      "characterCount": 33454,
-      "nonWhitespaceCharacterCount": 28139,
+      "wordCount": 6276,
+      "pageCount": 20.92,
+      "characterCount": 43078,
+      "nonWhitespaceCharacterCount": 36302,
       "createdDate": 1677543451529,
-      "modifiedDate": 1682452575498,
-      "sizeInBytes": 33458
+      "modifiedDate": 1682479596937,
+      "sizeInBytes": 43086
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1360,
-      "pageCount": 4.533333333333333,
-      "characterCount": 9923,
-      "nonWhitespaceCharacterCount": 8470,
+      "wordCount": 1554,
+      "pageCount": 5.18,
+      "characterCount": 11298,
+      "nonWhitespaceCharacterCount": 9631,
       "createdDate": 1680567197176,
-      "modifiedDate": 1682268364225,
-      "sizeInBytes": 9923
+      "modifiedDate": 1682474266865,
+      "sizeInBytes": 11298
     },
     "Cosmology/BBN.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 5,
-      "pageCount": 0.016666666666666666,
-      "characterCount": 33,
-      "nonWhitespaceCharacterCount": 29,
+      "wordCount": 423,
+      "pageCount": 1.41,
+      "characterCount": 3059,
+      "nonWhitespaceCharacterCount": 2632,
       "createdDate": 1681106121872,
-      "modifiedDate": 1681106139140,
-      "sizeInBytes": 33
+      "modifiedDate": 1682470589260,
+      "sizeInBytes": 3063
     },
     "Cosmology/BAO.md": {
       "isDirectory": false,

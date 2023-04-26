@@ -49,7 +49,7 @@ The **Lyman-$\mathbf{\alpha}$ forest** is a series of absorbtion lines correspon
 
 Each cloud absorbs the line at a wavelength $\lambda = (1+z) \lambda_0$. We corrected back to emitted wavelength in the plot below, rather than observed.
 
-Lyman limit is the wvaelength at which the hydrogen will just become ionized.
+Lyman limit is the wavelength at which the hydrogen will just become ionized.
 
 ![[Lya-forest-60.gif|400]]
 ![[Lyman-alpha_forest.gif]]

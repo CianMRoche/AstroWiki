@@ -11,7 +11,7 @@ We see small deviations across the sky ($\Delta T/T \sim 10^{-5}$) of the [[CMB#
 To calculate the coefficients of the signal $\delta T = \Delta T/T$ in this basis, proceed as follows: $$\begin{align}
 \delta T(\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{+l} a_{ml} Y_{ml}(\theta,\phi)\\
 a_{ml} = \int_{\rm{sky}} d\Omega\, Y_{ml}^\star(\theta,\phi)\, \delta T(\theta,\phi)
-\end{align}$$Then from the orthogonality of the basis we have $$\langle a_{ml} \, a_{m'l'}^\star\rangle = \delta_{ll'}\delta_{m m'} C_l$$which can be recast as an expression for the coefficient $C_l$ for a givel $l$ averaged over the index $m$ by summing over both $l'$ and $m'$ $$C_l = \frac{1}{2l+1}\sum_{m=-l}^{+l}\langle |a_{ml}|^2 \rangle$$Making a plot of the quantity $l(l+1)C_l/2\pi$ versus $l$ (this normalization chosen just so the low $l$ side where the Sachs-Wolfe effect takes over is flat), and so the acoustic peaks are emphasized visually) we obtain the <mark class="hltr-pink">CMB power spectrum</mark>. Schematically, our measurements look like this, from Megan's notes 
+\end{align}$$Then from the orthogonality of the basis we have $$\langle a_{ml} \, a_{m'l'}^\star\rangle = \delta_{ll'}\delta_{m m'} C_l$$which can be recast as an expression for the coefficient $C_l$ for a givel $l$ averaged over the index $m$ by summing over both $l'$ and $m'$ $$C_l = \frac{1}{2l+1}\sum_{m=-l}^{+l}\langle |a_{ml}|^2 \rangle$$Making a plot of the quantity $l(l+1)C_l/2\pi$ versus $l$ (this normalization chosen just so the low $l$ side where the Sachs-Wolfe effect takes over is flat), and so the acoustic peaks are emphasized visually) we obtain the <mark class="hltr-pink">CMB power spectrum</mark>. Schematically, our measurements look like this, from Megan's notes (see [[Cosmology - Questions#129|Q129]] for details of $\Omega_i$ effects on peaks)
 ![[cmb_power_spectrum_schematic.png|500]]
 
 And real measurements from [[Observatories#Planck|Planck]] look like 
@@ -55,11 +55,25 @@ Calculation of the size of the sound horizon relating to the [[#CMB power spectr
 
 
 ## SZ effect
-[[Scattering#Inverse-Compton scattering|ICS]] of [[CMB#CMB|CMB]] photons by high-energy electrons (eg in [[Cluster media#ICM|ICM]] of a [[Galaxy clusters#Galaxy cluster|cluster]]). Only applied at very small scales (large $l$).
+[[Scattering#Inverse-Compton scattering|ICS]] of [[CMB#CMB|CMB]] photons by high-energy electrons (eg in [[Cluster media#ICM|ICM]] of a [[Galaxy clusters#Galaxy cluster|cluster]]). Biggest effect at small scales (large $l$).
 
 Two types:
 - Thermal SZ: from $e^-$ temp
 - Kinetic: from bulk $e^-$ motion
+
+
+1. Thermal SZ-effect
+   Upscattering of [[CMB#CMB|CMB]] photons by electrons in hot, ionized gas (eg in [[Cluster media#ICM|ICM]] of a [[Galaxy clusters#Galaxy cluster|galaxy cluster]]) by [[Scattering#Inverse-Compton scattering|inverse-Compton scattering]]. Results in $\nabla T / T_{CMB}\simeq 10^{-3}$ and is redshift-independent, making it easy to detect galaxy clusters via this method for example with [[Observatories#SPT|SPT]], and can also be used to estimate cluster masses and pressure profiles. The shift moves the spectrum to higher frequencies as follows (from Megans notes)
+   ![[thermal_SZ.png]]
+
+2. Kinetic SZ-effect
+   For electrons moving relative to the CMB rest frame, when they scatter as with the thermal SZ, the doppler shift due to relative motion induces a much smaller change in power (decrease in image below because the cluster is assumed to be moving away from us even beyond the Hubble flow, but can also be positive). In principle can determine peculiar velocities of the galaxy clusters; peculiar meaning 'with respect to the CMB rest frame'.
+   
+   Magitude of the effect is $$\frac{\nabla T}{T} = - \frac{v_p}{c}\tau$$where $v_p$ is the peculiar velocity and $\tau$ is the [[Optical depth]].
+
+Bad quality image with some useful features:
+![[kinetic_SZ.gif]]
+
 
 
 ## CMB Polarization
