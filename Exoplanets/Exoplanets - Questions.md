@@ -115,15 +115,18 @@ populations of planets associated with each method. Roughly how many planets hav
    - Biased towards detecting hot and/or large planets (more blackbody flux to increase planet/star contrast)
    - Require large separations to be able to resolve planet $\implies$ biased toward long-period planets
    
-3. **Microlensing** (~100 confirmed as of 2022)
-   When a background source is lensed by a foreground star, a planet which orbits in the Einstein ring can briefly increase the magnification of the lensing, resulting in an increase in flux. The blip occurs when the planet hits the Einstein ring. For the lensing magnification curve on which the blip sits, see [[Lensing#Strong lensing|strong lensing]].  ![[microlensing.jpg]]
+3. **[[Lensing#Microlensing|Microlensing]]** (~100 confirmed as of 2022)
+   When a background source is lensed by a foreground star, a planet which orbits in the Einstein ring can briefly increase the magnification of the lensing, resulting in an increase in flux. 
+   
+   The reason the planet should be close to the Einstein ring is that we want the microlensing blip from the planet to show up during the lensing event of the star. Much closer and it wont produce a distinguishable lensing magnification, much fuurther away and it will not be detected at the same time as the star's lensing event. Good gif in the [[Lensing#Microlensing|microlensing]] note. For the lensing magnification curve on which the blip sits, see [[Lensing#Strong lensing|strong lensing]].  
+   ![[microlensing.jpg]]
    
    Direct observables:
    - Timescale of orbit (require accurate relative proper motion of lens-source system)
 
    Problems:
    - Detection probability maximized when separation of planet-star system is $\sim$ size of Einstein ring at that distance $\implies$ bias toward large-separation systems
-   - Mostly independent of mass of planet
+   - Mostly independent of mass of planet (also a positive)
 
 4. **Radial velocity** (~1000 confirmed as of 2022)
    Measure wobble of star due to gravitational influence of planet(s). First planet discovered with this method was [[Exoplanet examples#51 Pegasi b|51 Peg b]]. 

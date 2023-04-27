@@ -147,7 +147,7 @@ Briefly describe the following famous astronomical objects:
 
 **Prox Cen b**
 - Planet in habitable zone of Proxima centauri (closest star to us at $\sim 1\,\pu{pc}$)
-- Discovered via radial velocity method (see [[Exoplanets - Questions]]) with $a\sim 0.05\,\pu{AU}, M\gtrsim 1M_\bigoplus$ 
+- Discovered via radial velocity method (see [[Exoplanets - Questions]]) with $a\sim 0.05\,\pu{AU}, M\gtrsim 1M_\bigoplus$ **
 
 [[AGN examples#Sagittarius A|Sag A*]] 
 - See note

@@ -1,3 +1,5 @@
+Nice notes [here](https://arxiv.org/pdf/astro-ph/9606001.pdf) but all the figures are at the end.
+
 ## Lensing
 When we see light, we assume its source is in the direction the light came from. Light can be bent by optics like lenses, so if we can see the light is coming out of a lens, we can infer that the source may not be where it appears to be. When we look at a light source in space we dont see any (obvious) lenses, so we assume the source is along the line of sight of the "bright spot" on the sky. 
 
@@ -14,7 +16,11 @@ Visible distorsion and formation of rings/arcs/multiple images by a large foregr
 
 ![[strong_lensing.jpg]]
 
-Fun fact: the number of images produced is governed by the "odd number theorem"  of differential topology. It states "<mark class="hltr-pink">the number of multiple images produced by a bounded transparent lens must be odd</mark>".
+- Fun fact: the number of images produced is governed by the "odd number theorem"  of differential topology. It states "<mark class="hltr-pink">the number of multiple images produced by a bounded transparent lens must be odd</mark>".
+
+- Fun fact 2: Was not believed to be observable back in the 1930s when [[Galaxies]] were believed to have masses of $10^9\,M_\odot$ until Zwicky demonstrated their mass was much larger via the virial theorem in the [[Galaxy cluster examples#Coma cluster|Coma cluster]], arguing this would produce images at a sufficient distance from the lens to be resolvable.
+
+- Fun fact 3: Zwicky predicted: about 1 in 100 bright high-redshift sources would be lensed in a manner detectable in principle by a foreground [[Galaxies#Galaxy|galaxy]]. Turns out to be pretty much correct. More distant means more intervening galaxies, increasing chances of lensing (but has to be bright so a [[AGN#Quasar|quasar]] is an ideal candidate, also because it is compact and so multiple images can more easily be resolved).
 
 We can also see rings and arcs like this:
 ![[A_Horseshoe_Einstein_Ring_from_Hubble.JPG]]
@@ -44,3 +50,12 @@ Below, "shape noise" refers to adding on a combination of real expected galaxy s
 
 Below is a lensing map of the bullet cluster.
 ![[Bullet_cluster_lensing.jpg]]
+
+
+## Microlensing
+Lensing due to a compact halo-like object, largely independent of its mass and not depending on the lens' luminosity. With microlensing, the lens mass is too low (mass of a planet or a star) for the displacement of light to be observed easily, but the apparent *brightening* of the source may still be detected. Note in the image below the bending would be of small enough mangitude that the apparent sources would be in approximately the same position as the "true" source and not resolvable as in the animation.
+![[Gravitational_microlens.gif]]
+
+Can be used to observe an exoplanet around a star via two superimposed microlensing events, provided the planet sits near the Einstein angle of the primary lens.
+
+![[Microlensingexoplanet.gif]]
