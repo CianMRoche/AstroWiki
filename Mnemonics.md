@@ -7,6 +7,6 @@ Electron? eLEPTON
 
 My Very Elegant Mother Just Served Us Nine Pizzas (for the [[The Solar System - Questions|solar system]])
 
-HHeLiBeBCNOF (pronounced 'heeliebeb kernoff') to remember the first nine chemical elements
+HHeLiBeBCNOF (pronounced 'heeliebeb kenoff') to remember the first nine chemical elements
 
 CNO...NOt Finished !! CNO again (to remember the CNO two-branch cyclic diagram [[cno_panels.png|CNO panels]]) 

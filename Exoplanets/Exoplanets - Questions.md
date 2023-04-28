@@ -116,7 +116,7 @@ populations of planets associated with each method. Roughly how many planets hav
    - Require large separations to be able to resolve planet $\implies$ biased toward long-period planets
    
 3. **[[Lensing#Microlensing|Microlensing]]** (~100 confirmed as of 2022)
-   When a background source is lensed by a foreground star, a planet which orbits in the Einstein ring can briefly increase the magnification of the lensing, resulting in an increase in flux. 
+   When a background source is lensed by a foreground star, a planet (whose einstein ring i very close to it) whose position is roughly on the Einstein ring of the star can briefly increase the magnification of the lensing by their einstein rings overlapping, resulting in an increase in flux. 
    
    The reason the planet should be close to the Einstein ring is that we want the microlensing blip from the planet to show up during the lensing event of the star. Much closer and it wont produce a distinguishable lensing magnification, much fuurther away and it will not be detected at the same time as the star's lensing event. Good gif in the [[Lensing#Microlensing|microlensing]] note. For the lensing magnification curve on which the blip sits, see [[Lensing#Strong lensing|strong lensing]].  
    ![[microlensing.jpg]]

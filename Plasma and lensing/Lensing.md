@@ -1,4 +1,4 @@
-Nice notes [here](https://arxiv.org/pdf/astro-ph/9606001.pdf) but all the figures are at the end.
+Nice notes [here](https://arxiv.org/pdf/astro-ph/9606001.pdf) but all the figures are at the end. Also [here](https://lweb.cfa.harvard.edu/~dfabricant/huchra/ay202/lectures/lecture12.pdf) which might be better.
 
 ## Lensing
 When we see light, we assume its source is in the direction the light came from. Light can be bent by optics like lenses, so if we can see the light is coming out of a lens, we can infer that the source may not be where it appears to be. When we look at a light source in space we dont see any (obvious) lenses, so we assume the source is along the line of sight of the "bright spot" on the sky. 
@@ -7,8 +7,7 @@ However, [[General relativity]] tells us that light doesnt travel in "straight l
 
 ![[grav_lens_geometry.png]]
 
-If the "true source angle" $\beta$ is zero, then we see a perfect ring of images of the source (by rotating the above picture about the observer-lens axis) called an <mark class="hltr-pink">Einstein ring</mark>. The angular size of the Einstein ring is the *Einstein angle* $$\theta_E = \sqrt{\frac{4GM}{c^2}\frac{D_{LS}}{D_{L}D_{S}}}$$the derivation of which we skip (it seems like almost everyone does, its a GR prediction plus trigonometry). 
-
+If the "true source angle" $\beta$ is zero, then we see a perfect ring of images of the source (by rotating the above picture about the observer-lens axis) called an <mark class="hltr-pink">Einstein ring</mark>. The angular size of the Einstein ring is the *Einstein angle* $$\theta_E = \sqrt{\frac{4GM}{c^2}\frac{D_{LS}}{D_{L}D_{S}}}$$the derivation of which we skip (it seems like almost everyone does, its a GR prediction plus trigonometry). Best thing to remember is the approximation $$\theta_E\,[\pu{mas}] \simeq \sqrt{\frac{M\,[M_\odot]}{10 D\,[\pu{kpc}]}}$$
 
 ## Strong lensing
 
@@ -53,8 +52,13 @@ Below is a lensing map of the bullet cluster.
 
 
 ## Microlensing
-Lensing due to a compact halo-like object, largely independent of its mass and not depending on the lens' luminosity. With microlensing, the lens mass is too low (mass of a planet or a star) for the displacement of light to be observed easily, but the apparent *brightening* of the source may still be detected. Note in the image below the bending would be of small enough mangitude that the apparent sources would be in approximately the same position as the "true" source and not resolvable as in the animation.
+Lensing due to a compact halo-like object, largely independent of its mass and not depending on the lens' luminosity. With microlensing, the lens mass is too low (mass of a planet or a star) for the displacement of light to be observed easily, but the apparent *brightening* of the source may still be detected. Note that the light curve ends up looking highly Lorentzian.
+
+Note in the image below the bending would be of small enough mangitude that the apparent sources would be in approximately the same position as the "true" source and not resolvable as in the animation.
 ![[Gravitational_microlens.gif]]
+
+[[Observatories#GAIA|GAIA]] sees microlensing events in the [[Milky Way]], but not nearly enough to explain all the "missing mass" we attribute to [[Dark matter]]
+![[MicrolensingGAIA.gif]]
 
 Can be used to observe an exoplanet around a star via two superimposed microlensing events, provided the planet sits near the Einstein angle of the primary lens.
 
