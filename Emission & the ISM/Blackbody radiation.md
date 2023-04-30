@@ -9,6 +9,8 @@ where we drop the minus sign because we integrate in the opposite direction for 
 Effective temperature gets redshifted as $$T_{obs} = \frac{T_{emit}}{1+z}$$Why? When you redshift the blackbody spectrum in a constantly proportional way $\nu_{emit} \rightarrow \nu_{obs} = c\nu_{emit}$ for all $\nu$ (here $c = (1+z)^{-1}$, see [[Spectra#Redshift|redshift]]) it has the effect of introducing an effective temperature $T_{eff} = T_{emit}/(1+z)$ so redshifts maintain the BB spectrum form with a different temperature (note this will be a contravariant transformation of $\nu$ so even though $\nu \rightarrow c\nu$ we must actually apply the inverse transformation to the variable in the distribution) $$\mathrm{BB}\sim\exp\left(\frac{h\nu}{kT_{emit}}\right) \longrightarrow \exp\left(\frac{h(1+z)\nu}{kT_{emit}}\right)$$ where the RHS is what we observe, such that effectively we have $$\implies T_{obs} = \frac{T_{emit}}{1+z}$$
 Isnt it actually that (1+z)Temit = Tobs? It cant be that since Tobs must be less than Temit for z>0. I think its a covariant vs contravariant thing. We're transforming the x axis rather than the curve maybe?
 
+![[Black_body.svg.png|500]]
+
 
 ## Wien's displacement law
 The wavelength at which the spectrum has its peak is inversely proportional to temperature

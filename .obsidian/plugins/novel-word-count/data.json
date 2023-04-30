@@ -32,11 +32,11 @@
       "noteCount": 1,
       "wordCount": 75,
       "pageCount": 0.25,
-      "characterCount": 516,
-      "nonWhitespaceCharacterCount": 435,
+      "characterCount": 515,
+      "nonWhitespaceCharacterCount": 434,
       "createdDate": 1681584180935,
-      "modifiedDate": 1682008733278,
-      "sizeInBytes": 516
+      "modifiedDate": 1682641202569,
+      "sizeInBytes": 515
     },
     "Units.md": {
       "isDirectory": false,
@@ -294,13 +294,13 @@
     "Plasma and lensing/Lensing.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1190,
-      "pageCount": 3.966666666666667,
-      "characterCount": 7971,
-      "nonWhitespaceCharacterCount": 6752,
+      "wordCount": 1241,
+      "pageCount": 4.136666666666667,
+      "characterCount": 8455,
+      "nonWhitespaceCharacterCount": 7185,
       "createdDate": 1680888441587,
-      "modifiedDate": 1682573044239,
-      "sizeInBytes": 7971
+      "modifiedDate": 1682622675174,
+      "sizeInBytes": 8455
     },
     "Lightning round.md": {
       "isDirectory": false,
@@ -327,13 +327,13 @@
     "Instrumentation and methods/Observatories.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1761,
-      "pageCount": 5.87,
-      "characterCount": 12702,
-      "nonWhitespaceCharacterCount": 10757,
+      "wordCount": 1774,
+      "pageCount": 5.913333333333333,
+      "characterCount": 12800,
+      "nonWhitespaceCharacterCount": 10841,
       "createdDate": 1676656177201,
-      "modifiedDate": 1682538895610,
-      "sizeInBytes": 12707
+      "modifiedDate": 1682877846330,
+      "sizeInBytes": 12805
     },
     "Instrumentation and methods/Magnitudes.md": {
       "isDirectory": false,
@@ -492,13 +492,13 @@
     "Galaxies/Density profiles.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 312,
-      "pageCount": 1.04,
-      "characterCount": 2392,
-      "nonWhitespaceCharacterCount": 2072,
+      "wordCount": 313,
+      "pageCount": 1.0433333333333332,
+      "characterCount": 2405,
+      "nonWhitespaceCharacterCount": 2084,
       "createdDate": 1680970541340,
-      "modifiedDate": 1680975410998,
-      "sizeInBytes": 2392
+      "modifiedDate": 1682650607434,
+      "sizeInBytes": 2405
     },
     "Galaxies/Cluster media.md": {
       "isDirectory": false,
@@ -536,13 +536,13 @@
     "Exoplanets/Exoplanets - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2517,
-      "pageCount": 8.39,
-      "characterCount": 16542,
-      "nonWhitespaceCharacterCount": 13829,
+      "wordCount": 2595,
+      "pageCount": 8.65,
+      "characterCount": 17015,
+      "nonWhitespaceCharacterCount": 14223,
       "createdDate": 1677543440750,
-      "modifiedDate": 1682572144245,
-      "sizeInBytes": 16550
+      "modifiedDate": 1682692959600,
+      "sizeInBytes": 17023
     },
     "Exoplanets/Exoplanet examples.md": {
       "isDirectory": false,
@@ -558,35 +558,35 @@
     "Emission & the ISM/Spectra.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1235,
-      "pageCount": 4.116666666666666,
-      "characterCount": 8364,
-      "nonWhitespaceCharacterCount": 7065,
+      "wordCount": 1216,
+      "pageCount": 4.053333333333334,
+      "characterCount": 8271,
+      "nonWhitespaceCharacterCount": 6990,
       "createdDate": 1677701019011,
-      "modifiedDate": 1682545517550,
-      "sizeInBytes": 8364
+      "modifiedDate": 1682877960658,
+      "sizeInBytes": 8271
     },
     "Emission & the ISM/Scattering.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1060,
-      "pageCount": 3.533333333333333,
-      "characterCount": 7446,
-      "nonWhitespaceCharacterCount": 6351,
+      "wordCount": 1095,
+      "pageCount": 3.65,
+      "characterCount": 7721,
+      "nonWhitespaceCharacterCount": 6590,
       "createdDate": 1679510426881,
-      "modifiedDate": 1680722283849,
-      "sizeInBytes": 7448
+      "modifiedDate": 1682872988002,
+      "sizeInBytes": 7723
     },
     "Emission & the ISM/Saha equation.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 299,
-      "pageCount": 0.9966666666666667,
-      "characterCount": 2024,
-      "nonWhitespaceCharacterCount": 1721,
+      "wordCount": 322,
+      "pageCount": 1.0733333333333333,
+      "characterCount": 2215,
+      "nonWhitespaceCharacterCount": 1889,
       "createdDate": 1680646188995,
-      "modifiedDate": 1680650819201,
-      "sizeInBytes": 2024
+      "modifiedDate": 1682874330099,
+      "sizeInBytes": 2215
     },
     "Emission & the ISM/Optical depth.md": {
       "isDirectory": false,
@@ -613,13 +613,13 @@
     "Emission & the ISM/Magnetobremsstrahlung.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 604,
-      "pageCount": 2.013333333333333,
-      "characterCount": 4207,
-      "nonWhitespaceCharacterCount": 3583,
+      "wordCount": 624,
+      "pageCount": 2.08,
+      "characterCount": 4276,
+      "nonWhitespaceCharacterCount": 3635,
       "createdDate": 1677701019019,
-      "modifiedDate": 1681318750018,
-      "sizeInBytes": 4207
+      "modifiedDate": 1682870649444,
+      "sizeInBytes": 4276
     },
     "Emission & the ISM/Line shape.md": {
       "isDirectory": false,
@@ -643,38 +643,27 @@
       "modifiedDate": 1680621911922,
       "sizeInBytes": 202
     },
-    "Emission & the ISM/Equations of state.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "createdDate": 1680119274900,
-      "modifiedDate": 1680119274900,
-      "sizeInBytes": 0
-    },
     "Emission & the ISM/Emission & the ISM - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 4423,
-      "pageCount": 14.743333333333334,
-      "characterCount": 31451,
-      "nonWhitespaceCharacterCount": 26913,
+      "wordCount": 4528,
+      "pageCount": 15.093333333333334,
+      "characterCount": 32112,
+      "nonWhitespaceCharacterCount": 27468,
       "createdDate": 1677701019002,
-      "modifiedDate": 1680801346626,
-      "sizeInBytes": 31460
+      "modifiedDate": 1682888084797,
+      "sizeInBytes": 32121
     },
     "Emission & the ISM/Dust.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 33,
-      "pageCount": 0.11,
-      "characterCount": 221,
-      "nonWhitespaceCharacterCount": 188,
+      "wordCount": 61,
+      "pageCount": 0.20333333333333334,
+      "characterCount": 485,
+      "nonWhitespaceCharacterCount": 423,
       "createdDate": 1677701018986,
-      "modifiedDate": 1679000384164,
-      "sizeInBytes": 221
+      "modifiedDate": 1682876193238,
+      "sizeInBytes": 485
     },
     "Emission & the ISM/Cosmic rays.md": {
       "isDirectory": false,
@@ -690,24 +679,24 @@
     "Emission & the ISM/Bremsstrahlung.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 193,
-      "pageCount": 0.6433333333333333,
-      "characterCount": 1471,
-      "nonWhitespaceCharacterCount": 1275,
+      "wordCount": 201,
+      "pageCount": 0.67,
+      "characterCount": 1543,
+      "nonWhitespaceCharacterCount": 1339,
       "createdDate": 1677701018978,
-      "modifiedDate": 1680723843731,
-      "sizeInBytes": 1471
+      "modifiedDate": 1682794655979,
+      "sizeInBytes": 1543
     },
     "Emission & the ISM/Blackbody radiation.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 370,
-      "pageCount": 1.2333333333333334,
-      "characterCount": 3056,
-      "nonWhitespaceCharacterCount": 2677,
+      "wordCount": 371,
+      "pageCount": 1.2366666666666666,
+      "characterCount": 3085,
+      "nonWhitespaceCharacterCount": 2704,
       "createdDate": 1677701018970,
-      "modifiedDate": 1680731150749,
-      "sizeInBytes": 3056
+      "modifiedDate": 1682794724155,
+      "sizeInBytes": 3085
     },
     "Color Code.md": {
       "isDirectory": false,
@@ -888,13 +877,13 @@
     "Compact objects/Neutron stars.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 626,
-      "pageCount": 2.0866666666666664,
-      "characterCount": 4009,
-      "nonWhitespaceCharacterCount": 3358,
+      "wordCount": 639,
+      "pageCount": 2.13,
+      "characterCount": 4089,
+      "nonWhitespaceCharacterCount": 3425,
       "createdDate": 1677536056882,
-      "modifiedDate": 1682546503973,
-      "sizeInBytes": 4015
+      "modifiedDate": 1682718390092,
+      "sizeInBytes": 4095
     },
     "Compact objects/GRBs.md": {
       "isDirectory": false,
@@ -904,7 +893,7 @@
       "characterCount": 1351,
       "nonWhitespaceCharacterCount": 1165,
       "createdDate": 1677788401679,
-      "modifiedDate": 1681155349006,
+      "modifiedDate": 1682785054927,
       "sizeInBytes": 1351
     },
     "Compact objects/Gravitational waves.md": {
@@ -926,7 +915,7 @@
       "characterCount": 504,
       "nonWhitespaceCharacterCount": 438,
       "createdDate": 1680554896251,
-      "modifiedDate": 1680555136663,
+      "modifiedDate": 1682718485840,
       "sizeInBytes": 504
     },
     "Compact objects/General relativity.md": {
@@ -943,13 +932,13 @@
     "Compact objects/Compact objects - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 9104,
-      "pageCount": 30.346666666666668,
-      "characterCount": 62694,
-      "nonWhitespaceCharacterCount": 53200,
+      "wordCount": 9141,
+      "pageCount": 30.47,
+      "characterCount": 62952,
+      "nonWhitespaceCharacterCount": 53421,
       "createdDate": 1677543456264,
-      "modifiedDate": 1682398217190,
-      "sizeInBytes": 62740
+      "modifiedDate": 1682786838670,
+      "sizeInBytes": 62998
     },
     "Compact objects/Black holes.md": {
       "isDirectory": false,

@@ -468,11 +468,11 @@ other parts of the galaxy?**
 
 
 ## 66
-**What are "magnetars"**
+**What are "magnetars"?**
 See [[Neutron stars#Magnetar|magnetar]]. 
 
 **What evidence do we have that they exist?**
-- 1979 [[GRBs#GRB|GRB]]: Strongest extra-solar source of gamma rays that was observed by multiple sattelites, localized to [[Supernovae#Supernova|SN]] remnant in the [[Galaxy examples#Large Magellanic Cloud|LMC]]. 
+- 1979 [[GRBs#GRB|GRB]]: Strongest extra-solar source of gamma rays that was observed by multiple sattelites, localized to [[Supernovae#Supernova|SN]] remnant in the [[Galaxy examples#Large Magellanic Cloud|LMC]]. Weird. I didnt think GRBs came from magnetars, so maybe this isnt evidence for this.
 - Anomalous X-ray pulsars (AXPs): Isolated (ie not in a binary) [[Neutron stars#Neutron stars|NS]] that emits in the X-ray, which we wuld usually expect to come from accretion in an [[Binaries#X-ray binary|XRB]]. Hypothesized to be from the magnetar field.
 - Since $B\propto \sqrt{P\dot{P}}$ (see [[#70]]), measurements of $P$ and $\dot{P}$ have revealed very high magnetic fields in some sources, eg SGR 1806 in 1998 (a "soft gamma repeater" which magnetars are hypothesized to explain).
 - 24 confirmed magnetars at time of writing, one associated with repeating [[FRBs]]
@@ -509,8 +509,10 @@ Any star that has a mass higher than $\sim 20\,M_\odot$ will become a [[Black ho
 1. How many stars will be above this mass?
 2. How many stars will be in binaries?
 
+Here are some common initial mass functions for stars, which we will use later:
+![[various_initial_mass_functions.svg.png|400]]
 
-1. To answer the first, we will need to assume some distribution for the number of stars as a function of mass, that is an initial mass function like the "Salpeter IMF" $$\frac{dN}{dM}\propto M^{-2.3}$$which holds for stars above $0.5\,M_\odot$ (the Kroupa 2001 modification). If we want to find the number of stars above a mass $M_*$ we would simply integrate $$N(M>M_*) \propto \int_{M_*}^\infty dM\, M^{-2.3}$$Thus the fraction of all stars above $0.5\,M_\odot$ which are above $20\,M_\odot$ is given by $$N = \frac{\int_{20\,M_\odot}^\infty dM\, M^{-2.3}}{\int_{0.5\,M_\odot}^\infty dM\, M^{-2.3}} \simeq 10^{-3}$$where we "round down" to reflect the fact we arent covering the whole distribution in mass (there are alternative powers on $M$ for lower masses). This is the statement that about 1 in 1000 stars can become a black hole. Then to get the number in the Milky Way, note that it contains an estimated $10^{11}$ stars and thus $\sim 10^{8}$ black holes
+1. To answer the first, we will need to assume some distribution for the number of stars as a function of mass, that is an initial mass function like the "Salpeter IMF" and its Kroupa 2001 modification$$\frac{dN}{dM}\propto M^{-2.3}$$which holds for stars above $0.5\,M_\odot$ (we wont consider objects below this mass). If we want to find the number of stars above a mass $M_*$ we would simply integrate $$N(M>M_*) \propto \int_{M_*}^\infty dM\, M^{-2.3}$$Thus the fraction of all stars above $0.5\,M_\odot$ which are above $20\,M_\odot$ is given by $$N = \frac{\int_{20\,M_\odot}^\infty dM\, M^{-2.3}}{\int_{0.5\,M_\odot}^\infty dM\, M^{-2.3}} \simeq 10^{-3}$$where we "round down" to reflect the fact we arent covering the whole distribution in mass (there are alternative powers on $M$ for lower masses). This is the statement that about 1 in 1000 stars can become a black hole. Then to get the number in the Milky Way, note that it contains an estimated $10^{11}$ stars and thus $\sim 10^{8}$ black holes
 
 2. To answer the second question, we make the naive assumption that 50% of all stars are in a binary, yielding about $5\times 10^7$ black holes in binaries in the Milky Way. 
 
@@ -524,7 +526,8 @@ If we want to do better, need to do much more detailed stellar population synthe
 
 
 ## 70
-**How are the magnetic fields of neutron stars estimated in (i) X-ray binaries?**
+**How are the magnetic fields of neutron stars estimated in 
+(i) X-ray binaries?**
 In an [[Binaries#X-ray binary|X-ray binary]] containing a [[Neutron stars#Neutron stars|neutron star]], hot plasma near the surface of the NS produces a continuum with [[Magnetobremsstrahlung#Cyclotron radiation|cyclotron]] spectral features, allowing us to determine the magnetic field from the frequency of the line(s).
 
 **(ii) radio pulsars?**

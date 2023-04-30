@@ -153,6 +153,8 @@ populations of planets associated with each method. Roughly how many planets hav
 4. For the atmosphere, look for absorption features in the spectrum during a transit.
 5. Note that in the atmospheres of hot Jupiters, things like saphires and pure carbon clouds can form and their imprint on the spectra is to damp the whole thing or cause broad absorption features in the IR 
 
+We can also measure the oblateness of an exoplanet if we have really high-quality transit data (eg from [[Observatories#JWST|JWST]]) such that the oblateness of the planet can be inferred fro the precise shape of the ingress and egress, ie start and finish, of the transit dip (some tentative measurements, but nothing too convincing yet, eg David Berardo here at MKI).
+
 **What have we learned about exoplanet interiors and atmospheres from these observations?**
 - High level of diversity in exoplanet composition and properties
 - Have seen hot Jupiters with opaque clouds and inflated planets with larger radii than expected

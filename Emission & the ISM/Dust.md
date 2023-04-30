@@ -1,4 +1,6 @@
 ## Dust
-Typically produced by fairl evolved stars shedding their outer layers.
+Composition depends strongly on environment; micron-scale grains of silicates, hydrocarbons, ice and/or other molecules like $\ce{CO}$. Absorbs in [[Spectra#The electromagnetic spectrum|UV]] and emits [[Blackbody radiation#Blackbody radiation|thermally]] in IR.
+
+Typically produced by fairly evolved stars shedding their outer layers.
 
 However: We've seen very high redshift objects obscured by dust, suggesting another mechanism (maybe SNe?) can produce dust at earlier times.

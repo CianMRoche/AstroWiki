@@ -9,7 +9,7 @@ Note that if they werent, pressure balance would cause the phases to blend into 
 
 ## 73
 **What is an HII region?**
-A dense, hot region of ionized Hydrogen (HII = $\ce{H^+} \neq \ce{H_2}$) found around hot, young stars ([[Spectra#Harvard Spectral Classification|O and B]] stars). Properties also listed in [[Interstellar medium#ISM|this table]]. Ionized by the young star. Can be observed via the [[Spectra#H-alpha|H-alpha]] line.
+A dense, hot region of ionized Hydrogen (HII = $\ce{H^+} \neq \ce{H_2} =$ [[Spectra#Molecular hydrogen|molecular H]]) found around hot, young stars ([[Spectra#Harvard Spectral Classification|O and B]] stars). Properties also listed in [[Interstellar medium#ISM|this table]]. Ionized by the young star. Can be observed via the [[Spectra#H-alpha|H-alpha]] line.
 
 In galaxies, HII regions are found in:
 - the arms of spiral galaxies
@@ -24,7 +24,7 @@ The Stromgren radius is the radius at which the ionization rate due to the star 
 - $R_s$ = Stromgren radius
 
 Then, assuming the source has no volume, that all gas is hydrogen (so that $n_e = n_H = n$), that $\alpha$ is a constant and considering a sphere of radius $R_s$
-- Ionizing rate = $N$
+- Ionizing rate = $N$ (really I think this should be something like $Ne^{-R_S/l}$ where $l$ is the [[Optical depth#Mean free path|mean free path]] and $N$ is the rate of ionizing photons coming from the source but maybe we take a simple case)
 - Recombination rate = $\alpha n^2 \, \frac{4}{3}\pi R_s^3$
 
 Equating the two gives $$R_s = \left(\frac{3N}{4\pi \alpha n^2}\right)^{1/3}$$Now relate $N$ to the ionizing luminosity via the [[Units#Luminosity|specific luminosity]] $L_\nu$ and the energy of a photon of frequency $\nu$ (which is $h\nu$) $$N = \int_{13.6\,\pu{eV}}^{\infty}d\nu\, \frac{L_\nu}{h\nu}$$where the lower limit is the ionization energy of hydrogen, since any photon of energy lower than this will not contribute to our analysis. Assuming we have some luminosity $L$ we can identify $N\propto L$ and thus $R_s \propto L^{1/3}$.
@@ -56,7 +56,9 @@ See [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron radiation]].
 - [[GRBs#GRB|GRBs]] 
 
 **How can the synchrotron spectrum be used to constrain the age of the source?**
-As described (poorly) in [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron radiation]] the energetic processes in these nonthermal plasmas happen in a manner proportional to some power of the energy while accelerations are happening. Since energy losses are proportional to some power of the energy !UNFINISHED (i dont get this, see geoffrey 136)
+[[Magnetobremsstrahlung#Synchrotron radiation|Synchrotron radiation]] from a many-particle system with some power law distribution of particle energies will have a roughly power-law shape. Since the power emitted for the higher-energy particles is larger than that for lower-energy ($dE/dt \propto E^2$), unless energy is injected into the system, an old synchrotron source will have a break at large energies, and an even older source will have a break at lower energies. From Megan's notes:
+
+![[synchrotron_age.png]]
 
 
 ## 76
@@ -131,7 +133,7 @@ See [[Cosmic rays#Cosmic rays|cosmic rays]] for definition.
 Radio astronomers often assume [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron]] sources are in equipartition because:
 - It is physically plausible; systems with interacting components often tend toward equipartition
 - Via the math we skipped, if one knows the luminosity of a synchrotron source we can obtain an estimate of the magnetic field. If we know that, then via equipartition we can obtain an estimate of the magnetic and particle energy densities of the source, in the end resulting in an estimate of the cosmic ray energy (even if we dont know $\eta$ very well, can get within an order of magnitude or two).
-- There is an "energy problem" for large extragalactic radio sources which would require enormous total energies to explain their luminosities (eg Cyg A). The "least bad" this problem can be is when equipartition is assumed, at which the total energy for a givem $L$ is minimized.
+- There is an "energy problem" for large extragalactic radio sources which would require enormous total energies to explain their luminosities (eg [[Lightning round#168|Cyg A]]). The "least bad" this problem can be is when equipartition is assumed, at which the total energy for a givem $L$ is minimized.
 
 
 ## 82
@@ -164,7 +166,8 @@ The [[Optical depth#Opacity|opacity]] of the [[Interstellar medium#ISM|ISM]] has
 - [[Scattering#Free-free absorption|Free-free absorption]] and [[Scattering#Electron scattering|electron scattering]] which both require ionized gas to occur (such as that in the hot coronal [[Interstellar medium#ISM|ISM]] component) but the density of this component is too low to contribute significantly to opacity.
 - $\rm{H}^-$ opacity (when a Hydrogen picks up another electron to fill its 1s orbital) requires neutral $\rm{H}$ and free electrons, which can happen with partially ionized metals in a solar atmosphere.
 
-But overall not much opacity in the ISM, except for [[Dust#Dust|dust]] which absorbs in the optical and re-emits thermally in the IR. The wavelength dependence of the optical depth 
+But overall not much opacity in the ISM, except for [[Dust#Dust|dust]] which absorbs in the optical/UV and re-emits thermally in the IR. The wavelength dependence of the optical depth is (from Megans notes, actually unclear if $\lambda$ increases to the left or right, or if the labels are in the right places).
+
 ![[extinction_ISM.png]]
 
 
@@ -178,20 +181,25 @@ Cooling takes place via (for example)
 
 The <mark class="hltr-pink">cooling function</mark> $\Lambda (T)$ in units of $[\pu{J m^3 s^{-1}}]$ is such that $R = n^2 \Lambda$ is the energy per volume per time released by gas cooling where $n$ is the number density.
 
-The cooling curve from Megan's notes: (units are $\pu{erg cm^3 s^{-1}}$)
+The cooling curve from Megan's notes: (units are $\pu{erg cm^3 s^{-1}}$ (?) but i think some negatives are missing and im not sure about the $n_H$s)
 ![[cooling_vs_T.png]]
 
-There is also a <mark class="hltr-pink">heating function</mark> labelled $\Gamma(T)$ in units of $[\pu{J s^{-1}}]$ such that $n\Gamma (T)$ is the energy injected into the ISM per volume per time. Why defined with different units? Not sure.
+There is also a <mark class="hltr-pink">heating function</mark> labelled $\Gamma(T)$ in units of $[\pu{J s^{-1}}]$ such that $n\Gamma (T)$ is the energy injected into the ISM per volume per time. Why defined with different units? Not sure. The sources are 
+- [[Cosmic rays]] 
+- photoionization 
+- photoelectric heating from [[Dust]] grains
+
+![[heating_vs_T.png]]
 
 Thermal equilibrium is then defined by the zeros of the generalized loss function$$\mathcal{L}(T) =  n^2\Lambda (T) - n\Gamma(T) = 0$$and stability of a particular equilibrium point (red and blue below) depends on the derivative at those points
-- If you perturb temperture a bit to the left (lower temp) from the blue dots below, $\mathcal{L}$ is negative and thus more heating than cooling, $T$ returns back to where i was. Same thing on the right but for heating, tehrefore theyre stable
+- If you perturb temperture a bit to the left (lower temp) from the blue dots below, $\mathcal{L}$ is negative and thus more heating than cooling, $T$ returns back to where it was. Same thing on the right but for heating, therefore they're stable
 - If you do this for the red point, going a little left means $\mathcal{L}$ positive and thus more cooling than heating, and thus temperature continues to decrease. Same on right side
 ![[ISM_stability.png|600]]
 - Therefore stability determined by sign of derivative of $\mathcal{L}$ via$$\begin{align}\frac{\partial \mathcal{L}}{\partial T}\Big\vert_{\text{equilibrium point}} >0 \quad &\implies \quad \text{stable} \\ \frac{\partial \mathcal{L}}{\partial T}\Big\vert_{\text{equilibrium point}} <0 \quad &\implies \quad \text{unstable}\end{align}$$
 
 ## 85
 **What is "brightness temperature"?**
-Brightness temperature is the temperature at which a [[Blackbody radiation#Blackbody radiation|blackbody]] would be reproduce the observed [[Units#Intensity|specific intensity]]. Rearranging the blackbody spectrum to get $T$ and labelling it $T_\nu$ (and using the label $I_\nu$ instead of $B_\nu$ to emphasize that the system is not a perfect blalckbody) we have $$T_\nu = \frac{h\nu}{k_B\ln\left(1+\frac{h\nu^3}{c^2I_\nu}\right)}$$in terms of the blackbody specific intensity $I_\nu$. This measure of specific intensity is commonly used in radio astronomy (low-frequency or "Rayleigh-Jeans" limit) wherein the blackbody spectrum reduces to $$I_\nu \simeq \frac{2\nu^2k_B T}{c^2} \implies T_\nu \simeq \frac{c^2I_\nu}{2k_b \nu^2}$$**What is a “Jansky”? How are these different?**
+Brightness temperature is the temperature at which a [[Blackbody radiation#Blackbody radiation|blackbody]] would be reproduce the observed [[Units#Intensity|specific intensity]]. Rearranging the blackbody spectrum to get $T$ and labelling it $T_\nu$ (and using the label $I_\nu$ instead of $B_\nu$ to emphasize that the system is not a perfect blalckbody) we have $$T_\nu = \frac{h\nu}{k_B\ln\left(1+\frac{h\nu^3}{c^2I_\nu}\right)}$$in terms of the "blackbody" specific intensity $I_\nu$. This measure of specific intensity is commonly used in radio astronomy (low-frequency or "Rayleigh-Jeans" limit) wherein the blackbody spectrum reduces to $$I_\nu \simeq \frac{2\nu^2k_B T}{c^2} \implies T_\nu \simeq \frac{c^2I_\nu}{2k_b \nu^2}$$**What is a “Jansky”? How are these different?**
 A Jansky is a unit of  [[Units#Flux|specific flux]] (that is, not per steradian as for a brightness temperature).
 
 If you measure a specific flux $F_\nu$ (which can be expressed in Janskys) with your detector that has a field of view of $\Omega$ steradians, then $F\nu / \Omega$ is a brightness temperature.
@@ -222,7 +230,7 @@ The Einstein coefficients are a measure of the probability that an atom/molecule
 | Absorption | $h\nu + E_1 \rightarrow E_2$ | $B_{12}$ | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
 |Stimulated emission | $h\nu + E_2 \rightarrow E_1 + 2h\nu$ | $B_{21}$ | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
 
-Note the units of [[Units#Intensity|specific intensity]]. We break them up into $A$ and $B$ coefficients via
+Note the units of [[Units#Intensity|specific intensity]] since those processes depend on the photon "density". We break them up into $A$ and $B$ coefficients via
 - $A$ doesnt depend on what light is around
 - $B$ does
 

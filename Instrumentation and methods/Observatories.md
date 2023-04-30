@@ -35,7 +35,7 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched 
 
 
 ## JWST
-"Juiced space telescope". NASA's flagship near-IR mission that launced on Dec 25 2021. $6.5\,\pu{m}$ diameter [[Spectra#The electromagnetic spectrum|IR]] telescope ($0.6-28.3\,\pu{\mu m}$) orbiting in the [[The Sun#The Sun|Sun]]-Earth L2 [[Methods#Space-based detector orbits|Lagrange point]]. 
+"Juiced". NASA's flagship near-IR mission that launced on Dec 25 2021. $6.5\,\pu{m}$ diameter [[Spectra#The electromagnetic spectrum|IR]] telescope ($0.6-28.3\,\pu{\mu m}$) orbiting in the [[The Sun#The Sun|Sun]]-Earth L2 [[Methods#Space-based detector orbits|Lagrange point]]. 
 
 4 science instruments:
 - NIRCam: ($0.6-5\,\pu{\mu m}$)
@@ -257,6 +257,8 @@ Cosmological constraints on [[FLRW#Friedmann equation|Friedmann equation paramet
 
 ## SKA
 "Square Kilometre Array". A low-frequency radio telescope to be built in Australia expected to have first light in 2027.
+
+Will have two components which observe [[Spectra#21cm line|21cm line]] up to $z=3$ and $z\in(0,27)$ respectively
 
 
 ## ROSAT

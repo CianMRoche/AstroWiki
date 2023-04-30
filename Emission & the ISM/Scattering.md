@@ -73,7 +73,9 @@ Takes place in the lower 4,500 m (15,000 ft) of the atmosphere, where many essen
 
 
 ## Rayleigh scattering
-The elastic scattering of light by spheres that are <mark class="hltr-pink">much smaller than the wavelength of light</mark>. The [[Units#Intensity|intensity]] of scattered light is$$
+The elastic scattering of light by spheres that are <mark class="hltr-pink">much smaller than the wavelength of light</mark>. The difference between this and [[#Thomson scattering]] is that Rayleigh scattering is scattering from polarizable entities. The incident light induces a dipole moment, which re-radiates. Thomson scattering is scattering from free unbound charged "unpolarizable" particles.
+
+The [[Units#Intensity|intensity]] of scattered light is$$
 I_\lambda(\theta)=I_0\left(\frac{1+\cos ^2 \theta}{2 R^2}\right)\left(\frac{2 \pi}{\lambda}\right)^4\left(\frac{n^2-1}{n^2+2}\right)^2\left(\frac{d}{2}\right)^6 \propto \frac{1}{\lambda^4}
 $$where $I_0$ is the light intensity before the interaction with the particle, $R$ is the distance between the particle and the observer, $\theta$ is the scattering angle, $\lambda$ is the wavelength of light under consideration, $n$ is the refractive index of the particle, and $d$ is the diameter of the particle.
 

@@ -7,7 +7,7 @@ Thermal bremsstrahlung is the bremsstrahlung emission form a distribution of ele
 ![[brems2.gif]]
 Why?
 - On low end, if we have an optically thick medium then radiated photons will be quickly re-absorbed, and we will get a [[Blackbody radiation#Blackbody radiation|blackbody]] in the low-frequency limit (ie the Rayleigh-Jeans limit). Taylor expand the Maxwell Boltzmann distribution to get $$B_\nu \propto \frac{\nu^3}{e^{\frac{h\nu}{kT}} - 1}\simeq \nu^3 \frac{kT}{h\nu} \propto \nu^2$$
-- Cant emit photon with much higher energy than $\sim kT$ so cutoff on high end
+- Cant emit photon with much higher energy than $\sim kT$ so cutoff on high end. Look at LHS of [[Blackbody radiation#Blackbody radiation|BB]] spectrum
 - Why flat between? Not sure.
 
 

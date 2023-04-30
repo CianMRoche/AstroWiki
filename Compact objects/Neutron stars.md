@@ -44,4 +44,4 @@ Some reported relative to [[#Neutron stars|neutron star]] parameters.
 - Period: a bit slower than typical, but hard to quantify since range is large. Order 1-10 seconds
 - Lifetime: $\sim 10^4\,\pu{yrs}$ until mag field strength decays
 
-Why dont we expect to find them in [[Clustering#Globular Cluster|GC]]?
+Why dont we expect to find them in [[Clustering#Globular Cluster|GC]]? Maybe since timescale for B field decay is short relative to stellar evolution.
