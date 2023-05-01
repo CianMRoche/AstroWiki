@@ -1,13 +1,13 @@
 ## 91
 **What is "Faraday rotation"?**
-When the presence of a magnetic field (along the direction of propagation) causes the polarization vector of light to rotate. 
+When the presence of a magnetic field (along the direction of propagation) causes the polarization vector of light to rotate. This is the first of two measurements one can make in different bands to infer information about the line of sight (the second is the [[#92|dispersion measure]]).
 
 A schematic for the effect is as follows, where the rotation angle $\beta$ of the polarization vector depends on both $d$ and $B$ as $\beta \propto B d$  
 ![[faraday_rotation.png|400]]
 The Faraday effect is caused by left and right circularly polarized waves propagating at slightly different speeds, a property known as "circular birefringence". Since a linear polarization can be decomposed into the superposition of two equal-amplitude circularly polarized components of opposite handedness and different phase, the effect of a <mark class="hltr-pink">relative phase shift</mark>, induced by the Faraday effect, is to rotate the orientation of a wave's linear polarization.
 
 **How is it used in astronomy?**
-We can use this to measure astrophysical <mark class="hltr-pink">magnetic fields</mark> in the following way: First define a "rotation measure" $\mathcal{R}$ by $$\mathcal{R} = \frac{e^3}{8\pi^2 \epsilon_0 m_e^2 c^4} \int_0^d dz \,n_e(z) B_{||}(z)$$in SI units, where $z$ is the coordinate along the direction of propagation, $n_e$ is the electron density and $B_{||}$ is the component of the magnetic field along $\hat{z}$. Then $\beta$ is relates to $\mathcal{R}$ via $$\beta = \mathcal{R}\lambda^2$$that is, it is a wavelength-dependent effect, having the largest effect at large wavelengths like [[Spectra#The electromagnetic spectrum|radio]] waves, and so this is often used in studies of [[FRBs]] and [[Pulsars#Pulsar|pulsars]]. The polarization angles $\theta$ we measure as a function of wavelength are then $$\theta (\lambda) = \theta_{\text{intrinsic to source}} + \mathcal{R}\lambda^2$$As a result, we can use measurements of $\theta(\lambda)$ at many frequencies and do something like a parametric fit to determine the intrinsic polarization and quantities like $B_{||}$ or $n_e$. In fact we can use it to constrain $B$ more reliably, since $n_e$ can be determined from the *dispersion measure* (see [[#92|Q92]]).
+We can use this to measure astrophysical <mark class="hltr-pink">magnetic fields</mark> in the following way: First define a "rotation measure" $\mathcal{R}$ by $$\mathcal{R} = \frac{e^3}{8\pi^2 \epsilon_0 m_e^2 c^4} \int_0^d dz \,n_e(z) B_{||}(z)$$in SI units, where $z$ is the coordinate along the direction of propagation, $n_e$ is the electron density and $B_{||}$ is the component of the magnetic field along $\hat{z}$. Then $\beta$ is relates to $\mathcal{R}$ via $$\beta = \mathcal{R}\lambda^2$$that is, it is a wavelength-dependent effect, having the largest effect at large wavelengths like [[Spectra#The electromagnetic spectrum|radio]] waves, and so this is often used in studies of [[FRBs]] and [[Pulsars#Pulsar|pulsars]]. The polarization angles $\theta$ we measure as a function of wavelength are then $$\theta (\lambda) = \theta_{\text{intrinsic to source}} + \mathcal{R}\lambda^2$$As a result, we can use measurements of $\theta(\lambda)$ at many frequencies and do something like a parametric fit to determine the intrinsic polarization and quantities like $B_{||}$ or $n_e$. In fact we can use it to constrain $B$ more reliably, since $n_e$ can be determined from the [[#92|dispersion measure]].
 
 
 ## 92
@@ -27,7 +27,7 @@ Has been used in [[FRBs#FRB|FRBs]] to demonstrate they must be extragalactic. sh
 
 Calvin's thesis talk:
 - A very clean probe, good up to $10^{10}\,\pu{K}$ 
-- Even mostly metallicity dependent since that dependence is suppressed by the electron to proton mass ratio.
+- Even mostly metallicity independent since that dependence is suppressed by the electron to proton mass ratio.
 
 
 ## 93
@@ -38,7 +38,9 @@ There is a different plasma frequency for each species. However, the relatively 
 This can be derived from Maxwell's equations, or by considering the restoring force when displacing a charge species in a plasma. Take a cubic slab of area $A$ on each side, composed of positive charges and negative charges, each with a number density $n$. Displace one species by a distance $\delta x$ in the $x$ direction and you'll end up with a net negative charge on one side $$Q = \frac{\text{charge}}{\text{particle}}\frac{\text{particles}}{\text{volume}}\text{volume} = q\,n\, (A\delta x)$$And thus a surface charge density $$\sigma = \frac{Q}{A} = q\,n\,\delta x$$We will have an equal but opposite surface charge density on the other side. We have effectively made the classic "two charged parallel plates" of electromagnetism, the electric field between which is $$E = -\frac{\sigma}{\epsilon_0}$$Then just look at Newton's second law to get $$m\frac{d^2 (\delta x)}{dt^2} = q E = -m\,\omega_p^2\,\delta x$$where we strategically define the *plasma frequency* $\omega_p$ as above. This is just a simple harmonic oscillation for the displacement of charges from quasi-neutrality at a frequency $\omega_p$. We can thus think of this frequency as the (inverse) timescale over which charges in a perturbed quasi-neutral plasma return themselves to quasi-neutrality.
 
 **Interaction with electromagnetic waves**
-The nature of electromagnetic waves in a plasma is made precise by the dispersion relation $$\omega^2(k) = \omega_p^2 + c^2 k^2$$whose derivation we will skip, and which results in the group velocity for EM waves $$v_g := \frac{d\omega}{dk} = \dots = c\sqrt{1 - \left(\frac{\omega_p}{\omega}\right)^2}$$which is imaginary (attenuation) for $\omega < \omega_p$ and approaches $c$ for $\omega \gg \omega_p$.
+The nature of electromagnetic waves in a plasma is made precise by the dispersion relation $$\omega^2(k) = \omega_p^2 + c^2 k^2$$whose derivation we will skip, and which results in the group velocity for EM waves $$v_g := \frac{d\omega}{dk} = \dots = c\sqrt{1 - \left(\frac{\omega_p}{\omega}\right)^2}$$which is imaginary (attenuation) for $\omega < \omega_p$ and approaches $c$ for $\omega \gg \omega_p$. 
+
+Note we use this fact that EM waves cannot penetrate if they are below the plasma frequency when we send radio signals around the Earth, by bouncing them off of the bottom of the atmosphere. Higher frequency and they may pass straight through.
 
 
 ## 94
@@ -54,14 +56,14 @@ Would look something like (Geoffrey's notes)
 ![[magnetosonic.png|]]
 
 3: <mark class="hltr-pink">Alfvén waves</mark> 
-A transverse wave in the magnetic field (ie propagates in the direction of the magnetic field) whose restoring force is magnetic tension (a restoring force that serves to straighten out bent magnetic field lines). 
+A transverse wave in the magnetic field (ie propagates in the direction of the magnetic field, oscilation transverse to that direction) whose restoring force is magnetic tension (a restoring force that serves to straighten out bent magnetic field lines). 
 
 Would look something like (Megan's notes)
 ![[alfven.png|300]]
 
 **Are magnetic fields important in the propagation of waves in the interstellar medium? In a star?**
 - [[Interstellar medium#ISM|ISM]]: Yes $\rightarrow$  mainly due to [[#91|Faraday rotation]] 
-- Stars: Yes $\rightarrow$  Alfvén waves are primary mechanism for heating of stellar corona and accelerating stellar winds.Have also been seen in shockwaves in [[Supernovae#Supernova|SNe]] remnants.
+- Stars: Yes $\rightarrow$  Alfvén waves are primary mechanism for heating of stellar corona and accelerating stellar winds. Have also been seen in shockwaves in [[Supernovae#Supernova|SNe]] remnants.
 
 
 ## 95
@@ -71,7 +73,7 @@ Start with Ohms law for a steady ($\partial/\partial t \rightarrow 0$) current w
 **What does "frozen-in" mean?**
 If the ideal Ohm's law holds, we can prove that the flux through any closed contour is constant in time. Another way to state this is that the magnetic field lines are "frozen in" to the fluid motion (can think of it as magnetic field lines threading through the fluid and "telling it where to flow").
 
-The following constitutes "Alfvéns theorem", don't trust this "proof". Combine idealized Ohm's law first with Faraday's law to obtain $$\frac{\partial \vec{B}}{\partial t} = -\nabla \times \vec{E}  = \nabla \times (\vec{v} \times \vec{B}) $$Then via the fact that $\nabla \cdot \vec{B} = 0$ and using the vector triple product $a\times (b \times c) = (a\cdot c) b - (b\cdot a) c$ (which can be written in different ways) we can write this as $$\frac{\partial \vec{B}}{\partial t} = - (\vec{v}\cdot \nabla)\vec{B}$$Then taking the convective derivative (goes by many names) $D/Dt = \partial/\partial t + \vec{v} \cdot \nabla$ of $\vec{B}$ one obtains  $$\frac{D \vec{B}}{D t} = \frac{\partial \vec{B}}{\partial t} + (\vec{v}\cdot \nabla)\vec{B} = 0 $$Which means the magnetic field is constant along streamlines, ie the magnetic field lines are streamlines. I must have done something wrong because everybody does this with integral calculus. 
+The following constitutes "Alfvéns theorem" (also don't trust this "proof", I'm not sure if its reliable). Combine idealized Ohm's law first with Faraday's law to obtain $$\frac{\partial \vec{B}}{\partial t} = -\nabla \times \vec{E}  = \nabla \times (\vec{v} \times \vec{B}) $$Then via the fact that $\nabla \cdot \vec{B} = 0$ and using the vector triple product $a\times (b \times c) = (a\cdot c) b - (b\cdot a) c$ (which can be written in different ways) we can write this as $$\frac{\partial \vec{B}}{\partial t} = - (\vec{v}\cdot \nabla)\vec{B}$$Then taking the convective derivative (goes by many names) $D/Dt = \partial/\partial t + \vec{v} \cdot \nabla$ of $\vec{B}$ one obtains  $$\frac{D \vec{B}}{D t} = \frac{\partial \vec{B}}{\partial t} + (\vec{v}\cdot \nabla)\vec{B} = 0 $$Which means the magnetic field is constant along streamlines, ie the magnetic field lines are streamlines. I must have done something wrong because everybody does this with integral calculus. 
 
 
 ## 96

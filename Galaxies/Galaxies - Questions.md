@@ -18,9 +18,9 @@ Features of the different components:
 3. Stellar halo
    - Like the bulge contains an old and metal-poor population 
    - Contains remnants of minor sattelite galaxy mergers  (which has been used as a test of [[LCDM#LCDM|LCDM]])
-   - Stars in the halo can be used to constrain the density profile of the Milky Way by inferring the escape velocity profile. I do this, google "escape velocity profile of milky way gaia dr3".
+   - Stars in the halo can be used to constrain the density profile of the Milky Way by inferring the escape velocity profile. Cian does this (google "escape velocity profile of milky way gaia dr3").
 4. Dark matter halo
-   - A quasi-spherical distribution of dark matter which can explain the flat rotation curves (circular velocity of stars as a funciton of radius) seen in galaxies (amongst other things, see [[Dark matter]] and [[#101|Q101]]).
+   - A quasi-spherical distribution of dark matter which can explain the flat rotation curves (circular velocity of stars as a funciton of radius) seen in galaxies (amongst other things, see [[Dark matter]] and [[#101|DM evidence]]).
    - The dominant component at large scales (see picture above).
 
 
@@ -37,7 +37,7 @@ Goes back to Zwicky in the 1930s observing the [[Galaxy cluster examples#Coma cl
 It is true that galaxies in clusters have an anomalous mass to light ratio, in that there is more mass for a given luminosity than we would expect for the same luminosity outside of a cluster (the reason being because cluster environments strip gas inhibiting star formation, and are primarily populated by "red and dead" ellipticals). However, the discrepancy observed between an inferred mass from light and the kinematics is still an order of magnitude.
 
 In a similar manner to to measuring the mass of elliptical galaxies using *stellar* [[Velocity dispersion#Velocity dispersion|velocity dispersion]] (which can also be evidence for dark matter), we can measure the mass of a cluster via the galaxy velocity dispersion by assuming it is virialized, finding $$M \simeq \frac{3}{2}\frac{\sigma^2R}{G}$$In the [[Galaxy cluster examples#Coma cluster|Coma cluster]] Zwicky measured velocity dispersions of $\sim 1000\,\pu{km s^{-1}}$ and inferred a mass. Then comparing that mass to that expected from the light (and realising our inferred mass from kinematics is much larger) Zwicky offered the following possible resolutions:
-1.  stars in the Coma Cluster behave very differently than those in the local Milky Way (emitting much less light at equivalent mass) or
+1.  stars in the Coma Cluster behave very differently than those in the local Milky Way (emitting much less light at equivalent mass, which turns out to be somewhat true relative to field galaxies but not by a sufficient amount) or
 2.  the Coma Cluster is not in equilibrium or
 3.  the laws of physics are different here and in the Coma Cluster or
 4.  the Coma Cluster contains lots of additional mass which doesn't emit much light: ie **dark matter** exists
@@ -68,8 +68,8 @@ The below (from Megan's notes) described the approximate mass ranges for [[Galax
 2. [[Galaxies#Galaxy|Galaxies]]
    - Rotation curves (see [[#101|Q101]])
    - [[Velocity dispersion#Velocity dispersion|Velocity dispersion]]
-   - [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher]] gives $L\propto v_r^4$ + assume $M/L$ ratio to get mass
-   - [[Velocity dispersion#Faber-Jackson relation|Faber-Jackson]] gives $L\propto \sigma_r^4$ + as above
+	   - [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher]] gives $L\propto v_r^4$ + assume $M/L$ ratio to get mass
+	   - [[Velocity dispersion#Faber-Jackson relation|Faber-Jackson]] gives $L\propto \sigma_r^4$ + as above
    - Dynamical masses obtained for example by [[Observatories#GAIA|GAIA]] [[Clustering#Globular Cluster|globular cluster]] motions.
 
 
