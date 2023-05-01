@@ -2,7 +2,7 @@
 "Active galactic nucleus". A compact region in a galactic center with high luminosity not produced by stars. This luminosity is theorized to arise from accretion onto a supermassive [[Black holes#Black hole|BHs]] at the center of the galaxy.
 
 **Typical parameters**:
-Size = 1 gravitational radius $R_g = 2GM/c^2$ (?) ~ $10^{-2}\,\pu{pc}$ 
+Size = 1 gravitational radius $R_g = GM/c^2$ (?) ~ $10^{-2}\,\pu{pc}$ 
 Size of disk ~ $10^4\,R_g$ ~ $100\,\pu{pc}$ 
 
 Cold [[#Molecular cloud|molecular gas]] falls onto the AGN (from [[#Brightest cluster galaxy|BCG]] usually) and fuels jets, lobes and feedback
@@ -26,6 +26,10 @@ Galaxy mergers can trigger AGN and quasar activity.
 **Catalogs**: [[Catalogs#SDSS|SDSS]] and [[Catalogs#LAMOST|LAMOST]] 
 
 **Observation strategies**: To observe the enviroment of a quasar you can use objects in the background (eg galaxies) and examine their light as absorbed by the environment of the quasar (ref: Christina Eilers talk)
+
+
+## Seyfert
+A Seyfert galaxy is an [[#AGN]] like a [[#Quasar]] but the host [[Galaxies#Galaxy|galaxy]] can be easily seen.
 
 
 ## Blazar

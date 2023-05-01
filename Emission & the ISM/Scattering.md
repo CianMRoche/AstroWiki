@@ -17,8 +17,8 @@ The energies of the photon and electron (which sum to a constant) as a function 
 When a low-energy photon is scattered to a higher energy by a high-energy electron, complementary to [[#Compton scattering]]. The cause of the following astrophysical effects:
 
 - Sunyaev-Zeldovich effect in [[Galaxy clusters|galaxy cluster]] studies, whereby photons from the [[CMB#CMB|cosmic microwave background]] move through the hot gas surrounding a galaxy cluster, and are inverse Compton upscattered to higher energies.
-- The [[Accretion#Accretion disk|accretion disk]] surrounding a [[Black holes#Black hole|black hole]] is presumed to produce a thermal spectrum. The lower energy photons produced from this spectrum are scattered to higher energies by relativistic electrons in the surrounding corona. This is surmised to cause the power law component in the X-ray spectra (0.2–10 keV) of accreting black holes, as in [[Compact objects - Questions#71|Q71]].
-- The gamma-ray emission in [[GRBs#GRB|gamma-ray bursts]] is also hypothesized to result from upscattering within the ultrarelativistic jet. See [[Compact objects - Questions#67|Q67]].
+- The [[Accretion#Accretion disk|accretion disk]] surrounding a [[Black holes#Black hole|black hole]] is presumed to produce a thermal spectrum. The lower energy photons produced from this spectrum are scattered to higher energies by relativistic electrons in the surrounding corona. This is surmised to cause the power law component in the X-ray spectra (0.2–10 keV) of accreting black holes, as in [[Compact objects - Questions#71|quasar spectrum]].
+- The gamma-ray emission in [[GRBs#GRB|gamma-ray bursts]] is also hypothesized to result from upscattering within the ultrarelativistic jet. See [[Compact objects - Questions#67|fireball model]].
 
 
 ## Thomson scattering
@@ -50,7 +50,7 @@ Must occur in presence of an ion due to [[#No isolated emission]].
 
 
 ## Bound-free absorption
-"Ionizing absorption". If a photon has enough energy, its absorption can knock an electron free from an atom and send it off with the leftover energy in kinetic form. Partially responsible for the [[Spectra#Balmer jump]].
+"Ionizing absorption". If a photon has enough energy, its absorption can knock an electron free from an atom and send it off with the leftover energy in kinetic form. Partially responsible for the [[Spectra#Balmer jump|Balmer jump]].
 
 
 ## Bound-bound absorption

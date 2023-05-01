@@ -14,5 +14,9 @@
 
 
 ## Solar system
-$M_\odot \simeq 1000 M_{\rm{jupiter}} \simeq1000 (1000 M_{\bigoplus})$
-$R_\odot \simeq 10 R_{\rm{jupiter}} \simeq 10(10 R_{\bigoplus})$ 
+- $M_\odot \simeq 1000 M_{\rm{jupiter}} \simeq1000 (1000 M_{\bigoplus})$
+- $R_\odot \simeq 10 R_{\rm{jupiter}} \simeq 10(10 R_{\bigoplus})$ 
+
+
+## Angles
+- $1\,\pu{rad} \simeq 2\times 10^5\,''$ (radians to arcseconds)

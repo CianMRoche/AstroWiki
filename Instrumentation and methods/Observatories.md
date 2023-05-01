@@ -5,7 +5,7 @@ Note: Good name is hard, some of these are telescopes. Surveys will go into "cat
 
 - Non-imaging telescope with high time resolution measures hot spots on NSs as they rotate into the Los and constrain the NS radius.
 - Also the hot spot locations indicate that NSs are not exact magnetic dipoles
-- Also great for [[AGN#AGN|AGN]], TDEs, [[Binaries#X-ray binary|XRBs]], novae, like [[#SWIFT]] with fast response times.
+- Also great for [[AGN#AGN|AGN]], [[TDE|TDEs]], [[Binaries#X-ray binary|XRBs]], novae, like [[#SWIFT]] with fast response times.
 
 
 ## SWIFT
@@ -316,3 +316,7 @@ Designed to cross critical thresholds in testing inflation, determining the numb
 
 ## KATRIN
 "Karlsruhe Tritium Neutrino Experiment". Wants to measure the mass of the electron antineutrino with sub-eV precision by examining the spectrum of electrons emitted from the beta decay of tritium. 
+
+
+## ZTF
+"Zwicky Transient Facility". 

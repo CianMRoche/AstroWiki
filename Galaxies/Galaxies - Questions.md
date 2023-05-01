@@ -67,15 +67,15 @@ The below (from Megan's notes) described the approximate mass ranges for [[Galax
 
 2. [[Galaxies#Galaxy|Galaxies]]
    - Rotation curves (see [[#101|Q101]])
-   - [[Velocity dispersion#Velocity dispersion|Velocity dispersion]]
-	   - [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher]] gives $L\propto v_r^4$ + assume $M/L$ ratio to get mass
+   - [[Velocity dispersion#Velocity dispersion|Velocity dispersion]] methods
+	   - [[Velocity dispersion#Tully-Fisher relation|Tully-Fisher]] gives $L\propto v_r^4$ + assume $M/L$ ratio to get mass (feels sort of backwards, but maybe good if we cant measure the velocity dispersion directly)
 	   - [[Velocity dispersion#Faber-Jackson relation|Faber-Jackson]] gives $L\propto \sigma_r^4$ + as above
    - Dynamical masses obtained for example by [[Observatories#GAIA|GAIA]] [[Clustering#Globular Cluster|globular cluster]] motions.
 
 
 ## 103
 **Sketch the rotation curve of our Galaxy, with approximate scales on the axes.**
-See [[#101|Q101]]. 
+See [[#101|DM evidence]]. 
 
 **How can information about the rotation curve be determined from 21 cm observations?**
 Can do the following within the radius of Earth's orbit ($\sim 8\,\pu{kpc}$). Make observations of the [[Spectra#21cm line|21cm line]] in some direction. In a situation where we have multiple disconnected clouds of neutral Hydrogen along that line of sight, each on a $\sim$ circular orbit, the signal we see will be Doppler shifted to various degrees depending on the relative velocity with Earth. If all are moving with the same speed, then the Doppler shift will be largest for the cloud whose velocity points directly toward Earth, ie the one whose orbit is tangent to our chosen line of sight ("B" below). Note that if they arent moving with the same speed, I dont know how this works. Maybe it works for any galactocentric radius range over which the circular velocity profile monotonically decreases, making the bulge problematic.
@@ -83,6 +83,8 @@ Can do the following within the radius of Earth's orbit ($\sim 8\,\pu{kpc}$). Ma
 ![[21cm_rotation_curves.png]]
 
 Once we've measured and identified that velocity $v_B$ we know it is the full speed, and so via [[Binaries#Kepler's laws|Kepler's third law]] (assuming a circular orbit, or equivalently just [[Binaries#Circular motion|circular motion with gravity]]) we have $$r = \frac{GM}{v^2}$$This measurement is hard to make toward the galactic center because of galactic bulge, reason unclear.
+
+Also unclear how we do (and have done) this for other galaxies past the radii where optical measurements are informative (the $\ce{HI}$ distribution extends out further than the usable star distribution). 
 
 
 ## 104
@@ -93,10 +95,10 @@ See [[Density profiles#Isothermal sphere|Isothermal sphere]] for the derivation 
 
 ## 105
 **What is two-body relaxation?**
-The ”relaxation” of stars is the process deflecting the individual trajectories of stars from the one they would have if the distribution of matter was perfectly smooth. The ”2-body relaxation” is induced by the individual star-star interactions, while the ”violent relaxation” is induced by a large collective variation of the stellar system shape (see [[#113|Q113]]).
+The ”relaxation” of stars is the process deflecting the individual trajectories of stars in order to approach virial equilibrium. The ”2-body relaxation” is induced by the individual star-star interactions (a "collisional" system), while the ”violent relaxation” is induced by a large collective variation of the stellar system shape (see [[#113|violent relaxation]]).
 
 **For a self-gravitating cluster of N objects, each of mass m, with a velocity dispersion $\sigma$, what is the relaxation time?**
-Consider a single gravitational scatter. If the deflection of the trajectory of the star involves a change in momentum at least as large as the original momentum of the star ($v\sim \Delta v$), then we would regard it as a collision. Assume the timescale of collisions is the timescale for relaxation via this mechanism $\tau_{relax} = \tau_{coll}$. For this working definition and labelling the impact parameter of the collision as $b$ (as in [[Emission & the ISM - Questions#86|Q86]]) for two stars of mass $m$ $$\Delta p \sim F\Delta t \sim \frac{Gm^2}{b^2}\frac{b}{v}\sim mv \implies b\sim \frac{Gm}{v^2}$$For a number density of stars $n$, a mass per star $m$ and an effective cross section $\pi b^2$ the mean free path is $l \sim 1/\pi b^2 n$ such that the mean time between collisions for a star of velocity $v$ is $$\tau_{coll} = \frac{l}{v} = \frac{1}{\pi b^2 n v} \sim \frac{v^3}{\pi n G^2 m^2}$$Lets eliminate the density $n$ by evaluating $R$. If our system has $N$ total stars then via the virial theorem $$0 = 2\langle T\rangle + \langle U\rangle = Nm\left(\langle v^2\rangle -\frac{GM}{2R} \right) \implies R = \frac{G N m}{2\langle v^2 \rangle}$$though I dont know why theres a factor of 2 in the PE (comes from Xiaowei's notes).Then with $\langle v^2 \rangle = \sigma^2$ and and replacing $n = N / \frac{4}{3}\pi R^3$ we have $$\tau_{coll} \sim \frac{GN^2 m}{6\sigma ^3} \propto N^2$$For a [[Clustering|star cluster]] this number is $\sim 10 \,\pu{Gyr}$ (ie the age of the universe) and for a [[Galaxies#Galaxy|galaxy]] it is $\sim 10^{10}\,\pu{Gyr}$, ie impossible to explain relaxation of galaxies $\implies$ violent relaxation (see [[#113|Q113]]).
+Consider a single gravitational scatter. If the deflection of the trajectory of the star involves a change in momentum at least as large as the original momentum of the star ($v\sim \Delta v$), then we would regard it as a collision. Assume the timescale of collisions is the timescale for relaxation via this mechanism $\tau_{relax} = \tau_{coll}$. For this working definition and labelling the impact parameter of the collision as $b$ (as in [[Emission & the ISM - Questions#86|this question]]) for two stars of mass $m$ $$\Delta p \sim F\Delta t \sim \frac{Gm^2}{b^2}\frac{b}{v}\sim mv \implies b\sim \frac{Gm}{v^2}$$For a number density of stars $n$, a mass per star $m$ and an effective cross section $\pi b^2$ the mean free path is $l \sim 1/\pi b^2 n$ such that the mean time between collisions for a star of velocity $v$ is $$\tau_{coll} = \frac{l}{v} = \frac{1}{\pi b^2 n v} \sim \frac{v^3}{\pi n G^2 m^2}$$Lets eliminate the density $n$ by evaluating $R$. If our system has $N$ total stars then via the virial theorem $$0 = 2\langle T\rangle + \langle U\rangle = Nm\left(\langle v^2\rangle -\frac{GM}{2R} \right) \implies R = \frac{G N m}{2\langle v^2 \rangle}$$though I dont know why theres a factor of 2 in the PE (comes from Xiaowei's notes).Then with $\langle v^2 \rangle = \sigma^2$ and and replacing $n = N / \frac{4}{3}\pi R^3$ we have $$\tau_{coll} \sim \frac{GN^2 m}{6\sigma ^3} \propto N^2$$For a [[Clustering|star cluster]] this number is $\sim 10 \,\pu{Gyr}$ (ie the age of the universe) and for a [[Galaxies#Galaxy|galaxy]] it is $\sim 10^{10}\,\pu{Gyr}$, ie impossible to explain relaxation of galaxies $\implies$ [[#113|violent relaxation]].
 
 **How long does it take for a massive object (M>> m) to sink to the bottom of a cluster potential well?**
 Using the expression for $R$ we also have that the [[Timescales#Dynamical timescale|dynamical timescale]] is $$\tau_{ff} \sim \frac{1}{\sqrt{G\rho}} \sim \frac{GNm}{\sigma^3} \propto N$$Since the free-fall timescale is a factor of $N$ smaller than the collisional timescale, objects sink into the potential well effectively without collisions when $N$ is large. The sinking timescale is thus simply $\tau_{ff}$.

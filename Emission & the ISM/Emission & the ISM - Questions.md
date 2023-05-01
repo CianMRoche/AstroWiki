@@ -9,7 +9,7 @@ Note that if they werent, pressure balance would cause the phases to blend into 
 
 ## 73
 **What is an HII region?**
-A dense, hot region of ionized Hydrogen (HII = $\ce{H^+} \neq \ce{H_2} =$ [[Spectra#Molecular hydrogen|molecular H]]) found around hot, young stars ([[Spectra#Harvard Spectral Classification|O and B]] stars). Properties also listed in [[Interstellar medium#ISM|this table]]. Ionized by the young star. Can be observed via the [[Spectra#H-alpha|H-alpha]] line.
+A dense, hot region of ionized Hydrogen ($\ce{H\,II}$ = $\ce{H^+} \neq \ce{H_2} =$ [[Spectra#Molecular hydrogen|molecular H]]) found around hot, young stars ([[Spectra#Harvard Spectral Classification|O and B]] stars). Properties also listed in [[Interstellar medium#ISM|this table]]. Ionized by the young star. Can be observed via the [[Spectra#H-alpha|H-alpha]] line.
 
 In galaxies, HII regions are found in:
 - the arms of spiral galaxies

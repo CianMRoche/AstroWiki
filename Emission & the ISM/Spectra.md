@@ -21,7 +21,7 @@ Traces cool, ionized gas. Has been used to trace [[Object Types#CGM|CGM]]. Ratio
 ## H-alpha
 Atomic hydrogen Balmer line, _n_ = 3 to _n_ = 2 transition. Wavelength 650 nm ~ 2eV
 
-Emitted by many [[Nebulae#Emission nebula|emission nebulae]] and can be used to observe features in the [[The Sun#The Sun|the Sun]]'s atmosphere, including solar prominences and the chromosphere. Also by HII regions (see [[Emission & the ISM - Questions#73|Q73]]).
+Emitted by many [[Nebulae#Emission nebula|emission nebulae]] and can be used to observe features in the [[The Sun#The Sun|the Sun]]'s atmosphere, including solar prominences and the chromosphere. Also by [[Emission & the ISM - Questions#73|HII regions]].
 
 Traces star formation.
 
