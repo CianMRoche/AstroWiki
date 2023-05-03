@@ -10,9 +10,9 @@ For a small thing of mass $m$ orbiting in a circle around an unmoving big thing 
 For one object in a binary:
 1. The orbit is ellipse with center of mass at one focus
 2. The line joining the focus and the object sweeps out equal areas in equal time $\frac{dA}{dt} = \frac{1}{2} r^2 \dot{\phi}$
-3. $P^2\sim a^3$ where $P$ is period and $a$ is semi-major axis. In full its $$P^2 = \frac{4\pi^2 a^3}{G M_{tot}}$$
+3. $P^2\sim a^3$ where $P$ is period and $a$ is semi-major axis. In full its $$P^2 = \frac{4\pi^2 a^3}{G M_{tot}}$$Can derive $r(\varphi)$ relationship for a Keplerian orbit
+$$r = \frac{a(1-e^2)}{1+e\cos(\varphi)}$$
 
-**Proof**:
 
 
 
@@ -32,10 +32,6 @@ The tidal bulges are not aligned between the two bodies (ie not along the same a
 
 
 (See C+O ed. 2 pg 721)
-
-
-## Tidal disruption event
-high-eccentricity orbit near a [[Black holes|SMBH]] disrupts object and shoots some of the material off
 
 
 ## X-ray binary

@@ -4,13 +4,6 @@ This diagram demonstrates the clustering between the [[HarvardSpectralClassifica
 ![[HRDiagram.png|]]
 
 
-
-## Main sequence
-A line (and thus, evolutionary track) that can be identified on the [[#Hertzsprung-Russel diagram]] which comprises ~90% of known stars, including [[The Sun]].
-
-A star is on the main sequence while it is burning Hydrogen to fuse Helium. This helium builds up in the core but is not fused into carbon yet, until core reaches $\sim 10^{8}\,\pu{K}$. Core is isothermal so 
-
-
 ## Pre-main sequence
 When the protostar becomes optically thick and approaches [[#Main sequence]] evolution, happens at
 - $R\sim 100 R_\odot$ 
@@ -40,9 +33,13 @@ Stage ends when central temp becomes hot enough to fuse Hydrogen, at which point
 
 
 ## ZAMS
-"Zero-age [[#Main sequence]]". The theoretical locus of points in the [[#Hertzsprung-Russel diagram|HR-diagram]] where the luminosities of young stars (at a range of masses) are mostly supplied by the nuclear reactions that have begun in their cores.
+"Zero-age [[#Main sequence]]". The theoretical locus of points in the [[#Hertzsprung-Russel diagram|HR-diagram]] where the luminosities of young stars (at a range of masses) are mostly supplied by the nuclear reactions that have begun in their cores. Basically its the set of points where stars can show up on the main sequence, sit there 
 
 We often refer to the time since ZAMS as the age of the star, although prior to ZAMS the star is referred to as a protostar and the time for the collapse can be very significant. Furthermore, we often use the mass at ZAMS when talking about the mass of a star, ie "its mass when it entered the main sequence".
+
+
+## Main sequence
+A region that can be identified on the [[#Hertzsprung-Russel diagram]] which comprises ~90% of known stars, including [[The Sun]], containing stars which are burning Hydrogen to fuse Helium. This helium builds up in the core but is not fused into carbon yet, until core reaches $\sim 10^{8}\,\pu{K}$. Core is isothermal so 
 
 
 ## Subgiant branch
@@ -50,7 +47,15 @@ We often refer to the time since ZAMS as the age of the star, although prior to 
 
 
 ## RGB
-"Red giant branch". Effectively the inverse evolution of the [[#Hayashi track]] whereby a star cant go to lower temperature and remain in [[Stellar structure equations#Hydrostatic equilibrium|HSE]] so its luminosity increases along a vertical line on [[#Hertzsprung-Russel diagram|HR-diagram]] after leaving the [[#Subgiant branch]] on the way to the helium flash. 
+"Red giant branch". Effectively the inverse evolution of the [[#Hayashi track]] whereby a star cant go to lower temperature and remain in [[Stellar structure equations#Hydrostatic equilibrium|HSE]] so its luminosity increases along a vertical line on [[#Hertzsprung-Russel diagram|HR-diagram]] after leaving the [[#Subgiant branch]] on the way to the [[#Helium flash]]. 
+
+
+## Helium flash
+The Helium flash is when: 
+- core is degenerate, heats up until helium burning stars
+- T increases a lot, which would usually increase $P$ but in degeneracy pressure dominated $P$ is indep of $T$, so no expand, $T$ rises in runaway manner and so does Helium burning. 
+- This happens until $\sim 10^{11}\,L_\odot$ injected into the envelope in a few seconds, envelope lifts off a bit, allows core to expand and burning slows considerably to stable helium burning
+- envelope contracts and enter [[#Horizontal branch]]. 
 
 
 ## Horizontal branch

@@ -234,8 +234,10 @@ A mechanism to fuse hydrogen into helium. Below are the 3 branches of the pp-cha
 - a positron that will annihilate and create a second gamma ray
 - an electron neutrino
 
-In the diagram the lower number indicates the number of protons and is thus degenerate with the name of the element (ie you can ignore the lower numbers) and a proton is written as H so i think its assumed these things are all ionized(?) !UNFINISHED 
+In the diagram the lower number indicates the number of protons and is thus degenerate with the name of the element (ie you can ignore the lower numbers) and a proton is written as H so i think its assumed these things are all ionized. 
 ![[ppchain.gif]]
+Note thatall branches just make helium nuclei (and release some neutrinos and photons), and ppII and ppIII are just getting from Beryllium 7 to 2 helium nuclei by going "down" and "up" an element on the periodic table, respectively. No RHS is a single thing unless its the final step (so if youve only written one thing, add a gamma).
+
 [Source for image](http://burro.cwru.edu/academics/Astr221/StarPhys/ppchain.html) . The energy generated per unit volume in a general reaction $\ce{A + B -> C + D}$ is $$\epsilon = Q n_A n_B \langle \sigma v\rangle \left(\frac{1}{1 + \delta_{AB}}\right)$$where $v$ is the speed, $\sigma$ the cross section, and the parenthetical term halves the number to avoid double counting if $A$ and $B$ are the same thing. The energy output $Q$ is $$Q = \text{energy of RHS - energy of LHS}$$Evaluating this with some inspiration from nuclear physics, the Maxwell-Boltzmann distribution for the speeds, and expanding about the "Gamow peak" (not going into details) one ends up finding the energy generation is roughly $\epsilon \propto T^4$ at around $1.5\times 10^7\,\pu{K}$.
 
 

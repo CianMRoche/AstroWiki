@@ -30,13 +30,13 @@
     "Mnemonics.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 75,
-      "pageCount": 0.25,
-      "characterCount": 515,
-      "nonWhitespaceCharacterCount": 434,
+      "wordCount": 130,
+      "pageCount": 0.43333333333333335,
+      "characterCount": 819,
+      "nonWhitespaceCharacterCount": 681,
       "createdDate": 1681584180935,
-      "modifiedDate": 1682641202569,
-      "sizeInBytes": 515
+      "modifiedDate": 1682990462342,
+      "sizeInBytes": 819
     },
     "Units.md": {
       "isDirectory": false,
@@ -129,13 +129,13 @@
     "Stars/Stellar structure equations.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 384,
-      "pageCount": 1.28,
-      "characterCount": 2842,
-      "nonWhitespaceCharacterCount": 2446,
+      "wordCount": 385,
+      "pageCount": 1.2833333333333334,
+      "characterCount": 2852,
+      "nonWhitespaceCharacterCount": 2455,
       "createdDate": 1680149528345,
-      "modifiedDate": 1681439531181,
-      "sizeInBytes": 2842
+      "modifiedDate": 1682992120614,
+      "sizeInBytes": 2852
     },
     "Stars/Stellar evolution.md": {
       "isDirectory": false,
@@ -173,13 +173,13 @@
     "Stars/Stars - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 3615,
-      "pageCount": 12.05,
-      "characterCount": 24739,
-      "nonWhitespaceCharacterCount": 20909,
+      "wordCount": 3674,
+      "pageCount": 12.246666666666666,
+      "characterCount": 25061,
+      "nonWhitespaceCharacterCount": 21171,
       "createdDate": 1677543396137,
-      "modifiedDate": 1682547562442,
-      "sizeInBytes": 24751
+      "modifiedDate": 1682990678769,
+      "sizeInBytes": 25073
     },
     "Stars/Star formation.md": {
       "isDirectory": false,
@@ -239,13 +239,13 @@
     "Stars/HR-diagram.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 619,
-      "pageCount": 2.0633333333333335,
-      "characterCount": 4492,
-      "nonWhitespaceCharacterCount": 3834,
+      "wordCount": 715,
+      "pageCount": 2.3833333333333333,
+      "characterCount": 5075,
+      "nonWhitespaceCharacterCount": 4317,
       "createdDate": 1681176409584,
-      "modifiedDate": 1681423880251,
-      "sizeInBytes": 4492
+      "modifiedDate": 1682973326431,
+      "sizeInBytes": 5075
     },
     "Stars/Clustering.md": {
       "isDirectory": false,
@@ -327,13 +327,13 @@
     "Instrumentation and methods/Observatories.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1774,
-      "pageCount": 5.913333333333333,
-      "characterCount": 12808,
-      "nonWhitespaceCharacterCount": 10849,
+      "wordCount": 1779,
+      "pageCount": 5.93,
+      "characterCount": 12847,
+      "nonWhitespaceCharacterCount": 10880,
       "createdDate": 1676656177201,
-      "modifiedDate": 1682968248489,
-      "sizeInBytes": 12813
+      "modifiedDate": 1682968544518,
+      "sizeInBytes": 12852
     },
     "Instrumentation and methods/Magnitudes.md": {
       "isDirectory": false,
@@ -393,13 +393,13 @@
     "Galaxies/TDEs.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 29,
-      "pageCount": 0.09666666666666666,
-      "characterCount": 176,
-      "nonWhitespaceCharacterCount": 148,
+      "wordCount": 229,
+      "pageCount": 0.7633333333333333,
+      "characterCount": 1570,
+      "nonWhitespaceCharacterCount": 1332,
       "createdDate": 1682968250468,
-      "modifiedDate": 1682968309576,
-      "sizeInBytes": 176
+      "modifiedDate": 1682969908604,
+      "sizeInBytes": 1570
     },
     "Galaxies/Velocity dispersion.md": {
       "isDirectory": false,
@@ -445,17 +445,6 @@
       "modifiedDate": 1682543713739,
       "sizeInBytes": 785
     },
-    "Galaxies/Galaxy evolution.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 12,
-      "pageCount": 0.04,
-      "characterCount": 64,
-      "nonWhitespaceCharacterCount": 53,
-      "createdDate": 1678470646425,
-      "modifiedDate": 1678470670292,
-      "sizeInBytes": 64
-    },
     "Galaxies/Galaxy cluster examples.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -481,13 +470,13 @@
     "Galaxies/Galaxies - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 5615,
-      "pageCount": 18.716666666666665,
-      "characterCount": 39435,
-      "nonWhitespaceCharacterCount": 33567,
+      "wordCount": 5642,
+      "pageCount": 18.80666666666667,
+      "characterCount": 39606,
+      "nonWhitespaceCharacterCount": 33709,
       "createdDate": 1677543434201,
-      "modifiedDate": 1682952828674,
-      "sizeInBytes": 39463
+      "modifiedDate": 1682971166901,
+      "sizeInBytes": 39634
     },
     "Galaxies/Galaxies.md": {
       "isDirectory": false,
@@ -525,13 +514,13 @@
     "Galaxies/AGN.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 362,
-      "pageCount": 1.2066666666666668,
-      "characterCount": 2533,
-      "nonWhitespaceCharacterCount": 2147,
+      "wordCount": 381,
+      "pageCount": 1.27,
+      "characterCount": 2657,
+      "nonWhitespaceCharacterCount": 2250,
       "createdDate": 1677535696558,
-      "modifiedDate": 1682967923831,
-      "sizeInBytes": 2535
+      "modifiedDate": 1682969110036,
+      "sizeInBytes": 2659
     },
     "Galaxies/AGN examples.md": {
       "isDirectory": false,
@@ -549,11 +538,11 @@
       "noteCount": 1,
       "wordCount": 2595,
       "pageCount": 8.65,
-      "characterCount": 17015,
-      "nonWhitespaceCharacterCount": 14223,
+      "characterCount": 17016,
+      "nonWhitespaceCharacterCount": 14225,
       "createdDate": 1677543440750,
-      "modifiedDate": 1682692959600,
-      "sizeInBytes": 17023
+      "modifiedDate": 1682990133368,
+      "sizeInBytes": 17024
     },
     "Exoplanets/Exoplanet examples.md": {
       "isDirectory": false,
@@ -569,13 +558,13 @@
     "Emission & the ISM/Spectra.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1216,
-      "pageCount": 4.053333333333334,
-      "characterCount": 8271,
-      "nonWhitespaceCharacterCount": 6990,
+      "wordCount": 1274,
+      "pageCount": 4.246666666666667,
+      "characterCount": 8620,
+      "nonWhitespaceCharacterCount": 7280,
       "createdDate": 1677701019011,
-      "modifiedDate": 1682877960658,
-      "sizeInBytes": 8271
+      "modifiedDate": 1682994166541,
+      "sizeInBytes": 8620
     },
     "Emission & the ISM/Scattering.md": {
       "isDirectory": false,
@@ -965,13 +954,13 @@
     "Compact objects/Binaries.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 544,
-      "pageCount": 1.8133333333333332,
-      "characterCount": 3512,
-      "nonWhitespaceCharacterCount": 2942,
+      "wordCount": 534,
+      "pageCount": 1.78,
+      "characterCount": 3469,
+      "nonWhitespaceCharacterCount": 2911,
       "createdDate": 1677540223691,
-      "modifiedDate": 1681245746440,
-      "sizeInBytes": 3512
+      "modifiedDate": 1682990034404,
+      "sizeInBytes": 3469
     },
     "Compact objects/Accretion.md": {
       "isDirectory": false,

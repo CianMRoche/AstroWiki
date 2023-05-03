@@ -1,7 +1,7 @@
 ## 8
 **TESS finds an exoplanet. What can one directly determine from this measurement?** 
 [[Observatories#TESS|TESS]] is a transiting exoplanet survey (see [[#13]]) so one can determine the period simply enough, but also the radius in the following way, since TESS also measures spectral type and therefore also an estimate of the size and mass of the host star.
-- Without an atmosphere: $\delta =\frac{\text{area of planet}}{\text{area of star}} = R_p^2 / R_*^2$ if we assume the emission is the same over the disk of the star. 
+- Without an atmosphere (if we assume the emission is the same over the disk of the star) $$\delta =\frac{\text{area of planet}}{\text{area of star}} = R_p^2 / R_*^2$$
 - With an atmospere of constant [[Optical depth#Optical depth|optical depth]] $\tau_\nu$ and atmospheric scale height $H$:  $$\delta = \frac{R_p^2 + 2R_p H(1 - e^{-\tau_\nu})}{R_*^2}$$though I dont understand why its $\tau_\nu$ here and not $\tau$ unless the $\delta$ is defined for some thin frequency band. 
 
 From Megan's notes: Note that this would have to be normalized so that the flat bit on top is at 1 for the $\delta$ label to be correct. Otherwise $\delta$ is a ratio such that $F_{dip} = (1-\delta) F_{top}$

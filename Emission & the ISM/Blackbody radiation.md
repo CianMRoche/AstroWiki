@@ -22,5 +22,5 @@ such that at room temp, peak is at ~10 microns. We can also express this in $\pu
 ## Stefan-Boltzmann Law
 Obtained by integrating over solid angle, area and frequency, $L$ in units of $\pu{W} = \pu{J s^{-1}}$
 $$L = \underbrace{\frac{2\pi^5 k^4}{15 h^3 c^2}}_{\colon = \sigma} A T^4$$
-where we have defined the Stefan-Boltzmann constant $\sigma = 5.67\times 10^8 \,\pu{W\,m^{-2}\,K^{-1}}$ 
+where we have defined the Stefan-Boltzmann constant $\sigma = 5.67\times 10^{-8}\,\pu{W\,m^{-2}\,K^{-1}}$ 
 

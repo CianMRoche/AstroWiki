@@ -24,4 +24,4 @@ The last term $\epsilon_g$ can be positive or negative and represents the heat g
 Energy can be transported radiatively or convectively, depending on the density and temperature, see [[Equations of state]]. 
 
 **Radiative**:$$\frac{dT}{dr} = -\frac{3\kappa}{64\pi \sigma} \frac{\rho L}{ r^2 T^3} = -\frac{3\kappa}{16\pi a c}\frac{\rho L}{ r^2 T^3}$$
-**Convective/"adiabatic"**:$$\frac{dT}{dr} = \left(1 - \frac{1}{\gamma_{rad}}\right)\frac{T}{P}\frac{dP}{dr}$$where $\gamma_{rad}$ is the [[Polytropes#Polytrope|polytropic]] exponent. Convection occurs when the temperature gradient is large. See [[Stars - Questions#37|Q37]]. 
+**Convective/"adiabatic"**:$$\frac{dT}{dr} = \left(1 - \frac{1}{\gamma_{rad}}\right)\frac{T}{P}\frac{dP}{dr}$$where $\gamma_{rad}$ is the [[Polytropes#Polytrope|polytropic]] exponent. Convection occurs when the temperature gradient is large. See [[Stars - Questions#37|this question]]. 
