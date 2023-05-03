@@ -10,7 +10,7 @@
 
 ## Distance
 - $1\,\pu{AU} \simeq 8\,\pu{light minutes} \simeq 8\times \frac{60}{\pi\times 10^7}\,\pu{ly} \simeq 1.6\times 10^{-5} \,\pu{ly}$ where the first step is because thats how long it takes light to travel from the Sun to the Earth.
-- $1\,\pu{pc} \simeq 3\,\pu{ly}$
+- $1\,\pu{pc} \simeq 3\,\pu{ly} \simeq 3\times 10^{16}\,\pu{m}$
 
 
 ## Solar system

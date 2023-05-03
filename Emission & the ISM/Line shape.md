@@ -1,4 +1,4 @@
-Lines are Voigt profiles intrinsically
+Lines are ~Voigt profiles intrinsically
 - Gaussian from Maxwell-Boltzmann dist
 - Lorentzian from quantum physics (energy uncertainty)
 

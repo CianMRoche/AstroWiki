@@ -24,11 +24,11 @@ A mass-velocity dispersion relation between the mass of [[Black holes#Black hole
 
 
 ## Faber-Jackson relation
-For elliptical galaxies $$L\propto \sigma^4$$
+For elliptical galaxies (same derivation as [[#Tully-Fisher relation]])$$L\propto \sigma^4$$but not very well calibrated.
 
 
 ## Tully-Fisher relation
-For spiral galaxies. A relationship between rotational velocity (isnt this also just dispersion?) and luminosity, $$L\propto v^4$$**Assumptions**:
+For spiral galaxies. A relationship between circular velocity and luminosity: $$L\propto v^4$$**Assumptions**:
 - Galaxy radiates as a thin disk
 - Virialized
 - Assume that a simple mass to light ratio applies to all spiral galaxies (therefore this relation doesnt apply across different environments? See [[Galaxies - Questions#107|Q107]])
@@ -36,4 +36,9 @@ For spiral galaxies. A relationship between rotational velocity (isnt this also 
 **Derivation**
 Virial theorem or [[Binaries#Circular motion|circular motion]] $\implies v^2 = GM/R$. 
 
-Furthermore, let $\Gamma = M/L$ be the mass to light ratio, and assume a disk shape (since talking about spiral galaxies) $L = (2\pi R^2) (4\pi J_0)$ where $J_0$ is the [[Units#Intensity|mean surface brightness]] (ie assuming isotropic, but its a disk?). This can be rearranged to $R = \sqrt{L/2\pi J_0}$. Then $$v^4 = \left(\frac{GM}{R}\right)^2 = \frac{\left(G\Gamma L\right)^2}{R^2} = (G^2 \Gamma^2 8\pi^2 J_0) L$$and we recover the proportionality above.
+Furthermore, let $\Gamma = M/L$ be the mass to light ratio, and assume a disk shape (since talking about spiral galaxies) $L = (2\pi R^2) (4\pi J_0)$ where $J_0$ is the [[Units#Intensity|mean surface brightness]]. This can be rearranged to $R = \sqrt{L/2\pi J_0}$. Then $$v^4 = \left(\frac{GM}{R}\right)^2 = \frac{\left(G\Gamma L\right)^2}{R^2} = (G^2 \Gamma^2 8\pi^2 J_0) L$$and we recover the proportionality above.
+
+**Bonus**
+- The Tully-Fisher relation can be used to get approximate distances from circular velocities (via redshift measurements on each side) and thus can play a role in the [[Cosmology - Questions#134|distance ladder]] 
+- These days however, its moreso used as a consistency check for simulations along with the Schechter luminosity function (if they reproduce these relations theyre doing an ok job)
+- The Tully-Fisher relation exhibits more scatter (making a plot of $L$ and $v_{circ}$) when measuring in blue filters than in red. This is because young, blue stars contribute most of the light of a spiral galaxy, but the larger red stars contribute most of the mass. Thus if we measure $L$ from the blue stars which dont reflect well the total mass of the system, the mass to light ratio wont accurately describe the mass of the system. As a result, better to measure $L$ in the [[Spectra#The electromagnetic spectrum|NIR]]. 

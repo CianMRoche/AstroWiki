@@ -1,4 +1,7 @@
 ## Hubble constant
+As in the [[FLRW#Friedmann equation|Friedmann equation]] the Hubble constant represents the rate of expansion of the universe *today* via $$H_0 = \frac{\dot{a}}{a}\Bigg|_{z=0} = \dot a(z=0)$$since we define $a(z=0)$ to have a value of unity in whatever units we choose for $a$. It describes how fast an object should be moving away from us, since [[Distances#Proper distance|proper distances]] are related to [[Distances#Comoving distance|comoving distances]] by $$d_p = a \,d_C$$ which also implies the radial velocity of an object moving away from us with the Hubble flow is $$v_r = \dot{d_p} = \dot a \, d_C = H a\,d_C = H d_p$$which is called <mark class="hltr-pink">Hubble's law</mark>. Evaluating this today at $z=0$ and simplifying notation for current-day measurements we get $$v = H_0 d$$ as we see when combining measurements of both distance (various methods) and radial velocity (usually spectroscopic redshift) such as 
+![[hubble_law.jpg|400]]
+We typically resport it in $\pu{km s^{-1} Mpc^{-1}}$ so that we can easily calculate a distance in $\pu{Mpc}$ or speed in $\pu{km s^{-1}}$ if the other is known. There's tension across different methods, but some of the obtained values are as follows 
+![[Hubble Tension.png|500]]
 
-
-## Distance ladder
+See [[Cosmology - Questions#134|this question]] for a disucission of measurements of the Hubble constant

@@ -96,6 +96,7 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|X-ray]] mission launched 
 
 
 ## GAIA
+ESA astrometry telescope (positions and velocities). [[Spectra#The electromagnetic spectrum|Near-UV]] to NIR wide band. Sits at [[Methods#Space-based detector orbits|L2]]
 
 
 ## KECK
@@ -188,7 +189,7 @@ Half of the data unavilable due to Russian invasion of Ukraine.
 
 ## CHIME
 Cool concept for a radio ($400-800\,\pu{MHz}$) telescope which simultaneously views a very large portion of the sky ($200\,\pu{deg^2}$), and "pointing" takes place in post-processing by examining autocorrelations in the signal. 
-- Can probe the [[Spectra#21cm line|21cm line]] from redshifts $z\sim 0.8-2.5$ and also an excellent [[FRBs#FRB|FRB]] finding device, though localization is hard and so they built outrigger stations to assist, will be made better by [[#CHORD]]. 
+- Can probe the [[Spectra#21cm line|21cm line]] from redshifts $z\sim 0.8-2.5$ (so $\lambda \simeq 50\,\pu{cm}$) and also an excellent [[FRBs#FRB|FRB]] finding device, though localization is hard and so they built outrigger stations to assist, will be made better by [[#CHORD]]. 
 - Kiyoshi Masui here at MKI is heavily involved. 
 
 ![[chime.png|500]]
@@ -258,7 +259,7 @@ Cosmological constraints on [[FLRW#Friedmann equation|Friedmann equation paramet
 ## SKA
 "Square Kilometre Array". A low-frequency radio telescope to be built in Australia expected to have first light in 2027.
 
-Will have two components which observe [[Spectra#21cm line|21cm line]] up to $z=3$ and $z\in(0,27)$ respectively
+Will have two components which observe [[Spectra#21cm line|21cm line]] up to $z=3$ and $z\in(3,27)$ respectively
 
 
 ## ROSAT

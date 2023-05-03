@@ -213,9 +213,9 @@ The timescale for violent relaxation can be approximated by considering the time
 
 ## 114
 **Why do some galaxies have prominent spiral structure and others do not?**
-Try to explain existence with differential rotation, that is maybe pattern arises due to the roughly flat rotation curve ($v=\text{const}$) and thus $\omega \propto 1/r$. Then the timescale for rotation is $$\tau_{rot} = \frac{2\pi}{\omega} = \frac{2\pi r}{v} \sim 10^8\,\pu{yr}$$assuming $v=200\,\pu{km s^{-1}}$ and $r=10\,\pu{kpc}$ (note that Megan's notes use [[Binaries#Kepler's laws|Keplers third]] here but we get the same number). That is, the spiral arms will wind ~10s to 100s of times in the age of the universe. In such a case, we should not see prevalent structure, as it would all be washed out by many rotations(the so-called "winding problem").
+Try to explain existence with differential rotation, that is maybe pattern arises due to the roughly flat rotation curve ($v=\text{const}$) and thus $\omega \propto 1/r$. Then the timescale for rotation is $$\tau_{rot} = \frac{2\pi}{\omega} = \frac{2\pi r}{v} \sim 10^8\,\pu{yr}$$assuming $v=200\,\pu{km s^{-1}}$ and $r=10\,\pu{kpc}$ (note that Megan's notes use [[Binaries#Kepler's laws|Keplers third]] here but we get the same number). That is, the spiral arms will wind ~10s to 100s of times in the age of the universe. In such a case, we should not see prevalent structure, as it would all be washed out by many rotations (the so-called "winding problem").
 
-**Briefly describe the density wave theory of spiral structure?**
+**Briefly describe the density wave theory of spiral structure**
 The idea is that there are density waves which propagate around the disk, like a sound wave in air, and that: 
 - The stars experience roughly no net motion due to the passage of the wave (which contains different stars at any point in time except for the stars at a certain radius such that their angular velocity coincides with the angular velocity of the wave, $\Omega_{gp}$ below).
 - The density wave increases the density of gas and thus boosts star formation rates, explaining why we see star formation mostly within spiral arms
@@ -226,8 +226,8 @@ The idea is that there are density waves which propagate around the disk, like a
 ## 115
 **How many globular clusters does our Galaxy contain? How are they distributed in space? What fraction of the total mass of the Galaxy do they contain?**
 The [[Milky Way#Milky Way|Milky Way]] contains $\gtrsim 150$ [[Clustering#Globular Cluster|globular clusters]] 
-- Distributed roughly isotropically in the stellar halo (i.e. not in the disk), but potentially an oblate/flattened distribution rather than perfectly isotropic
-- Most contained within $\sim 40\,\pu{kpc}$ of the galactic center
+- Distributed roughly isotropically in the stellar halo (i.e. not in the disk), but potentially an oblate/flattened distribution rather than perfectly isotropic, and about one third near the galactic center
+- Most contained within $\sim 40\,\pu{kpc}$ of the galactic center (from Megans notes)
 - They make up about 1% of the stellar mass of the Milky Way
 
 
@@ -243,7 +243,7 @@ By assuming all the stars in the [[The Sun#The Sun|solar]] neighborhood are on c
 The constants are defined as $$
 A =\frac{1}{2}\left(\frac{V_0}{R_0}-\left.\frac{d v}{d r}\right|_{R_0}\right)\quad ,\quad 
 B =-\frac{1}{2}\left(\frac{V_0}{R_0}+\left.\frac{d v}{d r}\right|_{R_0}\right)
-$$where $V_0$ and $R_0$ are the rotational velocity and distance to the galactic center measured at the position of the Sun, and $v$ and $r$ are the velocities and distances of stars at other positions in the solar neighborhood. With these parameters one
+$$where $V_0$ and $R_0$ are the rotational velocity and distance to the galactic center measured at the position of the Sun, and $v$ and $r$ are the velocities and distances of stars at other positions in the solar neighborhood. 
 
 ![[Oort_constants_derivation_diagram.jpg]]
 
@@ -293,7 +293,7 @@ Refers to the fact that galaxies are not perfect tracers of mass in the universe
 - Baryonic physics different than that of the mass-dominant [[Dark matter]]
 - Lack of good understanding of galaxy formation
 
-The "bias" refers to some metric of the difference between the galaxy distribution and that of all matter. Bias sometimes used in the context of the linear bias model, where, on scales larger than a few megaparsecs, the galaxy density fluctuations are enhanced over those of the mass by a factor $b$, the linear bias factor $$\frac{\delta n_g}{\bar{n}_g}=b\left(\frac{\delta \rho}{\rho}\right)$$where $n_g$ is the number density of galaxies and $\rho$ is the mass density. Many groups have found that the halos formed in dark matter simulations are actually antibiased with respect to the mass, (i.e. the fluctuations in galaxy number density are smaller than that of mass $b < 1$), because of excessive merging of halos compared with real galaxies, giving for example some very large halos. But at the same time [[CMB#CMB|CMB]] measurements have yielded a very different $b \simeq 1.5$ with the opposite conclusion, ie that galaxies are more tightly clustered (higher number overdensities) than all mass.
+The "bias" refers to some metric of the difference between the galaxy distribution and that of all matter. Bias sometimes used in the context of the linear bias model, where, on scales larger than a few megaparsecs, the galaxy density fluctuations are enhanced over those of the mass by a factor $b$, the linear bias factor $$\frac{\delta n_g}{\bar{n}_g}=b\left(\frac{\delta \rho}{\rho}\right)$$where $n_g$ is the number density of galaxies and $\rho$ is the mass density. Many groups have found that the halos formed in dark matter simulations are actually antibiased with respect to the mass, (i.e. the fluctuations in galaxy number density are smaller than that of mass $b < 1$), because of excessive merging of halos compared with real galaxies, giving for example some very large halos. But at the same time [[CMB#CMB|CMB]] measurements (from variations of the matter power spectrum on $8\,\pu{Mpc/h}$ scales which we call $\sigma_8$) have yielded a very different $b \simeq 1.5$ with the opposite conclusion, ie that galaxies are more tightly clustered (higher number overdensities) than all mass.
 
 Observationally, we can look at the galaxy-galaxy 2-point correlation function (see [[#122|Q122]]), ie "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Can do such a thing with [[Catalogs#SDSS|SDSS]] for example.
 
@@ -302,7 +302,7 @@ Observationally, we can look at the galaxy-galaxy 2-point correlation function (
 **What fractions of each of the following is composed of "dark matter"? How are each of these estimates arrived at?**
 
 **(i) The solar neighborhood**  |  $f_{DM} \lesssim 20\%$
-Within the [[Milky Way#Milky Way|MW]] disk (and therefore in the [[The Sun#The Sun|Solar]] neighborhood), we expect to find little [[Dark matter]] since DM is not thought to be dissipative, and therefore will not collapse into a disk like baryons do. the number quoted above is estimated based on [[Observatories#GAIA|GAIA]] stellar kinematics ([source](https://arxiv.org/pdf/1711.03103.pdf) from Katelin Schutz, former MIT student).
+Within the [[Milky Way#Milky Way|MW]] disk (and therefore in the [[The Sun#The Sun|Solar]] neighborhood), we expect to find little [[Dark matter]] since DM is not thought to be dissipative, and therefore will not collapse into a disk like baryons do. The number quoted above is estimated based on [[Observatories#GAIA|GAIA]] stellar kinematics ([source](https://arxiv.org/pdf/1711.03103.pdf) from Katelin Schutz, former MIT student).
 
 **(ii) A typical galaxy like the Milky Way**  |  $f_{DM} \simeq 90-95\%$
 From something like [[#101|rotation curves]] or [[Velocity dispersion#Velocity dispersion|velocity dispersions]] can infer a total DM mass. Can then estimate the DM and stellar contributions from a mass to light ratio or knowledge of stellar evolution (basically adding up all the stars masses via their light).
@@ -310,13 +310,13 @@ From something like [[#101|rotation curves]] or [[Velocity dispersion#Velocity d
 **(iii) A typical galaxy cluster like the Coma cluster**  |  $f_{DM} \simeq 90\%$
 Total mass of cluster can be estimated from [[Lensing#Weak lensing|weak lensing]] or scaling relations like the fact that the net result of the SZ-effect (basically [[Scattering#Inverse-Compton scattering|inverse Compton scattering]]) is proportional to cluster mass. Can also estimate baryonic contributions using the [[Spectra#The electromagnetic spectrum|X-ray]] emission of the [[Cluster media#ICM|ICM]] assuming models for that emission. [[Velocity dispersion#Velocity dispersion|Velocity dispersions]] also work, as originally done by Zwicky in 1930s for the [[Galaxy cluster examples#Coma cluster|Coma cluster]]. 
 
-**(iv) The universe**  |   $f_{DM} \simeq 83\%$
-Constraints from [[Power spectrum]] of the [[CMB#CMB|CMB]], [[balmer_fraction.png#BAO|BAO]](?) and from [[BBN#BBN|BBN]] can give relative abundances of dark matter and baryonic matter $\Omega_m$ and $\Omega_b$ (?) !UNFINISHED come back to after cosmology
+**(iv) The universe**  |   $f_{DM} \simeq 30\%$ of the net energy density
+Constraints from [[CMB#CMB power spectrum|CMB power spectrum]], [[BAO]] and from [[BBN#BBN|BBN]] can give relative abundances of dark matter and baryonic matter $\Omega_m\simeq 0.3$ and $\Omega_b\simeq 0.02$ (see [[Observatories#Planck|Planck]])
 
 
 ## 122
 **What is the galaxy correlation function?**
-Answers the question "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Defined as $$\langle\rho(\vec{x})\rho(\vec{x}+\vec{r})\rangle = \bar{\rho}^2\langle1+\underbrace{\delta(\vec{x})\delta(\vec{x}+\vec{r})}_{\xi(\vec{r}) := \langle \delta(\vec{x})\delta(\vec{x}+\vec{r}) \rangle}\rangle$$for $\rho$ the mass density, $\delta$ the overdensity (defined in [[#119|Q119]]) and bars and angular brackets meaning averages and integrals over space, respectively. Tthe chosen scale $\vec{r}$ tells us aboout correlations across a specific length scale, leading to interesting inferences like measurements of [[BAO#BAO|BAO]]. 
+Answers the question "if we have a galaxy at $\vec{x}$ then what is the probability of finding a galaxy at $\vec{x} + \vec{r}$ ?". Defined as $$\langle\rho(\vec{x})\rho(\vec{x}+\vec{r})\rangle = \bar{\rho}^2\langle1+\underbrace{\delta(\vec{x})\delta(\vec{x}+\vec{r})}_{\xi(\vec{r}) := \langle \delta(\vec{x})\delta(\vec{x}+\vec{r}) \rangle}\rangle$$for $\rho$ the mass density, $\delta$ the overdensity (defined in [[#119|Q119]]) and bars and angular brackets meaning averages and integrals over space, respectively. The chosen scale $\vec{r}$ tells us aboout correlations across a specific length scale, leading to interesting things like measurements of [[BAO#BAO|BAO]]. 
 
 How do we measure this? Via [[Galaxies#Galaxy|galaxy]] surveys (eg [[Catalogs#eBOSS|eBOSS]]).
 
@@ -327,9 +327,7 @@ Measurements suggest that$$\xi(\vec{r}) \simeq \left(\frac{|\vec{r}|}{r_0}\right
 For [[Galaxy clusters#Galaxy cluster|clusters]] of galaxies (ie treating a cluster as "one object" and getting the 2-point correlation for such objects) it has been found that the best fit is at $$\gamma = 2.1 \quad, \quad r_0 = 17\,\pu{Mpc}$$but critically, <mark class="hltr-pink">clusters are found to be much more strongly correlated in space than galaxies</mark> with $\xi_{cluster} \simeq 20 \xi_{gal}$, effectively representing the large-scale sctructure of the universe (modulo [[#120|galaxy bias]], which is less biased for clusters than for individual galaxies).
 
 **How is the galaxy correlation function used to constrain H$_0$?**
-If we measure the angular size of the [[BAO#BAO|BAO]] peak in a narrow range of [[Spectra#Redshift|redshifts]] (ie at roughly the same distance) then we can constrain $H_0$ using other parameters from [[CMB#CMB|CMB]] studies. The reason for this is that the BAO scale is comoving with the Hubble flow, therefore if we measure the angular size, using the expression for the [[Distances#Angular diameter distance|Angular diameter distance]] is given by !UNFINISHED (come back after cosmology)
-
-BAO is a standard ruler in a similar way to the "standard candles" of type-1a [[Supernovae#Supernova|supernovae]]
+If we measure the angular size of the [[BAO#BAO|BAO]] peak in a narrow range of [[Spectra#Redshift|redshifts]] (ie at roughly the same distance) then we can constrain $H_0$ using other parameters from [[CMB#CMB|CMB]] studies. The reason for this is that the BAO scale is comoving with the Hubble flow, therefore if we measure the angular size, using the expression for the [[Distances#Angular diameter distance|Angular diameter distance]] we can infer $H_0$. That is, BAO is a standard ruler in a similar maner as the "standard candles" of type-1a [[Supernovae#Supernova|supernovae]] and "standard sirens" of compact object mergers.
 
 
 ## 123
@@ -360,10 +358,10 @@ See [[Velocity dispersion#M-sigma relation|M-sigma relation]].
 **(iii) the Madau plot**
 Describes the cosmic evolution of the average star formation rate. 
 - Cosmic star formation peaks at around $z\simeq 2$. (Is this cosmic noon?). This is also when the number density of [[AGN#Quasar|quasars]] appears to peak, inferring connection between galaxy and AGN evolutions like [[Velocity dispersion#M-sigma relation|M-sigma]]. 
-- Suggests that many metals formed early during the deaths of massive stars, corroboarted by [[Galaxy clusters#Galaxy cluster|cluster]] [[Cluster media#ICM|ICM]] measurements.
+- Suggests that many metals formed early during the deaths of massive stars, corroboarted by [[Galaxy clusters#Galaxy cluster|cluster]] [[Cluster media#ICM|ICM]] measurements. (Note the [[Milky Way]] forms about 7 new stars per year)
 ![[madau.jpg|400]]
 **(iv) the star-forming main sequence**
-Star formation rate correlates with the stellar mass of a galaxy. Suggests that galaxies spend much of their lifetime building up stars in a self-regulated way. Seen across all broad classes of galaxy
+Star formation rate correlates with the stellar mass of a galaxy. Suggests that galaxies spend much of their lifetime building up stars in a self-regulated way. Seen across all broad classes of galaxy including [[Galaxies#Starburst galaxy|starburst galaxies]]
 
 ![[sf_main_seq.png]]
 
@@ -376,6 +374,7 @@ We dont see as many small satellite [[Galaxies#Galaxy|galaxies]] as predicted by
 Resolution?
 - recently deep surveys ([[Catalogs#SDSS|SDSS]]) have found many more extremely faint dwarf galaxies (raising up the observations above)
 - [[Observatories#LSST|LSST]] is forecasted to improve this further
+- Nora Shipp here at MKI has demonstrated that the tension may be resolved by carefully acounting for detectability of sattelite dwarfs
 - What remains is the question "what is suppressing star formation in small halos?". Feedback?
 
 **(ii) the core-cusp problem**
@@ -394,4 +393,4 @@ order of ~1% of these rates in cluster cores (and not enough cool gas either to 
 difference via "it happened in the past").
 
 Resolution?
-- [[[AGN#AGN|AGN]] feedback heats up the gas and prevents star formation, but the details of how the jets deposit energy into the cluster are unclear.
+- [[AGN#AGN|AGN]] feedback heats up the gas and prevents star formation, but the details of how the jets deposit energy into the cluster are unclear.

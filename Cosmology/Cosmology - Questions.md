@@ -8,12 +8,14 @@ See [[Spectra#21cm line|21cm line]] for explanation of line physics.
 
 What is the use of this line in studying cosmology? 
 - Can use this transition to map the fraction of Hydrogen which is neutral over cosmic time, which tells us about the [[Reionization#Epoch of reionization|epoch of reionization]]. ![[neutral_hydrogen.png|500]]
-- As [[CMB#CMB|CMB]] photons pass through a neutral hydrogen region, what we observe (ask Haochen)
+- As [[CMB#CMB|CMB]] photons pass through a neutral hydrogen region, those photons near $21\,\pu{cm}$ wavelengths can be absorbed by neutral hydrogen. See [these slides](https://www2.yukawa.kyoto-u.ac.jp/~ppp.ws/PPP2015/slides/takahashi.pdf).
 
 What experiments can do this?
 - [[Observatories#CHIME|CHIME]]. Also can measure [[BAO#BAO|BAO]] signal with these measurements
-- [[Observatories#HERA|HERA]]. Can allow us to study first stars and epoch of reionization. Will place limits on 21cm power spectrum and thus ou understanding of how ionized bubbled form and evolve. More robust against astrophysical foreground, but still need accurate foreground models in all cases to see any signal at all
+- [[Observatories#HERA|HERA]]. Can allow us to study first stars and epoch of reionization. Will place limits on 21cm power spectrum and thus our understanding of how ionized bubbled form and evolve. More robust against astrophysical foreground, but still need accurate foreground models in all cases to see any signal at all
 - [[Observatories#MWA|MWA]] and [[Observatories#SKA|SKA]] similar.
+
+For all these, the astrophysical foreground (eg [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron]] from galactic sources like jets in [[Binaries#X-ray binary|XRBs]] and [[AGN]], [[Supernovae#Supernova|Sne]] remnants, [[Nebulae#Pulsar wind nebula|pulsar wind nebulae]], galactic [[Interstellar medium|ISM]] and [[GRBs]]) is orders of manitude bigger than the cosmological signal, makes for very, very hard post-processing. Haochen Wang here at MKI does this.
 
 
 ## 127
@@ -30,7 +32,7 @@ A brief history of [[CMB#CMB|CMB]] observation is as follows:
 
 1992
 - NASA launches [[Observatories#COBE|COBE]] which measured CMB anisotropy at $\Delta T/T \simeq 10^{-5}$ 
-- Essentially measured the low-$l$ (Megan's notes says high $l$? unclear) flat part of the [[CMB#CMB power spectrum|CMB power spectrum]]
+- Essentially measured the low-$l$ (Megan's notes says high $l$? unclear, below image suggests low $l$ is correct) flat part of the [[CMB#CMB power spectrum|CMB power spectrum]]
 - Won 2006 Nobel prize
 
 2001
@@ -62,14 +64,14 @@ Explaining the <mark class="hltr-pink">primary anisotropies</mark>:
 1. Non-integrated Sachs-Wolfe effect ($l\lesssim 100$)
    - Photons in a grav. well get redshifted climbing out of it (sort of like [[Galaxies - Questions#113|violent relaxation]])
    - Caused by gravitational [[Spectra#Redshift|redshift]] occurring at the surface of last scattering. 
-   - The effect is not constant across the sky due to differences in the matter/energy density at the time of last scattering, such that deeper potential wells lead to more reddened photons, and thus apparently lower [[Blackbody radiation#Blackbody radiation|blackbody]] peak temperaure via [[Blackbody radiation#Wien's displacement law|Wien's law]] (can also think of the peak wavelegth being redshifted to longer values). 
+   - The effect is not constant across the sky due to differences in the matter/energy density at the time of last scattering, such that deeper potential wells lead to more reddened photons, and thus apparently lower [[Blackbody radiation#Blackbody radiation|blackbody]] peak temperaure via [[Blackbody radiation#Wien's displacement law|Wien's law]] (can also think of the peak wavelength being redshifted to longer values). 
    - From Tegmark (1995): potential well also leads to time dilation, and so photons from deeper wells are actually from earlier times and therefore hotter (bluer). On larger scales this effect is proportional to the time of last scattering gravitational potential.
 
 2. Acoustic oscillations ($100\lesssim l\lesssim 1000$)
    See [[BAO#BAO|BAO]].
 
 3. Silk damping ($l\gtrsim 1000$)
-   "photon diffusion damping" which washes out scales smaller than $1^\circ$ ($\lesssim 0.1^\circ$, around the third acoustic peak)
+   "photon diffusion damping" which washes out scales smaller than $l=1000$ ($\lesssim 0.1^\circ$, around the third acoustic peak)
    - [[Recombination#Recombination|Recombination]] $\implies$ photons can "suddenly" travel much farther
    - These photons carry energy from the hot regions and diffuse to the cold regions, also dragging baryons around, such that any anisotropy on a very small scale is quickly washed out. Effect is strongest for smallest scales (largest $l$)
    - The *silk scale* is distance scale over which photon diffusion is important at $z=1100$, so about $3\,\pu{Mpc}$ when using an angular scale measured now of $0.1^\circ$. The mass contained within the scale is the *Silk mass* which we estimate to be $\sim 10^{13}\,M_\odot$, i.e. about the mass of a [[Galaxies#Galaxy|galaxy]] today 😱. Smaller scales (and smaller masses) are washed out.
@@ -196,11 +198,7 @@ Via the virial theorem we know $E = (1/2) U_{vir}$ so using the above expression
 
 ## 134
 **What is the Hubble constant?** 
-As in the [[FLRW#Friedmann equation|Friedmann equation]] the Hubble constant represents the rate of expansion of the universe *today* via $$H_0 = \frac{\dot{a}}{a}\Bigg|_{z=0} = \dot a(z=0)$$since we define $a(z=0)$ to have a value of unity in whatever units we choose for $a$. It describes how fast an object should be moving away from us, since [[Distances#Proper distance|proper distances]] are related to [[Distances#Comoving distance|comoving distances]] by $$d_p = a \,d_C$$ which also implies the radial velocity of an object moving away from us with the Hubble flow is $$v_r = \dot{d_p} = \dot a \, d_C = H a\,d_C = H d_p$$which is called <mark class="hltr-pink">Hubble's law</mark>. Evaluating this today at $z=0$ and simplifying notation for current-day measurements we get $$v = H_0 d$$ as we see when combining measurements of both distance (various methods) and radial velocity (usually spectroscopic redshift) such as 
-![[hubble_law.jpg|400]]
-We typically resport it in $\pu{km s^{-1} Mpc^{-1}}$ so that we can easily calculate a distance in $\pu{Mpc}$ or speed in $\pu{km s^{-1}}$ if the other is known. There's tension across different methods, but some of the obtained values are as follows 
-![[Hubble Tension.png|500]]
-
+See [[Hubble constant]]
 
 **Explain in detail at least three independent methods to measure it.**
 1. Distance ladder     |     $H_0 \simeq 73\pm 1\,\pu{km s^{-1} Mpc^{-1}}$ 
