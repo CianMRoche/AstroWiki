@@ -283,13 +283,13 @@
     "Mnemonics.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 153,
-      "pageCount": 0.51,
-      "characterCount": 962,
-      "nonWhitespaceCharacterCount": 801,
+      "wordCount": 315,
+      "pageCount": 1.05,
+      "characterCount": 2002,
+      "nonWhitespaceCharacterCount": 1656,
       "createdDate": 1681584180935,
-      "modifiedDate": 1683143047214,
-      "sizeInBytes": 964
+      "modifiedDate": 1683163299349,
+      "sizeInBytes": 2004
     },
     "Lightning round.md": {
       "isDirectory": false,
@@ -602,13 +602,13 @@
     "Emission & the ISM/Magnetobremsstrahlung.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 672,
-      "pageCount": 2.24,
-      "characterCount": 4723,
-      "nonWhitespaceCharacterCount": 4025,
+      "wordCount": 685,
+      "pageCount": 2.283333333333333,
+      "characterCount": 4863,
+      "nonWhitespaceCharacterCount": 4149,
       "createdDate": 1677701019019,
-      "modifiedDate": 1683155108355,
-      "sizeInBytes": 4723
+      "modifiedDate": 1683155914147,
+      "sizeInBytes": 4863
     },
     "Emission & the ISM/Interstellar medium.md": {
       "isDirectory": false,
@@ -756,13 +756,13 @@
     "Cosmology/Hubble constant.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 6,
-      "pageCount": 0.02,
-      "characterCount": 39,
-      "nonWhitespaceCharacterCount": 32,
+      "wordCount": 203,
+      "pageCount": 0.6766666666666666,
+      "characterCount": 1361,
+      "nonWhitespaceCharacterCount": 1156,
       "createdDate": 1680826543690,
-      "modifiedDate": 1681177609509,
-      "sizeInBytes": 39
+      "modifiedDate": 1683156710420,
+      "sizeInBytes": 1361
     },
     "Cosmology/FLRW.md": {
       "isDirectory": false,
@@ -800,13 +800,13 @@
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 6555,
-      "pageCount": 21.85,
-      "characterCount": 45277,
-      "nonWhitespaceCharacterCount": 38214,
+      "wordCount": 6391,
+      "pageCount": 21.303333333333335,
+      "characterCount": 44178,
+      "nonWhitespaceCharacterCount": 37282,
       "createdDate": 1677543451529,
-      "modifiedDate": 1683151463299,
-      "sizeInBytes": 45285
+      "modifiedDate": 1683162258671,
+      "sizeInBytes": 44186
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,
@@ -833,13 +833,13 @@
     "Cosmology/BAO.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 26,
-      "pageCount": 0.08666666666666667,
-      "characterCount": 192,
-      "nonWhitespaceCharacterCount": 164,
+      "wordCount": 35,
+      "pageCount": 0.11666666666666667,
+      "characterCount": 252,
+      "nonWhitespaceCharacterCount": 216,
       "createdDate": 1681106192452,
-      "modifiedDate": 1682445790892,
-      "sizeInBytes": 192
+      "modifiedDate": 1683158710124,
+      "sizeInBytes": 252
     },
     "Cosmology/Alcock-Paczinsky.md": {
       "isDirectory": false,

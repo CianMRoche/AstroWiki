@@ -32,7 +32,7 @@ Time evolution of a homogeneous, isotropic universe.
    \Omega_\Lambda &= \frac{\Lambda}{3 H_0^2}\\
    \Omega_k &= -\frac{k}{H_0^2}\quad \text{(note opposite sign of $k$)}\\
    \Omega_r &= \frac{\rho_{rad, 0}}{\rho_{c,0}} = \frac{8\pi G \rho_{rad,0}}{3 H_0^2}
-   \end{align}$$where $\rho_0$ represents the matter density only and $\rho_{rad}$ represents the radiation mass density, then we can write the Friedmann equation as $$\frac{H(z)^2}{H_0^2} = \Omega_{r}(1+z)^4 + \Omega_M(1+z)^3 + \Omega_k(1+z)^2 + \Omega_\Lambda$$which uses in its derivation the relation between scale factors at a certain [[Spectra#Redshift|redshift]] and the scale factor today $a_0$ (can understand as "universe and thus $a$ was smaller at $z$ bigger")$$a_0 = a(1+z)$$Why are the powers as they are? 
+   \end{align}$$where $\rho_0$ represents the matter density only and $\rho_{rad}$ represents the radiation mass density, then we can write the Friedmann equation as $$\frac{H(z)^2}{H_0^2} = E^2 (z) = \Omega_{r}(1+z)^4 + \Omega_M(1+z)^3 + \Omega_k(1+z)^2 + \Omega_\Lambda$$which uses in its derivation the relation between scale factors at a certain [[Spectra#Redshift|redshift]] and the scale factor today $a_0$ (can understand as "universe and thus $a$ was smaller at $z$ bigger")$$a_0 = a(1+z)$$Why are the powers as they are? 
    - Radiation gets 3 factors of $a$ from volume density, and an additional factor since the photon energy is redshifted. 
    - Matter is just volume density
    - Curvature and $\Lambda$ I dont have a good explanation for
