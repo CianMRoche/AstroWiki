@@ -160,7 +160,7 @@ NASA facility for the retrieval of signals from deep space telescopes. Consists 
 
 
 ## Green bank telescope
-Died :/
+
 
 
 ## NANOGrav

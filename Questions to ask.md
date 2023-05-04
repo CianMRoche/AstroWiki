@@ -1,6 +1,8 @@
 Here lives questions that need to be asked in order to make notes better
 
-- [[Objects#Perseus cluster]] seems small but also has lots of galaxies, is it just super dense?
+- [[Galaxy cluster examples#Perseus cluster|Perseus]] seems small but also has lots of galaxies, is it just super dense?
 - When to use ideal gas law for stars instead of polytope or something else?
 - Why does most of the kinetic energy in a relativistic plasma go into the electrons (lighter species)?
+- Where does the 1.68 come from in press schechter theory
+- 21cm cosmology have we actually observed cosmology signal
 

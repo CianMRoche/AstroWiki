@@ -191,7 +191,7 @@ Via the virial theorem we know $E = (1/2) U_{vir}$ so using the above expression
    - Originates in early universe and [[Spectra#Redshift|redshifted]] by expansion of universe
    - The universe used to be a [[Blackbody radiation#Blackbody radiation|blackbody]] until it cooled and expanded so photons could free stream. Implies hot and dense early universe
 3. Big bang nucleosynthesis + abundance
-   - In early universe ($\sim 2\,\pu{min}$ after big bang) nuclear fusion could occur, fusing hydrogen into helium and some others like lithium (see [[#146|Q146]]).
+   - In early universe ($\sim 2\,\pu{min}$ after big bang) nuclear fusion could occur, fusing hydrogen into helium and some others like lithium (see [[#146|this question]]).
    - The expected abundances from modelling the big bang match the observed abundances (although maybe they dont? Is cosmic lithium problem resolved?)
 4. [[Galaxies#Galaxy|Galaxy]] evolution
    - High redshift galaxies look different as a population than local galaxies $\implies$ evolution over cosmic time(?)
@@ -214,7 +214,7 @@ See [[Hubble constant]]
    ![[distance_ladder.png|500]]
 
 2. [[Lensing#Strong lensing|Strongly-lensed]] [[AGN#Quasar|quasars]]     |     $H_0 \simeq 73\pm 2\,\pu{km s^{-1} Mpc^{-1}}$ 
-   The H0LiCOW team measures time delays between multiple images of a straongly lensed background quasar by a large foreground object, and the time delay (can be $\sim$ seconds) can be used to infer a distance independent of [[CMB]] and distance ladder constraints
+   The H0LiCOW team measures time delays between multiple images of a strongly lensed background quasar by a large foreground object, and the time delay (can be $\sim$ seconds) can be used to infer a distance independent of [[CMB]] and distance ladder constraints
 
 3. Standard sirens     |     $H_0 \simeq 70\pm 2\,\pu{km s^{-1} Mpc^{-1}}$ 
    Method co-invented by Scott Hughes here at MKI. [[Gravitational waves|Gravitational wave]] observation can tell us the [[Gravitational waves#Chirp mass|chirp mass]] of a binary source, and from this we can calculate the power emitted in the merger. Via the inverse square law and the magnitude of our observation we then obtain a distance measurement (known loudness of siren + measurement $\implies$ distance). With EM followup to get a recessional velocity, we get an estimate of $H_0$.
@@ -229,7 +229,7 @@ The Hubble time is the age of the universe if it has always expanded at the same
 ## 135
 **How can the age of the universe be estimated empirically? Do the current estimates agree with that obtained from the Hubble constant?**
 
-1. Can estimate from the turn-off point of the [[HR-diagram#Main sequence|MS]] in [[Clustering#Globular Cluster|GCs]] as in [[Stars - Questions#17|Q17]]. Theyre very old so provide a good lower bound on age of universe. Current estimates are roughly  consistent with [[#134|Hubble time]] as we find GCs with ages of $\sim 12-13\,\pu{Gyr}$.
+1. Can estimate from the turn-off point of the [[HR-diagram#Main sequence|MS]] in [[Clustering#Globular Cluster|GCs]] as in [[Stars - Questions#17|Q17]]. Theyre very old so provide a good lower bound on age of universe. Current estimates are roughly  consistent with [[#134|Hubble time]] as we find GCs with ages of $\sim 12-13\,\pu{Gyr}$. 
 2. [[Stellar classes#White dwarf|WD]] cooling from $T\sim 10^4\,\pu{K}$ with the [[Units#Luminosity|luminosity]] scaling with the core temperature as $L \propto T_c^{7/2}$. As a result, we cal use the coolest white dwarfs to get a lower limit on age of the universe if we understand the processes by which they cool. Also $\sim 12-13\,\pu{Gyr}$
 3. The [[Milky Way#Milky Way|MW]] stellar halo. This is thought to contain old stellar populations, but because these stars come from multiple populations (mergers) this can be difficult to do
 

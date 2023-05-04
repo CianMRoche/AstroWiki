@@ -1,6 +1,6 @@
 ## BBN
 "Big bang nucleosynthesis". The synthesis of light elements in the early universe  ~minutes after the big bang. Has following characteristics:
-- The initial conditions (neutron–proton ratio) were set in the first second after the Big Bang, at the neutron "freeze-out" (see below). This ratio is the key parameter determining the abundances of light elements after nucleosynthesis ends
+- The initial conditions (neutron–proton ratio) were set in the first second after the Big Bang, at the neutron "freeze-out" (see below). In general a "freeze out" is when the conditions (like temperature or density) change such that a certain interaction becomes very unlikely to happen. This ratio is the key parameter determining the abundances of light elements after nucleosynthesis ends
 - The universe was very close to homogeneous at this time, and strongly radiation-dominated.
 - The fusion of nuclei occurred between roughly 10 seconds to 20 minutes after the Big Bang; this corresponds to the temperature range when the universe was <mark class="hltr-pink">cool enough for deuterium to survive, but hot and dense enough for fusion reactions to occur at a significant rate</mark>.
 
@@ -12,8 +12,7 @@ The fusion reactions are as follows, noting that they almost all involve fusing 
 { }^2 \mathrm{H}+{ }^2 \mathrm{H} &\longrightarrow{ }^3 \mathrm{H}+\mathrm{p} \\
 { }^3 \mathrm{He}+{ }^2 \mathrm{H} &\longrightarrow{ }^4 \mathrm{He}+\mathrm{p} \\
 { }^3 \mathrm{H}+{ }^2 \mathrm{H} &\longrightarrow{ }^4 \mathrm{He}+\mathrm{n}
-\end{align}$$The binding energy of deuterium is $2.22\,\pu{MeV}$ so deuterium fusion cant begin until the universe is $\ll 2.22\,\pu{MeV}$. In this time, some neutrons can decay into
-protons via $\beta$-decay with a lifetime of $890\,\pu{s}$ (this helps reconcile the observed $\ce{He}$ mass fraction from BBN). This decreases the neutron to proton ratio from a predicted 0.2 to a predicted 0.15 (which more closely matches observations).
+\end{align}$$The binding energy of deuterium is $2.22\,\pu{MeV}$ so deuterium fusion cant begin until the universe is $\ll 2.22\,\pu{MeV}$. In this time, some neutrons can decay into protons via $\beta$-decay with a lifetime of $890\,\pu{s}$ (this helps reconcile the observed $\ce{He}$ mass fraction from BBN). This decreases the neutron to proton ratio from a predicted 0.2 to a predicted 0.15 (which more closely matches observations).
 
 **The neutron-proton ratio**
 Set by Standard Model physics before the nucleosynthesis era, essentially within the first 1-second after the Big Bang. Neutrons can react with positrons or electron neutrinos to create protons and other products in one of the following reactions: $$\begin{align}

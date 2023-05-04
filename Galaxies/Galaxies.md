@@ -5,7 +5,7 @@ A gravitationally bound collection of $10^6-10^{13}\,M_\odot$ of stars. 3nd larg
 - Dwarf galaxies: $1-10\,\pu{kpc}$
 - Spiral galaxies: $10-50\,\pu{kpc}$
 - Elliptical galaxies: $10-200\,\pu{kpc}$
-- Lenticular galaxies (large scale disk but no spiral arms): $5-50\,\pu{kpc}$
+- Lenticular galaxies (large scale disk but no spiral arms, named so because it looks like a lentil): $5-50\,\pu{kpc}$
 
 **Examples**:
 - [[Milky Way]]
