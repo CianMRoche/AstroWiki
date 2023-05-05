@@ -232,7 +232,7 @@ The Einstein coefficients are a measure of the probability that an atom/molecule
 
 Note the units of [[Units#Intensity|specific intensity]] since those processes depend on the photon "density". We break them up into $A$ and $B$ coefficients via
 - $A$ doesnt depend on what light is around
-- $B$ does
+- $B$ does (B for "buddies" required)
 
 Then $A_{21} n_2$ (for $n_2$ the volume number density of particles in energy state $E_2$) is the transition rate for spontaneous emission per unit volume, and for [[Units#Intensity|specific mean intensity]] $J_\nu$ the transition rate per volume for absorption is $B_{12}n_1 J_\nu$ (similar for stimulated emission). Putting this together we have in thermal equilibrium that transitions into second level should equal transitions down to first, ie $$\begin{align}
 \text{transitions } \uparrow \quad &=\quad \text{transitions } \downarrow \\

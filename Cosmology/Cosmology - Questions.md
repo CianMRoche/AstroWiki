@@ -11,7 +11,7 @@ What is the use of this line in studying cosmology?
 - As [[CMB#CMB|CMB]] photons pass through a neutral hydrogen region, those photons near $21\,\pu{cm}$ wavelengths can be absorbed by neutral hydrogen. See [these slides](https://www2.yukawa.kyoto-u.ac.jp/~ppp.ws/PPP2015/slides/takahashi.pdf).
 
 What experiments can do this?
-- [[Observatories#CHIME|CHIME]]. Also can measure [[BAO#BAO|BAO]] signal with these measurements
+- [[Observatories#CHIME|CHIME]]. Also can measure [[BAO#BAO|BAO]] signal with these measurements. Has only observed the 21cm cosmological signal when temperature maps are correlated with [[AGN#Quasar|quasar]] maps and the CHIME images stacked to increase signal to noise.
 - [[Observatories#HERA|HERA]]. Can allow us to study first stars and epoch of reionization. Will place limits on 21cm power spectrum and thus our understanding of how ionized bubbled form and evolve. More robust against astrophysical foreground, but still need accurate foreground models in all cases to see any signal at all
 - [[Observatories#MWA|MWA]] and [[Observatories#SKA|SKA]] similar.
 
@@ -229,15 +229,16 @@ The Hubble time is the age of the universe if it has always expanded at the same
 ## 135
 **How can the age of the universe be estimated empirically? Do the current estimates agree with that obtained from the Hubble constant?**
 
-1. Can estimate from the turn-off point of the [[HR-diagram#Main sequence|MS]] in [[Clustering#Globular Cluster|GCs]] as in [[Stars - Questions#17|Q17]]. Theyre very old so provide a good lower bound on age of universe. Current estimates are roughly  consistent with [[#134|Hubble time]] as we find GCs with ages of $\sim 12-13\,\pu{Gyr}$. 
-2. [[Stellar classes#White dwarf|WD]] cooling from $T\sim 10^4\,\pu{K}$ with the [[Units#Luminosity|luminosity]] scaling with the core temperature as $L \propto T_c^{7/2}$. As a result, we cal use the coolest white dwarfs to get a lower limit on age of the universe if we understand the processes by which they cool. Also $\sim 12-13\,\pu{Gyr}$
+1. Can estimate from the turn-off point of the [[HR-diagram#Main sequence|MS]] in [[Clustering#Globular Cluster|GCs]] as in [[Stars - Questions#17|this question]]. Theyre very old so provide a good lower bound on age of universe. Current estimates are roughly consistent with [[#134|Hubble time]] as we find GCs with ages of $\sim 12-13\,\pu{Gyr}$. The figure below is just for open clusters but the same principle applies to globular. 
+   ![[zams.gif|400]]
+2. [[Stellar classes#White dwarf|WD]] cooling from $T\sim 10^4\,\pu{K}$ with the [[Units#Luminosity|luminosity]] scaling with the core temperature as $L \propto T_c^{7/2}$. As a result, we can use the coolest white dwarfs to get a lower limit on age of the universe if we understand the processes by which they cool. Also $\sim 12-13\,\pu{Gyr}$
 3. The [[Milky Way#Milky Way|MW]] stellar halo. This is thought to contain old stellar populations, but because these stars come from multiple populations (mergers) this can be difficult to do
 
 
 ## 136
 **How would you compute the age of our universe using the Friedmann equation? What approximations can be made to simplify this calculation?**
 
-Can estimate the age of the universe roughly via the [[FLRW#Friedmann equation|Friedmann equation]] if we assume the universe is matter dominated. In a matter-dominated universe (see [[#137|Q137]]) the scale factor is  $$a(t) \propto t^{2/3} \implies H(t) = \frac{\dot a}{a} = \frac{\frac{2}{3}t^{-1/3}}{t^{2/3}} = \frac{2}{3t}$$Evaluating the expression $t = \frac{2}{3H}$ today (ie using the presnt-day Hubble constant $H = H_0$) one gets an estimate for the age of the universe as $$t_0 = \frac{2}{3H_0} = \frac{2}{3} t_H \simeq 9\,\pu{Gyr}$$ where $t_H$ is the Hubble time as in [[#134|Q134]]. Note that this is smaller than other estimates, the reason being that we assumed matter-dominated, which is the second-fastest driving force in expansion, with radiation as the fastest, and dark energy the slowest. As a result, we end up underestimating the age a bit.
+Can estimate the age of the universe roughly via the [[FLRW#Friedmann equation|Friedmann equation]] if we assume the universe is matter dominated. In a matter-dominated universe (see [[#137|this question]]) the scale factor is  $$a(t) \propto t^{2/3} \implies H(t) = \frac{\dot a}{a} = \frac{\frac{2}{3}t^{-1/3}}{t^{2/3}} = \frac{2}{3t}$$Evaluating the expression $t = \frac{2}{3H}$ today (ie using the presnt-day Hubble constant $H = H_0$) one gets an estimate for the age of the universe as $$t_0 = \frac{2}{3H_0} = \frac{2}{3} t_H \simeq 9\,\pu{Gyr}$$ where $t_H$ is the Hubble time as in [[#134|this question]]. Note that this is smaller than other estimates, the reason being that we assumed matter-dominated, which is the second-fastest driving force in expansion, with radiation as the fastest, and dark energy the slowest. As a result, we end up underestimating the age a bit.
 
 
 ## 137
@@ -263,19 +264,20 @@ See [[FLRW]] for the answer to both.
 **What was the approximate temperature of the universe at recombination, and why did recombination happen then?**
 
 Short answer: 
-- $T = T_0(1+z)$ (see [[[Blackbody radiation#Blackbody radiation|BB]]) 
+- $T = T_0(1+z)$ (see [[Blackbody radiation#Blackbody radiation|BB]]) 
 - $z_{rec} = 1100$ at [[Recombination]]
 - so it was about $2.7\,\pu{K}(1100) \simeq 3000\,\pu{K}$ 
 
 Why is that the redshift? Need to establish the redshift at which half of the hydrogen is ionized. This calculation is dnoe in [[Recombination]]. 
 
 Note that the ionization energy of hydrogen is about $13.6\,\pu{eV}$ which would correspond to a thermal temperature on the order of $T \simeq E/k_B \simeq 10^5\,\pu{K}$  (using $k_B \simeq 10^{-4}\,\pu{eV K^{-1}}$) which implies we should have recombined much earlier than the redshift at which $T$ was $3000\,\pu{K}$. The reason it takes longer to reach half ionization is that the photon energy distribution has a long tail which keeps things ionized for longer (think of it as a [[Blackbody radiation#Blackbody radiation|BB]] with peak temperature much smaller than that required to ionize, but the tail is long so it can still do so).
+![[photon_tail.png]]
 
 
 ## 139
 **When (or at what redshift) did the universe become 
 (i) matter dominated?** 
-Matter-radiation equality of the [[FLRW#Friedmann equation|Friedmann equation]] happens when $$\Omega_{r}(1+z)^4 = \Omega_M(1+z)^3\implies z = \frac{\Omega_M}{\Omega_r} -1 \simeq \frac{0.3}{10^{-4}} - 1 = 3000\,\pu{K}$$**(ii) optically thin to electron scattering?** 
+Matter-radiation equality of the [[FLRW#Friedmann equation|Friedmann equation]] happens when (using rough [[Observatories#Planck|Planck]] numbers)$$\Omega_{r}(1+z)^4 = \Omega_M(1+z)^3\implies z = \frac{\Omega_M}{\Omega_r} -1 \simeq \frac{0.3}{10^{-4}} - 1 = 3000$$**(ii) optically thin to electron scattering?** 
 [[Recombination]], after which [[Scattering#Electron scattering|electron scattering]] occurs far less frequently.
 
 **What temperature was the CMB at these times?** 
@@ -284,9 +286,9 @@ $T = T_0 (1+z)$ where $T_0 = 2.7\,\pu{K}$
 **What significance did these events have for the CMB?**
 
 For matter-radiation equality:
-- Before this, no structure forms because the expansion is too fast. Afer, [[Dark matter]] starts to collapse and set potential wells in which the baryons oscillate with gravity against photon pressure (once enough time as passed for sound waves to travel in them, ie they "entered the sound horizon" as in [[#131|Q131]]).
+- Before this, no structure forms because the expansion is too fast. After, [[Dark matter]] starts to collapse and set potential wells in which the baryons oscillate with gravity against photon pressure (once enough time as passed for sound waves to travel in them, ie they "entered the sound horizon" as in [[#131|this question]]).
 - Once potential wells are set, the [[CMB#CMB power spectrum|CMB power spectrum]] is impacted because as photons climb out of those wells, they get redshifted (the non-integrated Sachs-Wolfe effect). Since one large scales the DM potential wells are not varying, this means no power in the power spectrum on large scalles (small $l$ plateau).
-- $\Omega_m$ sets the heights of the peaks on the power spectrum (see [[#129|Q129]]) and also the redshift of M-R equality.
+- $\Omega_M$ sets the heights of the peaks on the power spectrum (see [[#129|this question]]) and also the redshift of M-R equality, so $z_{mr}$ related to heights of peaks.
 
 For [[Recombination]]:
 - Sets the scales that show up as peaks on the [[CMB#CMB power spectrum|power spectrum]].
@@ -311,8 +313,10 @@ Evidence:
    We see large scale redshifting consistent with an accelerated expansion that only occurs if universe is $\Lambda$ or radiation dominated
 
 3. [[Supernovae#Supernova|Supernova]] cosmology
-   Can measure [[Distances#Luminosity distance|luminosity distance]] of SNe and plot against redshift, see (from Megans notes) ![[sne_cosmology.png]]
-   Since the luminosity distance depends on cosmological params, can constrain $\Omega_\Lambda$ with these measurements. Difference becomes pronounced at higher redshifts, because expansion rate varies over cosmic time.
+   Can measure [[Distances#Luminosity distance|luminosity distance]] of SNe and plot against redshift, (from Megans notes) ![[sne_cosmology.png]]
+   Since the luminosity distance depends on cosmological params, can constrain $\Omega_\Lambda$ with these measurements. Difference becomes pronounced at higher redshifts, because expansion rate varies over cosmic time. Real data looks like the below (from Riess et al 1998) and w
+   
+   ![[perlmutter_snecosmology.jpg|500]]
    
    If the universe is flat (otherwise degeneracy between $\Omega_M$ and $\Omega_\Lambda$) we can use these measurements to make plots like ![[sne_constraints.png]]
 

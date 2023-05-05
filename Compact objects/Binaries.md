@@ -11,10 +11,9 @@ For one object in a binary:
 1. The orbit is ellipse with center of mass at one focus
 2. The line joining the focus and the object sweeps out equal areas in equal time $\frac{dA}{dt} = \frac{1}{2} r^2 \dot{\phi}$
 3. $P^2\sim a^3$ where $P$ is period and $a$ is semi-major axis. In full its $$P^2 = \frac{4\pi^2 a^3}{G M_{tot}}$$Note that if you measure $P$ in years, $a$ in AU, and $M$ in solar masses, this reduces to (due to Earth following this law and the definition of an AU/year) $$P^2 = \frac{a^3}{M_{tot}} \simeq\frac{a^3}{M_{star}}$$so this is particularly simple in the solar system
+
 Can also derive $r(\varphi)$ relationship for a Keplerian orbit
 $$r = \frac{a(1-e^2)}{1+e\cos(\varphi)}$$
-
-
 
 
 ## Binary evolution

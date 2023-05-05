@@ -26,3 +26,4 @@
   ![[closed_universe.jpg|200]]
 
 - To remember [[Binaries#Kepler's laws|Keplers third]] just remember "aw good morning 321" $$a^3 \omega^2 = GM$$
+- The [[Galaxies - Questions#118|Einasto]] profile is nice because it has a well-defined total mass. Ei**mass**to.

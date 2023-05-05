@@ -51,4 +51,4 @@ The many-particle spectrum looks like the sum of many of the above
 ![[synchrotron2.jpg]]
 This is a power law because we assume the underlying particle enegry distribution is a power law (as often happens in high energy astrophysics). The slope of this distribution can be derived in terms of the +slope of the energy distribution $f(\epsilon) \propto \epsilon^{-\beta}$ as $$\alpha = \frac{1}{2}(\beta - 1)$$where the $\alpha$ in the figure should have a minus sign.
 
-In the optically thick regime, self-absorption (which occurs more at lower energies than higher) prevents radiation from escaping, meaning the low-energy end of the many-particle spectrum is strongly attenuated. 
+In the optically thick regime, self-absorption (which occurs more at lower energies than higher) prevents radiation from escaping, meaning the low-energy end of the many-particle spectrum is strongly attenuated. This is the same thing as in [[Bremsstrahlung#Bremsstrahlung|thermal bremsstrahlung]] low frequency part but with a relativistic energy.

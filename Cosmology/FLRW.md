@@ -27,7 +27,7 @@ Time evolution of a homogeneous, isotropic universe.
    This can be discussed in terms of the parameter $\Omega(t):= \rho(t)/\rho_c(t)$ and whether it is larger or smaller than 1 (time-dependence made explicit as when we dont write it it is often implied we mean evaluated at redshift 0).
    
 3. **Friedmann equation version 2**
-   We can then rewrite the Friedmann equation in terms of things we would measure at redshift zero in the following way. Skipping the calculation, if we define $$\begin{align}
+   We can then rewrite the Friedmann equation in terms of things we would measure at redshift zero in the following way. Skipping the calculation, if we define (pulled from source, I didnt check the algebra)$$\begin{align}
    \Omega_M &= \frac{\rho_0}{\rho_{c,0}} = \frac{8\pi G \rho_0}{3 H_0^2}\\
    \Omega_\Lambda &= \frac{\Lambda}{3 H_0^2}\\
    \Omega_k &= -\frac{k}{H_0^2}\quad \text{(note opposite sign of $k$)}\\

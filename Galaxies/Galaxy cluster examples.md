@@ -24,8 +24,9 @@ A large [[Galaxy clusters#Galaxy cluster|galaxy cluster]] in the Virgo constella
 ## Bullet Cluster
 Some nice pictures etc in [[Galaxies - Questions#101|this question]].
 
+
 ## Coma cluster
-One of the first places where observed gravitational anomalies were considered to be indicative of unobserved mass. In 1933 Fritz Zwicky showed that the galaxies of the Coma Cluster were moving too fast for the cluster to be bound together by the visible matter of its galaxies $\implies$ [[Dark matter]].
+One of the first places where observed gravitational anomalies were considered to be indicative of unobserved mass. In 1933 Fritz Zwicky showed that the galaxies of the Coma Cluster were moving too fast for the cluster to be bound together by the visible matter of its galaxies $\implies$ [[Dark matter]]. 
 
 - $100\,\pu{Mpc}$ away ($z\simeq 0.02$)
 - $7\times 10^{14}\,M_\odot$ 

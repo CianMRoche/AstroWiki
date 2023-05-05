@@ -1,3 +1,5 @@
+Summary of distances [here](https://arxiv.org/abs/astro-ph/9905116)
+
 ## Comoving distance
 Distance between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. 
 
@@ -16,6 +18,6 @@ An object of proper length $x$ at redshift $z$ that appears to have angular size
 In a flat universe, simply given in terms of the [[#Comoving distance]] by $$d_A(z) = \frac{d_C(z)}{1+z}$$
 
 ## Luminosity distance
-If the intrinsic [[Units#Luminosity|luminosity]] $L$ of a distant object is known, we can calculate its "luminosity distance" by measuring the [[Units#Flux|flux]] $F$ and determine a distance $d_L(z)=\sqrt{L/4\pi F}$. 
+If the intrinsic [[Units#Luminosity|luminosity]] $L$ of a distant object is known, we can calculate its "luminosity distance" by measuring the [[Units#Flux|flux]] $F$ (both bolometric, ie integrated over all frequencies) and determine a distance $d_L(z)=\sqrt{L/4\pi F}$. 
 
-In a flat universe, simply given in terms of the [[#Comoving distance]] by $$d_L(z) = (1+z)\,d_C(z)$$
+In a flat universe, given in terms of the [[#Comoving distance]] by $$d_L(z) = (1+z)\,d_C(z)$$

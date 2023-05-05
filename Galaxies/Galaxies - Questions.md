@@ -300,6 +300,7 @@ Observationally, we can look at the galaxy-galaxy 2-point correlation function (
 
 ## 121
 **What fractions of each of the following is composed of "dark matter"? How are each of these estimates arrived at?**
+Fractions for all but the last one are relative to matter only. 
 
 **(i) The solar neighborhood**  |  $f_{DM} \lesssim 20\%$
 Within the [[Milky Way#Milky Way|MW]] disk (and therefore in the [[The Sun#The Sun|Solar]] neighborhood), we expect to find little [[Dark matter]] since DM is not thought to be dissipative, and therefore will not collapse into a disk like baryons do. The number quoted above is estimated based on [[Observatories#GAIA|GAIA]] stellar kinematics ([source](https://arxiv.org/pdf/1711.03103.pdf) from Katelin Schutz, former MIT student).
@@ -308,7 +309,7 @@ Within the [[Milky Way#Milky Way|MW]] disk (and therefore in the [[The Sun#The S
 From something like [[#101|rotation curves]] or [[Velocity dispersion#Velocity dispersion|velocity dispersions]] can infer a total DM mass. Can then estimate the DM and stellar contributions from a mass to light ratio or knowledge of stellar evolution (basically adding up all the stars masses via their light).
 
 **(iii) A typical galaxy cluster like the Coma cluster**  |  $f_{DM} \simeq 90\%$
-Total mass of cluster can be estimated from [[Lensing#Weak lensing|weak lensing]] or scaling relations like the fact that the net result of the SZ-effect (basically [[Scattering#Inverse-Compton scattering|inverse Compton scattering]]) is proportional to cluster mass. Can also estimate baryonic contributions using the [[Spectra#The electromagnetic spectrum|X-ray]] emission of the [[Cluster media#ICM|ICM]] assuming models for that emission. [[Velocity dispersion#Velocity dispersion|Velocity dispersions]] also work, as originally done by Zwicky in 1930s for the [[Galaxy cluster examples#Coma cluster|Coma cluster]]. 
+Total mass of cluster can be estimated from [[Lensing#Weak lensing|weak lensing]] or scaling relations like the fact that the net result of the SZ-effect (basically [[Scattering#Inverse-Compton scattering|inverse Compton scattering]]) is proportional to cluster mass. Can also estimate baryonic contributions using the [[Spectra#The electromagnetic spectrum|X-ray]] emission of the [[Cluster media#ICM|ICM]] assuming models for that emission. [[Velocity dispersion#Velocity dispersion|Velocity dispersions]] also work, as originally done by Zwicky in 1930s for the [[Galaxy cluster examples#Coma cluster|Coma cluster]]. Note that its pretty big so calling it typical is a bit sketchy, maybe typical in terms of DM fraction.
 
 **(iv) The universe**  |   $f_{DM} \simeq 30\%$ of the net energy density
 Constraints from [[CMB#CMB power spectrum|CMB power spectrum]], [[BAO]] and from [[BBN#BBN|BBN]] can give relative abundances of dark matter and baryonic matter $\Omega_m\simeq 0.3$ and $\Omega_b\simeq 0.02$ (see [[Observatories#Planck|Planck]])
