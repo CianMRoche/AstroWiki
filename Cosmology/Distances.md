@@ -24,6 +24,9 @@ In a flat universe, simply given in terms of the [[#Comoving distance]] by $$d_A
 ## Luminosity distance
 If the intrinsic [[Units#Luminosity|luminosity]] $L$ of a distant object is known, we can calculate its "luminosity distance" by measuring the [[Units#Flux|flux]] $F$ (both bolometric, ie integrated over all frequencies) and determine a distance $d_L(z)=\sqrt{L/4\pi F}$. 
 
-In a flat universe, given in terms of the [[#Comoving distance]] by $$d_L(z) = (1+z)\,d_C(z)$$Why? The luminosity ($L_{obs} \sim h\nu_{obs}/\delta t_{obs}$) is affected in the following way by an expanding universe:
-1. The energy of the photons is reduced with [[Spectra#Redshift|redshift]] as $$\frac{\nu_{emit}}{\nu_{obs}} = \frac{\lambda_{obs}}{\lambda_{emit}} = 1+z$$
-2. The time between photons emitted at $t$ and $t+\delta t$ is adjusted as $$\frac{\delta t_{obs}}{\delta t_{emit}} = $$
+In a flat universe, given in terms of the [[#Comoving distance]] by $$d_L(z) = (1+z)\,d_C(z)$$**Why?**
+The luminosity ($L_{obs} \sim h\nu_{obs}/\delta t_{obs}$) is affected in the following way by an expanding universe:
+1. The energy of the photons is reduced with [[Spectra#Redshift|redshift]] as $$\frac{\nu_{emit}}{\nu_{obs}} = \frac{\lambda_{obs}}{\lambda_{emit}} = \frac{a_{obs}}{a_{emit}} = 1+z$$
+2. The arrival time between photons emitted at $t_{emit}$ and $t_{emit}+\delta t_{emit}$ is adjusted as $$\frac{\delta t_{obs}}{\delta t_{emit}} = \frac{a_{obs}}{a_{emit}} = 1+z$$since the light has a slightly different distance to travel.
+
+The net effect is then $$L_{obs} = \frac{h\nu_{obs}}{\delta t_{obs}} = L_{emit}\left(\frac{a_{emit}}{a_{obs}}\right)^2 = L_{emit}(1+z)^2$$such that the observed flux and the square root lead to the factor above.
