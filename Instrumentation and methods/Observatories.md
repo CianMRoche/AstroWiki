@@ -55,9 +55,9 @@ Observed [[AGN examples#Sagittarius A|Sag A*]] and M87 [[Black holes#Black hole|
 
 
 ## LIGO
-"Laser interferometer Gravitational wave observatory". Laser interferometer with $4\,\pu{km}$ arms with locations in Hanford and Livingston. Announced first detection of GWs in 2015 from binary [[Black holes#Black hole|BH]] merger. 
+"Laser interferometer Gravitational wave observatory". Laser interferometer with $4\,\pu{km}$ arms with locations in Hanford and Livingston. Announced first detection of GWs in 2015 from binary [[Black holes#Black hole|BH]] merger. The mirror 
 
-Why are GW sensitivity curves V-shaped? 
+There is a noise spike at 60Hz in america and 120Hz in europe, just because of AC power frequency.
 ![[AdvLIGO_noise_curve.webp.png|500]]
 
 Rate goes with range cubed -> rate ~ volume we can probe. 2x more instrument sensitivity means can detect same events from a volume 8x bigger in the universe.
@@ -168,7 +168,9 @@ Collaboration to measure low-frequency gravitational wave universe through radio
 
 
 ## Cosmic explorer
+Two facilities, one 40km arms L shape, another 20km arms. Will detect compact binary mergers out to redshift 100 (wow) 
 
+![[GW_strain_sensitivity_curves.png|400]]
 
 ## XMM
 "XMM-Newton", "X-ray multi-mirror"
@@ -281,7 +283,7 @@ Jackie Hewitt at MKI is PI
 
 
 ## WINTER
-"Wide field Infrared Transient Explorer". Ground based [[Spectra#The electromagnetic spectrum|NIR]] telescope at palomar, $1\,\pu{m}$ diameter, ($\sim 0.9 - 1.7\,\pu{\mu m}$) aimed at electromagnetic follow-up of [[Gravitational waves|GW]] events.
+"Wide field Infrared Transient Explorer". Ground based [[Spectra#The electromagnetic spectrum|NIR]] telescope at palomar, $1\,\pu{m}$ diameter, ($\sim 0.9 - 1.7\,\pu{\mu m}$) aimed at electromagnetic follow-up of [[Gravitational waves|GW]] events. Time-domain survey instrument looking for [[Supernovae#Kilonova|kilonovae]] [[TDEs]] and other variables, can also aid with [[Methods#Reverberation mapping|reverberation mapping]].
 
 Will perform the first seeing-limited IR time-domain survey with FoV $\sim 1 \,\pu{deg^2}$ 
 

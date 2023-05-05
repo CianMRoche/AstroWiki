@@ -6,7 +6,7 @@ For the final state of stars of different masses, see [[Compact objects - Questi
 **Intermediate mass**: 10s-100s of $M_\odot$
 **Supermassive**: $>10^6\,M_\odot$ 
 
-To measure the mass of SMBH can look at time lags in the [[Spectra#Fe k-alpha line|FE k-alpha]] and $\rm{H}\beta$ lines. (Huh )
+To measure the mass of SMBH can look at [[Velocity dispersion#M-sigma relation|M-sigma]] or the shape of the [[Spectra#Fe k-alpha line|FE k-alpha]] and $\rm{H}\beta$ lines, which change via GR effects that depend on the mass. The spin can be probed by anything that tells you the [[#ISCO]] so one example is [[Methods#Reverberation mapping|reverberation mapping]].
 
 
 ## ISCO

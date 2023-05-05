@@ -1,3 +1,4 @@
+# TDE
 "Tidal disruption event". When a star is tidally disrupted by a [[Black holes#Black hole|BH]] in the center of a galaxy (an [[AGN]] perhaps), and is shredded into strands and a cloud of stellar debris.
 
 From talk by Jean Somalwar - Caltech:

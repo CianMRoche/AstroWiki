@@ -55,7 +55,8 @@ Calculation of the size of the sound horizon relating to the [[#CMB power spectr
 
 
 ## SZ effect
-[[Scattering#Inverse-Compton scattering|ICS]] of [[CMB#CMB|CMB]] photons by high-energy electrons (eg in [[Cluster media#ICM|ICM]] of a [[Galaxy clusters#Galaxy cluster|cluster]]). Biggest effect at small scales (large $l$).
+[[Scattering#Inverse-Compton scattering|ICS]] of [[CMB#CMB|CMB]] photons by high-energy electrons (eg in [[Cluster media#ICM|ICM]] of a [[Galaxy clusters#Galaxy cluster|cluster]]). Biggest effect at small scales (large $l$), since this happens due to the passing of CMB photons through something like a galaxy cluster, and the  angular size of that is very small. This causes a deficit in the expected CMB signal at these scales, since the photons arent CMB [[Blackbody radiation#Blackbody radiation|blackbody]] energies anymore.
+![[sz.png|500]]
 
 Two types:
 - Thermal SZ: from $e^-$ temp
