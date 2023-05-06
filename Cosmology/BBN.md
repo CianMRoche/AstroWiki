@@ -12,7 +12,7 @@ The fusion reactions are as follows, noting that they almost all involve fusing 
 { }^2 \mathrm{H}+{ }^2 \mathrm{H} &\longrightarrow{ }^3 \mathrm{H}+\mathrm{p} \\
 { }^3 \mathrm{He}+{ }^2 \mathrm{H} &\longrightarrow{ }^4 \mathrm{He}+\mathrm{p} \\
 { }^3 \mathrm{H}+{ }^2 \mathrm{H} &\longrightarrow{ }^4 \mathrm{He}+\mathrm{n}
-\end{align}$$The binding energy of deuterium is $2.22\,\pu{MeV}$ so deuterium fusion cant begin until the universe is $\ll 2.22\,\pu{MeV}$. In this time, some neutrons can decay into protons via $\beta$-decay with a lifetime of $890\,\pu{s}$ (this helps reconcile the observed $\ce{He}$ mass fraction from BBN, see below). 
+\end{align}$$The binding energy of deuterium is $2.22\,\pu{MeV}$ so deuterium fusion cant begin until the universe is $\ll 2.22\,\pu{MeV}$. In this time, some neutrons can decay into protons via $\beta$-decay with a lifetime of $890\,\pu{s}$ (this helps reconcile the observed $\ce{He}$ mass fraction from BBN, see below). Can also understand this as the cross section for interactions requiring 3 things to be in the same place at the same time (like forming $\ce{^3He}$ directly) is much lower that only requiring two things to be in the same place at the same time.
 
 **The neutron-proton ratio**
 Set by Standard Model physics before the nucleosynthesis era, essentially within the first 1-second after the Big Bang. Neutrons can react with positrons or electron neutrinos to create protons and other products in one of the following reactions: $$\begin{align}

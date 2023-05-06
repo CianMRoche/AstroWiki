@@ -409,6 +409,7 @@ See [[CMB#SZ effect|SZ effect]].
 - [[Observatories#Planck|Planck]]: $\sim 7'$  ([[Units#Arcminute|arcmin]])
 - [[Observatories#SPT|SPT]]: $\lesssim 5'$ 
 - [[Observatories#ACT|ACT]]: $\sim 1'$ 
+- [[Observatories#CMB-S4|CMB-S4]] will go from 10s of degrees to an arcmin, since CMB polarization B mode measurements require both low and high $l$ data (in order to delens, see [this](https://indico.fnal.gov/event/12206/contributions/12877/attachments/8517/10858/CMB-S4_PAC_160621v2.pdf))
 
 **Are the anisotropies related to galaxy formation?** 
 [[CMB#CMB|CMB]] anisotropies $\implies$ matter over- and under-densities which are believed to ultimately grow into the large scale structure of the universe like [[Galaxy clusters]] and [[Galaxy groups]]. However, silk damping (photon diffusion damping on small scales) wipes out structures smaller than the silk mass $\sim 10^{13}\,M_\odot$
@@ -424,7 +425,7 @@ See [[CMB#SZ effect|SZ effect]].
 
 See [[Spectra#Lyman-alpha forest|Lyman alpha forest]]. When there are a significant number of neutral hydrogen atoms along the line of sight, any light more energetic than $\lambda = 912\,\pu{Å}$ will be absorbed (wavelength corresponding to ionization energy of ground state hydrogen $\chi_H = 13.6\,\pu{eV}$). 
 
-The wavelength of the Lyman break informs the redshift of the source, after which follow-up spectroscopy can be performed.  Assuming a source hits the lyman limit along the line of sight, ie we see no flux at wavelengths smaller than $\lambda = 912\,\pu{Å} (1+z)$ which is a valid assumption for far away things. Should see source disappear in bluer filters if its at high redshift (Rohan Naidu here at MKI uses this).
+The wavelength of the Lyman break informs the redshift of <mark class="hltr-pink">the source</mark> (since at that stage the spectrum was the "most energetic") after which follow-up spectroscopy can be performed.  Assuming a source hits the lyman limit along the line of sight, ie we see no flux at wavelengths smaller than $\lambda = 912\,\pu{Å} (1+z)$ which is a valid assumption for far away things. Should see source disappear in bluer filters if its at high redshift (Rohan Naidu here at MKI uses this).
 ![[lyman_limit.jpg]]
 
 
@@ -433,14 +434,14 @@ The wavelength of the Lyman break informs the redshift of the source, after whic
 
 "Close the universe" just means to make the universe flat $\Omega = 1$ in the context of the [[FLRW#Friedmann equation|Friedmann equations]]. If all mass is in neutrinos then this is the condition that $$\rho_\nu = \rho_{crit} = \frac{3H_0^2}{8\pi G}$$If we only needed neutrinos to account for all the [[Dark matter]], then we would instead have $$\rho_\nu = \Omega_{DM}\rho_{crit} = \frac{3\Omega_{DM}H_0^2}{8\pi G}$$with $\Omega_{DM}\simeq 0.3$ (see [[Observatories#Planck|Planck]]). Though if this was true there would be no large scale structure, as things would be moving too quickly to collapse.
 
-To work out the mass, we need the number density of neutrinos in the universe. One can calculate the neutrino to photon temperature ratio via conservation of neutrino entropy (why is it conserved lol) and end up with $$\frac{T_\nu}{T_\gamma} = \left(\frac{4}{11}\right)^{1/3} \implies T_{\nu,0} \simeq 2\,\pu{K}$$for the cosmic neutrino background today. Since $\rho \propto T^4$ this leads to $$\frac{\rho_\nu}{\rho_\gamma} \simeq N_{eff}\left(\frac{4}{11}\right)^{4/3}$$where $N_{eff} =  3$ comes from the greater number of degrees of freedom of neutrinos relative to photons since 3 neutrino flavors, and I've left out a factor of $7/8$. Then !UNFINISHED (how have we converted $\rho$ to $n$ ??)
+To work out the mass, we need the number density of neutrinos in the universe. One can calculate the neutrino to photon temperature ratio via conservation of neutrino entropy (I guess its conserved because they dont interact with other things so their thermal properties dont change) and end up with $$\frac{T_\nu}{T_\gamma} = \left(\frac{4}{11}\right)^{1/3} \implies T_{\nu,0} \simeq 2\,\pu{K}$$for the cosmic neutrino background today, since that factor is about $0.7$ and the photon temperature (CMB blackbody) is $2.73\,\pu{K}$. Since $\rho \propto T^4$ this leads to $$\frac{\rho_\nu}{\rho_\gamma} \simeq N_{eff}\left(\frac{4}{11}\right)^{4/3}$$where $N_{eff} =  3$ comes from the greater number of degrees of freedom of neutrinos relative to photons since 3 neutrino flavors, and I've left out a factor of $7/8$. Then !UNFINISHED (how have we converted $\rho$ to $n$ ??)
 
 There are about 300 neutrinos per $\pu{cm^{3}}$ and about 400 photons. Leads to neutrino masses of $m_\nu \simeq 18\,\pu{eV}$ and $5\,\pu{eV}$ respectively for the above two cases.
 
 **Compare it with current upper bounds (or detections)**
 Current upper bound is $m_\nu < 0.8\,\pu{eV}$ from [[Observatories#KATRIN|KATRIN]]. 
 
-Experimental neutrino mass timeline below. Also cosmological contraints using [[BAO]] and other probes finding constraints $m_\nu \lesssim 0.1\,\pu{eV}$ but bounds depend on cosmological assumptions.
+Experimental neutrino mass timeline below, but the x axis is $m^2$ so actually this may be confusing. Just use it for experimental history and relative sizes of error bars. Also cosmological contraints using [[BAO]] and other probes finding constraints $m_\nu \lesssim 0.1\,\pu{eV}$ but bounds depend on cosmological assumptions.
 
 ![[NeutrinoMassTimeline2022.png|500]]
 
@@ -465,6 +466,6 @@ The fact we are seeing deviations at low energy (ie far away form us) implies we
 ## 152
 **In our Universe, at roughly what scale does perturbation theory break down and become non-perturbative?**
 
-Linear perturbation growth breaks down when overdensities decouple form the Hubble flow (see [[#132|Q132]]). Structure in the universe forms hierarchically because smaller scales go non-linear first. 
+Linear perturbation growth breaks down when overdensities decouple form the Hubble flow (see [[#132|this question]]). Structure in the universe forms hierarchically because smaller scales go non-linear first. 
 
-At what length scale does this transition occur for a given redshift? From [[#132|Q132]] we have for the density of a perturbation $$\frac{\rho(t_{max})}{\bar\rho(t_{max})} = \left(\frac{r(t_{max})}{r}\right)^{3} = \frac{9\pi^2}{16}$$where $t_{max}$ is the time at which the overdensity decouples from the Hubble flow. Thus the transition occurs at approximately $$\rho \simeq 5\bar\rho = 5\bar\rho_0 (1+z)^3 = \frac{15\Omega_M H_0^2}{8\pi G}(1+z)^3$$We can convert this to a (mass-dependent) radius via $\rho = 3M/4\pi r^3$ and end up with a nonlinear scale of $$r_{\rm{nonlinear}} \lesssim \left(\frac{M}{10^{12}\,M_\odot}\right)^{1/3} \left(\frac{1}{1+z}\right) \,\pu{Mpc}$$which gives something like 10s of $\pu{Mpc}$.  
+At what length scale does this transition occur for a given redshift? From [[#132|this question]] we have for the density of a perturbation $$\frac{\rho(t_{max})}{\bar\rho(t_{max})} = \left(\frac{r(t_{max})}{r}\right)^{3} = \frac{9\pi^2}{16}\simeq 5$$where $t_{max}$ is the time at which the overdensity decouples from the Hubble flow. Thus the transition occurs at approximately $$\rho \simeq 5\bar\rho = 5\bar\rho_0 (1+z)^3 = \frac{15\Omega_M H_0^2}{8\pi G}(1+z)^3$$We can convert this to a (mass-dependent) radius via $\rho = 3M/4\pi r^3$ and end up with a nonlinear scale of $$r_{\rm{nonlinear}} \lesssim \left(\frac{M}{10^{12}\,M_\odot}\right)^{1/3} \left(\frac{1}{1+z}\right) \,\pu{Mpc}$$which gives something like 10s of $\pu{Mpc}$.  

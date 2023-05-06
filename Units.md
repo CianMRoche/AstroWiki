@@ -22,7 +22,7 @@ $1'' = \frac{\pi}{180\times3600}\,\pu{rad} \simeq 5\times 10^{-6}\,\pu{rad}$
 8kpc per arcsec at z=0.8
 
 ## Proper distance
-<mark class="hltr-pink">Distance</mark> between objects including expansion of universe; changes in time, in contrast to [[#Comoving distance]]. See [[Distances#Proper distance|Proper distance]] for formulae in the context of an [[FLRW]] universe.
+<mark class="hltr-pink">Distance</mark> between objects including expansion of universe; changes in time, in contrast to [[#Comoving distance]]. See [[Distances#Proper distance|Proper distance]] for formulae in the context of an [[FLRW]] universe. It is an instantaneous distance between points in spacetime.
 
 **Examples**:
 - pkpc = proper kiloparsec
@@ -30,7 +30,7 @@ $1'' = \frac{\pi}{180\times3600}\,\pu{rad} \simeq 5\times 10^{-6}\,\pu{rad}$
 
 
 ## Comoving distance
-<mark class="hltr-pink">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow. See [[Distances#Comoving distance|comoving distance]]. 
+<mark class="hltr-pink">Distance</mark> between objects factoring out expansion of universe, such that two otherwise unmoving objects will have constant comoving distance over cosmological time. The comoving coordinate system evolves "with" the Hubble flow. See [[Distances#Comoving distance|comoving distance]]. This is defined to be equal to the [[#Proper distance]] today (we needed to choose some cosmological time at which to fix this distance, and today is a natural choice). 
 
 
 ## parsec

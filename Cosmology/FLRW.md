@@ -34,6 +34,8 @@ Time evolution of a homogeneous, isotropic universe.
 
    This can be discussed in terms of the parameter $\Omega(t):= \rho(t)/\rho_c(t)$ and whether it is larger or smaller than 1 (time-dependence made explicit as when we dont write it, it is often implied we mean evaluated at redshift 0). 
    
+   Important note: when we talk about mean densities of the universe (for example in [[Cosmology - Questions#132|this question]]) we mean the **matter** density, and so $\bar{\rho}(z) = \Omega_{M ,0}(1+z)^3\rho_{c,0}$ where for clarity we wite the zeroes explicitly that are usually left out.
+   
 3. **Friedmann equation version 2**
    With this definition we can rewrite the Friedmann equation above in terms oftghings we wouldmeasure today like $H_0$ (by evaluating the above at redshift 0) and the critical density (at redshift 0) as $$\begin{align}
    \left(\frac{H(z)}{H_0}\right)^2 = \frac{\rho(z)}{\rho_c} &= \frac{\rho_M}{\rho_c} + \frac{\rho_r}{\rho_c} + \frac{\rho_k}{\rho_c} + \frac{\rho_\Lambda}{\rho_c}\\
