@@ -45,16 +45,18 @@ The degeneracy of the anti-aligned state is 1 since the total spin quantum numbe
 - Lyman-$\alpha$ is the first one ($n=2$ to $n=1$) and is $120\,\pu{nm}$
 - Strong absorbtion in air, so usually done in space. Highly-redshifted sources can penetrate though
 
-The **Lyman-$\mathbf{\alpha}$ forest** is a series of absorbtion lines corresponding to the absorbtion of distant background light by gas clouds at different redshifts, each absorbing at the Lyman-$\alpha$ transition in their own rest frames. In principle, the absorbtion spectrum in this case is a map of the gas between the observer and the source, including redshift information.
+The **Lyman-$\mathbf{\alpha}$ forest** is a series of absorption lines corresponding to the absorbtion of distant background light by gas clouds at different redshifts, each absorbing at the Lyman-$\alpha$ transition in their own rest frames. In principle, the absorbtion spectrum in this case is a map of the gas between the observer and the source, including redshift information.
 
 Each cloud absorbs the line at a wavelength $\lambda = (1+z) \lambda_0$. We corrected back to emitted wavelength in the plot below, rather than observed.
 
-Lyman limit is the wavelength at which the hydrogen will just become ionized.
+Lyman limit is the wavelength at which the hydrogen will just become ionized. 
+
+In the below images one can see that for a closeby source, very few of the emitted wavelengths have absorption lines, but for something far away many of the wavelengths of the original spectrum will be absorbed by the time the light reaches us. (Both shown on axes of the wavelengths that they were emitted at, by dividing wavelength numbers by $1+z$)
 
 ![[Lya-forest-60.gif|400]]
 ![[Lyman-alpha_forest.gif]]
 
-The Gunn-Peterson trough appears for sources which are at redshifts between [[Reionization]] and [[Recombination]], since in that period there was a lot f neutral H and all the emission is fully absorbed. 
+The Gunn-Peterson trough appears for sources which are at redshifts between [[Reionization]] and [[Recombination]], since in that period there was a lot of neutral H and all the emission is fully absorbed. 
 
 ![[gunn-peterson.jpg|350]]
 

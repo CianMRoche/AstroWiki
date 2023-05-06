@@ -4,7 +4,12 @@ The Saha equation uses the Boltzmann factor to calculate the ratio of the popula
 - If pressure not too high, so pressure ionization and degeneracy pressure can be neglected
 - Simple composition, since more species complicate the picture.
 
-Skipping the derivation (which involves taking the ratio of Boltzmann factors, see [this](https://www.astro.princeton.edu/~gk/A403/ioniz.pdf) and assuming that the thermal De Broglie wavelenth of the unionized and ionized species are approximatesly equal, so they cancel) we have the Saha equation $$\frac{n_{i+1} n_e}{n_i}=\frac{2}{\lambda^3} \frac{g_{i+1}}{g_i} \exp \left[-\frac{\left(\epsilon_{i+1}-\epsilon_i\right)}{k_B T}\right]$$where 
+Skipping the derivation (see [this](https://www.astro.princeton.edu/~gk/A403/ioniz.pdf)), which involves 
+- taking the ratio of Boltzmann factors that describe the total number in each state
+- assuming that the thermal De Broglie wavelenth of the unionized and ionized species are approximatesly equal, so they cancel and the ratio of total numbers in each state is approximately the ratio of number densities
+- considering the momentum states available to the electron
+
+we have the Saha equation: $$\frac{n_{i+1} n_e}{n_i}=\frac{2}{\lambda^3} \frac{g_{i+1}}{g_i} \exp \left[-\frac{\left(\epsilon_{i+1}-\epsilon_i\right)}{k_B T}\right]$$where 
 - $n_{i}$ is the density of atoms in the _i_-th state of ionization, that is with _i_ electrons removed.
 - $n_e$ is the electron density
 - $g_i$ is the degeneracy of states for the i-ions (see below)

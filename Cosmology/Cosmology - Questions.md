@@ -348,7 +348,10 @@ Why is this a problem? If you look at the Friedmann equations, a deviation from 
 This implies an incredibly fine tuning of the universe at early times to be incredibly flat.
 
 Derivation: 
-Start with the Friedmann equation and ignore $\Lambda$ (since in early universe it was negligible). It can be rearranged to $$\left(\frac{3H^2}{8\pi G} - \rho\right)a^2 = -\frac{3kc^2}{8\pi G} = \text{const}$$Then using that $\Omega(z) = \rho(z) / \rho_{crit}(z)$ and the definition of the critical density this can be written (using also $\rho\propto a^{-3})$ $$\frac{1}{\Omega(z)} - 1 \propto a(z)$$meaning that if today ($a=1$) we observe an $\Omega\simeq 1$ then since $a$ has changed by a factor of $10^{60}$ since the Planck era, so too must have $\Omega^{-1} - 1$ (implying it was extremely close to 1).
+Start with the Friedmann equation and ignore $\Lambda$ (since in early universe it was negligible) (or define $\rho_c$ with $\Lambda$ in it as in [[FLRW#Friedmann equation|this note]]). It can be rearranged to $$\left(\frac{3H^2}{8\pi G} - \rho(z)\right)a^2 = -\frac{3kc^2}{8\pi G} = \text{const}$$Then using that $\Omega(z) = \rho(z) / \rho_{c}(z)$ and the definition of the critical density this can be written (using also $\rho(z)\propto a^{-3}$) we have $$\begin{align}
+\rho(z)\left(\frac{\rho_c(z)}{\rho(z)} - 1\right)a^2 &= \text{const}\\
+\frac{1}{\Omega(z)} - 1 &\propto a(z)
+\end{align}$$meaning that if today ($a=1$) we observe an $\Omega\simeq 1$ then since $a$ has changed by a factor of $10^{60}$ since the Planck era, so too must have $\Omega^{-1} - 1$ (implying it was extremely close to 1).
 
 Inflation solves this by rapidly expanding the universe by a large factor such that locally, the universe looks very flat. 
 ![[flatness_problem.jpeg|400]]
@@ -365,7 +368,7 @@ Inflation solves this by whole universe being in causal contact close to big ban
 
 We have measured $\Omega_b \simeq 0.05$ and $\Omega_M \simeq 0.3$, so about 18% of the mass budget. We measure this via 
 1. The baryon loading effect of the [[CMB#CMB power spectrum|CMB power spectrum]] (see [[Cosmology - Questions#129|Q129]]) via the difference between the first and second peaks. 
-2. Big bang nucleosynthesis and the abundance of primordial elements, finds consistent baryon fraction with CMB. 
+2. [[BBN#BBN|Big bang nucleosynthesis]] and the abundance of primordial elements, finds consistent baryon fraction with CMB. Point of confusion: Why do we measure things close to the big bang if we want to constrain the baryon fraction $\Omega_b$ now (redshift 0)?
    ![[BBN.png|300]]
 
 **Where are the bulk of the baryons in our Universe?**
@@ -385,9 +388,12 @@ The most abundant particles in the universe now are not baryons, but photons and
 
 
 ## 146
-**Describe, qualitatively, the synthesis of light elements in the Big Bang. What is the deuterium bottleneck, and how does it help produce the right helium abundance? What role does radiation play in Big Bang nucleosynthesis?**
+**Describe, qualitatively, the synthesis of light elements in the Big Bang. What is the deuterium bottleneck, and how does it help produce the right helium abundance?**
 
-See [[BBN]]. The role of radiation is that universe is radiation-dominated, setting the timescale over which temperature changes, and this sets when deuterium can form.
+See [[BBN]]. 
+
+**What role does radiation play in Big Bang nucleosynthesis?**
+The role of radiation is that universe is radiation-dominated, setting the timescale over which temperature changes, and this sets when deuterium can form.
 
 
 ## 147

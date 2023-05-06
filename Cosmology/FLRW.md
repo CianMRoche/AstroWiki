@@ -12,7 +12,7 @@ These assumptions lead to a form of the metric $$- c^2 d\tau^2 = -  c^2 dt^2 + a
 
 and in this parameterization $a$ has dimensions of length (and represents the radius of curvature) and $r$ is dimensionless. In these coordinates, $r,\theta,\varphi$ are all comoving coordinates which are invariant under the expansion of the universe, which is described by $a(t)$. 
 
-In such a universe, the relation between scale factors at a certain [[Spectra#Redshift|redshift]] $z$ and the scale factor today, which we write as $a_0$ is given by $$a(z) = \frac{a_0}{1+z}$$(can understand as "universe and thus $a$ was smaller at $z$ bigger"). We usually define $a$ such that $a_0=1$ implying 
+In such a universe, the relation between scale factors at a certain [[Spectra#Redshift|redshift]] $z$ and the scale factor today, which we write as $a_0$ is given by $$a(z) = \frac{a_0}{1+z}$$(can understand as "universe and thus $a$ was smaller at $z$ bigger"). We usually define $a$ such that $a_0=1$.
 
 
 ## Friedmann equation

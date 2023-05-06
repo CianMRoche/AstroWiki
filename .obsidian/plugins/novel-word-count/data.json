@@ -503,13 +503,13 @@
     "Mnemonics.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 388,
-      "pageCount": 1.2933333333333332,
-      "characterCount": 2481,
-      "nonWhitespaceCharacterCount": 2056,
+      "wordCount": 410,
+      "pageCount": 1.3666666666666667,
+      "characterCount": 2632,
+      "nonWhitespaceCharacterCount": 2184,
       "createdDate": 1681584180935,
-      "modifiedDate": 1683233817720,
-      "sizeInBytes": 2483
+      "modifiedDate": 1683336336736,
+      "sizeInBytes": 2634
     },
     "Exoplanets/Exoplanets - Questions.md": {
       "isDirectory": false,
@@ -712,13 +712,13 @@
     "Cosmology/Reionization.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 26,
-      "pageCount": 0.08666666666666667,
-      "characterCount": 189,
-      "nonWhitespaceCharacterCount": 163,
+      "wordCount": 69,
+      "pageCount": 0.23,
+      "characterCount": 456,
+      "nonWhitespaceCharacterCount": 385,
       "createdDate": 1681714224103,
-      "modifiedDate": 1682448608967,
-      "sizeInBytes": 189
+      "modifiedDate": 1683335917462,
+      "sizeInBytes": 456
     },
     "Cosmology/Recombination.md": {
       "isDirectory": false,
@@ -778,24 +778,24 @@
     "Cosmology/FLRW.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 733,
-      "pageCount": 2.4433333333333334,
-      "characterCount": 5216,
-      "nonWhitespaceCharacterCount": 4344,
+      "wordCount": 732,
+      "pageCount": 2.44,
+      "characterCount": 5207,
+      "nonWhitespaceCharacterCount": 4337,
       "createdDate": 1682124109317,
-      "modifiedDate": 1683316878359,
-      "sizeInBytes": 5223
+      "modifiedDate": 1683322870595,
+      "sizeInBytes": 5214
     },
     "Cosmology/Distances.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 595,
-      "pageCount": 1.9833333333333334,
-      "characterCount": 4162,
-      "nonWhitespaceCharacterCount": 3553,
+      "wordCount": 636,
+      "pageCount": 2.12,
+      "characterCount": 4565,
+      "nonWhitespaceCharacterCount": 3913,
       "createdDate": 1680826747569,
-      "modifiedDate": 1683321702534,
-      "sizeInBytes": 4162
+      "modifiedDate": 1683322767538,
+      "sizeInBytes": 4565
     },
     "Cosmology/CMB.md": {
       "isDirectory": false,
