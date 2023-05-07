@@ -1,23 +1,15 @@
 Note: Good name is hard, some of these are telescopes. Surveys will go into "catalogs" but SDSS is a hard example there. 
 
-Heres the classic optocal telescope comparison
+Heres the classic optical telescope comparison
 ![[Comparison_optical_telescope_primary_mirrors.svg.png]]
 
-## NICER
-"Neutron star Interior Composition ExploreR". NASA [[Spectra#The electromagnetic spectrum|X-ray]] telescope on the ISS with $0.3- 12\,\pu{keV}$ coverage although best soft energies. Began taking data in 2018 with the primary goal of constraining the [[Neutron stars#Neutron star equation of state|NS EoS]]. 
 
-- Non-imaging telescope with high time resolution measures hot spots on NSs as they rotate into the Los and constrain the NS radius.
-- Also the hot spot locations indicate that NSs are not exact magnetic dipoles
-- Also great for [[AGN#AGN|AGN]], [[TDEs|TDEs]], [[Binaries#X-ray binary|XRBs]], novae, like [[#SWIFT]] with fast response times.
-
-
-## SWIFT
-[[Spectra#The electromagnetic spectrum|X-ray/UV/optical]] space telescope launched in 2004. Originally built to search for [[GRBs#GRB|GRBs]] and their afterglows. Still operating and great for transient follow-up.
-
-3 primary instruments: 
-- BAT ($\sim 15-150\,\pu{keV}$) 
-- XRT ($\sim 0.3-10\,\pu{keV}$) 
-- UVOT (optical + UV filters)
+## Voyager
+- two unmanned space missions, the probes Voyager 1 and Voyager 2
+- launched in 1977 to take advantage of a favorable alignment of the planets during the late 1970s
+- designated officially to study just the planetary systems of Jupiter and Saturn, the space probes were able to continue their mission into the outer solar system, and they are expected to push through the heliosheath in deep space. Voyager 1 is furthest manmade object from Earth
+- the trajectories of the two spacecraft have been used to place limits on the existence of any hypothetical trans-Neptunian planets
+- Voyager 1 about $160\,\pu{AU}$ from Earth now
 
 
 ## HST
@@ -30,11 +22,120 @@ Heres the classic optocal telescope comparison
 Contributed to just about every field of astronomy, including [[Galaxies]], [[Exoplanets - Questions#exoplanets|exoplanets]], [[Black holes#Black hole|BHs]] etc
 
 
+## Magellan
+2 twin 6.5m telescopes at Las campanas Observatory in Chile. First light 2000/2002
+Contains spectrographs + imaging cameras for [[Spectra#The electromagnetic spectrum|optical and NIR]] observation.
+
+
+## CHANDRA
+NASA's flagship [[Spectra#The electromagnetic spectrum|X-ray]] mission launched in 1999 still operating. Best angular resolution of any x ray telescope ($\sim 0.5''$, about 10 times better than next best). Observes between $\sim 0.3-10\,\pu{keV}$ (about $1\,\pu{nm}$)
+
+- Claude Canizares here at MKI is PI of the High Resolution Transmission Grating Spectrometer (there is also a low energy one)
+- ACIS: Camera on CHANDRA, PI Mark Bautz here at MKI
+
+
+## WMAP
+"Wilkinson Microwave Anisotropy Probe". 
+- Space probe launched in 2001 to measure the CMB (ran until 2010)
+- Beam sizes ranged from $10'-50'$ ([[Units#Arcminute|arcmin]])
+- Placed strong constraints on cosmological parameters like the [[Hubble constant]] and matter abundances
+
+
+## MWA
+"Murchison wide-field array". Low frequency $70-230\,\pu{MHz}$ radio interferometer with wide FOV ($\sim  30^\circ$ across). 
+- GLEAM was a survey of extragalactic radio sources 
+- Precursor to [[#SKA]]
+- Jackie Hewitt here at MKI was a founding collaborator.
+
+
+## SWIFT
+[[Spectra#The electromagnetic spectrum|X-ray/UV/optical]] space telescope launched in 2004. Originally built to search for [[GRBs#GRB|GRBs]] and their afterglows. Still operating and great for transient follow-up.
+
+3 primary instruments: 
+- BAT ($\sim 15-150\,\pu{keV}$) 
+- XRT ($\sim 0.3-10\,\pu{keV}$) 
+- UVOT (optical + UV filters)
+
+
+## Planck
+ESA mission that ran from 2009-2013 to measure the anisotropies of the [[CMB#CMB|CMB]]. Best measurement of the CMB power spectrum + CMB measured cosmological parameters.
+
+Temperature sensitivity $\Delta T/T \sim 10^{-6}$ and $\sim 5'-10'$ angular resolution
+
+Here's a map of the different types of emission detected by Planck
+![[planck_components.png]]
+
+Cosmological constraints on [[FLRW#Friedmann equation|Friedmann equation parameters]]
+![[planck_params.png]]
+
+
+## ROSAT
+"Röntgensatellit" (X-ray satellite). German lead [[Spectra#The electromagnetic spectrum|X-ray]] telescope launched in 1990 and ran until 1999. Performed the first X-ray all sky survey during first 1/2 year of operation. Best in soft X-rays ($<2\,\pu{keV}$). 
+
+
 ## Spitzer
 NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched in 2003 which ran until 2020. Ran out of coolant in 2009 so only partially operational since then.
 
-- IR camera ($3.6,4.5 ,5.8,8\,\pu{\mu m}$) spectrograph 
+- IR camera ($3.6,4.5 ,5.8,8\,\pu{\mu m}$) +(?) spectrograph 
 - Spectrograph ($\sim 5-40\,\pu{\mu m}$)
+
+
+## TESS
+"Transiting Exoplanet Survey Satellite". All-sky photometric survey searching for transiting exoplanets and other transients like [[Binaries#Cataclysmic variable|CVs]] and maybe even [[Supernovae#Supernova|SNe]]. 
+
+Stares at one patch of the sky for a month getting an observation every 10 mins. Observes in red side of [[Spectra#The electromagnetic spectrum|optical]] $600\,\pu{nm} -  1\,\pu{\mu m}$ bandpass (single filter).
+
+George Ricker here at MKI is the PI. 
+
+
+## LIGO
+"Laser interferometer Gravitational wave observatory". Laser interferometer with $4\,\pu{km}$ arms with locations in Hanford and Livingston. Announced first detection of GWs in 2015 from binary [[Black holes#Black hole|BH]] merger. 
+
+- The mirror is suspended on a quadruple pendulum system.
+- The detectors are oriented in space such that they can only detect one polarization state of gravitational waves, but the double-detection makes for more convinving results. The geometry of [[#LISA]] is such that it can detect both simultaneously.
+
+There is a noise spike at 60Hz in america and 120Hz in europe, just because of AC power frequency.
+![[AdvLIGO_noise_curve.webp.png|500]]
+
+Rate goes with range cubed -> rate ~ volume we can probe. 2x more instrument sensitivity means can detect same events from a volume 8x bigger in the universe.
+
+
+## LISA
+"Laser Interferometer Space Antenna". Space based [[Gravitational waves|GW]] observatory consisting of 3 detectors with $10^6\,\pu{km}$ arm lengths. Will operate in the $\pu{mHz}$ frequency range and be sensitive to binary [[Black holes#Black hole|SMBH]] mergers and extreme mass ratio inspirals (EMRIs) which Scott Hughes studies. ESA mission to launch in 2030s. 
+
+
+## NICER
+"Neutron star Interior Composition ExploreR". NASA [[Spectra#The electromagnetic spectrum|X-ray]] telescope on the ISS with $0.3- 12\,\pu{keV}$ coverage although best soft energies. Began taking data in 2018 with the primary goal of constraining the [[Neutron stars#Neutron star equation of state|NS EoS]]. 
+
+- Non-imaging telescope with high time resolution measures hot spots on NSs as they rotate into the Los and constrain the NS radius.
+- Also the hot spot locations indicate that NSs are not exact magnetic dipoles
+- Also great for [[AGN#AGN|AGN]], [[TDEs|TDEs]], [[Binaries#X-ray binary|XRBs]], novae, like [[#SWIFT]] with fast response times.
+
+
+## CHIME
+Cool concept for a radio ($400-800\,\pu{MHz}$) telescope which simultaneously views a very large portion of the sky ($200\,\pu{deg^2}$), and "pointing" takes place in post-processing by examining autocorrelations in the signal. 
+- Can probe the [[Spectra#21cm line|21cm line]] from redshifts $z\sim 0.8-2.5$ (so $\lambda \simeq 50\,\pu{cm}$) and also an excellent [[FRBs#FRB|FRB]] finding device, though localization is hard and so they built outrigger stations to assist, will be made better by [[#CHORD]]. 
+- Kiyoshi Masui's group here at MKI is heavily involved. 
+
+![[chime.png|500]]
+
+
+## HERA
+"Hydrogen Epoch of Reionization Array". Array of radio dishes in South Africa operating at $120-200\,\pu{MHz}$ which can measure the [[Spectra#21cm line|21cm]] line heavily [[Spectra#Redshift|redshifted]] at $z\sim 6-13$ (so $\lambda \simeq 2\,\pu{m}$). Along with [[#MWA]] is a precursor to [[#SKA]]. 
+
+Jackie Hewitt at MKI is PI
+
+
+## WINTER
+"Wide field Infrared Transient Explorer". Ground based [[Spectra#The electromagnetic spectrum|NIR]] telescope at palomar, $1\,\pu{m}$ diameter, ($\sim 0.9 - 1.7\,\pu{\mu m}$) aimed at electromagnetic follow-up of [[Gravitational waves|GW]] events. Time-domain survey instrument looking for [[Supernovae#Kilonova|kilonovae]] [[TDEs]] and other variables, can also aid with [[Methods#Reverberation mapping|reverberation mapping]].
+
+Will perform the first seeing-limited IR time-domain survey with FoV $\sim 1 \,\pu{deg^2}$ 
+
+
+## SPT
+"South Pole Telescope". $10\,\pu{m}$ telescope observing in $\pu{mm/sub-mm}$ ([[Spectra#The electromagnetic spectrum|microwave]]) at the South Pole. 
+- Goal is to study [[CMB#CMB|CMB]] but also locates 1000s of [[Galaxy clusters#Galaxy cluster|galaxy clusters]] via the SZ effect that can sometimes be followed up with [[#HST|HST]] 
+- First light in 2007, still operational
 
 
 ## JWST
@@ -47,6 +148,22 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched 
 - FGS/NIRISS ($0.8-5\,\pu{\mu m}$)
 
 
+## Roman
+"Nancy Grace Roman space telescope" and other names, formerly "Wide-Field Infrared Survey Telescope". NASA [[Spectra#The electromagnetic spectrum|IR]] instrument that will launch near 2027. $2.4\,\pu{m}$ wide and FoV $\sim 28\,\pu{deg^2}$. Science goals are direct imaging of exoplanets via the CGI, cosmology + dark energy via [[BAO#BAO|BAO]], distance [[Supernovae#Supernova|SNe]] and [[Lensing#Weak lensing|weak lensing]]. 
+
+2 science instruments:
+- WFI (wide field instrument) $\sim 0.5 - 2.3\,\pu{\mu m}$ with 6 filters
+- CGI (coronagraphic instrument) $\sim 0.5 - 0.8\,\pu{\mu m}$ with high contrast
+
+
+## Vera C. Rubin Observatory
+$8.4\,\pu{m}$ ground based optical telescope in Chile, first light expected in 2023. Will perform a sky survey down to 25th [[Magnitudes|magnitude]] in a single visit expected to find thousands of transients a night. 
+
+
+## LSST
+"Legacy survey of space and time" which will be carried out by Vera Rubin and used to mean "large synoptic survey telescope" which is now called the [[#Vera C. Rubin Observatory]]. 
+
+
 ## ALMA
 
 
@@ -57,42 +174,18 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched 
 "Event horizon telescope". Observed [[AGN examples#Sagittarius A|Sag A*]] and M87 [[Black holes#Black hole|SMBHs]] using [[Methods#Long baseline interferometry|VLBI]] to get sub-arcsecond resolution.
 
 
-## LIGO
-"Laser interferometer Gravitational wave observatory". Laser interferometer with $4\,\pu{km}$ arms with locations in Hanford and Livingston. Announced first detection of GWs in 2015 from binary [[Black holes#Black hole|BH]] merger. The mirror 
-
-There is a noise spike at 60Hz in america and 120Hz in europe, just because of AC power frequency.
-![[AdvLIGO_noise_curve.webp.png|500]]
-
-Rate goes with range cubed -> rate ~ volume we can probe. 2x more instrument sensitivity means can detect same events from a volume 8x bigger in the universe.
-
-
 ## VIRGO
 
 
 ## KAGRA
 
 
-## LISA
-"Laser Interferometer Space Antenna". Space based [[Gravitational waves|GW]] observatory consisting of 3 detectors with $10^6\,\pu{km}$ arm lengths. Will operate in the $\pu{mHz}$ frequency range and be sensitive to binary [[Black holes#Black hole|SMBH]] mergers and extreme mass ratio inspirals (EMRIs) which Scott Hughes studies. ESA mission to launch in 2030s. 
-
-
 ## LBT
-
-
-## Magellan
-2 twin 6.5m telescopes at Las campanas Observatory in Chile. First light 2000/2002
-Contains spectrographs + imaging cameras for [[Spectra#The electromagnetic spectrum|optical and NIR]] observation.
 
 
 ## GMT
 "Giant Magellan Telescope". Successor to [[#Magellan]]. 
 
-
-## CHANDRA
-NASA's flagship [[Spectra#The electromagnetic spectrum|X-ray]] mission launched in 1999 still operating. Best angular resolution of any x ray telescope ($\sim 0.5''$). Observes between $\sim 0.3-10\,\pu{keV}$ (about $1\,\pu{nm}$)
-
-- Claude Canizares here at MKI is PI of the High Resolution Transmission Grating Spectrometer (there is also a low energy one)
-- ACIS: Camera on CHANDRA, PI Mark Bautz here at MKI
 
 
 ## XRISM
@@ -125,13 +218,6 @@ Wide science goals, including distant [[Galaxies]], star and planet formation, [
 ## ELT
 "Extremely large telescope"
 
-
-## Vera C. Rubin Observatory
-$8.4\,\pu{m}$ ground based optical telescope in Chile, first light expected in 2023. Will perform a sky survey down to 25th [[Magnitudes|magnitude]] in a single visit expected to find thousands of transients a night. 
-
-
-## LSST
-"Legacy survey of space and time" which will be carried out by Vera Rubin and used to mean "large synoptic survey telescope" which is now called the [[#Vera C. Rubin Observatory]]. 
 
 
 ## Kepler
@@ -200,14 +286,6 @@ Half of the data unavilable due to Russian invasion of Ukraine.
 **Band**: IR at $3-20\,\pu{\mu m}$ 
 
 
-## CHIME
-Cool concept for a radio ($400-800\,\pu{MHz}$) telescope which simultaneously views a very large portion of the sky ($200\,\pu{deg^2}$), and "pointing" takes place in post-processing by examining autocorrelations in the signal. 
-- Can probe the [[Spectra#21cm line|21cm line]] from redshifts $z\sim 0.8-2.5$ (so $\lambda \simeq 50\,\pu{cm}$) and also an excellent [[FRBs#FRB|FRB]] finding device, though localization is hard and so they built outrigger stations to assist, will be made better by [[#CHORD]]. 
-- Kiyoshi Masui here at MKI is heavily involved. 
-
-![[chime.png|500]]
-
-
 ## CHORD
 
 
@@ -225,30 +303,9 @@ Neutrino obseratory at South Pole. Would see a spike in neutrino detection from 
 See [[Emission & the ISM - Questions#79|Q79]] for dust sadness.
 
 
-## Planck
-ESA mission that ran from 2009-2013 to measure the anisotropies of the [[CMB#CMB|CMB]]. Best measurement of the CMB power spectrum + CMB measured cosmological parameters.
-
-Temperature sensitivity $\Delta T/T \sim 10^{-6}$ and $\sim 5'-10'$ angular resolution
-
-Here's a map of the different types of emission detected by Planck
-![[planck_components.png]]
-
-Cosmological constraints on [[FLRW#Friedmann equation|Friedmann equation parameters]]
-![[planck_params.png]]
-
-
-
 ## VLA
 
 6GHz is ~an optimal frequency for VLA, and is used to measure [[GRBs#GRB|GRB]] afterglows
-
-
-## Voyager
-- two unmanned space missions, the probes Voyager 1 and Voyager 2
-- launched in 1977 to take advantage of a favorable alignment of the planets during the late 1970s
-- designated officially to study just the planetary systems of Jupiter and Saturn, the space probes were able to continue their mission into the outer solar system, and they are expected to push through the heliosheath in deep space. Voyager 1 is furthest manmade object from Earth
-- the trajectories of the two spacecraft have been used to place limits on the existence of any hypothetical trans-Neptunian planets
-- Voyager 1 about $160\,\pu{AU}$ from Earth now
 
 
 ## COBE
@@ -256,62 +313,11 @@ Cosmological constraints on [[FLRW#Friedmann equation|Friedmann equation paramet
 ![[cobe_cmb.jpg|400]]
 
 
-## WMAP
-"Wilkinson Microwave Anisotropy Probe". 
-- Space probe launched in 2001 to measure the CMB (ran until 2010)
-- Beam sizes ranged from $10'-50'$ ([[Units#Arcminute|arcmin]])
-- Placed strong constraints on cosmological parameters like the [[Hubble constant]] and matter abundances
-
-
-## MWA
-"Murchison wide-field array". Low frequency $70-230\,\pu{MHz}$ radio interferometer with wide FOV ($\sim  30^\circ$ across). 
-- GLEAM was a survey of extragalactic radio sources 
-- Precursor to [[#SKA]]
-- Jackie Hewitt here at MKI was a founding collaborator.
-
 
 ## SKA
 "Square Kilometre Array". A low-frequency radio telescope to be built in Australia expected to have first light in 2027.
 
 Will have two components which observe [[Spectra#21cm line|21cm line]] up to $z=3$ and $z\in(3,27)$ respectively
-
-
-## ROSAT
-"Röntgensatellit" (X-ray satellite). German lead [[Spectra#The electromagnetic spectrum|X-ray]] telescope launched in 1990 and ran until 1999. Performed the first X-ray all sky survey during first 1/2 year of operation. Best in soft X-rays ($<2\,\pu{keV}$). 
-
-
-## TESS
-"Transiting Exoplanet Survey Satellite". All-sky photometric survey searching for transiting exoplanets and other transients like [[Binaries#Cataclysmic variable|CVs]] and maybe even [[Supernovae#Supernova|SNe]]. 
-
-Stares at one patch of the sky for a month getting an observation every 10 mins. Observes in red side of [[Spectra#The electromagnetic spectrum|optical]] $600\,\pu{nm} -  1\,\pu{\mu m}$ bandpass (single filter).
-
-George Ricker here at MKI is the PI. 
-
-
-## HERA
-"Hydrogen Epoch of Reionization Array". Array of radio dishes in South Africa operating at $120-200\,\pu{MHz}$ which can measure the [[Spectra#21cm line|21cm]] line heavily [[Spectra#Redshift|redshifted]] at $z\sim 6-13$ (so $\lambda \simeq 2\,\pu{m}$). Along with [[#MWA]] is a precursor to [[#SKA]]. 
-
-Jackie Hewitt at MKI is PI
-
-
-## WINTER
-"Wide field Infrared Transient Explorer". Ground based [[Spectra#The electromagnetic spectrum|NIR]] telescope at palomar, $1\,\pu{m}$ diameter, ($\sim 0.9 - 1.7\,\pu{\mu m}$) aimed at electromagnetic follow-up of [[Gravitational waves|GW]] events. Time-domain survey instrument looking for [[Supernovae#Kilonova|kilonovae]] [[TDEs]] and other variables, can also aid with [[Methods#Reverberation mapping|reverberation mapping]].
-
-Will perform the first seeing-limited IR time-domain survey with FoV $\sim 1 \,\pu{deg^2}$ 
-
-
-## SPT
-"South Pole Telescope". $10\,\pu{m}$ telescope observing in $\pu{mm/sub-mm}$ ([[Spectra#The electromagnetic spectrum|microwave]]) at the South Pole. 
-- Goal is to study [[CMB#CMB|CMB]] but also locates 1000s of [[Galaxy clusters#Galaxy cluster|galaxy clusters]] via the SZ effect that can sometimes be followed up with [[#HST|HST]] 
-- First light in 2007, still operational
-
-
-## Roman
-"Nancy Grace Roman space telescope" and other names, formerly "Wide-Field Infrared Survey Telescope". NASA [[Spectra#The electromagnetic spectrum|IR]] instrument that will launch near 2027. $2.4\,\pu{m}$ wide and FoV $\sim 28\,\pu{deg^2}$. Science goals are direct imaging of exoplanets via the CGI, cosmology + dark energy via [[BAO#BAO|BAO]], distance [[Supernovae#Supernova|SNe]] and [[Lensing#Weak lensing|weak lensing]]. 
-
-2 science instruments:
-- WFI (wide field instrument) $\sim 0.5 - 2.3\,\pu{\mu m}$ with 6 filters
-- CGI (coronagraphic instrument) $\sim 0.5 - 0.8\,\pu{\mu m}$ with high contrast
 
 
 ## Fermi

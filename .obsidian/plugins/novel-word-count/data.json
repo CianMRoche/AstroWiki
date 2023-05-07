@@ -283,13 +283,13 @@
     "Instrumentation and methods/Observatories.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1867,
-      "pageCount": 6.223333333333334,
-      "characterCount": 13564,
-      "nonWhitespaceCharacterCount": 11508,
+      "wordCount": 2023,
+      "pageCount": 6.743333333333333,
+      "characterCount": 14766,
+      "nonWhitespaceCharacterCount": 12542,
       "createdDate": 1676656177201,
-      "modifiedDate": 1683419585733,
-      "sizeInBytes": 13569
+      "modifiedDate": 1683425415187,
+      "sizeInBytes": 14771
     },
     "Instrumentation and methods/Magnitudes.md": {
       "isDirectory": false,
@@ -316,13 +316,13 @@
     "Instrumentation and methods/Instrumentation and methods - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2116,
-      "pageCount": 7.053333333333334,
-      "characterCount": 14770,
-      "nonWhitespaceCharacterCount": 12566,
+      "wordCount": 2174,
+      "pageCount": 7.246666666666667,
+      "characterCount": 15237,
+      "nonWhitespaceCharacterCount": 12974,
       "createdDate": 1677543419162,
-      "modifiedDate": 1683419110762,
-      "sizeInBytes": 14776
+      "modifiedDate": 1683429760540,
+      "sizeInBytes": 15243
     },
     "Instrumentation and methods/Catalogs.md": {
       "isDirectory": false,
@@ -349,13 +349,13 @@
     "Lightning round.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1098,
-      "pageCount": 3.66,
-      "characterCount": 8474,
-      "nonWhitespaceCharacterCount": 7230,
+      "wordCount": 1126,
+      "pageCount": 3.7533333333333334,
+      "characterCount": 8727,
+      "nonWhitespaceCharacterCount": 7456,
       "createdDate": 1676490414602,
-      "modifiedDate": 1683411314448,
-      "sizeInBytes": 8478
+      "modifiedDate": 1683434450489,
+      "sizeInBytes": 8731
     },
     "Emission & the ISM/Spectra.md": {
       "isDirectory": false,
@@ -503,13 +503,13 @@
     "Mnemonics.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 422,
-      "pageCount": 1.4066666666666667,
-      "characterCount": 2740,
-      "nonWhitespaceCharacterCount": 2279,
+      "wordCount": 446,
+      "pageCount": 1.4866666666666666,
+      "characterCount": 2896,
+      "nonWhitespaceCharacterCount": 2410,
       "createdDate": 1681584180935,
-      "modifiedDate": 1683391657241,
-      "sizeInBytes": 2742
+      "modifiedDate": 1683434583015,
+      "sizeInBytes": 2898
     },
     "Exoplanets/Exoplanets - Questions.md": {
       "isDirectory": false,
@@ -943,13 +943,13 @@
     "Compact objects/Compact objects - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 9146,
-      "pageCount": 30.486666666666668,
-      "characterCount": 63014,
-      "nonWhitespaceCharacterCount": 53478,
+      "wordCount": 9148,
+      "pageCount": 30.493333333333332,
+      "characterCount": 63063,
+      "nonWhitespaceCharacterCount": 53525,
       "createdDate": 1677543456264,
-      "modifiedDate": 1683412977617,
-      "sizeInBytes": 63060
+      "modifiedDate": 1683434475903,
+      "sizeInBytes": 63109
     },
     "Compact objects/Accretion.md": {
       "isDirectory": false,

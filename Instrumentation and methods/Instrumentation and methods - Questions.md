@@ -126,7 +126,7 @@ See the inset magnitudes file:
 
 ## 160
 **Briefly describe the main objectives and capabilities of the following astronomical observatories**
-I wont link them all individually here, see [[Observatories]] for all.
+I wont link them all individually here, see [[Observatories]] for all, in order from the beginning as they are in (my version of) the questions document.
 
 
 ## 161
@@ -134,24 +134,24 @@ I wont link them all individually here, see [[Observatories]] for all.
 From Megan's notes:
 ![[space_ground.png]]
 
-See [[#158|Q158]]. 
+See [[#158|this question]]. 
 
 Can do on ground and in space:
 - Optical
 - some NIR
 - sub-mm
-- radio
+- radio (some limitations here though, due to plasma frequency on ground and practicality in space)
 
 Need space:
 - $\gamma$-ray
 - X-ray
 - UV
-- most IR
+- most IR to a degree, mostly far-IR
 
 
 ## 162
 **Derive the approximate (within a factor of a few) spectral resolution R required to detect a planet that perturbs its host star by a radial velocity amplitude of 10 cm/s.**
-The spectral resolution of a spectrograph, or, more generally, of a frequency spectrum, is a measure of its ability to resolve features in the electromagnetic spectrum. It is usually denoted by $\Delta \lambda$, and is closely related to the resolving power of the spectrograph, defined as $$R = \frac{\lambda}{\Delta\lambda}$$where $\Delta \lambda$ is the smallest <mark class="hltr-pink">difference in wavelengths</mark> that can be distinguished at a wavelength of $\lambda$. The spectral resolution can also be expressed in terms of physical quantities, such as velocity; then it describes the difference between velocities $\Delta v$ that can be distinguished through the [[Spectra#Relativistic Doppler shift|doppler shift]]. Then, the resolution is $\Delta v$ and the resolving power is $$R = \frac{\lambda}{\beta\lambda} = \frac{1}{\beta}= \frac{c}{\Delta v}$$For a radial velocity measurement of $\sim 10\,\pu{cm s^{-1}}$ (see [[Exoplanets - Questions#9|Q9]] to understand order of magnitude) this would mean a resolving power of $R \sim 10^9$ but the best that exists right now is $R\sim 10^5$ on HARPS. 
+The spectral resolution of a spectrograph, or, more generally, of a frequency spectrum, is a measure of its ability to resolve features in the electromagnetic spectrum. It is usually denoted by $\Delta \lambda$, and is closely related to the resolving power of the spectrograph, defined as $$R = \frac{\lambda}{\Delta\lambda}$$where $\Delta \lambda$ is the smallest <mark class="hltr-pink">difference in wavelengths</mark> that can be distinguished at a wavelength of $\lambda$. The spectral resolution can also be expressed in terms of physical quantities, such as velocity: then it describes the difference between velocities $\Delta v$ that can be distinguished through the [[Spectra#Relativistic Doppler shift|doppler shift]]. Then, the resolution is $\Delta v$ and the resolving power is $$R = \frac{\lambda}{\beta\lambda} = \frac{1}{\beta}= \frac{c}{\Delta v}$$For a radial velocity measurement of $\sim 10\,\pu{cm s^{-1}}$ (see [[Exoplanets - Questions#9|this question]] to understand order of magnitude) this would mean a resolving power of $R \sim 10^9$ but the best that exists right now is $R\sim 10^5$ on HARPS. 
 
 The resolution is the ability to distinguish between lines, but really we need to measure the position of the center of a line (and compare it to the rest frame value to get a radial velocity). If we measure multiple lines rather than just one, we can measure shifts below the spectral resolution of the instrument. In general, if we have an observable $X$ and we can measure it to be $\mu_X$ with uncertainty for a single observation $\sigma_X$, then our uncertainty on the value of $\mu_X$ can be reduced by repeating observations (for a Gaussian process if we made the observation a billion times, we would get a beautiful Gaussian of well-measured width $\sigma_X$ and a very certain mean value $\mu_X$). The scaling on the uncertainty of the mean $\sigma_{\mu,X}$ for repeating the observation $N$ times is  $$\sigma_{\mu,X} = \frac{\sigma_X}{\sqrt{N}}$$In the case at hand, we want to measure the position of the center of a line $\mu$ which we do with some uncertainty $\sigma$ set by the spectral resolution, and if we measure several lines we can improve sensitivity roughly via the same math as above (since we are in principle measuring different things each time, but to get the same number) to get $$\sigma_\mu = \frac{\sigma}{\sqrt{N}}$$where $N$ is the number of lines. 
 
@@ -175,4 +175,7 @@ VIRGO and KAGRA also exist and form the LVK collaboration.
 Future:
 - Continued improvement of LIGO, VIRGO and KAGRA GW observatories to build statistics and template generation
 - [[Observatories#LISA|LISA]] which will be more sensitive to extreme mass ratio inspirals and supermassive BH mergers
-- Cosmic explorer: Two $40\,\pu{km}$ arm observatories on the ground which increases sensitivity (sensitivity $\propto L^{2}$ says LISA paper but diminishing returns since longer arms means not sensitive to high frequency waves) with no additional noise (ideally).
+- [[Observatories#Cosmic explorer|Cosmic explorer]]: Two $40\,\pu{km}$ arm observatories on the ground which increases sensitivity (sensitivity $\propto L^{2}$ says LISA paper but diminishing returns since longer arms means not sensitive to high frequency waves) with no additional noise (ideally).
+
+![[gw_spectrum.png|500]]
+![[gw_sensitivity.png|500]]

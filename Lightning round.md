@@ -26,11 +26,11 @@
 **(ii) quasar**
 Ionizing radiation from the [[AGN#Quasar|quasar]] 
 - More energy than stellar ionization, so see lines of higher ionization levels
-- Strongest lines [[Spectra#Lyman-alpha forest|Lyman-alpha]] and ionized low elements on periodic table like $\ce{C\,IV}$ and $\ce{OIII}$ 
+- Strongest lines [[Spectra#Lyman-alpha forest|Lyman-alpha]] and ionized ~low elements on periodic table like $\ce{C\,IV}$ and $\ce{OIII}$ 
 - Also see balmer lines, and we can use line ratios to determine the ionizing source
 
 **(iii) 100 km/s interstellar shockwave**
-Produced by [[Supernovae#Supernova|supernovae]] (see [[Compact objects - Questions#51|Q51]]). What is gas temp at this speed? $$E = \frac{1}{2}mv^2 = \frac{3}{2}kT \implies T \simeq 35\,\pu{eV} > \chi_{\ce{He}}\simeq 25\,\pu{eV}$$so we can ionize helium, and we see strong lines.
+Produced by [[Supernovae#Supernova|supernovae]] (see [[Compact objects - Questions#51|this question]]). What is gas temp at this speed? $$E = \frac{1}{2}mv^2 = \frac{3}{2}kT \implies T \simeq 35\,\pu{eV} > \chi_{\ce{He}}\simeq 25\,\pu{eV}$$so we can ionize helium, and we see strong lines.
 
 **(iv) giant molecular cloud?**
 A [[Star formation#Molecular cloud|molecular cloud]] is cold ($T\simeq 10$s of $\pu{K}$) so no ionization, instead see rotational and vibrational molecule transitions. Strongest lines from $\ce{CO}$. Theres only 1 or those for every $10^4\,\ce{H_2}$, but unfortunately $\ce{H_2}$ is [[Spectra#Molecular hydrogen|symmetric]] so no rotational modes, and lightweight so vibrational modes hard to observe. Thus we use $\ce{CO}$ as a tracer.
@@ -41,11 +41,11 @@ How far away are the following objects? How large and how massive are they?
 
 1. [[The Sun]]
 2. The Orion [[Nebulae|nebula]]
-3. M13 
+3. M13 - a [[Clustering#Globular Cluster|globular cluster]] orbiting [[AGN examples#Sagittarius A|Sag A]] (ie at the center of the [[Milky Way]])
 4. [[Galaxy examples#M31|M31]]  
 5. [[Galaxy cluster examples#Virgo Cluster|Virgo Cluster]] 
 6. [[Galaxy cluster examples#Coma cluster|Coma Cluster]] 
-7. [[Catalogs#3C|3C]] 273 
+7. [[Catalogs#3C|3C]] 273 - a [[AGN#Quasar|quasar]] 
 
 Summary from Megan's notes
 ![[distance_table.png]]
@@ -60,7 +60,7 @@ You will note that below
 - See also [[Bonus Questions#Observing the EM spectrum|Observing EM spectrum]] for what telescopes could see these things in principle.
 | Band         | Isotropic | Anisotropic |
 |--------------|-----------|-------------|
-| radio        |[[Galaxies#Radio galaxy\|Radio galaxies]]| Cas A (picture below) and other [[Magnetobremsstrahlung#Synchrotron radiation\|Synchrotron]] from [[Supernovae#Supernova\|SN]] remnants|
+| radio        |[[Galaxies#Radio galaxy\|Radio galaxies]], [[FRBs]] (less bright)| Cas A (picture below) and other [[Magnetobremsstrahlung#Synchrotron radiation\|Synchrotron]] from [[Supernovae#Supernova\|SN]] remnants|
 | mm           |  [[CMB]] and [[AGN]]        |             |
 | MIR          |[[Galaxies#Starburst galaxy\|Starburst galaxies]]|[[Dust]], and cool stars|
 | optical      | [[Galaxies]], [[AGN]]|      Stars       |
@@ -68,7 +68,7 @@ You will note that below
 | X-ray        |[[AGN]]|[[Binaries#X-ray binary\|XRBs]], [[Supernovae#Supernova\|SNe]] remnants, [[Galaxy clusters#Galaxy cluster\|galaxy clusters]](?)|
 | $\gamma$-ray |[[GRBs]], [[AGN]]|[[Binaries#X-ray binary\|XRBs]], and the Crab [[Nebulae#Pulsar wind nebula\|pulsar wind nebula]] (brightest non-transient)|
 
-Note brightest radio source in a given constellation is labelled "A" (eg [[AGN examples#Sagittarius A|Sag A*]]) as with Cas A (pictured below), and X-ray sources typically get something like "X1" etc.
+Note: brightest radio source in a given constellation is labelled "A" (eg [[AGN examples#Sagittarius A|Sag A*]]) as with Cas A (pictured below), and X-ray sources typically get something like "X1" etc.
 
 ![[CasA.jpg]]
 
@@ -78,7 +78,7 @@ Briefly describe the following famous astronomical objects:
 
 **The Crab**
 - [[Nebulae#Pulsar wind nebula|Pulsar wind nebula]] supernova remnant
-- Observed in 1054 in China
+- The corresponding [[Supernovae#Supernova|supernova]] observed in 1054 in China
 - One of the brightest X-ray and $\gamma$-ray sources on the sky
 - See [[Compact objects - Questions#62|Q62]] for energy budget
 

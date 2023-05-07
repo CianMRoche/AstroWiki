@@ -428,7 +428,7 @@ Dubious: we have measured redshifts of the [[Spectra#Fe k-alpha line|Fe k-alpha 
 Rotational kinetic energy is $T_{rot} = \frac{1}{2}I\omega^2$ for rotational frequency $\omega$ and moment of inertia $I$. The moment of inertia for a solid sphere is $I = \frac{2}{5}MR^2$ for a sphere of mass $M$ and radius $R$. Using typical [[Neutron stars#Neutron stars|NS]] parameters and evaluating we get $T_{rot} \sim 10^{43}\,\pu{J}$
 
 **How does this help resolve the "energy budget" for the Crab nebula?**
-Crab nebula (observed in 1054, seen in drawings) has luminosity of $10^{31}\,\pu{W}$, lets check how much of that could come from the spinning NS. $$\frac{dT_{rot}}{dt} = I\omega\dot{\omega} = I\omega \left(-2\pi \frac{\dot{P}}{P^2}\right) = -\frac{2}{5}4\pi^2 M R^2\frac{\dot{P}}{P^3}$$For crab nebula, $P \sim 30\,\pu{ms}$ and $\dot{P} \sim 10^{-13}\,\pu{s}/\pu{s}$  which leads to $$\frac{dT_{rot}}{dt} = - 1.6\times 10^{31}\,\pu{W}$$which means the entire luminosity can come from energy losses of the spinning NS
+Crab nebula (corresponding [[Supernovae#Supernova|supernova]] observed in 1054, seen in drawings) has luminosity of $10^{31}\,\pu{W}$, lets check how much of that could come from the spinning NS. $$\frac{dT_{rot}}{dt} = I\omega\dot{\omega} = I\omega \left(-2\pi \frac{\dot{P}}{P^2}\right) = -\frac{2}{5}4\pi^2 M R^2\frac{\dot{P}}{P^3}$$For crab nebula, $P \sim 30\,\pu{ms}$ and $\dot{P} \sim 10^{-13}\,\pu{s}/\pu{s}$  which leads to $$\frac{dT_{rot}}{dt} = - 1.6\times 10^{31}\,\pu{W}$$which means the entire luminosity can come from energy losses of the spinning NS
 
 
 ## 63

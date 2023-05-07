@@ -31,3 +31,6 @@
 - The [[Spectra#Lyman-alpha forest|Lyman]] transitions are to the $n=1$ energy because on this plot they are the **L**ongest. Those LONG Lyman lines. ![[hydrogen_lines.png|300]]
 
 - Deuterium has a binding energy of $2.22\,\pu{MeV}$ because deuceterium. two.
+
+- CRABS COME IN THREES. $P = 30\,\pu{ms}$ $\dot{P} = 10^{-13}\,\pu{s/s}$ and $L_{crab} = 10^{31}\,\pu{W}$. Observed in 1054. What comes after 5,4?? Its 3.
+  ![[crabs_nebula.png|250]]
