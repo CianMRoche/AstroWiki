@@ -200,7 +200,7 @@ The [[Stellar structure equations#Energy transport|energy transport]] equation f
 **Use the known luminosity and mass of the Sun to estimate its nuclear lifetime.**
 Luminosity of [[The Sun#The Sun|the Sun]] is about $L_\odot \simeq 10^{26}\,\pu{W}$. How long can the mass-energy of teh Sun power such a luminosity?
 
-Not all the Suns mass will be converted to energy, the real number is actually the solar mass times the fraction of the Suns mass which is hydrogen $f \simeq 0.7$ times the energy efficiency of nuclear burning $\eta \simeq 0.07$. The mass energy which can go into producing light is thus $E = f_H \eta M_\odot$ and the [[Timescales#Main Sequence Timescale|Main sequence timescale]] for the sun is then $$\tau_{MS,\odot} = \frac{f \eta X M_{\odot} c^2}{L_{\odot}} \simeq 10\,\pu{Gyr}$$
+Not all the Suns mass will be converted to energy, the real number is actually the solar mass times the fraction of the Suns mass which is hydrogen $X \simeq 0.7$ times the fraction of this mass which will be burned $f\simeq 0.1$, times the energy efficiency of nuclear burning $\eta \simeq 0.007$. The mass energy which can go into producing light is thus $E = f \eta X M_\odot c^2$ and the [[Timescales#Main Sequence Timescale|Main sequence timescale]] for the sun is then $$\tau_{MS,\odot} = \frac{f \eta X M_{\odot} c^2}{L_{\odot}} \simeq 10\,\pu{Gyr}$$
 **What is the current age of the sun, roughly?**
 Best estimates for the age of the Sun are based on radioactive dating of meteorites and modelling of the solar spectrum, placing the age at about $4.5\,\pu{Gyr}$. 
 

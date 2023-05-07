@@ -28,7 +28,8 @@
 - To remember [[Binaries#Kepler's laws|Keplers third]] just remember "aw good morning 321" $$a^3 \omega^2 = GM$$
 - The [[Galaxies - Questions#118|Einasto]] profile is nice because it has a well-defined total mass. Ei**mass**to.
 
-- The [[Spectra#Lyman-alpha forest|Lyman]] transitions are to the $n=1$ energy because on this plot they are the **L**ongest. Those LONG Lyman lines. ![[hydrogen_lines.png|300]]
+- The [[Spectra#Lyman-alpha forest|Lyman]] transitions are to the $n=1$ energy because on this plot they are the **L**ongest. Those LONG Lyman lines. 
+  ![[hydrogen_lines.png|300]]
 
 - Deuterium has a binding energy of $2.22\,\pu{MeV}$ because deuceterium. two.
 
