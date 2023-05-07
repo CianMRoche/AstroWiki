@@ -26,7 +26,7 @@
 **(ii) quasar**
 Ionizing radiation from the [[AGN#Quasar|quasar]] 
 - More energy than stellar ionization, so see lines of higher ionization levels
-- Strongest lines [[Spectra#Lyman-alpha forest|Lyman-alpha]] and $\ce{C\,IV}$
+- Strongest lines [[Spectra#Lyman-alpha forest|Lyman-alpha]] and ionized low elements on periodic table like $\ce{C\,IV}$ and $\ce{OIII}$ 
 - Also see balmer lines, and we can use line ratios to determine the ionizing source
 
 **(iii) 100 km/s interstellar shockwave**
@@ -149,5 +149,5 @@ Briefly describe the following famous astronomical objects:
 - Planet in habitable zone of Proxima centauri (closest star to us at $\sim 1\,\pu{pc}$)
 - Discovered via radial velocity method (see [[Exoplanets - Questions]]) with $a\sim 0.05\,\pu{AU}, M\gtrsim 1M_\bigoplus$ **
 
-[[AGN examples#Sagittarius A|Sag A*]] 
+**[[AGN examples#Sagittarius A|Sag A*]]** 
 - See note

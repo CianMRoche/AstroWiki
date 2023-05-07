@@ -217,13 +217,13 @@
     "Units.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 587,
-      "pageCount": 1.9566666666666668,
-      "characterCount": 4230,
-      "nonWhitespaceCharacterCount": 3603,
+      "wordCount": 626,
+      "pageCount": 2.0866666666666664,
+      "characterCount": 4460,
+      "nonWhitespaceCharacterCount": 3794,
       "createdDate": 1676582717403,
-      "modifiedDate": 1682298200723,
-      "sizeInBytes": 4236
+      "modifiedDate": 1683387373635,
+      "sizeInBytes": 4466
     },
     "Plasma and lensing/Mean molecular weight.md": {
       "isDirectory": false,
@@ -261,13 +261,13 @@
     "Questions to ask.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 85,
-      "pageCount": 0.2833333333333333,
-      "characterCount": 495,
-      "nonWhitespaceCharacterCount": 408,
+      "wordCount": 113,
+      "pageCount": 0.37666666666666665,
+      "characterCount": 645,
+      "nonWhitespaceCharacterCount": 530,
       "createdDate": 1676657449980,
-      "modifiedDate": 1683224908135,
-      "sizeInBytes": 495
+      "modifiedDate": 1683339966800,
+      "sizeInBytes": 645
     },
     "README.md": {
       "isDirectory": false,
@@ -283,13 +283,13 @@
     "Instrumentation and methods/Observatories.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1852,
-      "pageCount": 6.173333333333333,
-      "characterCount": 13457,
-      "nonWhitespaceCharacterCount": 11416,
+      "wordCount": 1867,
+      "pageCount": 6.223333333333334,
+      "characterCount": 13564,
+      "nonWhitespaceCharacterCount": 11508,
       "createdDate": 1676656177201,
-      "modifiedDate": 1683304742668,
-      "sizeInBytes": 13462
+      "modifiedDate": 1683419585733,
+      "sizeInBytes": 13569
     },
     "Instrumentation and methods/Magnitudes.md": {
       "isDirectory": false,
@@ -316,13 +316,13 @@
     "Instrumentation and methods/Instrumentation and methods - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 2053,
-      "pageCount": 6.843333333333334,
-      "characterCount": 14338,
-      "nonWhitespaceCharacterCount": 12196,
+      "wordCount": 2116,
+      "pageCount": 7.053333333333334,
+      "characterCount": 14770,
+      "nonWhitespaceCharacterCount": 12566,
       "createdDate": 1677543419162,
-      "modifiedDate": 1681713976541,
-      "sizeInBytes": 14344
+      "modifiedDate": 1683419110762,
+      "sizeInBytes": 14776
     },
     "Instrumentation and methods/Catalogs.md": {
       "isDirectory": false,
@@ -349,24 +349,24 @@
     "Lightning round.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1089,
-      "pageCount": 3.63,
-      "characterCount": 8409,
-      "nonWhitespaceCharacterCount": 7175,
+      "wordCount": 1098,
+      "pageCount": 3.66,
+      "characterCount": 8474,
+      "nonWhitespaceCharacterCount": 7230,
       "createdDate": 1676490414602,
-      "modifiedDate": 1682961242960,
-      "sizeInBytes": 8413
+      "modifiedDate": 1683411314448,
+      "sizeInBytes": 8478
     },
     "Emission & the ISM/Spectra.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1276,
-      "pageCount": 4.253333333333333,
-      "characterCount": 8639,
-      "nonWhitespaceCharacterCount": 7297,
+      "wordCount": 1338,
+      "pageCount": 4.46,
+      "characterCount": 8994,
+      "nonWhitespaceCharacterCount": 7588,
       "createdDate": 1677701019011,
-      "modifiedDate": 1683173484448,
-      "sizeInBytes": 8639
+      "modifiedDate": 1683337580070,
+      "sizeInBytes": 8994
     },
     "Emission & the ISM/Scattering.md": {
       "isDirectory": false,
@@ -393,13 +393,13 @@
     "Emission & the ISM/Saha equation.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 322,
-      "pageCount": 1.0733333333333333,
-      "characterCount": 2215,
-      "nonWhitespaceCharacterCount": 1889,
+      "wordCount": 356,
+      "pageCount": 1.1866666666666668,
+      "characterCount": 2415,
+      "nonWhitespaceCharacterCount": 2053,
       "createdDate": 1680646188995,
-      "modifiedDate": 1682874330099,
-      "sizeInBytes": 2215
+      "modifiedDate": 1683346331368,
+      "sizeInBytes": 2415
     },
     "Emission & the ISM/Optical depth.md": {
       "isDirectory": false,
@@ -503,13 +503,13 @@
     "Mnemonics.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 410,
-      "pageCount": 1.3666666666666667,
-      "characterCount": 2632,
-      "nonWhitespaceCharacterCount": 2184,
+      "wordCount": 422,
+      "pageCount": 1.4066666666666667,
+      "characterCount": 2740,
+      "nonWhitespaceCharacterCount": 2279,
       "createdDate": 1681584180935,
-      "modifiedDate": 1683336336736,
-      "sizeInBytes": 2634
+      "modifiedDate": 1683391657241,
+      "sizeInBytes": 2742
     },
     "Exoplanets/Exoplanets - Questions.md": {
       "isDirectory": false,
@@ -778,13 +778,13 @@
     "Cosmology/FLRW.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 732,
-      "pageCount": 2.44,
-      "characterCount": 5207,
-      "nonWhitespaceCharacterCount": 4337,
+      "wordCount": 774,
+      "pageCount": 2.58,
+      "characterCount": 5504,
+      "nonWhitespaceCharacterCount": 4585,
       "createdDate": 1682124109317,
-      "modifiedDate": 1683322870595,
-      "sizeInBytes": 5214
+      "modifiedDate": 1683392788964,
+      "sizeInBytes": 5511
     },
     "Cosmology/Distances.md": {
       "isDirectory": false,
@@ -800,13 +800,13 @@
     "Cosmology/CMB.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 1707,
-      "pageCount": 5.69,
-      "characterCount": 12472,
-      "nonWhitespaceCharacterCount": 10651,
+      "wordCount": 1715,
+      "pageCount": 5.716666666666667,
+      "characterCount": 12524,
+      "nonWhitespaceCharacterCount": 10695,
       "createdDate": 1680567197176,
-      "modifiedDate": 1683309843906,
-      "sizeInBytes": 12472
+      "modifiedDate": 1683382865732,
+      "sizeInBytes": 12524
     },
     "Cosmology/Dark matter.md": {
       "isDirectory": false,
@@ -822,24 +822,24 @@
     "Cosmology/BBN.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 447,
-      "pageCount": 1.49,
-      "characterCount": 3210,
-      "nonWhitespaceCharacterCount": 2759,
+      "wordCount": 912,
+      "pageCount": 3.04,
+      "characterCount": 6221,
+      "nonWhitespaceCharacterCount": 5297,
       "createdDate": 1681106121872,
-      "modifiedDate": 1683213846291,
-      "sizeInBytes": 3214
+      "modifiedDate": 1683393618589,
+      "sizeInBytes": 6225
     },
     "Cosmology/Cosmology - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 6590,
-      "pageCount": 21.966666666666665,
-      "characterCount": 45482,
-      "nonWhitespaceCharacterCount": 38381,
+      "wordCount": 6730,
+      "pageCount": 22.433333333333334,
+      "characterCount": 46549,
+      "nonWhitespaceCharacterCount": 39307,
       "createdDate": 1677543451529,
-      "modifiedDate": 1683243838567,
-      "sizeInBytes": 45490
+      "modifiedDate": 1683393540572,
+      "sizeInBytes": 46557
     },
     "Cosmology/BAO.md": {
       "isDirectory": false,
@@ -937,19 +937,19 @@
       "characterCount": 3766,
       "nonWhitespaceCharacterCount": 3162,
       "createdDate": 1677540223691,
-      "modifiedDate": 1683303393754,
+      "modifiedDate": 1683415367613,
       "sizeInBytes": 3766
     },
     "Compact objects/Compact objects - Questions.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 9141,
-      "pageCount": 30.47,
-      "characterCount": 62952,
-      "nonWhitespaceCharacterCount": 53421,
+      "wordCount": 9146,
+      "pageCount": 30.486666666666668,
+      "characterCount": 63014,
+      "nonWhitespaceCharacterCount": 53478,
       "createdDate": 1677543456264,
-      "modifiedDate": 1682786838670,
-      "sizeInBytes": 62998
+      "modifiedDate": 1683412977617,
+      "sizeInBytes": 63060
     },
     "Compact objects/Accretion.md": {
       "isDirectory": false,

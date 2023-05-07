@@ -1,11 +1,14 @@
 Note: Good name is hard, some of these are telescopes. Surveys will go into "catalogs" but SDSS is a hard example there. 
 
+Heres the classic optocal telescope comparison
+![[Comparison_optical_telescope_primary_mirrors.svg.png]]
+
 ## NICER
 "Neutron star Interior Composition ExploreR". NASA [[Spectra#The electromagnetic spectrum|X-ray]] telescope on the ISS with $0.3- 12\,\pu{keV}$ coverage although best soft energies. Began taking data in 2018 with the primary goal of constraining the [[Neutron stars#Neutron star equation of state|NS EoS]]. 
 
 - Non-imaging telescope with high time resolution measures hot spots on NSs as they rotate into the Los and constrain the NS radius.
 - Also the hot spot locations indicate that NSs are not exact magnetic dipoles
-- Also great for [[AGN#AGN|AGN]], [[TDE|TDEs]], [[Binaries#X-ray binary|XRBs]], novae, like [[#SWIFT]] with fast response times.
+- Also great for [[AGN#AGN|AGN]], [[TDEs|TDEs]], [[Binaries#X-ray binary|XRBs]], novae, like [[#SWIFT]] with fast response times.
 
 
 ## SWIFT
@@ -51,7 +54,7 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched 
 
 
 ## EHT
-Observed [[AGN examples#Sagittarius A|Sag A*]] and M87 [[Black holes#Black hole|SMBHs]] using [[Methods#Long baseline interferometry|VLBI]] to get sub-arcsecond resolution.
+"Event horizon telescope". Observed [[AGN examples#Sagittarius A|Sag A*]] and M87 [[Black holes#Black hole|SMBHs]] using [[Methods#Long baseline interferometry|VLBI]] to get sub-arcsecond resolution.
 
 
 ## LIGO
@@ -99,7 +102,8 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|X-ray]] mission launched 
 ESA astrometry telescope (positions and velocities). [[Spectra#The electromagnetic spectrum|Near-UV]] to NIR wide band. Sits at [[Methods#Space-based detector orbits|L2]]
 
 
-## KECK
+## Keck
+Two telescopes with $10\,\pu{m}$ primary mirrors near the summit of Mauna Kea. [[Spectra#The electromagnetic spectrum|Optical]]. 
 
 
 ## VLT
@@ -109,6 +113,10 @@ ESA astrometry telescope (positions and velocities). [[Spectra#The electromagnet
 
 
 ## Gemini
+A pair of 8-meter telescopes located in Hawaii and Chile. They host [[Spectra#The electromagnetic spectrum|optical to MIR]] instruments. 
+
+Wide science goals, including distant [[Galaxies]], star and planet formation, [[Black holes]], [[Dark matter]], and exoplanet atmospheres. 
+
 
 
 ## LAMOST
@@ -127,6 +135,9 @@ $8.4\,\pu{m}$ ground based optical telescope in Chile, first light expected in 2
 
 
 ## Kepler
+Space telescope that was designed to see Earth-sized [[Exoplanets - Questions|exoplanets]] in [[Spectra#The electromagnetic spectrum|optical]] wavelengths. Earth-trailing heliocentric orbit. 
+
+By observing the brightness of over 150,000 stars in a single field of view, Kepler identified many transiting planets simultaneously. A "survey" of a small patch of sky.
 
 
 ## 30m telescope
@@ -237,6 +248,7 @@ Cosmological constraints on [[FLRW#Friedmann equation|Friedmann equation paramet
 - launched in 1977 to take advantage of a favorable alignment of the planets during the late 1970s
 - designated officially to study just the planetary systems of Jupiter and Saturn, the space probes were able to continue their mission into the outer solar system, and they are expected to push through the heliosheath in deep space. Voyager 1 is furthest manmade object from Earth
 - the trajectories of the two spacecraft have been used to place limits on the existence of any hypothetical trans-Neptunian planets
+- Voyager 1 about $160\,\pu{AU}$ from Earth now
 
 
 ## COBE
