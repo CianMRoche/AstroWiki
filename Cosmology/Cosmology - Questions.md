@@ -15,7 +15,7 @@ What experiments can do this?
 - [[Observatories#HERA|HERA]]. Can allow us to study first stars and epoch of reionization. Will place limits on 21cm power spectrum and thus our understanding of how ionized bubbled form and evolve. More robust against astrophysical foreground, but still need accurate foreground models in all cases to see any signal at all
 - [[Observatories#MWA|MWA]] and [[Observatories#SKA|SKA]] similar.
 
-For all these, the astrophysical foreground (eg [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron]] from galactic sources like jets in [[Binaries#X-ray binary|XRBs]] and [[AGN]], [[Supernovae#Supernova|Sne]] remnants, [[Nebulae#Pulsar wind nebula|pulsar wind nebulae]], galactic [[Interstellar medium|ISM]] and [[GRBs]]) is orders of manitude bigger than the cosmological signal, makes for very, very hard post-processing. Haochen Wang here at MKI does this.
+For all these, the astrophysical foreground (eg [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron]] from galactic sources like jets in [[Binaries#X-ray binary|XRBs]] and [[AGN]], [[Supernovae#Supernova|Sne]] remnants, [[Nebulae#Pulsar wind nebula|pulsar wind nebulae]], galactic [[ISM|ISM]] and [[GRBs]]) is orders of manitude bigger than the cosmological signal, makes for very, very hard post-processing. Haochen Wang here at MKI does this.
 
 
 ## 127
@@ -83,8 +83,8 @@ Explaining the <mark class="hltr-pink">secondary anisotropies</mark>:
 2. [[Scattering#Thomson scattering|Thomson scattering]] (isotropic and scale-independent)
 3. [[CMB#SZ effect|SZ effect]] 
 4. [[Lensing]]
-   Large scale structure can lens the CMB
-5. Late-time integrated Sachs–Wolfe effect -  dark energy?
+   Large scale structure can lens the CMB, which has the effect of mixing E and B mode polarizations on the sky. 
+5. Late-time integrated Sachs–Wolfe effect -  informs expansion of universe and thus $\Omega_\Lambda$ 
 
 Theres also the [[CMB#CMB Polarization|CMB polarization]] signal.
 
@@ -372,7 +372,7 @@ We have measured $\Omega_b \simeq 0.05$ and $\Omega_M \simeq 0.3$, so about 18% 
    ![[BBN.png|300]]
 
 **Where are the bulk of the baryons in our Universe?**
-- If we add up all the baryons we see in [[Stars - Questions|stars]], [[Galaxies]], the [[Interstellar medium|ISM]], [[Cluster media#ICM|ICM]] etc, we only get $\sim 50\%$ of the baryons we'd expect from measurements of the [[CMB]] and [[BBN]]. This is the "missing baryon problem"
+- If we add up all the baryons we see in [[Stars - Questions|stars]], [[Galaxies]], the [[ISM|ISM]], [[Cluster media#ICM|ICM]] etc, we only get $\sim 50\%$ of the baryons we'd expect from measurements of the [[CMB]] and [[BBN]]. This is the "missing baryon problem"
 - Solution is that half the baryons are in a warm-hot ($10^5-10^7\,\pu{K}$) intrgalactic medium ("WHIM") along cosmic filaments. Have recently observed this medium along the line of sight to distant quasars via the SZ-effect.
 
 ![[missing_baryon_problem.png|400]]

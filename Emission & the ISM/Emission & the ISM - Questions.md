@@ -1,6 +1,6 @@
 ## 72
 **Discuss the various "phases" of gas in the interstellar medium. Are these phases in pressure equilibrium?**
-Phases are summarized in [[Interstellar medium#ISM|this table]].
+Phases are summarized in [[ISM#ISM|this table]].
 
 They are in pressure equilibrium if we assume no magnetic fields exist and if $n\propto T^{-1}$ for all phases (since that would imply $P$ is constant across phases by ideal gas law). Looking at the table above, we see that is approximately true, and so the phases are in pressure equilibrium.
 
@@ -9,7 +9,7 @@ Note that if they werent, pressure balance would cause the phases to blend into 
 
 ## 73
 **What is an HII region?**
-A dense, hot region of ionized Hydrogen ($\ce{H\,II}$ = $\ce{H^+} \neq \ce{H_2} =$ [[Spectra#Molecular hydrogen|molecular H]]) found around hot, young stars ([[Spectra#Harvard Spectral Classification|O and B]] stars). Properties also listed in [[Interstellar medium#ISM|this table]]. Ionized by the young star. Can be observed via the [[Spectra#H-alpha|H-alpha]] line.
+A dense, hot region of ionized Hydrogen ($\ce{H\,II}$ = $\ce{H^+} \neq \ce{H_2} =$ [[Spectra#Molecular hydrogen|molecular H]]) found around hot, young stars ([[Spectra#Harvard Spectral Classification|O and B]] stars). Properties also listed in [[ISM#ISM|this table]]. Ionized by the young star. Can be observed via the [[Spectra#H-alpha|H-alpha]] line.
 
 In galaxies, HII regions are found in:
 - the arms of spiral galaxies
@@ -37,7 +37,7 @@ See [[Bremsstrahlung]] (and [[Scattering#Free-free emission|free-free emission]]
 **From what kinds of astrophysical objects is such radiation observed?**
 X-ray Sources:
 - [[Galaxy clusters#Galaxy cluster|Galaxy clusters]] and the [[Cluster media#ICM|ICM]] at $T\sim 10^{7-8}\,\pu{K}$
-- Coronal gas in the [[Interstellar medium#ISM|ISM]] $T\sim 10^{6}\,\pu{K}$
+- Coronal gas in the [[ISM#ISM|ISM]] $T\sim 10^{6}\,\pu{K}$
 - [[The Sun#The Sun|Solar]] corona $T\sim 10^{6}\,\pu{K}$
 
 Also see [[#73|HII regions]] in optical to radio bremsstrahlung.
@@ -51,7 +51,7 @@ See [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron radiation]].
 - Jets in [[Binaries#X-ray binary|XRBs]] and [[AGN#AGN|AGN]] (apprently seen in radio?)
 - [[Supernovae#Supernova|SNe]] remnants
 - [[Pulsars#Pulsar|Pulsar]] wind [[Nebulae]]
-- Galactic [[Interstellar medium#ISM|ISM]] 
+- Galactic [[ISM#ISM|ISM]] 
 - Sunspots
 - [[GRBs#GRB|GRBs]] 
 
@@ -160,10 +160,10 @@ TL;DR it's the energy and redshift-dependent [[Optical depth#Mean free path|mean
 
 ## 83
 **Why is the gas in the interstellar medium largely transparent at visible wavelengths? How does the transparency of the ISM depend on wavelength in the optical and near-IR, and why?**
-The [[Optical depth#Opacity|opacity]] of the [[Interstellar medium#ISM|ISM]] has many sources, ignoring emissions from the ISM we have
+The [[Optical depth#Opacity|opacity]] of the [[ISM#ISM|ISM]] has many sources, ignoring emissions from the ISM we have
 - [[Scattering#Bound-bound absorption|Bound-bound absorption]] which leads to absorption lines at specific energies, but does not attenuate the whole continuum
 - [[Scattering#Bound-free absorption|Bound-free absorption]] from the ionization of primarily hydogen, leading to absorption lines at $\sim 13.6\,\pu{eV}$ which is in the [[Spectra#The electromagnetic spectrum|UV]] 
-- [[Scattering#Free-free absorption|Free-free absorption]] and [[Scattering#Electron scattering|electron scattering]] which both require ionized gas to occur (such as that in the hot coronal [[Interstellar medium#ISM|ISM]] component) but the density of this component is too low to contribute significantly to opacity.
+- [[Scattering#Free-free absorption|Free-free absorption]] and [[Scattering#Electron scattering|electron scattering]] which both require ionized gas to occur (such as that in the hot coronal [[ISM#ISM|ISM]] component) but the density of this component is too low to contribute significantly to opacity.
 - $\rm{H}^-$ opacity (when a Hydrogen picks up another electron to fill its 1s orbital) requires neutral $\rm{H}$ and free electrons, which can happen with partially ionized metals in a solar atmosphere.
 
 But overall not much opacity in the ISM, except for [[Dust#Dust|dust]] which absorbs in the optical/UV and re-emits thermally in the IR. The wavelength dependence of the optical depth is (from Megans notes, actually unclear if $\lambda$ increases to the left or right, or if the labels are in the right places).
@@ -258,7 +258,7 @@ Detection mechanisms: lines in spectra
 - Rotational transitions which produce emission/absorption lines, mostly in [[Spectra#The electromagnetic spectrum|microwave/radio]]. Dipole transitions are low-energy.
 - Vibrational transitions which do the same, mostly in [[Spectra#The electromagnetic spectrum|mid to far-IR]]  
 
-1. $\ce{H_2}$ ([[Spectra#Molecular hydrogen|molecular hydrogen]], vibrational) is the most abundant molecule, but is symmetric and has no rotational modes and doesnt have emission/absorption lines  in [[Spectra#The electromagnetic spectrum|optical or radio]] at the typical temperatures in the [[Interstellar medium#ISM|ISM]] where it is found, so we almost never detect this directly. It does have lines in the UV, which have been observed by a spectrograph on a rocket. Instead, the ratio between $\ce{CO}$ luminosity and $\ce{H_2}$ mass is thought to be constant, so we infer its presence from the next molecule:
+1. $\ce{H_2}$ ([[Spectra#Molecular hydrogen|molecular hydrogen]], vibrational) is the most abundant molecule, but is symmetric and has no rotational modes and doesnt have emission/absorption lines  in [[Spectra#The electromagnetic spectrum|optical or radio]] at the typical temperatures in the [[ISM#ISM|ISM]] where it is found, so we almost never detect this directly. It does have lines in the UV, which have been observed by a spectrograph on a rocket. Instead, the ratio between $\ce{CO}$ luminosity and $\ce{H_2}$ mass is thought to be constant, so we infer its presence from the next molecule:
 2. $\ce{CO}$ (carbon monoxide, rotational transitions) is next most abundant by a factor of $\sim 10^4$. Because of its asymmetry, this polar molecule produces far brighter spectral lines than the hydrogen molecule, making $\ce{CO}$ much easier to detect. It is now used as a tracer of interstellar gas in [[Galaxies]]
 3. $\ce{CH_4}$ (methane, vibrational)
 4. $\ce{NH_3}$ (ammonia, vibrational)

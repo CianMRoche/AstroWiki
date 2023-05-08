@@ -58,11 +58,11 @@ The scale of the Solar system and heliopause is as follows:
 Note that the [[The Sun#Heliosphere|heliosphere]] is **not spherical** and so the question requires some heavy approximating
 
 We need to balance the pressure from the solar wind with the thermal pressure of the ISM. 
-1. The solar wind in the heliosphere can be viewed as exerting a [[Definitions - The Solar System#Ram pressure|ram pressure]] on the [[Interstellar medium|ISM]] as $$P_{\rm{ram}} = \rho_{sw}(R) v^2$$ where $R$ labels the distance from [[The Sun#The Sun|the Sun]] to heliopause, $v$ is the relative velocity of the two bodies and we use the subscript $sw$ for the solar wind. 
+1. The solar wind in the heliosphere can be viewed as exerting a [[Definitions - The Solar System#Ram pressure|ram pressure]] on the [[ISM|ISM]] as $$P_{\rm{ram}} = \rho_{sw}(R) v^2$$ where $R$ labels the distance from [[The Sun#The Sun|the Sun]] to heliopause, $v$ is the relative velocity of the two bodies and we use the subscript $sw$ for the solar wind. 
 	- We can approximate $v$ by assuming the speed of the solar wind is about the escape velocity from the surface of the Sun, and that it maintains a constant speed until reaching the Heliopause. We also treat the ISM as at rest. The escape velocity from the surface of the Sun is$$v\sim v_{\rm{esc},\odot} = \sqrt{\frac{2GM_\odot}{R_\odot}} \simeq 600\,\pu{km s^{-1}}$$
 	- We can estimate $\rho_{sw}(r)$ using $\rho_{sw}(R_{\bigoplus}) \simeq n(R_{\bigoplus})\, \mu \, m_H \simeq (6\times10^6 \pu{m^{-3}})\, \frac{1}{2} \, (1.6\times 10^{-27}\,\pu{kg}) \simeq 10^{-21}$ (in SI units) where the number density at 1[[Units#AU|AU]] is determined by ground-based measurements, $\mu$ is the [[Mean molecular weight#Mean molecular weight|mean molecular weight ]] (here for an ionized hydrogen gas, so $\mu = \frac{1}{2}$) and the hydrogen mass is about 1 [[Units#amu|amu]]. We extend this value to any $r$ by mass continuity for a spherically symmetric density $\rho$, namely: $\frac{dM}{dr} = 4\pi r^2 \rho(r) = \text{const}$ because the mass integrated over a sphere at any radius should be equal for this simple flow. As a result, we have$$\rho_{sw}(R) = \left(\frac{R_\bigoplus}{R}\right)^2 \rho_{sw}(R_{\bigoplus})$$
 2. The thermal pressure of the ISM can be modelled as an ideal gas with pressure $$P_{ism} = n_{ism} k T_{ism}$$ 
-	- $n_{ism} \simeq 10^4\,\pu{cm^{-3}}$ in a molecular cloud from which the sun presumably formed, see [[Interstellar medium|ISM]] components)
+	- $n_{ism} \simeq 10^4\,\pu{cm^{-3}}$ in a molecular cloud from which the sun presumably formed, see [[ISM|ISM]] components)
 	- $T_{ism} \simeq 10\,\pu{K}$ in the same way
 	- $k = 1.38\times 10^{-23}\,\pu{m^2 kg s^{-2} K^{-1}}$ is the Boltzmann constant
 
@@ -79,7 +79,7 @@ Essentially the inverse of [[Binaries#Tidal migration|tidal migration]]; since t
 Moon is receding at $~\sim 3-4\,\pu{cm yr^{-1}}$ 
 Earth's rotation period is slowing at $\sim 1\,\pu{ms century^{-1}}$ 
 
-Eventually Earth-Moon orbit will be synchronous and the orbital period will be the same as Earth's rotation period. See also [[Exoplanets - Questions#11]] 
+Eventually Earth-Moon orbit will be synchronous and the orbital period will be the same as Earth's rotation period. See also [[Exoplanets - Questions#11|this question]]. 
 
 From Megan's notes:
 ![[Earth_Moon_tidal_interaction.png]]

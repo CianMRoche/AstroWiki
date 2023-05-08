@@ -16,6 +16,8 @@ Classified based on observational characteristics, not necessarily the exact nat
 
 ![[sne_observational_chars.png]]
 
+![[sne_classification_scheme.png|400]]
+
 Note that "core collapse" is somewhat reductive and there are many potential causes for collapse which depend on progenitor mass and metallicity. See core collapse table [here](https://en.wikipedia.org/wiki/Supernova).
 
 

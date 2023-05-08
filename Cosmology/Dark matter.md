@@ -37,13 +37,10 @@ We have also constrained its interaction cross-section and mass, thhough the pos
 
 
 ## Primordial black holes
-Dark matter candidate, an ~[[Definitions - The Solar System#Asteroid|asteroid]]-sized black hole formed not by baryonic / [[Stellar evolution]] means.
-
-
+Dark matter candidate, an ~[[Definitions - The Solar System#Asteroid|asteroid]]-sized black hole formed not by baryonic / stellar evolution means.
 
 
 ## Freeze-in
-
 
 
 ## Fuzzy dark matter

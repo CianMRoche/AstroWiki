@@ -1,5 +1,5 @@
 ## Nebula
-A luminescent, diffuse part of the [[Interstellar medium|interstellar medium]], often star-forming regions. 
+A luminescent, diffuse part of the [[ISM|interstellar medium]], often star-forming regions. 
 
 **Consist of**: 
 - ionized, neutral or [[Spectra#Molecular hydrogen|molecular hydrogen]] 

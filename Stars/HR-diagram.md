@@ -5,7 +5,7 @@ This diagram demonstrates the clustering between the [[HarvardSpectralClassifica
 
 
 ## Pre-main sequence
-When the protostar becomes optically thick and approaches [[#Main sequence]] evolution, happens at
+When the optically thick protostar approaches [[#Main sequence]] evolution, happens at
 - $R\sim 100 R_\odot$ 
 - $T\sim 10^{3.5}\,\pu{K}$
 
@@ -19,9 +19,12 @@ In Phase 1 the protostar is convective and transitions to Phase 2 as the gas is 
 
 
 ## Hayashi track
-Boundary between allowed and forbidden regions of [[HR-diagram#Hertzsprung-Russel diagram|HR diagram]] for stars in [[Stellar structure equations#Hydrostatic equilibrium|hydrostatic equilibrium]]. Look at the limiting case of a fully convective star, and a [[Polytropes#Polytrope|polytropic]] equation of state (so $\gamma=1+2/3=5/3$). 
+Hayashi limit (on which this track lies) is boundary between allowed and forbidden regions of [[HR-diagram#Hertzsprung-Russel diagram|HR diagram]] for stars in [[Stellar structure equations#Hydrostatic equilibrium|hydrostatic equilibrium]]. Look at the limiting case of a fully convective star, and a [[Polytropes#Polytrope|polytropic]] equation of state (so $\gamma=1+2/3=5/3$). 
 
 ![[hayashi.png]]
+
+The $T$ here is the effective blackbody temerature we would see. The core has ionized hydrogen but the envelope doesnt, so the ions go out and make $\ce{H^-}$ in the envelope which causes an increase in opacity. Even though the luminosity increases, the effective temperature remains low until the star gets hot enough to also ionize that $\ce{H^-}$ at which point the temperature rises quickly (the [[#Henyey track]]).
+
 Star leaves Hayashi track after it contracts on [[Timescales#Kelvin-Helmholtz Timescale|thermal timescale]], central density increases, ionization increases and [[Optical depth#Opacity|opacity]] decreases (because neutral hydrogen does a lot of absorbing and ionized hydrogen just does a lot of scattering? see [[Scattering]]). At this point we move off the Hayashi track.
 
 
@@ -39,11 +42,11 @@ We often refer to the time since ZAMS as the age of the star, although prior to 
 
 
 ## Main sequence
-A region that can be identified on the [[#Hertzsprung-Russel diagram]] which comprises ~90% of known stars, including [[The Sun]], containing stars which are burning Hydrogen to fuse Helium. This helium builds up in the core but is not fused into carbon yet, until core reaches $\sim 10^{8}\,\pu{K}$. Core is isothermal so 
+A region that can be identified on the [[#Hertzsprung-Russel diagram]] which comprises ~90% of known stars, including [[The Sun]], containing stars which are burning Hydrogen to fuse Helium. This helium builds up in the core but is not fused into carbon yet, until core reaches $\sim 10^{8}\,\pu{K}$. 
 
 
 ## Subgiant branch
-
+Star 
 
 
 ## RGB

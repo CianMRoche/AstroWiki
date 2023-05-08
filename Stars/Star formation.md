@@ -3,7 +3,7 @@ AKA "stellar nursery" if stars are forming. A cloud of mostly [[Spectra#Molecula
 
 Very filamentary and chaotic-looking structure, which arises from a combination of gravitational collapse and turbulence (large scale).
 
-These comprise less than 1% of the [[Interstellar medium#ISM|ISM]]. 
+These comprise less than 1% of the [[ISM#ISM|ISM]]. 
 
 
 ## Gravitational binding energy

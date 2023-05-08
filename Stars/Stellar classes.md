@@ -11,7 +11,9 @@ A <mark class="hltr-cyan">low mass, evolved star</mark>, hot enough to produce H
 
 
 ## Blue straggler
-Michael told me to look this one up. Havent done that yet.
+Star that appears to be younger and more massive than the other stars in its [[Clustering|cluster]] or [[Galaxies|galaxy]]. They are called "blue" stragglers because they are hotter and bluer in color than other stars of similar age.
+
+Blue stragglers are thought to form through stellar mergers, but they challenge our understanding of stellar evolution. Since blue stragglers appear to be younger and more massive than other stars in their surroundings, they should have already evolved off the [[HR-diagram#Main sequence|main sequence]] and become red giants.
 
 
 ## Protostar

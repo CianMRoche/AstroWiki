@@ -74,11 +74,13 @@ A ~Jupiter sized planet very close to host star. [[Exoplanet examples#51 Pegasi 
 - $a \lesssim 0.05\,\pu{AU}$
 - $P \lesssim 10\,\pu{days}$
 
-One possible explanation for existence is formation of planets far out and then [[Binaries#Tidal migration|tidal migration]]. Another possible explanation is **disk migration**, and finally **in-situ formation**. Disk migration is a migration which happens when the hot protoplanetary disk still exists, and in-situ is the direct formation near stars, however this has been shown to be very hard (see below).
+One possible explanation for existence is formation of planets far out and then [[Binaries#Tidal migration|tidal migration]]. Another possible explanation is **disk migration**, and finally **in-situ formation**. Disk migration is a migration which happens when the hot protoplanetary disk still exists, and in-situ is the direct formation near stars, however this has been shown to be very hard (see below). Disk migration can happen 
+- quickly, via scattering, and this can be detected as a large obliquity in the orbit
+- Slowly, via loss of angular momentum through friction with the protoplanetary disk (as in the alpha disk model)
 
 Many detected hot Jupiters (see [[#11]]) have high obliquity, suggesting their orbit may be due to dynamical interaction rather than simple orbit migration.
 
-The proposed steps for the tidal migration scenario are:
+The proposed steps for the fast tidal migration scenario are:
 1. Large planet formed far out 
 2. Orbit becomes eccentric via scattering from other planets, secular chaos in many-body systems or Lidov-Kozai oscillations in binary star systems
 3. Tidal forces during pericentric passage shrink and circularize the orbit of the planet 
@@ -153,7 +155,7 @@ populations of planets associated with each method. Roughly how many planets hav
 4. For the atmosphere, look for absorption features in the spectrum during a transit.
 5. Note that in the atmospheres of hot Jupiters, things like saphires and pure carbon clouds can form and their imprint on the spectra is to damp the whole thing or cause broad absorption features in the IR 
 
-We can also measure the oblateness of an exoplanet if we have really high-quality transit data (eg from [[Observatories#JWST|JWST]]) such that the oblateness of the planet can be inferred fro the precise shape of the ingress and egress, ie start and finish, of the transit dip (some tentative measurements, but nothing too convincing yet, eg David Berardo here at MKI).
+We can also measure the oblateness of an exoplanet if we have really high-quality transit data (eg from [[Observatories#JWST|JWST]]) such that the oblateness of the planet can be inferred fro the precise shape of the ingress and egress, ie start and finish, of the transit dip (some tentative measurements, but nothing too convincing yet, source: David Berardo here at MKI).
 
 **What have we learned about exoplanet interiors and atmospheres from these observations?**
 - High level of diversity in exoplanet composition and properties
@@ -168,7 +170,7 @@ Note: Trappist-1 (solar system-like system with $\gtrsim 7$ planets) recently ha
 
 1. From [[#8]], half-amplitude of the radial velocity anomaly is $v_{*,r} \propto M_*^{-2/3}$ so if the star is smaller, radial velocity anomaly is larger.
 2. The "habitable zone" is closer to the star than for Sun-Like stars (Sun is G2V star), since the luminosity is lower. For M-dwarfs this zone is at about $0.1\,\pu{AU}$. Since both radial velocity and transit methods are biased toward stars in close orbits, we expect M-dwarfs to be promising candidates to find habitable-zone planets.
-3. They are the most common type of star in the Milky Way.
+3. They are the most common type of star in the Milky Way (~75% of all stars in MW).
 
 **Why arent they likely to be habitable?**
 M-dwarfs have a lot of stellar activity -- flares and strong magnetic fields, so nearby planets can lose atmospheres and can be dangerous to life.

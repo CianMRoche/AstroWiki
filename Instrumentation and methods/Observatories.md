@@ -332,6 +332,9 @@ A space observatory being used to perform [[Spectra#The electromagnetic spectrum
 "CMB stage 4". Next-generation ground-based [[CMB]] experiment. Telescopes equipped with highly sensitive superconducting cameras operating at the South Pole, the high Chilean Atacama plateau, and possibly northern hemisphere sites.
 
 Designed to cross critical thresholds in testing inflation, determining the number and masses of the neutrinos, constraining possible new light relic particles, providing precise constraints on the nature of dark energy, and testing general relativity on large scales.
+
+Has more frequency channels which allow one to discern between the kinetic [[CMB#SZ effect|SZ]] effect and contaminants like background quasars more easily.  
+
 ![[CMB_S4.jpg|400]]
 
 

@@ -62,7 +62,7 @@ Would look something like (Megan's notes)
 ![[alfven.png|300]]
 
 **Are magnetic fields important in the propagation of waves in the interstellar medium? In a star?**
-- [[Interstellar medium#ISM|ISM]]: Yes $\rightarrow$  mainly due to [[#91|Faraday rotation]] 
+- [[ISM#ISM|ISM]]: Yes $\rightarrow$  mainly due to [[#91|Faraday rotation]] 
 - Stars: Yes $\rightarrow$  Alfvén waves are primary mechanism for heating of stellar corona and accelerating stellar winds. Have also been seen in shockwaves in [[Supernovae#Supernova|SNe]] remnants.
 
 

@@ -66,6 +66,9 @@ Gravothermal collapse is an instability arising from negative heat capacity of s
 ## 22
 **Describe the various evolutionary phases of a low-mass (1 M☉) star and those of a high-mass (e.g. 12 M☉) star. Show the corresponding evolutionary tracks on an HR diagram.**
 
+First, a visual for the life cycles of stars which are born with various initial masses, though the exact connection to the below information is loose.
+![[stellarevolution.jpg]]
+
 A summary of the stellar phases is shown below, where evolution takes place from left to right.
 
 They also exhibit a common beginning, the [[Star formation]] stage, wherein a [[Star formation#Molecular cloud|molecular cloud]] collapses provided it is larger than the [[Jeans#Jeans mass|Jeans mass]] for that cloud.

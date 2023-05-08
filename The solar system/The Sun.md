@@ -11,11 +11,11 @@ The sun has a core, radiate and then covective zone. The region between the radi
 
 
 ## Heliopause
-The theoretical boundary where the Sun's solar wind is stopped by the [[Interstellar medium|ISM]]. Bounds the [[#Heliosphere]]. Location defined by pressure balance, at about $120\,\pu{AU}$ as measured by voyager.
+The theoretical boundary where the Sun's solar wind is stopped by the [[ISM|ISM]]. Bounds the [[#Heliosphere]]. Location defined by pressure balance, at about $120\,\pu{AU}$ as measured by voyager.
 
 
 ## Heliosphere
-The wake of the solar wind through the [[Interstellar medium|ISM]] formed by the movement of the Sun and solar wind. The "termination shock" within is the point where the solar winds slows to subsonic speed relative to the motion of the Sun
+The wake of the solar wind through the [[ISM|ISM]] formed by the movement of the Sun and solar wind. The "termination shock" within is the point where the solar winds slows to subsonic speed relative to the motion of the Sun
 ![[heliosphere.png]]
 
 

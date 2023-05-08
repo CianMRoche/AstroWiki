@@ -147,7 +147,7 @@ For BH of mass $M$, orbital frequency (via [[Binaries#Circular motion|circular m
 
 ## 47
 **What is the Eddington limit and how is it manifested in (i) ordinary stars? (ii) accreting X-ray sources?**
-Eddington limit is the maximum [[Units#Luminosity|luminosity]] a body of mass $M$ can have when gravity and radiation pressure are balanced. To derive the limit, assume all the matter is ionized Hydrogen but for now write the density as $\rho$, and consider the Euler equation in [[Stellar structure equations#Hydrostatic equilibrium|HSE]]: $$\frac{dP_g}{dr} = -\frac{GM}{r^2}\rho$$Then consider the radiation pressure (the derivation seems fairly involved, skipping)$$\frac{dP_{rad}}{dr} = -\frac{\kappa\rho}{c}F = -\frac{\sigma_T\rho}{m_p c} \frac{L}{4\pi r^2}$$where $F$ is the [[Units#Flux|flux]], $\kappa$ is the [[Optical depth#Opacity|opacity]] (dimensions cross section per mass) and we have approximated that for pure ionized Hydrogen, the opacity comes entirely from [[Scattering#Thomson scattering|Thomson scattering]] so that $\kappa = \sigma_T / m_p$ which we assume to be constant. Equating the two, we find in terms of [[The Sun#The Sun|solar]] parameters $$L_{Edd} = \frac{4\pi G M c}{\kappa} = \frac{4\pi G M m_p c}{\sigma_T} = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot$$Though this assumes opacity of the Sun, no doing so adds a factor of $(\kappa / \kappa_\odot)^{-1}$ to the RHS
+Eddington limit is the maximum [[Units#Luminosity|luminosity]] a body of mass $M$ can have when gravity and radiation pressure are balanced. To derive the limit, assume all the matter is ionized Hydrogen but for now write the density as $\rho$, and consider the Euler equation in [[Stellar structure equations#Hydrostatic equilibrium|HSE]]: $$\frac{dP_g}{dr} = -\frac{GM}{r^2}\rho$$Then consider the radiation pressure (the derivation seems fairly involved, skipping)$$\frac{dP_{rad}}{dr} = -\frac{\kappa\rho}{c}F = -\frac{\sigma_T\rho}{m_p c} \frac{L}{4\pi r^2}$$where $F$ is the [[Units#Flux|flux]], $\kappa$ is the [[Optical depth#Opacity|opacity]] (dimensions cross section per mass) and we have approximated that for pure ionized Hydrogen, the opacity comes entirely from [[Scattering#Thomson scattering|Thomson scattering]] so that $\kappa = \sigma_T / m_p$ which we assume to be constant. Equating the two, we find in terms of [[The Sun#The Sun|solar]] parameters $$L_{Edd} = \frac{4\pi G M c}{\kappa} = \frac{4\pi G M m_p c}{\sigma_T} = 3.2\times 10^4 \left(\frac{M}{M_\odot}\right)L_\odot$$Though this assumes opacity of the Sun, not doing so adds a factor of $(\kappa / \kappa_\odot)^{-1}$ to the RHS
 
 **In ordinary stars**:
 When a star exceeds Eddington limit, radiation pressure drives significant stellar winds in the outer layers, leading to significant mass loss.
@@ -256,7 +256,7 @@ Basic picture is below, from Geoffrey's notes
 
 **(1) Free expansion phase**:  |  $R\propto t$  |  lasts $\sim 100-200$ years  |  $v$ constant 
 - When [[Supernovae#Supernova|SN]] first explodes, material ejected at supersonic speeds
-- [[Interstellar medium#ISM|ISM]] pressure is negligible, no deceleration $\implies v=\text{const} \implies R = vt \propto t$ 
+- [[ISM#ISM|ISM]] pressure is negligible, no deceleration $\implies v=\text{const} \implies R = vt \propto t$ 
 - Shock waves sweeps up and collects material from the ISM, eventually slowing down
 - Expansion continues until the mass collected from ISM is about equal to the initial mass of the ejecta
 - Ejected gas is [[Optical depth#Optical thickness|optically thick]] and kept hot by radioactive decay of isotopes created by the supernova.
@@ -488,7 +488,7 @@ A [[GRBs#GRB|GRB]] is released from some compact object. The GRB leaves an "afte
 **Fireball model**:
 - Jet shocks surrounding medium + sweeps up material as it expands
 - The gamma-ray photons come from shocks within the jet itself ("internal shocks"), namely by [[Magnetobremsstrahlung|synchrotron]] radiation from shocked and accelerated electrons which is further [[Scattering#Inverse-Compton scattering|inverse-Compton]] scattered to higher energies. The "fireball" is opaque and ultrarelativistic at early times, but expands and eventually becomes transparent to gamma-rays in the ultra-hot plasma
-- Eventually jet collides with and shocks [[Interstellar medium|ISM]] ("external shocks"). Kinetic energy is dissipated here, producing lower-energy emission at later times, giving the broad spectrum observed in the afterglow.
+- Eventually jet collides with and shocks [[ISM|ISM]] ("external shocks"). Kinetic energy is dissipated here, producing lower-energy emission at later times, giving the broad spectrum observed in the afterglow.
 - Flux may also decrease if the shocked front spreads to an area larger than the field of view of our observation.
 
 ![[fireball.png]]
