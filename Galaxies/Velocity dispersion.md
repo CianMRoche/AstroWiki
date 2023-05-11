@@ -17,10 +17,14 @@ Putting these estimates into the virial theorem and rearranging, we have $$M = \
 
 
 ## M-sigma relation
-A mass-velocity dispersion relation between the mass of [[Black holes#Black hole|supermassive black holes]] and the speeds of stars in the [[Galaxies#Galaxy|galactic]] bulge. One version was called "the [[#Faber-Jackson relation]] for black holes". Relationship is $$M\propto \sigma^n$$and measurements place $n$ at about 4. 
-
+A mass-velocity dispersion relation between the mass of [[Black holes#Black hole|supermassive black holes]] and the speeds of stars in the [[Galaxies#Galaxy|galactic]] bulge. One version was called "the [[#Faber-Jackson relation]] for black holes". Relationship is $$M\propto \sigma^n$$and measurements place $n$ at about 5 (originally thought to be closer to 4). Summarized as $$\frac{M}{M_\odot} \simeq2\times 10^8 \left(\frac{\sigma}{200\,\pu{km s^{-1}}}\right)^{5.1}$$
 - Predictive power important since measuring black hole masses is hard and velocity dispersions arent
 - Implies galaxies and their SMBH coevolve. Measurements of $\sigma$ come from well outside the sphere of influence of the SMBH, so the galaxy and BH must coevolve
+
+Before the M–σ relation was discovered in 2000, a large discrepancy existed between black hole masses derived using three techniques: 
+- direct, or dynamical, measurements based on the motion of stars or gas near the black hole seemed to give masses that averaged ≈1% of the bulge mass (the "Magorrian relation"). 
+- Two other techniques—[[Methods#Reverberation mapping|reverberation mapping]] in [[AGN]], and the Sołtan argument, which computes the cosmological density in black holes needed to explain the quasar light—both gave a mean value of $M/M_{bulge}$ that was a factor ≈10 smaller than implied by the Magorrian relation. 
+The M–σ relation resolved this discrepancy by showing that most of the direct black hole masses published prior to 2000 were significantly in error, presumably because the data on which they were based were of insufficient quality to resolve the black hole's dynamical sphere of influence. The mean ratio of black hole mass to bulge mass in big early-type galaxies is now believed to be approximately 1 : 200, and increasingly smaller as one moves to less massive galaxies. 
 
 
 ## Faber-Jackson relation

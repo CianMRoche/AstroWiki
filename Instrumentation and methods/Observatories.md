@@ -83,7 +83,7 @@ NASA's flagship [[Spectra#The electromagnetic spectrum|IR]] instrument launched 
 ## TESS
 "Transiting Exoplanet Survey Satellite". All-sky photometric survey searching for transiting exoplanets and other transients like [[Binaries#Cataclysmic variable|CVs]] and maybe even [[Supernovae#Supernova|SNe]]. 
 
-Stares at one patch of the sky for a month getting an observation every 10 mins. Observes in red side of [[Spectra#The electromagnetic spectrum|optical]] $600\,\pu{nm} -  1\,\pu{\mu m}$ bandpass (single filter).
+Stares at one patch of the sky for a month getting an observation every 10 mins. Observes each of its target fields for about 27 days, which is called a sector, does about 13 sectors per year. Observes in red side of [[Spectra#The electromagnetic spectrum|optical]] $600\,\pu{nm} -  1\,\pu{\mu m}$ bandpass (single filter).
 
 George Ricker here at MKI is the PI. 
 

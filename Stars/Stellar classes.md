@@ -96,3 +96,11 @@ After the hydrogen-fusing lifetime of a [[Spectra#Main sequence|MS]] star of ~ l
 3. Planets around WDs (Andrew Vanderburg here at MKI)
 4. Binary WD physics (Kevin Burdge here at MKI)
 5. Details of type 1a supernova progenitors
+
+
+## Wolf-Rayet star
+Very hot $\sim 20,000-200,000\,\pu{K}$ and very strong stellar winds, the evolved descendants of very massive stars that have blown off abut half their mass and now emit highly-ionizing radiation.
+- Strong emission lines in their spectra, which are produced by ionized elements in the star's outer layers. These emission lines are often broad and asymmetric, and can be used to study the properties of the star's stellar wind.
+- Formed at $\sim 40-50\,M_\odot$ and blow off about half their mass.
+
+![[wolf_rayet.jpg|400]]

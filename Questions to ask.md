@@ -6,4 +6,5 @@ Here lives questions that need to be asked in order to make notes better
 - Where does the 1.68 come from in press schechter theory
 - Why do we measure things close to the big bang if we want to constrain the baryon fraction $\Omega_b$ now (redshift 0) [[Cosmology - Questions#144]]
 - Why isnt the first cmb power spectrum peak a rarefaction
+- How to measure masses of all sizes of galaxy
 

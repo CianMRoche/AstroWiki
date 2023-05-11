@@ -62,8 +62,8 @@ The below (from Megan's notes) described the approximate mass ranges for [[Galax
 **Describe a few ways in which we measure the masses of these different types of systems.**
 1. [[Galaxy clusters#Galaxy cluster|Galaxy clusters]]
    - [[Lensing#Weak lensing|Weak lensing]] for total mass measurements (can strong lensing also constrain mass?)
-   - Scaling relations from X-ray measurements (see Geoffrey's notes 165) or SZ-effect measurements
-   - Assume [[Stellar structure equations#Hydrostatic equilibrium|hydrostatic equilibrium]] of [[Cluster media#ICM|ICM]] and obtain mass from measurements of density and temperature (both from X-ray). If we have density why cant we get mass?
+   - Scaling relations from X-ray measurements (see Geoffrey's notes 165) or [[CMB#SZ effect|SZ-effect]] measurements
+   - Assume [[Stellar structure equations#Hydrostatic equilibrium|hydrostatic equilibrium]] of [[Cluster media#ICM|ICM]] and obtain mass from measurements of density and temperature (both from X-ray). If we have density why cant we get mass? Maybe it means pressure profile.
 
 2. [[Galaxies#Galaxy|Galaxies]]
    - Rotation curves (see [[#101|Q101]])
@@ -351,7 +351,7 @@ As mentioned in [[#108|Q108]] it inhibits star formation in large galaxies by he
 ## 124
 **Describe the following relations and what they are useful for:**
 **(i) Kennicutt-Schmidt**
-The statement that the mass column density (mass per area) for star formation (rate?) depends on the mass column density of gas as $$\Sigma_{SFR} \propto (\Sigma_{gas})^n$$but apparently the LHS is also per unit time? This one is a mess. $n$ measured to be $2\pm 1$ ?
+The statement that the mass column density (mass per area) for star formation (rate?) depends on the mass column density of gas as $$\Sigma_{SFR} \propto (\Sigma_{gas})^n$$but apparently the LHS is also per unit time? This one is unclear. $n$ initially inferred to be $2\pm 1$, but has been narrowed since to 
 
 **(ii) M-sigma relation**
 See [[Velocity dispersion#M-sigma relation|M-sigma relation]]. 
@@ -375,7 +375,8 @@ We dont see as many small satellite [[Galaxies#Galaxy|galaxies]] as predicted by
 Resolution?
 - recently deep surveys ([[Catalogs#SDSS|SDSS]]) have found many more extremely faint dwarf galaxies (raising up the observations above)
 - [[Observatories#LSST|LSST]] is forecasted to improve this further
-- Nora Shipp here at MKI has demonstrated that the tension may be resolved by carefully acounting for detectability of sattelite dwarfs
+- Simulations like FIRE have demonstrated that careful modelling of baryonic physics in simulations actually resolves this tension
+- Nora Shipp here at MKI has demonstrated that the tension may be resolved by carefully acounting for detectability limits of sattelite dwarfs, and that in fact within error one may have "too many" sattelites of a Milky Way-like galaxy in FIRE when accounting for our lack of understanding of disruption rates in FIRE versus observations.
 - What remains is the question "what is suppressing star formation in small halos?". Feedback?
 
 **(ii) the core-cusp problem**

@@ -126,4 +126,10 @@ There are several types of **resonance** at play in the solar system, the two pr
 2. **Laplace resonance**:
    1:2:4 period ratio in 3-body orbiting systems. Other 3-body resonances are called "Laplace-like"
    
-   Example: Io, Europa and Ganymede moons of Jupiter
+   Example: Io (heated by tidal interactions), Europa and Ganymede moons of Jupiter
+
+
+## 7
+**How did the Greeks determine the size of the Earth and the distance to the Moon?**
+Stealing straight from Megan's notes because its an astro 1 problem
+![[greek.png]]

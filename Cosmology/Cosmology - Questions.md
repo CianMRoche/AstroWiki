@@ -328,7 +328,7 @@ Evidence:
 
 
 ## 142
-**What is the Ly alpha forest? Why are cosmologists interested in it?**
+**W  is the Ly alpha forest? Why are cosmologists interested in it?**
 
 See [[Spectra#Lyman-alpha forest|Lyman alpha forest]]. 
 

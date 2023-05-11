@@ -66,7 +66,7 @@ Gravothermal collapse is an instability arising from negative heat capacity of s
 ## 22
 **Describe the various evolutionary phases of a low-mass (1 M☉) star and those of a high-mass (e.g. 12 M☉) star. Show the corresponding evolutionary tracks on an HR diagram.**
 
-First, a visual for the life cycles of stars which are born with various initial masses, though the exact connection to the below information is loose.
+First, a visual for the life cycles of stars which are born with various initial masses, though the exact connection to the below is loose.
 ![[stellarevolution.jpg]]
 
 A summary of the stellar phases is shown below, where evolution takes place from left to right.
@@ -212,7 +212,7 @@ Best estimates for the age of the Sun are based on radioactive dating of meteori
 **Describe the prominent neutrino producing reactions in the sun, and the experiments designed to detect them.**
 Neutrinos are produced in large quantities in the [[The Sun#The Sun|Sun]] since lepton number is conserved in nuclear reactions in the Sun, and they very easily escape (with a mean free path of $\sim 10\,\pu{pc}$). This also means that we can directly probe the core of the Sun if we happen to detect neutrinos coming from there. 
 
-The primary creation mechanism is via the [[#35|pp-chain]], for which we expect all to be electron neutrinos:
+The primary creation mechanism is via the [[#35|pp-chain]], for which we expect all to be electron neutrinos (initially):
 - The first step (PP1) results in about 90% of solar neutrinos. 
 - The rest come from PP2 (~7%) and PP3 ($\lesssim$ 1%)
 
@@ -239,7 +239,7 @@ A mechanism to fuse hydrogen into helium. Below are the 3 branches of the pp-cha
 
 In the diagram the lower number indicates the number of protons and is thus degenerate with the name of the element (ie you can ignore the lower numbers) and a proton is written as H so i think its assumed these things are all ionized. 
 ![[ppchain.gif]]
-Note thatall branches just make helium nuclei (and release some neutrinos and photons), and ppII and ppIII are just getting from Beryllium 7 to 2 helium nuclei by going "down" and "up" an element on the periodic table, respectively. No RHS is a single thing unless its the final step (so if youve only written one thing, add a gamma).
+Note thatall branches just make helium nuclei (and release some neutrinos and photons), and ppII and ppIII are just getting from Beryllium 7 to 2 helium nuclei by going "down" and "up" an element on the periodic table, respectively. No RHS is a single thing unless its the final step (so if youve only written one thing, add a gamma). All branches produce about $26.7\,\pu{MeV}$ of energy, with about 2% of that going to neutrinos.
 
 [Source for image](http://burro.cwru.edu/academics/Astr221/StarPhys/ppchain.html) . The energy generated per unit volume in a general reaction $\ce{A + B -> C + D}$ is $$\epsilon = Q n_A n_B \langle \sigma v\rangle \left(\frac{1}{1 + \delta_{AB}}\right)$$where $v$ is the speed, $\sigma$ the cross section, and the parenthetical term halves the number to avoid double counting if $A$ and $B$ are the same thing. The energy output $Q$ is $$Q = \text{energy of RHS - energy of LHS}$$Evaluating this with some inspiration from nuclear physics, the Maxwell-Boltzmann distribution for the speeds, and expanding about the "Gamow peak" (not going into details) one ends up finding the energy generation is roughly $\epsilon \propto T^4$ at around $1.5\times 10^7\,\pu{K}$.
 

@@ -94,7 +94,7 @@ Classifies stars into spectral type based on temperature
 
 ## Morgan-Keenan (MK or MKK) Luminosity Class
 Stellar classification based on spectral line widths to distinguish between stars with the same color/temperature and apparent magnitude, but different luminosities/distances
-- Denser objects have broader spectral lines due to increased pressure/collisional broadening and higher surface gravity $\Delta \nu \propto n^{-1/3} =: d$ ie the interparticle separation (really some power of the interparticle separation  $\Delta \nu \propto d^{\alpha}$, and with $\alpha = 2$ the broadening is due to the coulomb field of an ionized atom or electron; this is the linear Stark effect. With $\alpha = 3$ the interaction is between neutral atoms of the same type)
+- Denser objects have broader spectral lines due to increased pressure/collisional brooadening and higher surface gravity $\Delta \nu \propto n^{-1/3} =: d$ ie the interparticle separation (really some power of the interparticle separation  $\Delta \nu \propto d^{\alpha}$, and with $\alpha = 2$ the broadening is due to the coulomb field of an ionized atom or electron; this is the linear Stark effect. With $\alpha = 3$ the interaction is between neutral atoms of the same type)
 - Complementary to [[Spectra#Harvard Spectral Classification|Harvard Spectral Classification]], <mark class="hltr-pink">simply adds a letter (or a few) to the existing letter-number harvard classification</mark>
 ![[MK.png]]
 So the Sun is a **G2V** star

@@ -94,7 +94,6 @@ Briefly describe the following famous astronomical objects:
 **[[Catalogs#M|M]]87**
 - Elliptical galaxy at center of [[Galaxy cluster examples#Virgo Cluster|Virgo cluster]]
 - About $16\,\pu{Mpc}$ away
-- Will collide with Milky Way in about $5\,\pu{Gyr}$ 
 - [[Black holes#Black hole|SMBH]] at center was observed by [[Observatories#EHT|EHT]] in 2017
 
 **W51**

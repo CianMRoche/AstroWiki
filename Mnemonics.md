@@ -10,7 +10,7 @@
 
 - HHeLiBeBCNOF (pronounced 'heeliebeb kenoff') to remember the first nine chemical elements
 
-- CNO...NOt Finished !! CNO again (to remember the CNO two-branch cyclic diagram [[cno_panels.png|CNO panels]]). Helium nucleus emitted on the bottom left and top right, carbon 12 on bottom left, essentially fixes the whole diagram.
+- CNO...NOt Finished !! CNO again (to remember the CNO two-branch cyclic diagram [[cno_panels.png|CNO panels]]). Proton in and Helium nucleus emitted on the bottom left and top right, carbon 12 on bottom left, essentially fixes the whole diagram if you can only take steps of $\beta^+$ decay ($p \rightarrow n + e^+ + \nu_e$) and proton capture (which releases a photon)
 
 - Helps to not mess up the virial theorem signs: The virial theorem is a "TUTU"  (from 2 and TU and the RHS is the top-down view of a tutu) $$2T + U = 0$$![[virial_theorem.png|200]]
 
