@@ -7,7 +7,7 @@
  - ROY G. BIV to remember in order of increasing energy
 ![[opticalSpectrum.jpeg|350]]
 
-See [[Bonus Questions#Observing the EM spectrum|Observing EM spectrum]] for the telescopes that can observe all this.
+See [[Bonus#Observing the EM spectrum|Observing EM spectrum]] for the telescopes that can observe all this.
 
 
 ## Redshift

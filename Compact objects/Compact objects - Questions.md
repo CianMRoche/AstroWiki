@@ -1,6 +1,5 @@
 ## 38
-**What do we know about the masses and spins of (i) stellar mass black holes and (ii) supermassive
-black holes, and how do we know these things?**
+**What do we know about the masses and spins of (i) stellar mass black holes and (ii) supermassive black holes, and how do we know these things?**
 
 1. **Stellar mass black holes**
    **Masses**:
@@ -66,7 +65,9 @@ Dictated by $\beta$ decay versus electron capture rates:
 - $\beta$ decay: $n \rightarrow p + e^- + \bar{\nu}_e$
 - $e^-$ capture: $p + e^- \rightarrow n + \bar{\nu}_e$
 
-Then ratio is roughly given by ratio of Boltzmann factors for the neutron and the (proton + electron) systems $$\frac{n}{p} \sim \exp\left(-\frac{(m_n - m_p - m_e)c^2}{kT}\right) \sim \exp\left(-\frac{0.8\,\pu{MeV}}{kT}\right) \sim \exp\left(-\frac{10^{10}}{T [K]}\right)$$so at temperatures ~ $10^{10}\,\pu{K}$ we have 3 times more $p$ than $n$ and it maximizes at a 1:1 ratio? Really that is flawed and should include a term for the fermi level in the e+p state: $(m_p + m_e)c^2 - E_F(T)$ since as we increase the density the Fermi level for making an electron increases and eventually it will be not energetically favorable at all to make an electron.
+This answer has been used in the past: Then ratio is roughly given by ratio of Boltzmann factors for the neutron and the (proton + electron) systems $$\frac{n}{p} \sim \exp\left(-\frac{(m_n - m_p - m_e)c^2}{kT}\right) \sim \exp\left(-\frac{0.8\,\pu{MeV}}{kT}\right) \sim \exp\left(-\frac{10^{10}}{T [K]}\right)$$so at temperatures ~ $10^{10}\,\pu{K}$ we have 3 times more $p$ than $n$ and it maximizes at a 1:1 ratio? Really that is flawed and should include Fermi levels such as that for the e+p state : $(m_p + m_e)c^2 - E_F(T)$ since as we increase the density the Fermi level for making an electron increases and eventually it will be not energetically favorable at all to make an electron.
+
+Better to make some argument using the Fermi momenta/energies as in [this stackexchange post](https://astronomy.stackexchange.com/questions/45420/does-the-average-proton-electron-density-in-a-neutron-star-change-with-mass#:~:text=The%20ratio%20of%20neutrons%20to,the%20density%20becomes%20very%20large)
 
 
 ## 42
@@ -100,7 +101,7 @@ Skipping the derivation ([source](https://link.springer.com/article/10.12942/lrr
 
 ## 44
 **A double neutron star system in M31 is about to merge. What is the approximate energy emitted in gravitational radiation and what is the corresponding amplitude (strain) h observed here on Earth?**
-Im not sure how they realistically can ask this. Approximate as a common mass [[Neutron stars#Neutron stars|neutron star]] binary of $1.4 M_\odot$ each ($\implies M_c \simeq 1.2\,M_\odot$) and $\sim10\,\pu{km}$ radius each, so coalescence happens at a $\sim20\,\pu{km}$ separation. Thus as in [[#43]] the frequency is $$\omega_{coal}\simeq 4000\,\pu{rad\,s^{-1}} \implies f \sim 1\,\pu{kHz}$$and the gravitational energy emitted (a [[Units#Luminosity|luminosity]]) goes as $$L_{GW} = \frac{G}{5c^2}\left\langle\dddot{Q} \dddot{Q}\right\rangle = \dots = \frac{32}{5}\frac{G}{c^2}\mu^2R^4\omega^6 = \frac{32}{5}\frac{G^{7/3}}{c^5}\frac{(M_1 M_2)^2}{M_{tot}^{2/3}}\omega^{10/3}$$where $Q$ is the traceless moment of intertia tensor, $\mu$ is the reduced mass and $R$ is the separation and the last step comes from Keplers 3rd law + equating the energy lost in a virialized orbit as the radius decreases to the GW luminosity. Here $L_{GW}\sim 10^{46}\,\pu{W}$. Dont need to know that derivation. End up with total energy $\sim L_{GW} T_{merge}$ where $T_{merge}\sim 10\,\pu{ms}$ which comes to $E\sim10^{44}\,\pu{J}$ which is on the order of a supernova.
+Some steps below are far too much to do in an exam, best to remember some numbers and maybe some formulae, or at least their dependencies  on mass and frequency. Approximate as a common mass [[Neutron stars#Neutron stars|neutron star]] binary of $1.4 M_\odot$ each ($\implies M_c \simeq 1.2\,M_\odot$) and $\sim10\,\pu{km}$ radius each, so coalescence happens at a $\sim20\,\pu{km}$ separation. Thus as in [[#43]] the frequency is $$\omega_{coal}\simeq 4000\,\pu{rad\,s^{-1}} \implies f \sim 1\,\pu{kHz}$$and the gravitational energy emitted (a [[Units#Luminosity|luminosity]]) goes as $$L_{GW} = \frac{G}{5c^2}\left\langle\dddot{Q} \dddot{Q}\right\rangle = \dots = \frac{32}{5}\frac{G}{c^2}\mu^2R^4\omega^6 = \frac{32}{5}\frac{G^{7/3}}{c^5}\frac{(M_1 M_2)^2}{M_{tot}^{2/3}}\omega^{10/3}$$where $Q$ is the traceless moment of intertia tensor, $\mu$ is the reduced mass and $R$ is the separation and the last step comes from Keplers 3rd law + equating the energy lost in a virialized orbit as the radius decreases to the GW luminosity. Here $L_{GW}\sim 10^{46}\,\pu{W}$. Dont need to know that derivation. End up with total energy $\sim L_{GW} T_{merge}$ where $T_{merge}\sim 10\,\pu{ms}$ which comes to $E\sim10^{44}\,\pu{J}$ which is on the order of a supernova.
 
 To calculate strain, distance to [[Galaxy examples#M31|M31]] is $\sim 800\,\pu{kpc}$ and so end up with $h\sim 10^{-20}$. 
 

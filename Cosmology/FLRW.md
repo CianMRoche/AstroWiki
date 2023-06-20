@@ -48,3 +48,6 @@ Time evolution of a homogeneous, isotropic universe.
    \Omega_k &= \frac{\rho_{k,0}}{\rho_{c}} =  -\frac{kc^2}{H_0^2}\quad \text{(note opposite sign of $k$)}\\
    \Omega_\Lambda &= \frac{\rho_{\Lambda,0}}{\rho_{c}} = \frac{\Lambda c^2}{3 H_0^2}\\
    \end{align}$$then we can write the Friedmann equation as $$\frac{H(z)^2}{H_0^2} = E^2 (z) = \Omega_{r}(1+z)^4 + \Omega_M(1+z)^3 + \Omega_k(1+z)^2 + \Omega_\Lambda$$Note if we measure any of these $\Omega_i$ along with some other quantities then we could measure $H_0$.
+
+The scale factor $a$ evolves differently over time depending on the "type" of universe (choices of the different $\Omega$) and some common examples are shown in the figure below
+![[scale_factor_universe_types.png]]
