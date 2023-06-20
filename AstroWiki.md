@@ -1,3 +1,7 @@
+---
+permalink: home
+---
+
 Notes to supplement study for the MIT astrophysics division oral qualification exam, currently referred to as "the 168". 
 
 ### Structure

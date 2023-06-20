@@ -292,6 +292,7 @@ A rough interpretation of this is that since there is no mechanism such as fusio
 As the mass of a model white dwarf increases, the typical energies to which degeneracy pressure forces the electrons (ie how far up the Fermi level is pushed) are no longer negligible relative to their rest masses. The velocities of the electrons approach the speed of light, and special relativity must be taken into account. The *relativistic* limit of the kinetic energy per unit mass is $E_{k,rel} = N_e pc$ such that via the same procedure as before one finds$$E_{k,rel} = M_{rel}^{1/3}N_e^{4/3}\frac{\hbar c}{R}$$and equating as before with the gravitational energy we find $R$ drops out completely and the relativistic limit mass, $M_{rel}$ is forced to be $$M_{rel} \simeq N_e^2\left(\frac{\hbar c}{G}\right)^{3/2} = \left(\frac{1}{\mu_e m_H}\right)^2\left(\frac{\hbar c}{G}\right)^{3/2} \simeq 1.8\, M_\odot$$To interpret this result, observe that as we add mass to a white dwarf, its radius will decrease, so, by the uncertainty principle, the momentum, and hence the velocity, of its electrons will increase. As this velocity approaches $c$, the extreme relativistic analysis becomes more exact, meaning that the mass $M$ of the white dwarf must approach this limiting mass $M_{rel}$ above. Therefore, no white dwarf can be heavier than this limiting mass, which can be evaluated via more rigorous means to be slightly lower at about $1.4\,M_\odot$, known as the Chandrasekhar limit.
 
 Exact final mass depends on initial mass via "how far it can get" by nuclear burning, changing the composition:
+
 | Dominant elements(?) | Progenitor mass| Resulting WD mass | 
 |:------------: | :------------: | :------------: |
 |$\ce{He}$ | $0.1-1.5\,M_\odot$ | $0.1-0.4\,M_\odot$ |
@@ -362,6 +363,7 @@ Consider a type 2 [[Supernovae#Supernova|supernova]], ie SN showing hydrogen lin
 
 **What fractions of that energy are in the forms of neutrinos, visible light, gas kinetic energy and gravitational radiation?**
 Table below, take-home is neutrinos are incredibly efficient at carrying away energy from the system.
+
 | Source | Energy fraction| Note |
 |:------------: | :------------: | :------------: |
 |Neutrinos| $\sim 90-99$% | |

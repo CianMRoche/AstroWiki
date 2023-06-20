@@ -79,6 +79,7 @@ Good estimate for the [[Jeans#Jeans length|Jeans length]] in the molecular cloud
 - The Jeans length in the original cloud must have been $\lesssim 0.1 \,\pu{pc}$ 
 
 1. Low-mass:
+   
 | Stage    | [[HR-diagram#Pre-main sequence\|Pre-MS]] | [[HR-diagram#Main sequence\|MS]]                   | [[HR-diagram#Subgiant branch\|Subgiant branch]] | [[HR-diagram#RGB\|RGB]] | Horizontal branch | AGB | [[Nebulae#Planetary nebula\|Planetary nebula]] | [[Stellar classes#White dwarf\|White dwarf]] |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Time in stage ($\pu{yr}$) | | $\sim10^{10}$ |  | $\sim10^{9}$ |  $\sim10^{8}$  | $\sim10^{6}$  |   $\sim10^{5}$    |             |
@@ -89,6 +90,7 @@ Good estimate for the [[Jeans#Jeans length|Jeans length]] in the molecular cloud
 
 2. High-mass:
    The elements on the left represent what is currently being burned in the core, and each lobe on the top is basically the SGB-RBG-helium flash-horizontal branch evolution, but with a different cycle of burning a thing in the core and then shell burning.
+   
 | Stage    | [[HR-diagram#Pre-main sequence\|Pre-MS]] | [[HR-diagram#Main sequence\|MS]]  | maybe a blue loop | Red supergiant | [[Supernovae#Supernova\|Supernova]] | [[Neutron stars#Neutron stars\|NS]] or [[Black holes#Black hole\|BH]] |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Time in stage ($\pu{yr}$) | | $\sim10^{7}$ |  | $\sim10^{6}$ | |   |
