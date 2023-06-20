@@ -2,7 +2,7 @@ Some good notes [here](http://spiff.rit.edu/classes/phys440/lectures/opacity/opa
 
 
 ## Electron scattering
-Eslastic scattering of a photon by an electron. [[#Thomson scattering]] when non-relativistic and non-quantum, [[#Compton scattering]] otherwise
+Elastic scattering of a photon by an electron. [[#Thomson scattering]] when non-relativistic and non-quantum, [[#Compton scattering]] otherwise
 
 
 ## Compton scattering

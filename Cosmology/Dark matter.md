@@ -1,3 +1,6 @@
+## Dark matter
+Several lines of evidence suggest that there's a lot of mass in the universe that we cant see. See [[Galaxies - Questions#101|this question]] for some of those lines of evidence.
+
 ## Observables of dark matter theories
 Source: Ben Lehmann Pappalardo fellowship talk
 1. Quantum sensing
@@ -37,7 +40,7 @@ We have also constrained its interaction cross-section and mass, thhough the pos
 
 
 ## Primordial black holes
-Dark matter candidate, an ~[[Definitions - The Solar System#Asteroid|asteroid]]-sized black hole formed not by baryonic / stellar evolution means.
+Dark matter candidate, an ~[[Definitions - The Solar System#Asteroid|asteroid]]-sized black hole formed not by baryonic / stellar evolution means. Almost the entire parameter space for PBHs is ruled out.
 
 
 ## Freeze-in
@@ -55,10 +58,18 @@ De-Broglie wavelength (for neutrinos its $\sim 0.5\,\rm{mm}$):$$\lambda_{DB} = \
 
 
 ## Axions
-Solves strong-CP problem of QCD.
+Solves strong-CP problem of QCD. People also consider "axion-like particles".
 
 
-## Abdel talk
+## MACHOs
+"Massive Compact Halo Objects". A class of dark matter candidates consisting of anything which can be described as a "lump of material we wouldn't expect to see emitting enough light to have been detected". Examples range from [[Definitions - The Solar System#Asteroid|asteroids]] to brown dwarfs, [[Black holes]], or [[Exoplanets - Questions|exoplanets]]. 
+
+Most of the parameter space is ruled out, for example by photometric [[Lensing#Microlensing|microlensing]] experiments, as in order to explain all there extra mass we would need a LOT of MACHOs and therefore would see a lot more microlensing events. Also ruled out by existence of wide binaries, astrometric microlensing, 
+
+
+## Evaporation and Heating
+Source: Abdel journal club talk.
+
 DM on celestial body scales (NSs or exoplanets etc, exo 1000:1 NS). DM can lose energy passing through a body, then get grav bound, expect small scale overdense halos around them. Then they can annihilate and heat up planet. Should see that the the temp of exoplanets increases toward galactic center (how to disentangle from temperature gradients, maybe not too bad)
 
 Evaporation is the other direction. DM upscattering and leaving. evap mass is the lower lim of dm mass that you can have bound to your celestial body. Masses < evap mass escape, higher than evap mass are bound.

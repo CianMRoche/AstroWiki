@@ -1,3 +1,4 @@
+Ended up not really using this, uses the Highlightr plugin that is packaged with the github repo (I press f12 to start highlighting). Feel free to edit, or implement a color scheme of your own, and then submit a pull request with the highlights :)
 
 <mark class="hltr-pink">General highlight</mark>
 <mark class="hltr-yellow">Stars</mark>

@@ -1,6 +1,6 @@
 
 ## Why is a void spherical?
-It isnt
+It isn't
 
 
 ## Point to the center of the Milky Way 

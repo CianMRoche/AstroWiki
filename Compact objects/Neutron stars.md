@@ -34,7 +34,7 @@ Want $P(\rho)$, but that assumes that the matter is at $T=0$ and at $\beta$-equi
 
 
 ## Magnetar
-A [[#Neutron stars|neutron star]] with an extremely powerful magnetic field. Not in a binary. Theorized to explain soft gamma-ray repeaters
+A [[#Neutron stars|neutron star]] with an extremely powerful magnetic field. Not in a binary. Theorized to explain soft gamma-ray repeaters. See their position on the [[Pulsars#Pulsar|PPdot diagram]].
 
 **Typical parameters**
 Some reported relative to [[#Neutron stars|neutron star]] parameters.

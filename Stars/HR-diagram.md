@@ -23,7 +23,7 @@ Hayashi limit (on which this track lies) is boundary between allowed and forbidd
 
 ![[hayashi.png]]
 
-The $T$ here is the effective blackbody temerature we would see. The core has ionized hydrogen but the envelope doesnt, so the ions go out and make $\ce{H^-}$ in the envelope which causes an increase in opacity. Even though the luminosity increases, the effective temperature remains low until the star gets hot enough to also ionize that $\ce{H^-}$ at which point the temperature rises quickly (the [[#Henyey track]]).
+The $T$ here is the effective blackbody temperature we would see. The core has ionized hydrogen but the envelope doesnt, so the ions go out and make $\ce{H^-}$ in the envelope which causes an increase in opacity. Even though the luminosity increases, the effective temperature remains low until the star gets hot enough to also ionize that $\ce{H^-}$ at which point the temperature rises quickly (the [[#Henyey track]]).
 
 Star leaves Hayashi track after it contracts on [[Timescales#Kelvin-Helmholtz Timescale|thermal timescale]], central density increases, ionization increases and [[Optical depth#Opacity|opacity]] decreases (because neutral hydrogen does a lot of absorbing and ionized hydrogen just does a lot of scattering? see [[Scattering]]). At this point we move off the Hayashi track.
 

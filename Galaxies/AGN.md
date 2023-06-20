@@ -15,7 +15,7 @@ Cold [[#Molecular cloud|molecular gas]] falls onto the AGN (from [[#Brightest cl
 **Corona**:
 The region at the base of a jet or roughly a spherical plasma region {contentious}. Know close to the SMBH due to [[Methods#Reverberation mapping|reverberation mapping]] signal of [[Spectra#Fe k-alpha line|Fe]]-K$\alpha$ line (6.4 keV) and its time delays.
 
-Coronal X-rays are thermal (blackbody) photons the are compton up-scattered to x-ray wavelengths by the corona.
+Coronal X-rays are thermal (blackbody) photons the are Compton up-scattered to x-ray wavelengths by the corona.
 
 
 
@@ -25,7 +25,7 @@ Galaxy mergers can trigger AGN and quasar activity.
 
 **Catalogs**: [[Catalogs#SDSS|SDSS]] and [[Catalogs#LAMOST|LAMOST]] 
 
-**Observation strategies**: To observe the enviroment of a quasar you can use objects in the background (eg galaxies) and examine their light as absorbed by the environment of the quasar (ref: Christina Eilers talk)
+**Observation strategies**: To observe the environment of a quasar you can use objects in the background (eg galaxies) and examine their light as absorbed by the environment of the quasar (ref: Christina Eilers talk)
 
 
 ## Seyfert
@@ -33,7 +33,7 @@ A Seyfert galaxy is an [[#AGN]] like a [[#Quasar]] but the host [[Galaxies#Galax
 
 
 ## Blazar
-A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight. Have spectra dominated by featureless non-thermal continuum, which we would expect for a relativistic jet along the line of sight.
+AKA "Bl-lac object". A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight. Have spectra dominated by featureless non-thermal continuum, which we would expect for a relativistic jet along the line of sight.
 
 
 ## Collapsar

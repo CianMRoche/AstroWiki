@@ -58,6 +58,7 @@ You will note that below
 - "isotropic" correlates strongly with "extragalactic"
 - [[AGN]] are a powerful isotropic source
 - See also [[Bonus#Observing the EM spectrum|Observing EM spectrum]] for what telescopes could see these things in principle.
+
 | Band         | Isotropic | Anisotropic |
 |--------------|-----------|-------------|
 | radio        |[[Galaxies#Radio galaxy\|Radio galaxies]], [[FRBs]] (less bright)| Cas A (picture below) and other [[Magnetobremsstrahlung#Synchrotron radiation\|Synchrotron]] from [[Supernovae#Supernova\|SN]] remnants|

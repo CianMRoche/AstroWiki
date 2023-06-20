@@ -11,7 +11,7 @@ If the "true source angle" $\beta$ is zero, then we see a perfect ring of images
 
 ## Strong lensing
 
-Visible distorsion and formation of rings/arcs/multiple images by a large foreground gravitational lens of a background object. See [[#Lensing]] and [[Plasma and lensing - Questions#96|Q96]]. In the example below, a [[Galaxy clusters#Galaxy cluster|galaxy cluster]] in the foreground is lensing many background objects, but produces clear multiple images of a background [[AGN#Quasar|quasar]] and [[Galaxies#Galaxy|galaxy]].
+Visible distortion and formation of rings/arcs/multiple images by a large foreground gravitational lens of a background object. See [[#Lensing]] and [[Plasma and lensing - Questions#96|Q96]]. In the example below, a [[Galaxy clusters#Galaxy cluster|galaxy cluster]] in the foreground is lensing many background objects, but produces clear multiple images of a background [[AGN#Quasar|quasar]] and [[Galaxies#Galaxy|galaxy]].
 
 ![[strong_lensing.jpg]]
 

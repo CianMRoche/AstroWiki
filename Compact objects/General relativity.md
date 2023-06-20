@@ -1,4 +1,4 @@
-Here I'll just put some basic info, though note we are not currently required to know GR for the astro oral qual.
+Here I'll just put some basic info, though note we are not currently required to know GR for the astro oral qual beyond basic knowledge of Schwarzschild and some things about [[Gravitational waves]].
 
 ## Schwarzschild
 An exact (and vacuum-region) solution to the Einstein field equations that describes the gravitational field *outside* a spherical mass $M$, on the assumption that the electric charge of the mass, angular momentum of the mass, and universal cosmological constant are all zero. Omitting tensor notation entirely, the line element for proper time takes the form 

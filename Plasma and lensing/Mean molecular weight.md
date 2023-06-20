@@ -3,7 +3,7 @@ Denoted $\mu$ typically. Defined as the mean mass per particle, in units of ([[U
 
 **Some examples**:
 - Neutral Hydrogen has $\mu \simeq 1$
-- Ionized hydrogen (+ corresponding electrons) has $\mu \simeq \frac{1}{2}$ since we doubled the number of particled but didnt change the mass
+- Ionized hydrogen (+ corresponding electrons) has $\mu \simeq \frac{1}{2}$ since we doubled the number of particles but didnt change the mass
 - Molecular Hydrogen has $\mu \simeq 2$ since particle number invariant but mass doubles
 
 [reference](http://astronomy.nmsu.edu/jasonj/565/docs/09_03.pdf)

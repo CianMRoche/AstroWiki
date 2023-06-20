@@ -1,7 +1,7 @@
 ## Perseus cluster
 A [[Galaxy clusters#Galaxy cluster|galaxy cluster]] in the Perseus constellation. Also known as [[Catalogs#Abell|Abell]] 246. Populated by ~thousands of galaxies. Brightest X-ray cluster.
 
-Exhibits a "flattened" bubble resulting from a jet, flattening is evidence of efficient energy transfer via gravity waves (from MAT talk on cluster bubbles by ???)
+Exhibits a "flattened" bubble resulting from a jet, flattening is evidence of efficient energy transfer via gravity waves (from a MAT talk, cant remember name).
 
 **Parameters**:
 - Recession speed: ~5000 $\mathrm{km}\,\mathrm{s}^{-1}$ 

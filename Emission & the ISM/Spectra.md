@@ -27,12 +27,12 @@ Traces star formation.
 
 
 ## 21cm line
-Sping flip of ground state neutral hydrogen, hyperfine transition. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$. From Megans notes:
+Spin flip of ground state neutral hydrogen, hyperfine transition. Corresponding energy $\sim 6\, \mu \pu{eV}$ or about $1.4\,\pu{GHz}$. From Megans notes:
 ![[spin_flip.png|400]]
 The degeneracy of the anti-aligned state is 1 since the total spin quantum number is $S = 0$ and the degeneracy is $2S+1$. For the aligned state, $S=1$ and so degeneracy is $3$.
 
 **Observational characteristics**:
-- Transition is very rare and happens on a timecale of $\sim 10\,\pu{Myr}$, but observable for very large amounts of neutral $H$ (low density to avoid collisional de-excitation) 
+- Transition is very rare and happens on a timescale of $\sim 10\,\pu{Myr}$, but observable for very large amounts of neutral $H$ (low density to avoid collisional de-excitation) 
 - Can be used to map neutral hydrogen in the "dark ages" between $z=1100$ and $z=6-20$ (ie the times between recombination and reionization) in radio wavelengths. 
 - [[Observatories#CHIME|CHIME]] can observe it at low redshifts, [[Observatories#MEERKAT|MEERKAT]] also did this recently. [[Observatories#SKA|SKA]] will observe out to $z=27$ 
 - Can map neutral hydrogen in spiral arms of a galaxy, and can therefore use to constrain rotation curves.
@@ -51,7 +51,7 @@ Each cloud absorbs the line at a wavelength $\lambda = (1+z) \lambda_0$. We corr
 
 Lyman limit is the wavelength at which the hydrogen will just become ionized. 
 
-In the below images one can see that for a closeby source, very few of the emitted wavelengths have absorption lines, but for something far away many of the wavelengths of the original spectrum will be absorbed by the time the light reaches us. (Both shown on axes of the wavelengths that they were emitted at, by dividing wavelength numbers by $1+z$)
+In the below images one can see that for a close-by source, very few of the emitted wavelengths have absorption lines, but for something far away many of the wavelengths of the original spectrum will be absorbed by the time the light reaches us. (Both shown on axes of the wavelengths that they were emitted at, by dividing wavelength numbers by $1+z$)
 
 ![[Lya-forest-60.gif|400]]
 ![[Lyman-alpha_forest.gif]]
@@ -62,9 +62,9 @@ The Gunn-Peterson trough appears for sources which are at redshifts between [[Re
 
 
 ## Molecular hydrogen
-H doesnt have a rotational dipole, only a vibrational. Finding H2 was usually done by measuring CO with millimeter telescopes and then constraining the CO H2 correllation. Now with JWST this can be done better, since we have a mid IR IFU in space.
+H doesn't have a rotational dipole, only a vibrational. Finding H2 was usually done by measuring CO with millimeter telescopes and then constraining the CO H2 correlation. Now with JWST this can be done better, since we have a mid IR IFU in space.
 
-Doesnt have a Balmer series equivalent because the binding energy of molecular hydrogen is about 4eV, so those energies would just unbind the molecule.
+Doesn't have a Balmer series equivalent because the binding energy of molecular hydrogen is about 4eV, so those energies would just unbind the molecule.
 
 
 ## Fe k-alpha line
@@ -72,7 +72,7 @@ Fe-K$\alpha$ line (6.4 keV) AGN shows up in x-ray spectrum
 
 
 ## P Cygni Line Profile
-Spectroscopic feature with both a blueshifted absorption line and a broadened rest wavelength emission line arising from an expanding envelope around an ionized source
+Spectroscopic feature with both a blue-shifted absorption line and a broadened rest wavelength emission line arising from an expanding envelope around an ionized source
 ![[PCygniLineProfile.png|400]]
 ![[cygni.png]]
 
@@ -85,10 +85,12 @@ Classifies stars into spectral type based on temperature
 ![[HarvardSpectralClassification.png]]
 - Oh Be A Fine Goat Kick Me (OBAFGKM). Note the hydrogen line strength is a gaussian at "A", mass, radius and lunimosity all decrease, and fraction of [[HR-diagram#Main sequence|MS]] stars increases. 
  ![[OBAFGKM.jpeg|250]]
- - Prominent (non-Hydrogen) spectral features of each type: 
+ - Prominent (non-Hydrogen) spectral features of each type:
+
 |  | O | B | A | F | G | K | M |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Prominent features | ionized $\ce{He}$ lines| neutral $\ce{He}$ lines | mostly $\ce{H}$ | metal $\ce{Ca}$ lines | strong metal lines | strong metal lines| Molecular lines, neutral metal lines |
+
  - Each spectral type which is further divided into 10 sub-classes depending on the absorption features present in the spectrum with 0 (hottest) through 9 (coolest). For example, the Sun has a temperature of about 5,700 Kelvin and is classified as a G2 star.
 
 

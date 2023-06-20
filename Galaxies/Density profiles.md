@@ -11,4 +11,8 @@ The potential $\Phi$ and mass density $\rho$ are related via Poisson's equation 
 
 
 ## NFW
-See [[Galaxies - Questions#118|this question]] 
+See [[Galaxies - Questions#118|this question]]. 
+
+There is also a "generalized NFW" profile which can describe a cored ($\gamma=0$) or cusped ($\gamma=1$ is NFW) density profile, and has the form $$\rho(r)=\frac{\rho_0}{\left(\frac{r}{R_s}\right)^\gamma\left(1+\frac{r}{R_s}\right)^{3-\gamma}}$$
+## Einasto
+See [[Galaxies - Questions#118|this question]]. 
