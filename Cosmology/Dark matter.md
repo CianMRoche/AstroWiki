@@ -73,3 +73,5 @@ Source: Abdel journal club talk.
 DM on celestial body scales (NSs or exoplanets etc, exo 1000:1 NS). DM can lose energy passing through a body, then get grav bound, expect small scale overdense halos around them. Then they can annihilate and heat up planet. Should see that the the temp of exoplanets increases toward galactic center (how to disentangle from temperature gradients, maybe not too bad)
 
 Evaporation is the other direction. DM upscattering and leaving. evap mass is the lower lim of dm mass that you can have bound to your celestial body. Masses < evap mass escape, higher than evap mass are bound.
+
+

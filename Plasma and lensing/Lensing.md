@@ -7,7 +7,7 @@ However, [[General relativity]] tells us that light doesnt travel in "straight l
 
 ![[grav_lens_geometry.png]]
 
-If the "true source angle" $\beta$ is zero, then we see a perfect ring of images of the source (by rotating the above picture about the observer-lens axis) called an <mark class="hltr-pink">Einstein ring</mark>. The angular size of the Einstein ring is the *Einstein angle* $$\theta_E = \sqrt{\frac{4GM}{c^2}\frac{D_{LS}}{D_{L}D_{S}}}$$the derivation of which we skip (it seems like almost everyone does, its a GR prediction plus trigonometry). Best thing to remember is the approximation $$\theta_E\,[\pu{mas}] \simeq \sqrt{\frac{M\,[M_\odot]}{10 D\,[\pu{kpc}]}}$$where $D$ is the effective lensing distance $$D = \frac{D_{L}D_{S}}{D_{LS}}$$which is just $D_S$ if the lens is halfway there.
+If the "true source angle" $\beta$ is zero, then we see a perfect ring of images of the source (by rotating the above picture about the observer-lens axis) called an <mark class="hltr-pink">Einstein ring</mark>. The angular size of the Einstein ring is the *Einstein angle* $$\theta_E = \sqrt{\frac{4GM}{c^2}\frac{D_{LS}}{D_{L}D_{S}}}$$the derivation of which we skip (it seems like almost everyone does, its a GR prediction plus trigonometry). Best thing to remember is the approximation $$\theta_E\,[\pu{mas}] \simeq \sqrt{\frac{M\,[M_\odot]}{10 D\,[\pu{kpc}]}}$$where $D$ is the effective lensing distance $$D = \frac{D_{L}D_{S}}{D_{LS}}$$which is just $D_S$ if the lens is halfway there. Note that each $D$ is defined to be an [[Distances#Angular diameter distance|angular diameter distance]] such that the geometry holds in a curved spacetime, and furthermore that angular diameter distances do not add simply. See Carroll GR for details.
 
 ## Strong lensing
 

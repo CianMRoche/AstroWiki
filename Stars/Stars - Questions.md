@@ -1,4 +1,6 @@
- ## 16
+These stars notes are largely worse than other student's notes. Please consider improving these notes during your studies if that is of interest to you :) 
+ 
+## 16
 **Describe the spectral classification scheme for stars: O, B, A, F, G, K, M. What are the characteristic effective temperatures for stars of each class? What are the characteristic absorption lines observed in the spectra of stars of each class? What are the characteristic luminosities for main-sequence stars of each class? What are the approximate masses for stars in each class?**
 See [[Spectra#Harvard Spectral Classification|Harvard spectral classification]] 
 

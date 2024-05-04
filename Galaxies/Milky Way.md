@@ -5,7 +5,6 @@ Not to be confused with the [[#Milksy Way]]
 
 
 ## Milksy Way
-Does not exist[^1]. Potential misspelling of [[#Milky Way]]
+Does not exist\*. Potential misspelling of [[#Milky Way]]
 
-
-[^1]Reference needed
+\*Citation needed

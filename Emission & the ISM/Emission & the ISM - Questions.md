@@ -48,7 +48,7 @@ Also see [[#73|HII regions]] in optical to radio bremsstrahlung.
 See [[Magnetobremsstrahlung#Synchrotron radiation|synchrotron radiation]].
 
 **From what kind of astrophysical objects is such radiation observed?**
-- Jets in [[Binaries#X-ray binary|XRBs]] and [[AGN#AGN|AGN]] (apprently seen in radio?)
+- Jets in [[Binaries#X-ray binary|XRBs]] and [[AGN#AGN|AGN]] (apparently seen in radio?)
 - [[Supernovae#Supernova|SNe]] remnants
 - [[Pulsars#Pulsar|Pulsar]] wind [[Nebulae]]
 - Galactic [[ISM#ISM|ISM]] 
@@ -224,11 +224,12 @@ Assume only absorption and no emission, so that via the [[Optical depth#Mean fre
 **What are the Einstein A and B coefficients for a spectral line, and what are the relationships
 among them?**
 The Einstein coefficients are a measure of the probability that an atom/molecule/ion will undergo emission or absorption.
-| Atomic Process | Reaction | Einstein coefficient | Units |
-| --- | ----------- | -------------| -------------|
-| Spontaneous emission |  $E_2 \rightarrow E_1 + h\nu$ | $A_{21}$ | $\pu{s^{-1}}$ |
-| Absorption | $h\nu + E_1 \rightarrow E_2$ | $B_{12}$ | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
-|Stimulated emission | $h\nu + E_2 \rightarrow E_1 + 2h\nu$ | $B_{21}$ | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
+
+| Atomic Process       | Reaction                             | Einstein coefficient | Units                                           |
+| -------------------- | ------------------------------------ | -------------------- | ----------------------------------------------- |
+| Spontaneous emission | $E_2 \rightarrow E_1 + h\nu$         | $A_{21}$             | $\pu{s^{-1}}$                                   |
+| Absorption           | $h\nu + E_1 \rightarrow E_2$         | $B_{12}$             | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
+| Stimulated emission  | $h\nu + E_2 \rightarrow E_1 + 2h\nu$ | $B_{21}$             | $\pu{s^{-1}\,(\text{specific intensity})^{-1}}$ |
 
 Note the units of [[Units#Intensity|specific intensity]] since those processes depend on the photon "density". We break them up into $A$ and $B$ coefficients via
 - $A$ doesnt depend on what light is around

@@ -33,7 +33,7 @@ Newtonian dynamics predicts the following for the circular velocity of a stars i
 <mark class="hltr-pink">Galactic escape velocity</mark>
 In a similar manner to the circular velocity, one can estimate the escape velocity at various galactocentric radii by looking at the distribution of stellar speeds, and assuming (roughly speaking) that the distribution of speeds of stars bound to the Milky Way goes to 0 at the escape velocity, since anything going faster should escape. When doing this, and calculating the escape velocity resulting from all the baryons we know about, one finds the following (from Cian's paper)
 ![[vesc.png]]
-The very large deficit in escape velocity resulting from the baryons can only be accounted for by a very massive and extended halo of some other invisible matter.
+The very large deficit in escape velocity resulting from the baryons can only be accounted for by a very massive ($M_{200c} \sim 10^{12}\,M_\odot$ which is around 10 times the mass of the baryons we know of) and extended halo of some other invisible matter. That or modified gravity, but then one cannot explain for example the bullet cluster (below).
 
 <mark class="hltr-pink">Galaxy velocity dispersion in clusters</mark>
 Goes back to Zwicky in the 1930s observing the [[Galaxy cluster examples#Coma cluster|Coma cluster]]. The galaxies in [[Galaxy clusters#Galaxy cluster|clusters]] are moving with speeds far greater than can be explained by the observed stellar mass. In order to explain these speeds one would need a much greater mass, but our knowledge of the connection between mass and luminosity for galaxies (like the Schechter luminosity function) means that such a collection of galaxies should be far brighter. 
@@ -136,7 +136,7 @@ Potential explanations:
 
 ## 108
 **What is the "Schechter luminosity function"? What is the luminosity of a typical bright galaxy?**
-Empirical relationship to describe the observed galaxy luminosity function (distribution of number of galaxies over luminosities). $$\Phi(L) = \frac{\Phi_*}{L_*}\left(\frac{L}{L_*}\right)^\alpha e^{-L/L_*}$$where $\Phi(L)$ has dimensions "per volume per luminosity" such that $\Phi(L) dL$ is the number of galaxies with luminosity between $L$ and $L+dL$ per unit volume. Bbserved best-fit numbers $$\cases{\alpha \simeq 1.1 \\ L_* \simeq 10^{10}\,L_\odot \sim \text{MW luminosity} \\\Phi_* \simeq 0.02\,\pu{Mpc^{-3}}}$$The function has the following shape (from Megan's notes):
+Empirical relationship to describe the observed galaxy luminosity function (distribution of number of galaxies over luminosities). $$\Phi(L) = \frac{\Phi_*}{L_*}\left(\frac{L}{L_*}\right)^\alpha e^{-L/L_*}$$where $\Phi(L)$ has dimensions "per volume per luminosity" such that $\Phi(L) dL$ is the number of galaxies with luminosity between $L$ and $L+dL$ per unit volume. Observed best-fit numbers $$\cases{\alpha \simeq 1.1 \\ L_* \simeq 10^{10}\,L_\odot \sim \text{MW luminosity} \\\Phi_* \simeq 0.02\,\pu{Mpc^{-3}}}$$The function has the following shape (from Megan's notes):
 ![[shechter.png|300]]
 
 and a typical galaxy has a luminosity like that of the [[Milky Way#Milky Way|Milky Way]] ($\sim 2\times 10^{10} L_\odot$ ). We see few galaxies far above this luminosity because theyre rare, and few far below because theyre faint.
